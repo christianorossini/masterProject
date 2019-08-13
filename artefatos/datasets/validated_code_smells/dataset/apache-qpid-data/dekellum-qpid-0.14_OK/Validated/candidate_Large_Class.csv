@@ -1,0 +1,5 @@
+SimpleAMQQueue.java; org.apache.qpid.server.queue; 2233;
+PingPongProducer.java; org.apache.qpid.requestreply; 1834;
+DerbyMessageStore.java; org.apache.qpid.server.store; 1854;
+JavaGenerator.java; org.apache.qpid.gentools; 1827;
+BDBMessageStore.java; org.apache.qpid.server.store.berkeleydb; 2125;

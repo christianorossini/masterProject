@@ -1,0 +1,7 @@
+EditPane.java; org.gjt.sp.jedit;
+BufferIORequest.java; org.gjt.sp.jedit.buffer;
+StatusBar.java; org.gjt.sp.jedit.gui;
+ToolBarOptionPane.java; org.gjt.sp.jedit.options;
+LoadSaveOptionPane.java; org.gjt.sp.jedit.options;
+GutterOptionPane.java; org.gjt.sp.jedit.options;
+TextAreaOptionPane.java; org.gjt.sp.jedit.options;

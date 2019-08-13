@@ -1,0 +1,1 @@
+XMLEntityHandler.java; org.apache.xerces.readers; StringReader.java; org.apache.xerces.readers; 1->2;65;  2->1;40DocumentImpl.java; org.apache.xerces.dom; ElementImpl.java; org.apache.xerces.dom; 1->2;61;  2->1;46XMLAttributeDecl.java; org.apache.xerces.validators.common; TraverseSchema.java; org.apache.xerces.validators.schema; 1->2;407;  2->1;0

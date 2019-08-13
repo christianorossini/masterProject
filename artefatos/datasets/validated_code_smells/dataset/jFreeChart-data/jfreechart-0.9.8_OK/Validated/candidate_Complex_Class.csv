@@ -1,0 +1,3 @@
+PiePlot.java; org.jfree.chart.plot;
+ThermometerPlot.java; org.jfree.chart.plot;
+XYPlot.java; org.jfree.chart.plot;

@@ -1,0 +1,9 @@
+test_sorted_table_union_03: TestOrderPreserveProjection.java: contrib.zebra.src.test.org.apache.hadoop.zebra.pig
+verify: TestMergeJoinPrune.java: contrib.zebra.src.test.org.apache.hadoop.zebra.pig
+verify: TestMergeJoin.java: contrib.zebra.src.test.org.apache.hadoop.zebra.pig
+setIndex: POLocalRearrange.java: src.org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators
+checkSuccessors: PColFilterExtractor.java: src.org.apache.pig.impl.logicalLayer
+checkSuccessors: PColFilterExtractor.java: src.org.apache.pig.newplan
+getNext: POStreamLocal.java: src.org.apache.pig.pen.physicalOperators
+testJoinInputCounters: TestCounters.java: test.org.apache.pig.test
+buildPlan: LogicalPlanTester.java: test.org.apache.pig.test.utils

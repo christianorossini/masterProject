@@ -1,0 +1,7 @@
+SqlInvariants.java; org.hsqldb;
+TransactionManager.java; org.hsqldb;
+TypeInvariants.java; org.hsqldb;
+Token.java; org.hsqldb.cmdline.sqltool;
+JDBCColumnMetaData.java; org.hsqldb.jdbc;
+Type.java; org.hsqldb.types;
+Option.java; org.hsqldb.util.preprocessor;

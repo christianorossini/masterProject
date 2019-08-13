@@ -1,0 +1,5 @@
+View.java; org.gjt.sp.jedit;
+Buffer.java; org.gjt.sp.jedit;
+jEdit.java; org.gjt.sp.jedit;
+TokenMarker.java; org.gjt.sp.jedit.syntax;
+JEditTextArea.java; org.gjt.sp.jedit.textarea;

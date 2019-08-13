@@ -1,0 +1,2 @@
+autoAdjustRange: HorizontalDateAxis.java: package com.jrefinery.chart [in HorizontalDateAxis.java [in source.com.jrefinery.chart [in <project root> [in jfreechart-0.5.6]]]]: 3
+setChart: Plot.java: package com.jrefinery.chart [in Plot.java [in source.com.jrefinery.chart [in <project root> [in jfreechart-0.5.6]]]]: 3

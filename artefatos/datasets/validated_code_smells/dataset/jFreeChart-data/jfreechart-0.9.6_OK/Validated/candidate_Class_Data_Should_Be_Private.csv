@@ -1,0 +1,9 @@
+ChartPanelConstants.java; com.jrefinery.chart;
+ChartColor.java; com.jrefinery.chart;
+JFreeChartConstants.java; com.jrefinery.chart;
+AxisConstants.java; com.jrefinery.chart.axis;
+Constants.java; com.jrefinery.chart.demo.servlet;
+CategoryPlotConstants.java; com.jrefinery.chart.plot;
+MeterDataset.java; com.jrefinery.data;
+SignalsDataset.java; com.jrefinery.data;
+DatasetTags.java; com.jrefinery.data.xml;

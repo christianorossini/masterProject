@@ -1,0 +1,5 @@
+WordDelimiterFilter.java; org.apache.lucene.analysis.miscellaneous;
+CBZip2InputStream.java; org.elasticsearch.common.compress.bzip2;
+CBZip2OutputStream.java; org.elasticsearch.common.compress.bzip2;
+AnalysisModule.java; org.elasticsearch.index.analysis;
+NettyTransport.java; org.elasticsearch.transport.netty;

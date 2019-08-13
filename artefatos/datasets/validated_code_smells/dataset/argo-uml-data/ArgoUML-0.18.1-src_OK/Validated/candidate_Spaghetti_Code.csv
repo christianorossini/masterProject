@@ -1,0 +1,16 @@
+ClassfileParser.java; org.argouml.uml.reveng.classfile;
+Notation.java; org.argouml.application.api;
+CriticBrowserDialog.java; org.argouml.cognitive.critics.ui;
+GoalsDialog.java; org.argouml.cognitive.ui;
+DesignIssuesDialog.java; org.argouml.cognitive.ui;
+JavaLexer.java; org.argouml.language.java.generator;
+JavaRecognizer.java; org.argouml.language.java.generator;
+FindDialog.java; org.argouml.ui;
+InitMenusLater.java; org.argouml.ui.cmd;
+PerspectiveConfigurator.java; org.argouml.ui.explorer;
+PerspectiveManager.java; org.argouml.ui.explorer;
+Init.java; org.argouml.uml.cognitive.critics;
+FigClass.java; org.argouml.uml.diagram.static_structure.ui;
+FigAssociationClass.java; org.argouml.uml.diagram.ui;
+FigUseCase.java; org.argouml.uml.diagram.use_case.ui;
+ParserDisplay.java; org.argouml.uml.generator;

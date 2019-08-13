@@ -1,0 +1,11 @@
+ComparisonFunc.java; org.apache.pig;
+EvalFunc.java; org.apache.pig;
+PigMapBase.java; org.apache.pig.backend.hadoop.executionengine.mapReduceLayer;
+BagFactory.java; org.apache.pig.data;
+TupleFactory.java; org.apache.pig.data;
+OperatorPlan.java; org.apache.pig.impl.plan;
+PlanWalker.java; org.apache.pig.impl.plan;
+PlanValidator.java; org.apache.pig.impl.plan;
+Transformer.java; org.apache.pig.impl.plan.optimizer;
+PlanOptimizer.java; org.apache.pig.impl.plan.optimizer;
+Command.java; org.apache.pig.tools.grunt;

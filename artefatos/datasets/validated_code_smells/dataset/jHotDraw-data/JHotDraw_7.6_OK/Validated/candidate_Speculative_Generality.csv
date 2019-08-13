@@ -1,0 +1,15 @@
+AbstractColorSlidersModel.java; org.jhotdraw.color;
+AbstractHarmonicRule.java; org.jhotdraw.color;
+QuadTreeCompositeFigure.java; org.jhotdraw.draw;
+AbstractConstrainer.java; org.jhotdraw.draw;
+AbstractDrawingEditorAction.java; org.jhotdraw.draw.action;
+MoveAction.java; org.jhotdraw.draw.action;
+AlignAction.java; org.jhotdraw.draw.action;
+MoveConstrainedAction.java; org.jhotdraw.draw.action;
+AbstractRotateHandle.java; org.jhotdraw.draw.handle;
+Insets2D.java; org.jhotdraw.geom;
+Polygon2D.java; org.jhotdraw.geom;
+Worker.java; org.jhotdraw.gui;
+AbstractTransferable.java; org.jhotdraw.gui.datatransfer;
+AbstractFontChooserModel.java; org.jhotdraw.gui.fontchooser;
+MultiIcon.java; org.jhotdraw.gui.plaf.palette;

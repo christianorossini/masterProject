@@ -1,0 +1,3 @@
+TestPruneColumn.java, org.apache.pig.test: 1902
+TFile.java, org.apache.hadoop.zebra.tfile: 2373
+ColumnGroup.java, org.apache.hadoop.zebra.io: 2491

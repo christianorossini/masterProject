@@ -1,0 +1,6 @@
+StandardPieToolTipGenerator.java: com.jrefinery.chart.tooltips
+JFreeChartDemo3.java: com.jrefinery.chart.demo
+JFreeChartDemo3.java: com.jrefinery.chart.demo
+SampleSignalDataset.java: com.jrefinery.chart.demo
+NumberAxisRange.java: com.jrefinery.chart.combination
+StandardXYToolTipGenerator.java: com.jrefinery.chart.tooltips

@@ -1,0 +1,11 @@
+Argo.java; org.argouml.application.api;
+QuadrantPanel.java; org.argouml.application.api;
+ArgoEventTypes.java; org.argouml.application.events;
+ToDoTreeRenderer.java; org.argouml.cognitive.ui;
+HistoryItem.java; org.argouml.kernel;
+ArgoConstants.java; org.argouml.kernel;
+JavaConstants.java; org.argouml.language.java;
+JavaUML.java; org.argouml.language.java.generator;
+Init.java; org.argouml.uml.cognitive.critics;
+FileFilters.java; org.argouml.util;
+ArgoTokenTable.java; org.argouml.xml.argo;

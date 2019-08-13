@@ -1,0 +1,6 @@
+setRenderer: CombinedXYPlot.java: src.com.jrefinery.chart.plot
+getHorizontalDataRange: CombinedXYPlot.java: src.com.jrefinery.chart.plot
+isShapeFilled: StandardXYItemRenderer.java: src.com.jrefinery.chart.renderer
+getStartXValue: CombinedDataset.java: src.com.jrefinery.data
+getParent: CombinedDataset.java: src.com.jrefinery.data
+getChildPosition: CombinedDataset.java: src.com.jrefinery.data

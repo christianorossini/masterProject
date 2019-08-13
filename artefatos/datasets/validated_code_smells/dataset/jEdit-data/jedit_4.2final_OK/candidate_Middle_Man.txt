@@ -1,0 +1,6 @@
+ViewRegisters.java: org.gjt.sp.jedit.gui
+ErrorListDialog.java: org.gjt.sp.jedit.gui
+TextAreaDialog.java: org.gjt.sp.jedit.gui
+AboutDialog.java: org.gjt.sp.jedit.gui
+MirrorList.java: org.gjt.sp.jedit.pluginmgr
+Handler.java: org.gjt.sp.jedit.proto.jeditresource

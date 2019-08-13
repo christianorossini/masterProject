@@ -1,0 +1,7 @@
+findAxisMagnitudeIndex: DateAxis.java: package com.jrefinery.chart [in DateAxis.java [in source.com.jrefinery.chart [in <project root> [in jfreechart-0.9.0]]]]: 5
+autoRangeHorizontal: ChartPanel.java: package com.jrefinery.chart [in ChartPanel.java [in source.com.jrefinery.chart [in <project root> [in jfreechart-0.9.0]]]]: 3
+getPrimitiveAsObjectLoop: Performance2.java: package com.jrefinery.chart.demo [in Performance2.java [in source.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.9.0]]]]: 3
+setPlot: Axis.java: package com.jrefinery.chart [in Axis.java [in source.com.jrefinery.chart [in <project root> [in jfreechart-0.9.0]]]]: 3
+run: SampleXYDatasetThread.java: package com.jrefinery.chart.demo [in SampleXYDatasetThread.java [in source.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.9.0]]]]: 3
+getLevel: SampleSignalDataset.java: package com.jrefinery.chart.demo [in SampleSignalDataset.java [in source.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.9.0]]]]: 3
+getObjectLoop: Performance2.java: package com.jrefinery.chart.demo [in Performance2.java [in source.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.9.0]]]]: 3

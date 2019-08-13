@@ -1,0 +1,6 @@
+JavaGenerator.java; org.apache.qpid.gentools; 1827;
+TopicTest.java; org.apache.qpid.test.unit.xa; 1744;
+QMFService.java; org.apache.qpid.qmf; 2087;
+AbstractBDBMessageStore.java; org.apache.qpid.server.store.berkeleydb; 1950;
+DerbyMessageStore.java; org.apache.qpid.server.store.derby; 2679;
+SimpleAMQQueue.java; org.apache.qpid.server.queue; 2361;

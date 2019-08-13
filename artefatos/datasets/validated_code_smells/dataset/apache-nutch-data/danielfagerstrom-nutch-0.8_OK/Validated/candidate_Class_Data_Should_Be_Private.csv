@@ -1,0 +1,4 @@
+Token.java; org.apache.nutch.analysis;
+HttpHeaders.java; org.apache.nutch.metadata;
+Office.java; org.apache.nutch.metadata;
+DublinCore.java; org.apache.nutch.metadata;

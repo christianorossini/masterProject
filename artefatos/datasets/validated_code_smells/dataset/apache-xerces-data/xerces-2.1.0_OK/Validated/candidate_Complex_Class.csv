@@ -1,0 +1,8 @@
+RangeImpl.java; org.apache.xerces.dom;
+XMLEntityManager.java; org.apache.xerces.impl;
+XSSimpleTypeDecl.java; org.apache.xerces.impl.dv.xs;
+RegexParser.java; org.apache.xerces.impl.xpath.regex;
+RegularExpression.java; org.apache.xerces.impl.xpath.regex;
+XMLSchemaValidator.java; org.apache.xerces.impl.xs;
+URI.java; org.apache.xerces.util;
+XMLSerializer.java; org.apache.xml.serialize;

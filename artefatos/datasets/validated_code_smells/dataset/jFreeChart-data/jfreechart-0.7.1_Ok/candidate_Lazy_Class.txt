@@ -1,0 +1,3 @@
+StandardPieToolTipGenerator.java: com.jrefinery.chart.tooltips
+SampleSignalDataset.java: com.jrefinery.chart.demo
+StandardXYToolTipGenerator.java: com.jrefinery.chart.tooltips

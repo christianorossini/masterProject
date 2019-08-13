@@ -1,0 +1,15 @@
+ODGApplicationModel.java: org.jhotdraw.samples.odg
+ImageTransferable.java: org.jhotdraw.gui.datatransfer
+LocaleUtil.java: org.jhotdraw.util
+ZoomEditorAction.java: org.jhotdraw.draw.action
+SelectionColorIcon.java: org.jhotdraw.draw.action
+FigureLayerComparator.java: org.jhotdraw.draw
+PaletteMenuItemUI.java: org.jhotdraw.draw.action
+SVGZOutputFormat.java: org.jhotdraw.samples.svg.io
+AttributeChangeEdit.java: org.jhotdraw.draw
+AbstractLayouter.java: org.jhotdraw.draw
+PIReader.java: net.n3.nanoxml
+EditorColorIcon.java: org.jhotdraw.draw.action
+AbstractLocator.java: org.jhotdraw.draw
+SVGZInputFormat.java: org.jhotdraw.samples.svg.io
+SelectionColorChooserAction.java: org.jhotdraw.draw.action

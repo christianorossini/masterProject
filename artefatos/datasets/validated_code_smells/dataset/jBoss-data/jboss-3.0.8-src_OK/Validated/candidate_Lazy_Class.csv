@@ -1,0 +1,4 @@
+BeanEndGenerator.java; org.apache.jasper.compiler;
+AppendObjectOutputStream.java; org.jboss.util.stream;
+JmsMetaData.java; org.jboss.resource.adapter.jms;
+ServletHttpContextMBean.java; org.mortbay.jetty.servlet.jmx;

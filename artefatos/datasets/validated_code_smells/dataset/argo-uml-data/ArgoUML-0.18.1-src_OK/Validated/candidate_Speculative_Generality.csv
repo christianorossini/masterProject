@@ -1,0 +1,13 @@
+DiagramHelper.java; org.argouml.application.helpers;
+ModuleHelper.java; org.argouml.application.helpers;
+ResourceBundleHelper.java; org.argouml.application.helpers;
+AbstractCognitiveTranslator.java; org.argouml.cognitive;
+Wizard.java; org.argouml.cognitive.ui;
+NotationHelper.java; org.argouml.language.helpers;
+StateMachinesFactoryImpl.java; org.argouml.model.uml;
+ProfileJava.java; org.argouml.uml;
+Profile.java; org.argouml.uml;
+CrClassMustBeAbstract.java; org.argouml.uml.cognitive.critics;
+Parser.java; org.argouml.uml.generator;
+UMLList2.java; org.argouml.uml.ui;
+UMLEditableComboBox.java; org.argouml.uml.ui;

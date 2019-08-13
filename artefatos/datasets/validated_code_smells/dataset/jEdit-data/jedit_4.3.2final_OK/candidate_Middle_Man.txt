@@ -1,0 +1,12 @@
+JEditRegistersListener.java: org.gjt.sp.jedit
+JThis.java: org.gjt.sp.jedit.bsh
+ErrorListDialog.java: org.gjt.sp.jedit.gui
+TextAreaDialog.java: org.gjt.sp.jedit.gui
+HistoryTextArea.java: org.gjt.sp.jedit.gui
+ToolTipLabel.java: org.gjt.sp.jedit.gui.statusbar
+CharsetEncoding.java: org.gjt.sp.jedit.io
+ContextOptionPane.java: org.gjt.sp.jedit.options
+Handler.java: org.gjt.sp.jedit.proto.jeditresource
+CircleFoldPainter.java: org.gjt.sp.jedit.textarea
+SquareFoldPainter.java: org.gjt.sp.jedit.textarea
+SaveCaretInfoVisitor.java: org.gjt.sp.jedit.visitors

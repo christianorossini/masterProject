@@ -1,0 +1,11 @@
+Constants.java; mailreader2;
+LotsOfRichtexteditorAction.java; org.apache.struts2.showcase;
+StrutsConstants.java; org.apache.struts2;
+StrutsStatics.java; org.apache.struts2;
+ContextUtil.java; org.apache.struts2.views.util;
+ConventionConstants.java; org.apache.struts2.convention;
+Token.java; org.apache.struts2.el.parser;
+ELParserTreeConstants.java; org.apache.struts2.el.parser;
+TagConstants.java; org.apache.struts2.jasper.compiler;
+Util.java; org.apache.struts2.jasper.tagplugins.jstl;
+JasperReportConstants.java; org.apache.struts2.views.jasperreports;

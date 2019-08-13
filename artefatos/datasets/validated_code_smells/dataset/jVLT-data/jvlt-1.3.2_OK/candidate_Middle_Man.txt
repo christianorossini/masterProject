@@ -1,0 +1,14 @@
+EntryClass.java: net.sourceforge.jvlt.core
+SenseMetaData.java: net.sourceforge.jvlt.metadata
+QueryModel.java: net.sourceforge.jvlt.model
+AbstractModel.java: net.sourceforge.jvlt.model
+LabeledComboBox.java: net.sourceforge.jvlt.ui.components
+ListeningInputComponent.java: net.sourceforge.jvlt.ui.components
+SortedComboBoxModel.java: net.sourceforge.jvlt.ui.components
+IndentedComboBox.java: net.sourceforge.jvlt.ui.components
+YesNoDescriptor.java: net.sourceforge.jvlt.ui.quiz
+FlagPanel.java: net.sourceforge.jvlt.ui.quiz
+CustomConstraints.java: net.sourceforge.jvlt.ui.utils
+DialogWizardModel.java: net.sourceforge.jvlt.ui.wizard
+PropertyMap.java: net.sourceforge.jvlt.utils
+I18nService.java: net.sourceforge.jvlt.utils

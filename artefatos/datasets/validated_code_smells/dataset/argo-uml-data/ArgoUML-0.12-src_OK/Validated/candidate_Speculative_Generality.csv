@@ -1,0 +1,14 @@
+DiagramHelper.java; org.argouml.application.helpers;
+ResourceBundleHelper.java; org.argouml.application.helpers;
+ModuleHelper.java; org.argouml.application.helpers;
+DesignMaterial.java; org.argouml.cognitive;
+CriticUtils.java; org.argouml.cognitive.critics;
+NotationHelper.java; org.argouml.language.helpers;
+StateMachinesFactory.java; org.argouml.model.uml.behavioralelements.statemachines;
+ProfileJava.java; org.argouml.uml;
+Profile.java; org.argouml.uml;
+Parser.java; org.argouml.uml.generator;
+PropPanelButton.java; org.argouml.uml.ui;
+PropPanelEvent.java; org.argouml.uml.ui.behavior.state_machines;
+XMLTokenTableBase.java; org.argouml.xml;
+SAXParserBase.java; org.argouml.xml;

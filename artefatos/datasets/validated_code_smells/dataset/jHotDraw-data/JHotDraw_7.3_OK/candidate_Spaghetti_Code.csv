@@ -1,0 +1,6 @@
+BezierPath.java; org.jhotdraw.geom;
+StreamPosTokenizer.java; org.jhotdraw.io;
+JMixer.java; org.jhotdraw.samples.color;
+BezierDemo.java; org.jhotdraw.samples.mini;
+SVGApplet.java; org.jhotdraw.samples.svg;
+FindDialog.java; org.jhotdraw.samples.teddy;

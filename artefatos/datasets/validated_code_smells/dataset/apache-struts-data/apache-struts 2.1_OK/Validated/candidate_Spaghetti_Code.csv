@@ -1,0 +1,7 @@
+OptionTransferSelect.java; org.apache.struts2.components;
+DoubleListUIBean.java; org.apache.struts2.components;
+UIBean.java; org.apache.struts2.components;
+Tree.java; org.apache.struts2.dojo.components;
+Compiler.java; org.apache.struts2.jasper.compiler;
+JspDocumentParser.java; org.apache.struts2.jasper.compiler;
+UTF8Reader.java; org.apache.struts2.jasper.xmlparser;

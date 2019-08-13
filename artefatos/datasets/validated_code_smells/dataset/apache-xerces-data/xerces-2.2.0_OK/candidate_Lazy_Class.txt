@@ -1,0 +1,4 @@
+Base64BinaryDV.java: org.apache.xerces.impl.dv.xs
+AnyURIDV.java: org.apache.xerces.impl.dv.xs
+NMTOKENDatatypeValidator.java: org.apache.xerces.impl.dv.dtd
+HexBinaryDV.java: org.apache.xerces.impl.dv.xs

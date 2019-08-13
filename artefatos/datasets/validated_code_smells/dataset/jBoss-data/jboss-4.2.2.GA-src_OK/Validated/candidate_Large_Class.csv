@@ -1,0 +1,11 @@
+JBossCacheManager.java; org.jboss.web.tomcat.service.session; 1820;
+EJBQLToSQL92Compiler.java; org.jboss.ejb.plugins.cmp.jdbc; 1629;
+NamingContext.java; org.jnp.interfaces; 1676;
+JDBCCMRFieldBridge2.java; org.jboss.ejb.plugins.cmp.jdbc2.bridge; 1786;
+JDBCEntityMetaData.java; org.jboss.ejb.plugins.cmp.jdbc.metadata; 1618;
+JDBCCMRFieldBridge.java; org.jboss.ejb.plugins.cmp.jdbc.bridge; 2392;
+JDBCEJBQLCompiler.java; org.jboss.ejb.plugins.cmp.jdbc; 1946;
+EntityTable.java; org.jboss.ejb.plugins.cmp.jdbc2.schema; 1891;
+TransactionImpl.java; org.jboss.tm; 2286;
+MBeanServerImpl.java; org.jboss.mx.server; 1729;
+PersistenceManager.java; org.jboss.mq.pm.jdbc2; 1958;

@@ -1,0 +1,2 @@
+Component.java; org.apache.wicket;
+HybridUrlCodingStrategy.java; org.apache.wicket.request.target.coding;

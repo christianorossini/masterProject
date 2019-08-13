@@ -1,0 +1,14 @@
+Utils.java; org.apache.qpid.gentools;
+LogSubjectFormat.java; org.apache.qpid.server.logging.subjects;
+AMQQueueFactory.java; org.apache.qpid.server.queue;
+Statics.java; org.apache.qpid.example.shared;
+QpidQueueOptions.java; org.apache.qpid.client.messaging.address;
+BrokerDetails.java; org.apache.qpid.jms;
+ConnectionURL.java; org.apache.qpid.jms;
+FailoverMethod.java; org.apache.qpid.jms.failover;
+ExchangeDefaults.java; org.apache.qpid.exchange;
+ContentHeaderBody.java; org.apache.qpid.framing;
+BindingURL.java; org.apache.qpid.url;
+Names.java; org.apache.qpid.management;
+Tag.java; org.apache.qpid.management.configuration;
+Constants.java; org.apache.qpid.management.common.sasl;

@@ -1,0 +1,14 @@
+UncaughtExceptionHandler.java: net.sourceforge.atunes
+GetCoversFromAmazonProcess.java: net.sourceforge.atunes.kernel.executors.processes
+OSDDialogMouseListener.java: net.sourceforge.atunes.kernel.controllers.osd
+RadioViewRefresher.java: net.sourceforge.atunes.kernel.controllers.navigation
+PodcastFeedViewRefresher.java: net.sourceforge.atunes.kernel.controllers.navigation
+CustomDialog.java: net.sourceforge.atunes.gui.views.controls
+Log4jPropertiesLoader.java: net.sourceforge.atunes.utils.log4j
+SetTrackNumberProcess.java: net.sourceforge.atunes.kernel.executors.processes
+ClipboardFacade.java: net.sourceforge.atunes.kernel.utils
+RegexpUtils.java: net.sourceforge.atunes.kernel.modules.regexp
+ClearTagsProcess.java: net.sourceforge.atunes.kernel.executors.processes
+FileViewRefresher.java: net.sourceforge.atunes.kernel.controllers.navigation
+AudioScrobblerWikiParser.java: net.sourceforge.atunes.kernel.modules.audioscrobbler
+TagDetector.java: net.sourceforge.atunes.kernel.modules.repository.tags.reader

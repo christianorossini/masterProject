@@ -1,0 +1,14 @@
+AttributeChangeEdit.java: org.jhotdraw.draw.event
+ColorListCellRenderer.java: org.jhotdraw.color
+PaletteMenuItemUI.java: org.jhotdraw.gui.plaf.palette
+OSXClipboard.java: org.jhotdraw.gui.datatransfer
+AbstractColorSlidersModel.java: org.jhotdraw.color
+AbstractConstrainer.java: org.jhotdraw.draw
+ImageTransferable.java: org.jhotdraw.gui.datatransfer
+ZoomEditorAction.java: org.jhotdraw.draw.action
+PIReader.java: net.n3.nanoxml
+FontSizeLocator.java: org.jhotdraw.draw.locator
+JNLPClipboard.java: org.jhotdraw.gui.datatransfer
+NumberedParagraphView.java: org.jhotdraw.samples.teddy.text
+SetBoundsEdit.java: org.jhotdraw.draw.event
+PaletteListUI.java: org.jhotdraw.gui.plaf.palette

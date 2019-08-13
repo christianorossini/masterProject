@@ -1,0 +1,3 @@
+Base64.java; org.elasticsearch.common; 2077;
+CBZip2OutputStream.java; org.elasticsearch.common.compress.bzip2; 2091;
+ForkJoinPool.java; jsr166y; 2889;

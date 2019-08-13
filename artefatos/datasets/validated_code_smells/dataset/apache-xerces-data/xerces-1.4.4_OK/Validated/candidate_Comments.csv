@@ -1,0 +1,1 @@
+getFeature; XMLParser.java; org.apache.xerces.frameworkgetFeature; DOMParser.java; org.apache.xerces.parsersresolveEntity; HandlerBase.java; org.xml.saxgetFeature; XMLReader.java; org.xml.sax

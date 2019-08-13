@@ -1,0 +1,6 @@
+DeferredDocumentImpl.java; org.apache.xerces.dom;
+XMLDTDScanner.java; org.apache.xerces.framework;
+UTF8CharReader.java; org.apache.xerces.readers;
+CharReader.java; org.apache.xerces.readers;
+RegexParser.java; org.apache.xerces.utils.regex;
+DatatypeValidatorFactoryImpl.java; org.apache.xerces.validators.datatype;

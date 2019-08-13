@@ -1,0 +1,15 @@
+SegmentedTimeline: SegmentedTimeline.java: source.org.jfree.chart.axis
+setAxisProperties: DefaultAxisEditor.java: source.org.jfree.chart.editor
+getPreviousHeight: StackedAreaRenderer.java: source.org.jfree.chart.renderer.category
+getItemOutlinePaint: CategoryItemRenderer.java: source.org.jfree.chart.renderer.category
+getItemURLGenerator: CategoryItemRenderer.java: source.org.jfree.chart.renderer.category
+getItemOutlinePaint: XYItemRenderer.java: source.org.jfree.chart.renderer.xy
+addAnnotation: XYItemRenderer.java: source.org.jfree.chart.renderer.xy
+getImage: StandardXYItemRenderer.java: source.org.jfree.chart.renderer.xy
+getStartX: CombinedDataset.java: source.org.jfree.data.general
+getParent: CombinedDataset.java: source.org.jfree.data.general
+getChildPosition: CombinedDataset.java: source.org.jfree.data.general
+getStartX: SubSeriesDataset.java: source.org.jfree.data.general
+testSetLowerBound: NumberAxisTests.java: tests.org.jfree.chart.axis.junit
+setUp: SegmentedTimelineTests.java: tests.org.jfree.chart.axis.junit
+testBasicSegmentedTimeline: SegmentedTimelineTests.java: tests.org.jfree.chart.axis.junit

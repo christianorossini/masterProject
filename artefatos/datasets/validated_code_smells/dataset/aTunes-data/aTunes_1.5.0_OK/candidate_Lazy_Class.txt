@@ -1,0 +1,13 @@
+PlayListAlbumComparator.java: net.sourceforge.atunes.model.player
+PlayListArtistComparator.java: net.sourceforge.atunes.model.player
+FileViewRefresher.java: net.sourceforge.atunes.kernel.controllers.navigation
+SearchFactory.java: net.sourceforge.atunes.kernel.modules.search
+RepositoryAutoRefresher.java: net.sourceforge.atunes.kernel.modules.repository
+ThemePreviewLoader.java: net.sourceforge.atunes.gui.images.themes
+RefreshUtils.java: net.sourceforge.atunes.kernel.controllers.navigation
+Log4jPropertiesLoader.java: net.sourceforge.atunes.utils
+GuiBackgroundExecutor.java: net.sourceforge.atunes.kernel.executors
+ChangeTitlesProcess.java: net.sourceforge.atunes.kernel.executors.processes
+EditTitlesDialogActionListener.java: net.sourceforge.atunes.kernel.controllers.editTitlesDialog
+PlayListTitleComparator.java: net.sourceforge.atunes.model.player
+TagDetector.java: net.sourceforge.atunes.kernel.modules.tags.reader

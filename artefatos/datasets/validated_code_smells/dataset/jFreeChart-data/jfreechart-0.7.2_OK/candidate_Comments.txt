@@ -1,0 +1,9 @@
+draw: CombinedHorizontalNumberAxis.java: source.com.jrefinery.chart.combination
+reserveHeight: CombinedHorizontalNumberAxis.java: source.com.jrefinery.chart.combination
+reserveHeight: OverlaidHorizontalDateAxis.java: source.com.jrefinery.chart.combination
+getMinimumHorizontalDataValue: CombinedPlot.java: source.com.jrefinery.chart.combination
+reserveWidth: OverlaidVerticalNumberAxis.java: source.com.jrefinery.chart.combination
+draw: CombinedHorizontalDateAxis.java: source.com.jrefinery.chart.combination
+reserveHeight: CombinedHorizontalDateAxis.java: source.com.jrefinery.chart.combination
+reserveHeight: OverlaidHorizontalNumberAxis.java: source.com.jrefinery.chart.combination
+draw: CombinedVerticalNumberAxis.java: source.com.jrefinery.chart.combination

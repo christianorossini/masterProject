@@ -1,0 +1,2 @@
+RandomSampleLoader.java: org.apache.pig.impl.builtin	BinStorage.java: org.apache.pig.builtin	
+ValidatingInputFileSpec.java: org.apache.pig.impl.io	FileSpec.java: org.apache.pig.impl.io	

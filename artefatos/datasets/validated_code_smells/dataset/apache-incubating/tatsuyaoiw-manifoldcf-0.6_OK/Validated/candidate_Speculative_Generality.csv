@@ -1,0 +1,7 @@
+SingleLevelContext.java; org.apache.manifoldcf.crawler.connectors.wiki;
+BaseProcessingContext.java; org.apache.manifoldcf.crawler.connectors.wiki;
+ExecutorBase.java; org.apache.manifoldcf.core.cachemanager;
+BaseDescription.java; org.apache.manifoldcf.core.cachemanager;
+BaseConnector.java; org.apache.manifoldcf.core.connector;
+BinaryInput.java; org.apache.manifoldcf.core.interfaces;
+CharacterInput.java; org.apache.manifoldcf.core.interfaces;

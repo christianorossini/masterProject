@@ -1,0 +1,4 @@
+DispatchTask.java; org.apache.tools.ant.dispatch;
+DefaultJspCompilerAdapter.java; org.apache.tools.ant.taskdefs.optional.jsp.compilers;
+ContentTransformingResource.java; org.apache.tools.ant.types.resources;
+ZipUtil.java; org.apache.tools.zip;

@@ -1,0 +1,7 @@
+GenericType.java: org.apache.felix.gogo.commands.converter	ReifiedType.java: org.apache.felix.gogo.commands.converter	
+CloseShellException.java: org.apache.karaf.shell.console	Exception.java: java.lang	
+GenericType.java: org.apache.karaf.shell.console.commands	ReifiedType.java: org.apache.felix.gogo.commands.converter	
+LogLevelCompleter.java: org.apache.karaf.shell.log.completers	StringsCompleter.java: org.apache.karaf.shell.console.completer	
+DateTimeDateFormat.java: org.apache.karaf.shell.log.layout	AbsoluteTimeDateFormat.java: org.apache.karaf.shell.log.layout	
+ISO8601DateFormat.java: org.apache.karaf.shell.log.layout	AbsoluteTimeDateFormat.java: org.apache.karaf.shell.log.layout	
+StartCommand.java: org.apache.karaf.shell.obr	DeployCommand.java: org.apache.karaf.shell.obr	

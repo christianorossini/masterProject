@@ -1,0 +1,14 @@
+endEdit: URLTool.java: package CH.ifa.draw.samples.javadraw [in URLTool.java [in CH.ifa.draw.samples.javadraw [in src [in JHotDraw_5.3]]]]: 3
+getPreferredSize: ToolButton.java: package CH.ifa.draw.standard [in ToolButton.java [in CH.ifa.draw.standard [in src [in JHotDraw_5.3]]]]: 3
+toolDone: DrawApplication.java: package CH.ifa.draw.application [in DrawApplication.java [in CH.ifa.draw.application [in src [in JHotDraw_5.3]]]]: 3
+getMinimumSize: ToolButton.java: package CH.ifa.draw.standard [in ToolButton.java [in CH.ifa.draw.standard [in src [in JHotDraw_5.3]]]]: 3
+getDrawingTitle: MDI_DrawApplication.java: package CH.ifa.draw.contrib [in MDI_DrawApplication.java [in CH.ifa.draw.contrib [in src [in JHotDraw_5.3]]]]: 3
+toolDone: DrawApplet.java: package CH.ifa.draw.applet [in DrawApplet.java [in CH.ifa.draw.applet [in src [in JHotDraw_5.3]]]]: 3
+handleCursorKey: StandardDrawingView.java: package CH.ifa.draw.standard [in StandardDrawingView.java [in CH.ifa.draw.standard [in src [in JHotDraw_5.3]]]]: 3
+getMaximumSize: ToolButton.java: package CH.ifa.draw.standard [in ToolButton.java [in CH.ifa.draw.standard [in src [in JHotDraw_5.3]]]]: 3
+setTool: DrawApplet.java: package CH.ifa.draw.applet [in DrawApplet.java [in CH.ifa.draw.applet [in src [in JHotDraw_5.3]]]]: 3
+getAttribute: AttributeFigure.java: package CH.ifa.draw.figures [in AttributeFigure.java [in CH.ifa.draw.figures [in src [in JHotDraw_5.3]]]]: 3
+connect: TextFigure.java: package CH.ifa.draw.figures [in TextFigure.java [in CH.ifa.draw.figures [in src [in JHotDraw_5.3]]]]: 3
+_addToQuadTree: CompositeFigure.java: package CH.ifa.draw.standard [in CompositeFigure.java [in CH.ifa.draw.standard [in src [in JHotDraw_5.3]]]]: 3
+paintSelected: ToolButton.java: package CH.ifa.draw.standard [in ToolButton.java [in CH.ifa.draw.standard [in src [in JHotDraw_5.3]]]]: 3
+setDrawing: StandardDrawingView.java: package CH.ifa.draw.standard [in StandardDrawingView.java [in CH.ifa.draw.standard [in src [in JHotDraw_5.3]]]]: 3

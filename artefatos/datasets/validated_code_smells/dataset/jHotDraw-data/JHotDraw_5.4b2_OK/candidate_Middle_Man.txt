@@ -1,0 +1,11 @@
+DoubleBufferImage.java: CH.ifa.draw.contrib.zoom
+LineFigure.java: CH.ifa.draw.figures
+HandleEnumerator.java: CH.ifa.draw.standard
+SimpleUpdateStrategy.java: CH.ifa.draw.standard
+ReverseFigureEnumerator.java: CH.ifa.draw.standard
+FigureEnumerator.java: CH.ifa.draw.standard
+AllTests.java: CH.ifa.draw.test.util.collections.jdk12
+ReverseListEnumerator.java: CH.ifa.draw.util
+ColorMap.java: CH.ifa.draw.util
+ListWrapper.java: CH.ifa.draw.util.collections.jdk11
+MapWrapper.java: CH.ifa.draw.util.collections.jdk11

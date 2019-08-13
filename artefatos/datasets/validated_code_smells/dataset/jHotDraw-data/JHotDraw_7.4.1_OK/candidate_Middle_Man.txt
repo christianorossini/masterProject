@@ -1,0 +1,16 @@
+AbstractBean.java: org.jhotdraw.beans
+AbstractColorSlidersModel.java: org.jhotdraw.color
+DefaultHarmonicColorModel.java: org.jhotdraw.color
+DrawingEditorProxy.java: org.jhotdraw.draw
+SelectSameAction.java: org.jhotdraw.draw.action
+IncreaseHandleDetailLevelAction.java: org.jhotdraw.draw.action
+UngroupAction.java: org.jhotdraw.draw.action
+HandleMulticaster.java: org.jhotdraw.draw.event
+FloatingTextField.java: org.jhotdraw.draw.text
+JLifeFormattedTextArea.java: org.jhotdraw.gui
+PaletteLazyActionMap.java: org.jhotdraw.gui.plaf.palette
+StraightLineFigure.java: org.jhotdraw.samples.mini
+PertFactory.java: org.jhotdraw.samples.pert
+SplitAction.java: org.jhotdraw.samples.svg.action
+ProgressIndicator.java: org.jhotdraw.samples.svg.gui
+UndoRedoManager.java: org.jhotdraw.undo

@@ -1,0 +1,9 @@
+JDBCPreparedStatement.java; org.hsqldb.jdbc; 4686;
+JDBCDatabaseMetaData.java; org.hsqldb.jdbc; 6167;
+Scanner.java; org.hsqldb; 2523;
+JDBCSQLXML.java; org.hsqldb.jdbc; 3142;
+SqlFile.java; org.hsqldb.cmdline; 5525;
+DatabaseInformationMain.java; org.hsqldb.dbinfo; 3610;
+JDBCConnection.java; org.hsqldb.jdbc; 3458;
+DatabaseManagerSwing.java; org.hsqldb.util; 3101;
+Table.java; org.hsqldb; 2770;

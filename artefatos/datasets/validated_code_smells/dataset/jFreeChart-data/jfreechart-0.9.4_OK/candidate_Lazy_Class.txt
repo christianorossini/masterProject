@@ -1,0 +1,3 @@
+JFreeChartTests.java: com.jrefinery.chart.junit
+DescriptionPanel.java: com.jrefinery.chart.demo
+DefaultWindDataset.java: com.jrefinery.data

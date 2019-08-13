@@ -1,0 +1,12 @@
+ColorListCellRenderer.java: org.jhotdraw.color
+AbstractColorSlidersModel.java: org.jhotdraw.color
+PIReader.java: net.n3.nanoxml
+SetBoundsEdit.java: org.jhotdraw.draw
+NumberedParagraphView.java: org.jhotdraw.samples.teddy.text
+FontSizeLocator.java: org.jhotdraw.draw
+ZoomEditorAction.java: org.jhotdraw.draw.action
+CMYKNominalColorSystem.java: org.jhotdraw.color
+AbstractConstrainer.java: org.jhotdraw.draw
+AttributeChangeEdit.java: org.jhotdraw.draw
+QuickAndDirtyDOMStorableSample.java: org.jhotdraw.samples.mini
+PaletteMenuItemUI.java: org.jhotdraw.draw.action

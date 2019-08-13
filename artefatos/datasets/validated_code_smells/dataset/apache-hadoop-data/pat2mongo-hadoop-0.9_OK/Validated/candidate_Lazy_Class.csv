@@ -1,0 +1,9 @@
+HashPartitioner.java; org.apache.hadoop.mapred.lib;
+BuiltInZlibInflater.java; org.apache.hadoop.io.compress.zlib;
+MuxOutputFormat.java; org.apache.hadoop.streaming;
+BenchmarkReducer.java; org.apache.hadoop.benchmarks.mapred;
+DefaultJobHistoryParser.java; org.apache.hadoop.mapred;
+BenchmarkMapper.java; org.apache.hadoop.benchmarks.mapred;
+HadoopStreaming.java; org.apache.hadoop.streaming;
+PipeCombiner.java; org.apache.hadoop.streaming;
+InverseMapper.java; org.apache.hadoop.mapred.lib;

@@ -1,0 +1,7 @@
+DatabaseInformationMain.java; org.hsqldb; 2961;
+jdbcResultSet.java; org.hsqldb.jdbc; 5336;
+Expression.java; org.hsqldb; 4175;
+SqlFile.java; org.hsqldb.util; 4835;
+DatabaseManagerSwing.java; org.hsqldb.util; 3102;
+Parser.java; org.hsqldb; 2967;
+Table.java; org.hsqldb; 3543;

@@ -1,0 +1,10 @@
+DockableFrame.java: net.sourceforge.atunes.gui.dockableView
+AlbumToolTip.java: net.sourceforge.atunes.gui.views.dialogs
+PlayerPanel.java: net.sourceforge.atunes.gui.views.dialogs.editPreferences
+NavigatorPanel.java: net.sourceforge.atunes.gui.views.dialogs.editPreferences
+DevicePanel.java: net.sourceforge.atunes.gui.views.dialogs.editPreferences
+GeneralPanel.java: net.sourceforge.atunes.gui.views.dialogs.editPreferences
+SubmitterException.java: net.sourceforge.atunes.kernel.modules.audioscrobbler.submitter
+DeviceDisconnectionMonitor.java: net.sourceforge.atunes.kernel.modules.device
+DeviceConnectionMonitor.java: net.sourceforge.atunes.kernel.modules.device
+Timer.java: net.sourceforge.atunes.utils

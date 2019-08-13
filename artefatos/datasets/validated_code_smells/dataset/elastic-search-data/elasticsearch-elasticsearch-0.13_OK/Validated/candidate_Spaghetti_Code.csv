@@ -1,0 +1,3 @@
+CBZip2OutputStream.java; org.elasticsearch.common.compress.bzip2;
+CBZip2InputStream.java; org.elasticsearch.common.compress.bzip2;
+NettyTransport.java; org.elasticsearch.transport.netty;

@@ -1,0 +1,10 @@
+BagSize.java: org.apache.pig.builtin
+RINT.java: org.apache.pig.piggybank.evaluation.math
+RANDOM.java: org.apache.pig.builtin
+RANDOM.java: org.apache.pig.builtin
+FileInputHandler.java: org.apache.pig.impl.streaming
+StringSize.java: org.apache.pig.builtin
+RANDOM.java: org.apache.pig.piggybank.evaluation.math
+RANDOM.java: org.apache.pig.piggybank.evaluation.math
+GFAny.java: org.apache.pig.impl.builtin
+TupleSize.java: org.apache.pig.builtin

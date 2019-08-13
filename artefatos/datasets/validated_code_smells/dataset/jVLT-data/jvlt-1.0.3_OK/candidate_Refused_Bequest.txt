@@ -1,0 +1,16 @@
+EntryMetaData.java	MetaData.java	
+CopyPastePopupListener.java	CopyPastePopupListener.java	
+CustomAttribute.java	DefaultAttribute.java	
+ChoiceListPanel.java	ObjectListPanel.java	
+EntryAttributeSchemaPanel.java	EntryAttributeSchemaPanel.java	
+DictReaderException.java	DetailedException.java	
+AttributeSelectionPanel.java	ObjectSelectionPanel.java	
+CalendarAttribute.java	DefaultAttribute.java	
+ExampleInfoPanel.java	InfoPanel.java	
+ArrayAttribute.java	DefaultAttribute.java	
+SimpleEntryFilter.java	EntryFilter.java	
+EntryQueryDialog.java	ChoiceInputComponent.java	
+EntryQueryDialog.java	ChoiceInputComponent.java	
+EntryInfoPanel.java	InfoPanel.java	
+EditEntryAction.java	EditDictObjectAction.java	
+CustomChoiceAttribute.java	CustomAttribute.java	

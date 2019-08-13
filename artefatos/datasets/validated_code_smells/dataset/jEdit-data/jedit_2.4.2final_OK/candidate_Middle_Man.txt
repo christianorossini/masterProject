@@ -1,0 +1,13 @@
+select_line_range.java: org.gjt.sp.jedit.actions
+about.java: org.gjt.sp.jedit.actions
+send.java: org.gjt.sp.jedit.actions
+global_options.java: org.gjt.sp.jedit.actions
+buffer_options.java: org.gjt.sp.jedit.actions
+hypersearch.java: org.gjt.sp.jedit.actions
+rescan_macros.java: org.gjt.sp.jedit.actions
+log_viewer.java: org.gjt.sp.jedit.actions
+view_registers.java: org.gjt.sp.jedit.actions
+FontComboBox.java: org.gjt.sp.jedit.gui
+AboutDialog.java: org.gjt.sp.jedit.gui
+ViewRegisters.java: org.gjt.sp.jedit.gui
+Handler.java: org.gjt.sp.jedit.proto.jeditresource

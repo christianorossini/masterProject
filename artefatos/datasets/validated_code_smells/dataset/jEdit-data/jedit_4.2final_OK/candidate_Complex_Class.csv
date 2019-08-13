@@ -1,0 +1,15 @@
+View.java; org.gjt.sp.jedit;
+MiscUtilities.java; org.gjt.sp.jedit;
+PluginJAR.java; org.gjt.sp.jedit;
+jEdit.java; org.gjt.sp.jedit;
+GUIUtilities.java; org.gjt.sp.jedit;
+Buffer.java; org.gjt.sp.jedit;
+VFSBrowser.java; org.gjt.sp.jedit.browser;
+BufferIORequest.java; org.gjt.sp.jedit.buffer;
+PanelWindowContainer.java; org.gjt.sp.jedit.gui;
+DockableWindowManager.java; org.gjt.sp.jedit.gui;
+VFS.java; org.gjt.sp.jedit.io;
+SearchAndReplace.java; org.gjt.sp.jedit.search;
+DisplayManager.java; org.gjt.sp.jedit.textarea;
+TextAreaPainter.java; org.gjt.sp.jedit.textarea;
+JEditTextArea.java; org.gjt.sp.jedit.textarea;

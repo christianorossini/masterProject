@@ -1,0 +1,7 @@
+ResultNames.java; org.apache.struts2;
+Constants.java; mailreader2;
+LotsOfRichtexteditorAction.java; org.apache.struts2.showcase;
+StrutsStatics.java; org.apache.struts2;
+StrutsConstants.java; org.apache.struts2;
+ContextUtil.java; org.apache.struts2.views.util;
+JasperReportConstants.java; org.apache.struts2.views.jasperreports;

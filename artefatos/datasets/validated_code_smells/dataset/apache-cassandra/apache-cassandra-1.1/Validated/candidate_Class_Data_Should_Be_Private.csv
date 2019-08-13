@@ -1,0 +1,12 @@
+SimpleAuthenticator.java; org.apache.cassandra.auth;
+CliSessionState.java; org.apache.cassandra.cli;
+RequestSchedulerOptions.java; org.apache.cassandra.config;
+EncryptionOptions.java; org.apache.cassandra.config;
+IndexScanCommand.java; org.apache.cassandra.db;
+DBConstants.java; org.apache.cassandra.db;
+ReplayPosition.java; org.apache.cassandra.db.commitlog;
+AbstractType.java; org.apache.cassandra.db.marshal;
+VersionedValue.java; org.apache.cassandra.gms;
+ClientRequestMetrics.java; org.apache.cassandra.metrics;
+StreamReply.java; org.apache.cassandra.streaming;
+Interval.java; org.apache.cassandra.utils.IntervalTree;

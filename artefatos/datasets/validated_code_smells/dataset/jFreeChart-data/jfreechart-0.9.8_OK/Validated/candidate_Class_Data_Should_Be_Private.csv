@@ -1,0 +1,8 @@
+ChartPanelConstants.java; org.jfree.chart;
+ChartColor.java; org.jfree.chart;
+JFreeChartConstants.java; org.jfree.chart;
+AxisConstants.java; org.jfree.chart.axis;
+CategoryPlotConstants.java; org.jfree.chart.plot;
+MeterDataset.java; org.jfree.data;
+SignalsDataset.java; org.jfree.data;
+DatasetTags.java; org.jfree.data.xml;

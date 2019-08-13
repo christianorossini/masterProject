@@ -1,0 +1,7 @@
+RepositoryImpl.java; org.apache.karaf.features.internal;
+JDBCLoginModule.java; org.apache.karaf.jaas.modules.jdbc;
+LDAPLoginModule.java; org.apache.karaf.jaas.modules.ldap;
+GrepAction.java; org.apache.karaf.shell.commands;
+ListBundles.java; org.apache.karaf.shell.osgi;
+InstallCommand.java; org.apache.karaf.shell.wrapper;
+Terminal.java; org.apache.karaf.webconsole.gogo;

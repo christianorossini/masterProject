@@ -1,0 +1,2 @@
+EventConstants.java; org.apache.karaf.features;
+ScrCommandConstants.java; org.apache.karaf.shell.scr;

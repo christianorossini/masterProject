@@ -1,0 +1,9 @@
+selectAutoTickUnit: SymbolicAxis.java: src.org.jfree.chart.axis
+SegmentedTimeline: SegmentedTimeline.java: src.org.jfree.chart.axis
+setUp: SegmentedTimelineTests.java: src.org.jfree.chart.axis.junit
+getImage: StandardXYItemRenderer.java: src.org.jfree.chart.renderer
+testEquals: AreaRendererTests.java: src.org.jfree.chart.renderer.junit
+testEquals: DefaultCategoryItemRendererTests.java: src.org.jfree.chart.renderer.junit
+getStartXValue: CombinedDataset.java: src.org.jfree.data
+getParent: CombinedDataset.java: src.org.jfree.data
+getChildPosition: CombinedDataset.java: src.org.jfree.data

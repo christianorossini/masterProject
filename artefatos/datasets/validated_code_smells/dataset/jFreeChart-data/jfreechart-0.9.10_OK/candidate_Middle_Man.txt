@@ -1,0 +1,2 @@
+LegendItemCollection.java: org.jfree.chart
+StandardEntityCollection.java: org.jfree.chart.entity

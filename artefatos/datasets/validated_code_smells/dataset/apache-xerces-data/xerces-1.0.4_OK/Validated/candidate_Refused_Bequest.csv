@@ -1,0 +1,1 @@
+DOMParser.java; org.apache.xerces.parsers;"	XMLParser.java"; org.apache.xerces.framework;"	"SchemaParser.java; org.apache.xerces.validators.schema;"	XMLParser.java"; org.apache.xerces.framework;"	"IndentPrinter.java; org.apache.xml.serialize;"	Printer.java"; org.apache.xml.serialize;"	"

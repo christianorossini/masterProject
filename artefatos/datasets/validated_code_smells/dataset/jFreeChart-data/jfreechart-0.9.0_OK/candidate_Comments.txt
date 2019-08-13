@@ -1,0 +1,2 @@
+getVerticalRange: PeriodMarkerPlot.java: source.com.jrefinery.chart
+getHorizontalDataRange: CombinedXYPlot.java: source.com.jrefinery.chart

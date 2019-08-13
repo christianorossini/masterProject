@@ -1,0 +1,13 @@
+ClusterPartition.java; org.jboss.ha.framework.server;
+Ejb3DescriptorHandler.java; org.jboss.ejb3;
+ManagementViewImpl.java; org.jboss.profileservice.management;
+JDBCAbstractQueryCommand.java; org.jboss.ejb.plugins.cmp.jdbc;
+EJBQLToSQL92Compiler.java; org.jboss.ejb.plugins.cmp.jdbc;
+JDBCEJBQLCompiler.java; org.jboss.ejb.plugins.cmp.jdbc;
+JDBCStartCommand.java; org.jboss.ejb.plugins.cmp.jdbc;
+JDBCCMRFieldBridge.java; org.jboss.ejb.plugins.cmp.jdbc.bridge;
+JDBCEntityBridge.java; org.jboss.ejb.plugins.cmp.jdbc.bridge;
+JDBCEntityMetaData.java; org.jboss.ejb.plugins.cmp.jdbc.metadata;
+JDBCCMRFieldBridge2.java; org.jboss.ejb.plugins.cmp.jdbc2.bridge;
+EntityTable.java; org.jboss.ejb.plugins.cmp.jdbc2.schema;
+JBossCacheManager.java; org.jboss.web.tomcat.service.session;
