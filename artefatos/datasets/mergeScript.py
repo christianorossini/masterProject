@@ -1,14 +1,16 @@
 import pandas as pd
 import numpy as np
 
+pd.Series(["godClass"])
 
-csv = pd.DataFrame()
-#csv = pd.read_csv("../validated_code_smells/dataset/apache-cassandra/apache-cassandra-1.1/Validated/candidate_Large_Class.csv")
-csv = pd.read_csv('oracle_dataset/candidate_Large_Class.csv', sep=';', header=None) 
-csv=csv.iloc[:,[0,1]] #elimina as 2 últimas colunas
-csv.columns = ["classname","package"]
-csv["fullclassname"] = csv["package"] + "." + csv.classname.str.replace(".java","")
-csv["fullclassname"]=csv["fullclassname"].str.strip() #retira os espaços em branco
+
+csmells = pd.DataFrame()
+csmells = pd.read_csv("validated_code_smells/dataset/apache-cassandra/apache-cassandra-1.1/Validated/candidate_Large_Class.csv")
+csmells = pd.read_csv('oracle_dataset/candidate_Large_Class.csv', sep=';', header=None) 
+csmells=csmells.iloc[:,[0,1]] #elimina as 2 últimas colunas
+csmells.columns = ["classname","package"]
+csmells["fullclassname"] = csmells["package"] + "." + csmells.classname.str.replace(".java","")
+csmells["fullclassname"] = csmells["fullclassname"].str.strip() #retira os espaços em branco
 
 # Escolhe os tipos "Public Class"
 metrics = pd.DataFrame()
