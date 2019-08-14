@@ -21,14 +21,10 @@ metrics_pclass = metrics[is_publicclass]
 
 # inclui uma coluna de nome do projeto
 metrics_pclass["project"]="cassandra"
-metrics_pclass["is_god_class"] = metrics_pclass["Name"].isin(csv["fullclassname"])
+metrics_pclass["is_god_class"] = metrics_pclass["Name"].isin(csmells["fullclassname"])
 
 #escreve o novo CSV
 metrics_pclass.to_csv("godClass.csv")
-
-
-
-
 
 data_url = 'http://bit.ly/2cLzoxH'
 # read data from url as pandas dataframe
