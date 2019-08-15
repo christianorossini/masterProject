@@ -1,0 +1,5 @@
+DDCreatorHelper.java: org.apache.tools.ant.taskdefs.optional.ejb
+JavacOutputStream.java: org.apache.tools.ant.taskdefs
+DesirableFilter.java: org.apache.tools.ant
+XslpLiaison.java: org.apache.tools.ant.taskdefs.optional
+XalanLiaison.java: org.apache.tools.ant.taskdefs.optional

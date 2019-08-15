@@ -1,0 +1,13 @@
+SimpleAuthenticator.java; org.apache.cassandra.auth;
+CliSessionState.java; org.apache.cassandra.cli;
+RequestSchedulerOptions.java; org.apache.cassandra.config;
+EncryptionOptions.java; org.apache.cassandra.config;
+Config.java; org.apache.cassandra.config;
+AlterTableStatement.java; org.apache.cassandra.cql;
+DBConstants.java; org.apache.cassandra.db;
+SliceFromReadCommand.java; org.apache.cassandra.db;
+ReplayPosition.java; org.apache.cassandra.db.commitlog;
+AbstractType.java; org.apache.cassandra.db.marshal;
+VersionedValue.java; org.apache.cassandra.gms;
+ProtocolHeader.java; org.apache.cassandra.net;
+StreamReply.java; org.apache.cassandra.streaming;

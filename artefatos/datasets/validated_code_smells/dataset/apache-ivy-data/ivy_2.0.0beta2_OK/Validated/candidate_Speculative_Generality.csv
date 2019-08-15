@@ -1,0 +1,5 @@
+FileBasedLockStrategy.java; org.apache.ivy.plugins.lock;
+LazyResource.java; org.apache.ivy.plugins.repository;
+BasicResolver.java; org.apache.ivy.plugins.resolver;
+AbstractResourceResolver.java; org.apache.ivy.plugins.resolver;
+XMLHelper.java; org.apache.ivy.util;

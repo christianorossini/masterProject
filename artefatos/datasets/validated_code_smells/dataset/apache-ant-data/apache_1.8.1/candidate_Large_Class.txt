@@ -1,0 +1,6 @@
+Javadoc.java, org.apache.tools.ant.taskdefs: 2474
+Project.java, org.apache.tools.ant: 2475
+Zip.java, org.apache.tools.ant.taskdefs: 2159
+FTPTaskMirrorImpl.java, org.apache.tools.ant.taskdefs.optional.net: 1933
+DirectoryScanner.java, org.apache.tools.ant: 1865
+CBZip2OutputStream.java, org.apache.tools.bzip2: 2100

@@ -1,0 +1,3 @@
+IncrementalIngesterFactory.java; org.apache.manifoldcf.agents.interfaces;
+ManifoldCFConfiguration.java; org.apache.manifoldcf.core.system;
+MetaParseState.java; org.apache.manifoldcf.crawler.connectors.webcrawler;

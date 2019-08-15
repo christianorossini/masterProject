@@ -1,0 +1,4 @@
+HStore.java; org.apache.hadoop.hbase.regionserver;
+HRegionServer.java; org.apache.hadoop.hbase.regionserver;
+HRegion.java; org.apache.hadoop.hbase.regionserver;
+Hbase.java; org.apache.hadoop.hbase.thrift.generated;

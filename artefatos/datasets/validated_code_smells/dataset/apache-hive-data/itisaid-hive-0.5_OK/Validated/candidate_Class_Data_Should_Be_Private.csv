@@ -1,0 +1,5 @@
+S3LogStruct.java; org.apache.hadoop.hive.contrib.serde2.s3;
+HiveUtils.java; org.apache.hadoop.hive.ql.metadata;
+RecordManagerOptions.java; org.apache.hadoop.hive.ql.util.jdbm;
+Token.java; org.apache.hadoop.hive.serde2.dynamic_type;
+thrift_grammarTreeConstants.java; org.apache.hadoop.hive.serde2.dynamic_type;

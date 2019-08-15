@@ -1,0 +1,17 @@
+Task.java; org.apache.hadoop.hive.ql.exec;
+CommonJoinOperator.java; org.apache.hadoop.hive.ql.exec;
+TerminalOperator.java; org.apache.hadoop.hive.ql.exec;
+Operator.java; org.apache.hadoop.hive.ql.exec;
+GenericUDAFEvaluator.java; org.apache.hadoop.hive.ql.udf.generic;
+FastIterator.java; org.apache.hadoop.hive.ql.util.jdbm.helper;
+TupleBrowser.java; org.apache.hadoop.hive.ql.util.jdbm.helper;
+TypedSerDe.java; org.apache.hadoop.hive.serde2;
+ByteStreamTypedSerDe.java; org.apache.hadoop.hive.serde2;
+LazyNonPrimitive.java; org.apache.hadoop.hive.serde2.lazy;
+LazyPrimitive.java; org.apache.hadoop.hive.serde2.lazy;
+LazyObject.java; org.apache.hadoop.hive.serde2.lazy;
+AbstractPrimitiveLazyObjectInspector.java; org.apache.hadoop.hive.serde2.lazy.objectinspector.primitive;
+LazyBinaryPrimitive.java; org.apache.hadoop.hive.serde2.lazybinary;
+LazyBinaryObject.java; org.apache.hadoop.hive.serde2.lazybinary;
+LazyBinaryNonPrimitive.java; org.apache.hadoop.hive.serde2.lazybinary;
+ShimLoader.java; org.apache.hadoop.hive.shims;

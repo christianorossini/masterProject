@@ -1,0 +1,8 @@
+ForkJoinPool.java; jsr166y;
+WordDelimiterFilter.java; org.apache.lucene.analysis.miscellaneous;
+CBZip2InputStream.java; org.elasticsearch.common.compress.bzip2;
+CBZip2OutputStream.java; org.elasticsearch.common.compress.bzip2;
+LocalGatewayMetaState.java; org.elasticsearch.gateway.local.state.meta;
+AnalysisModule.java; org.elasticsearch.index.analysis;
+HotThreads.java; org.elasticsearch.monitor.jvm;
+NettyTransport.java; org.elasticsearch.transport.netty;

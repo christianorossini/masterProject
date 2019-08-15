@@ -1,0 +1,7 @@
+IndexedRegionServer.java; org.apache.hadoop.hbase.regionserver.tableindexed;
+ModifyColumn.java; org.apache.hadoop.hbase.master;
+SimpleIndexKeyGenerator.java; org.apache.hadoop.hbase.client.tableindexed;
+IdentityTableReduce.java; org.apache.hadoop.hbase.mapred;
+UnmodifyableHRegionInfo.java; org.apache.hadoop.hbase.client;
+TableDelete.java; org.apache.hadoop.hbase.master;
+LocalTransactionLogger.java; org.apache.hadoop.hbase.client.transactional;

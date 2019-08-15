@@ -1,0 +1,14 @@
+HBasePolicyProvider.java: org.apache.hadoop.hbase.security
+TableDeleteFamilyHandler.java: org.apache.hadoop.hbase.master.handler
+HMerge.java: org.apache.hadoop.hbase.util
+AuthenticationTokenSelector.java: org.apache.hadoop.hbase.security.token
+ProtobufMessageBodyConsumer.java: org.apache.hadoop.hbase.rest.provider.consumer
+ModifyTableHandler.java: org.apache.hadoop.hbase.master.handler
+UnAssignCallable.java: org.apache.hadoop.hbase.master
+TestSlab.java: org.apache.hadoop.hbase.io.hfile.slab
+HTableFactory.java: org.apache.hadoop.hbase.client
+IdentityTableMap.java: org.apache.hadoop.hbase.mapred
+GZIPRequestStream.java: org.apache.hadoop.hbase.rest.filter
+FSHDFSUtils.java: org.apache.hadoop.hbase.util
+TsvImporterCustomTestMapper.java: org.apache.hadoop.hbase.mapreduce
+ProtobufMessageBodyProducer.java: org.apache.hadoop.hbase.rest.provider.producer

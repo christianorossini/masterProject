@@ -1,0 +1,1 @@
+HTable.java; org.apache.hadoop.hbase.client; ScannerHandler.java; org.apache.hadoop.hbase.rest; 1->2;423;  2->1;23HStore.java; org.apache.hadoop.hbase; HStoreKey; org.apache.hadoop.hbase; 1->2;4;  2->1;1108

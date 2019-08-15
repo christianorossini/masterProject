@@ -1,0 +1,3 @@
+TestTableMapReduce.java: org.apache.hadoop.hbase.mapred	MultiRegionTable.java: org.apache.hadoop.hbase	
+TestTableIndex.java: org.apache.hadoop.hbase.mapred	MultiRegionTable.java: org.apache.hadoop.hbase	
+StringKey.java: org.onelab.test	Key.java: org.onelab.filter	

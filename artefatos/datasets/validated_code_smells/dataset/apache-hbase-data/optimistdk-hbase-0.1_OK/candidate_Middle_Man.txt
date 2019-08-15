@@ -1,0 +1,1 @@
+HbaseMapWritable.java: org.apache.hadoop.hbase.io

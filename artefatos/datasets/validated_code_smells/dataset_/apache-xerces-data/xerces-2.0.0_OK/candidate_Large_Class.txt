@@ -1,0 +1,3 @@
+XMLValidator.java, org.apache.xerces.impl: 2587
+XMLDocumentScanner.java, org.apache.xerces.impl: 1867
+XMLEntityManager.java, org.apache.xerces.impl: 2961

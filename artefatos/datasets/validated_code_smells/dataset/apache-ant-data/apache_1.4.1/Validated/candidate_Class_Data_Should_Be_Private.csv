@@ -1,0 +1,4 @@
+P4Counter.java; org.apache.tools.ant.taskdefs.optional.perforce;
+Utils.java; org.apache.tools.ant.taskdefs.optional.sitraka.bytecode;
+TarConstants.java; org.apache.tools.tar;
+UnixStat.java; org.apache.tools.zip;

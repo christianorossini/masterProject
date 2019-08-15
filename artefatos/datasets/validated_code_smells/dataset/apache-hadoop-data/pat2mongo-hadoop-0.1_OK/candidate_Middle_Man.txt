@@ -1,0 +1,9 @@
+FSDataInputStream.java: org.apache.hadoop.fs
+DF.java: org.apache.hadoop.fs
+DataInputBuffer.java: org.apache.hadoop.io
+DataOutputBuffer.java: org.apache.hadoop.io
+JobConf.java: org.apache.hadoop.mapred
+SequenceFileRecordReader.java: org.apache.hadoop.mapred
+IdentityMapper.java: org.apache.hadoop.mapred.lib
+InverseMapper.java: org.apache.hadoop.mapred.lib
+TestVersionedWritable.java: org.apache.hadoop.io

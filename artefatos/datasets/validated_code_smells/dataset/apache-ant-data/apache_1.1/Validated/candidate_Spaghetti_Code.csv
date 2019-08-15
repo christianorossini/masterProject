@@ -1,0 +1,4 @@
+Javadoc.java; org.apache.tools.ant.taskdefs;
+Javac.java; org.apache.tools.ant.taskdefs;
+FixCRLF.java; org.apache.tools.ant.taskdefs;
+EjbJar.java; org.apache.tools.ant.taskdefs.optional.ejb;

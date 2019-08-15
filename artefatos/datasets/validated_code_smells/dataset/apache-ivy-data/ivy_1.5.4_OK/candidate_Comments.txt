@@ -1,0 +1,5 @@
+configure: Ivy.java: fr.jayasoft.ivy
+check: Ivy.java: fr.jayasoft.ivy
+install: Ivy.java: fr.jayasoft.ivy
+runAnt: AntCallTriggerTest.java: fr.jayasoft.ivy.ant
+runBuild: AntCallTriggerTest.java: fr.jayasoft.ivy.ant

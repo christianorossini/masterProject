@@ -1,0 +1,13 @@
+
+
+	Project: apache_1.6.1 [3/22]	09/10/2012 09:57:49
+		Looking for Feature Envy Antipattern... [1/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/apache_1.6.1/candidate_Feature_Envy.txt... [1/10]
+		Looking for Large Class Antipattern... [2/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/apache_1.6.1/candidate_Large_Class.txt... [2/10]
+		Looking for Long Method Antipattern... [3/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/apache_1.6.1/candidate_Long_Methods.txt... [3/10]
+		Looking for Long Parameter List Antipattern... [4/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/apache_1.6.1/candidate_Long_Parameter_List.txt... [4/10]
+	End of the evaluation of Project: apache_1.6.1 [3/22]	09/10/2012 09:58:10
+

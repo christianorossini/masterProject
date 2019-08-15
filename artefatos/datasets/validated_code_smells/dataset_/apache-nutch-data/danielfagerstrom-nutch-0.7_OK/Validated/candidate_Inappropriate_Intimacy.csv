@@ -1,0 +1,1 @@
+NutchFileSystem.java; org.apache.nutch.fs; JobTracker.java; org.apache.nutch.mapReduce; 1->2;193;  2->1;0WritableComparator.java; org.apache.nutch.io; MapFile.java; org.apache.nutch.io; 1->2;93;  2->1;0

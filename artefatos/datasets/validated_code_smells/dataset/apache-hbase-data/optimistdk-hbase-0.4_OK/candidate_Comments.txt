@@ -1,0 +1,8 @@
+getFull: HStore.java: src.java.org.apache.hadoop.hbase.regionserver
+HRegion: HRegion.java: src.java.org.apache.hadoop.hbase.regionserver
+batchUpdate: HRegion.java: src.java.org.apache.hadoop.hbase.regionserver
+openScanner: ScannerHandler.java: src.java.org.apache.hadoop.hbase.rest
+HRegion: HRegion.java: src.java.org.apache.hadoop.hbase.util.migration.v5
+batchUpdate: HRegion.java: src.java.org.apache.hadoop.hbase.util.migration.v5
+compact: HStore.java: src.java.org.apache.hadoop.hbase.util.migration.v5
+getFull: HStore.java: src.java.org.apache.hadoop.hbase.util.migration.v5

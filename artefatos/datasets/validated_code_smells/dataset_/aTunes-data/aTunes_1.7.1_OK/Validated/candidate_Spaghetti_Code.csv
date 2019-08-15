@@ -1,0 +1,9 @@
+PlayListTable.java; net.sourceforge.atunes.gui.views.controls.playList;
+MultiFolderSelectionDialog.java; net.sourceforge.atunes.gui.views.dialogs;
+RipCdDialog.java; net.sourceforge.atunes.gui.views.dialogs;
+FullScreenDialog.java; net.sourceforge.atunes.gui.views.dialogs.fullScreen;
+ApplicationMenuBar.java; net.sourceforge.atunes.gui.views.menu;
+PlayerControlsPanel.java; net.sourceforge.atunes.gui.views.panels;
+NavigationPanel.java; net.sourceforge.atunes.gui.views.panels;
+MenuController.java; net.sourceforge.atunes.kernel.controllers.menu;
+SystemTrayHandler.java; net.sourceforge.atunes.kernel.handlers;

@@ -1,0 +1,2 @@
+configuration: CoreTest.java: itests.src.test.java.org.apache.karaf.shell.itests
+createStringValue: NamespaceHandler.java: shell.console.src.main.java.org.apache.karaf.shell.console.commands

@@ -1,0 +1,4 @@
+JavaLexer;org.argouml.language.java.generator
+JavaRecognizer;org.argouml.language.java.generator
+JavaLexer;org.argouml.uml.reveng.java
+JavaRecognizer;org.argouml.uml.reveng.java

@@ -1,0 +1,15 @@
+HConstants.java; org.apache.hadoop.hbase;
+ARegionLoad.java; org.apache.hadoop.hbase.avro.generated;
+AFamilyDescriptor.java; org.apache.hadoop.hbase.avro.generated;
+AScan.java; org.apache.hadoop.hbase.avro.generated;
+AResultEntry.java; org.apache.hadoop.hbase.avro.generated;
+AColumnFamilyDescriptor.java; org.apache.hadoop.hbase.avro.generated;
+AClusterStatus.java; org.apache.hadoop.hbase.avro.generated;
+AServerAddress.java; org.apache.hadoop.hbase.avro.generated;
+AServerInfo.java; org.apache.hadoop.hbase.avro.generated;
+AGet.java; org.apache.hadoop.hbase.avro.generated;
+AColumnValue.java; org.apache.hadoop.hbase.avro.generated;
+AServerLoad.java; org.apache.hadoop.hbase.avro.generated;
+ATableDescriptor.java; org.apache.hadoop.hbase.avro.generated;
+CodeToClassAndBack.java; org.apache.hadoop.hbase.io;
+Constants.java; org.apache.hadoop.hbase.rest;

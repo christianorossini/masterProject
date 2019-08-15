@@ -1,0 +1,8 @@
+StringUtil.java: org.hsqldb.lib
+jdbcDataSourceFactory.java: org.hsqldb
+QuotedTextDatabaseRowInput.java: org.hsqldb
+ReverseDatabaseFile.java: org.hsqldb
+McKoiTransferHelper.java: org.hsqldb.util
+ConnectionTypesSample.java: org.hsqldb.sample
+InformixTransferHelper.java: org.hsqldb.util
+HsqldbTransferHelper.java: org.hsqldb.util

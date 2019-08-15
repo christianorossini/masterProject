@@ -1,0 +1,6 @@
+Rename.java: org.apache.tools.ant.taskdefs
+GUnzip.java: org.apache.tools.ant.taskdefs
+Jar.java: org.apache.tools.ant.taskdefs
+Copyfile.java: org.apache.tools.ant.taskdefs
+Copydir.java: org.apache.tools.ant.taskdefs
+NetRexxC.java: org.apache.tools.ant.taskdefs.optional

@@ -1,0 +1,15 @@
+XMLContentSpec.java; org.apache.xerces.framework;
+XMLEntityHandler.java; org.apache.xerces.readers;
+SymbolCache.java; org.apache.xerces.utils;
+XMLAttributeDecl.java; org.apache.xerces.validators.common;
+InsertableElementsInfo.java; org.apache.xerces.validators.common;
+XMLElementDecl.java; org.apache.xerces.validators.common;
+DatatypeValidator.java; org.apache.xerces.validators.datatype;
+SchemaSymbols.java; org.apache.xerces.validators.schema;
+GeneralAttrCheck.java; org.apache.xerces.validators.schema;
+Method.java; org.apache.xml.serialize;
+LineSeparator.java; org.apache.xml.serialize;
+DOMException.java; org.w3c.dom;
+Node.java; org.w3c.dom;
+Range.java; org.w3c.dom.ranges;
+NodeFilter.java; org.w3c.dom.traversal;

@@ -1,0 +1,2 @@
+Terminal.java, org.apache.karaf.webconsole.gogo: 1503
+FeaturesServiceImpl.java, org.apache.karaf.features.internal: 1435

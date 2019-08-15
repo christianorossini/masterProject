@@ -1,0 +1,12 @@
+DependSet.java; org.apache.tools.ant.taskdefs;
+Cvs.java; org.apache.tools.ant.taskdefs;
+Get.java; org.apache.tools.ant.taskdefs;
+SQLExec.java; org.apache.tools.ant.taskdefs;
+GenerateKey.java; org.apache.tools.ant.taskdefs;
+Zip.java; org.apache.tools.ant.taskdefs;
+Javadoc.java; org.apache.tools.ant.taskdefs;
+IContract.java; org.apache.tools.ant.taskdefs.optional;
+Depend.java; org.apache.tools.ant.taskdefs.optional.depend;
+FTP.java; org.apache.tools.ant.taskdefs.optional.net;
+Pvcs.java; org.apache.tools.ant.taskdefs.optional.pvcs;
+TarInputStream.java; org.apache.tools.tar;

@@ -1,0 +1,15 @@
+ThreadLocalContext.java: org.apache.cassandra.concurrent
+Context.java: org.apache.cassandra.concurrent
+MinorCompactionManager.java: org.apache.cassandra.db
+VersionGenerator.java: org.apache.cassandra.gms
+DataInputBuffer.java: org.apache.cassandra.io
+DataOutputBuffer.java: org.apache.cassandra.io
+Message.java: org.apache.cassandra.net
+StreamContextManager.java: org.apache.cassandra.net.io
+SinkManager.java: org.apache.cassandra.net.sink
+BoundedStatsDeque.java: org.apache.cassandra.utils
+SafeMessageDigest.java: org.apache.cassandra.utils
+Cachetable.java: org.apache.cassandra.utils
+NameSortTest.java: org.apache.cassandra.db
+OneCompactionTest.java: org.apache.cassandra.db
+ColumnComparatorFactoryTest.java: org.apache.cassandra.db

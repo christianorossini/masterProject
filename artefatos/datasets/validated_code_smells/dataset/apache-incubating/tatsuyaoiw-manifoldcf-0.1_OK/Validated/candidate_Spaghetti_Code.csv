@@ -1,0 +1,6 @@
+AuthorityConnector.java; org.apache.manifoldcf.crawler.authorities.DCTM;
+FilenetConnector.java; org.apache.manifoldcf.crawler.connectors.filenet;
+LivelinkConnector.java; org.apache.manifoldcf.crawler.connectors.livelink;
+MeridioAuthority.java; org.apache.manifoldcf.crawler.connectors.meridio;
+MeridioConnector.java; org.apache.manifoldcf.crawler.connectors.meridio;
+ManifoldCF.java; org.apache.manifoldcf.core.system;

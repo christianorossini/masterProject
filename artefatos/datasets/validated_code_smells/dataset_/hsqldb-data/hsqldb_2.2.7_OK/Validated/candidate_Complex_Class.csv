@@ -1,0 +1,5 @@
+Table.java; org.hsqldb;
+QuerySpecification.java; org.hsqldb;
+ParserDDL.java; org.hsqldb;
+ParserDQL.java; org.hsqldb;
+SqlFile.java; org.hsqldb.cmdline;

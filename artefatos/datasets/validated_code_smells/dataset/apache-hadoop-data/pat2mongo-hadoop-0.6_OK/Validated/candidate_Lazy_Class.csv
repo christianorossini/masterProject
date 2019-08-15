@@ -1,0 +1,5 @@
+HashPartitioner.java; org.apache.hadoop.mapred.lib;
+BenchmarkMapper.java; org.apache.hadoop.benchmarks.mapred;
+BenchmarkReducer.java; org.apache.hadoop.benchmarks.mapred;
+InverseMapper.java; org.apache.hadoop.mapred.lib;
+PipeCombiner.java; org.apache.hadoop.streaming;

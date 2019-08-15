@@ -1,0 +1,5 @@
+KeyValue.java, org.apache.hadoop.hbase: 2070
+HBaseFsck.java, org.apache.hadoop.hbase.util: 3313
+HRegionServer.java, org.apache.hadoop.hbase.regionserver: 2840
+TestHRegion.java, org.apache.hadoop.hbase.regionserver: 3092
+AssignmentManager.java, org.apache.hadoop.hbase.master: 2393

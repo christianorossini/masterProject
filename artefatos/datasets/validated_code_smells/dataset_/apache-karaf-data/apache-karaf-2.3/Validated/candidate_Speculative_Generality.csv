@@ -1,0 +1,2 @@
+ProcessBuilderFactory.java; org.apache.karaf.jpm;
+PatternConverter.java; org.apache.karaf.shell.log.layout;

@@ -1,0 +1,3 @@
+Column.java; net.sourceforge.atunes.gui.views.controls.playList;
+ToolBarController.java; net.sourceforge.atunes.kernel.controllers.model;
+PlayerHandler.java; net.sourceforge.atunes.kernel.handlers;

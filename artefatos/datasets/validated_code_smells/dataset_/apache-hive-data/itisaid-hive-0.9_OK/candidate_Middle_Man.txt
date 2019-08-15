@@ -1,0 +1,2 @@
+HiveConf.java: org.apache.hadoop.hive.conf
+UDFExampleFormat.java: org.apache.hadoop.hive.contrib.udf.example

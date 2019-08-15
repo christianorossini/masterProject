@@ -1,0 +1,1 @@
+ValueStack.java; org.apache.struts2.spi; Dispatcher.java; org.apache.struts2.dispatcher; 1->2;182;  2->1;0DoubleListUIBean.java; org.apache.struts2.components; AbstractDoubleListTag.java; org.apache.struts2.views.jsp.ui; 1->2;109;  2->1;68ValueStack.java; org.apache.struts2.spi; Jsr168Dispatcher.java; org.apache.struts2.portlet.dispatcher; 1->2;179;  2->1;0

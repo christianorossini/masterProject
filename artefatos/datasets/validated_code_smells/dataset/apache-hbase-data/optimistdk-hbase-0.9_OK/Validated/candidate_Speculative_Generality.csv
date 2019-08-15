@@ -1,0 +1,3 @@
+ServerCallable.java; org.apache.hadoop.hbase.client;
+TableMapper.java; org.apache.hadoop.hbase.mapreduce;
+JvmVersion.java; org.apache.hadoop.hbase.util;

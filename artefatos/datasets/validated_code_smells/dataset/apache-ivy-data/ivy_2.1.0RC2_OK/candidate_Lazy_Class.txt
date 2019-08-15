@@ -1,0 +1,14 @@
+PackageMapping.java: org.apache.ivy.ant
+AndFilter.java: org.apache.ivy.util.filter
+ExactVersionMatcher.java: org.apache.ivy.plugins.version
+SFTPResolver.java: org.apache.ivy.plugins.resolver
+NoLockStrategy.java: org.apache.ivy.plugins.lock
+AntTestHelper.java: org.apache.ivy.ant
+AbstractCircularDependencyStrategy.java: org.apache.ivy.plugins.circular
+OrFilter.java: org.apache.ivy.util.filter
+NotFilter.java: org.apache.ivy.util.filter
+LatestLexicographicStrategy.java: org.apache.ivy.plugins.latest
+WarningNonMatchingVersionReporter.java: org.apache.ivy.core.sort
+NeedArtifactEvent.java: org.apache.ivy.core.event.download
+ModuleDescriptorParserRegistryTest.java: org.apache.ivy.plugins.parser
+AbstractLatestStrategy.java: org.apache.ivy.plugins.latest

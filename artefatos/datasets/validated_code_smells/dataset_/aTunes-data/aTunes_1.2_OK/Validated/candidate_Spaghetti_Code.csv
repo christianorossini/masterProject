@@ -1,0 +1,10 @@
+SimpleViewFrame.java; com.fleax.atunes.gui;
+PlayListTable.java; com.fleax.atunes.gui.views.controls;
+OpenStrandsConfigurationDialog.java; com.fleax.atunes.gui.views.dialogs;
+FastAddDialog.java; com.fleax.atunes.gui.views.dialogs;
+ExportOptionsDialog.java; com.fleax.atunes.gui.views.dialogs;
+FullViewMenuBar.java; com.fleax.atunes.gui.views.menu;
+NavigationPanel.java; com.fleax.atunes.gui.views.panels;
+FullViewMenuController.java; com.fleax.atunes.kernel.controllers;
+FilePropertiesController.java; com.fleax.atunes.kernel.controllers;
+SystemTrayHandler.java; com.fleax.atunes.kernel.handlers;

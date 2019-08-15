@@ -1,0 +1,7 @@
+TimeManagement.java; accessories.plugins.time;
+TimeList.java; accessories.plugins.time;
+FreeMind.java; freemind.main;
+MindMapHTMLWriter.java; freemind.modes.mindmapmode;
+StylePatternFrame.java; freemind.modes.mindmapmode.dialogs;
+OptionPanel.java; freemind.preferences.layout;
+EditNodeTextField.java; freemind.view.mindmapview;

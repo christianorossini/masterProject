@@ -1,0 +1,4 @@
+LegendItemCollection.java: com.jrefinery.chart
+JThermometer.java: com.jrefinery.chart
+SampleSignalDataset.java: com.jrefinery.chart.demo
+StandardEntityCollection.java: com.jrefinery.chart.entity

@@ -1,0 +1,5 @@
+AssignmentManager.java; org.apache.hadoop.hbase.master;
+HRegion.java; org.apache.hadoop.hbase.regionserver;
+LruHashMap.java; org.apache.hadoop.hbase.regionserver;
+Hbase.java; org.apache.hadoop.hbase.thrift.generated;
+HBaseFsck.java; org.apache.hadoop.hbase.util;

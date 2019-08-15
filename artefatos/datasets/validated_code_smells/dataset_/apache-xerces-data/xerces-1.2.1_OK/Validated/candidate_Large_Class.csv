@@ -1,0 +1,5 @@
+DOMParser.java; org.apache.xerces.parsers; 3165;
+UTF8Reader.java; org.apache.xerces.readers; 2788;
+XMLValidator.java; org.apache.xerces.validators.common; 3554;
+XMLDTDScanner.java; org.apache.xerces.framework; 3311;
+RegularExpression.java; org.apache.xerces.utils.regex; 3182;

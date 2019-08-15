@@ -1,0 +1,8 @@
+OpenSearchServerConfig.java: org.apache.manifoldcf.agents.output.opensearchserver
+XMLStringContext.java: org.apache.manifoldcf.agents.common
+RepositoryDocument.java: org.apache.manifoldcf.agents.interfaces
+RSet.java: org.apache.manifoldcf.core.database
+RRow.java: org.apache.manifoldcf.core.database
+StringSetBuffer.java: org.apache.manifoldcf.core.interfaces
+UTF8Stdout.java: org.apache.manifoldcf.core.interfaces
+UTF8Stderr.java: org.apache.manifoldcf.core.interfaces

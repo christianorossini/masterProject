@@ -1,0 +1,6 @@
+Inlinks.java: org.apache.nutch.crawl
+MetaWrapper.java: org.apache.nutch.metadata
+SpellCheckedMetadata.java: org.apache.nutch.metadata
+ScoringFilters.java: org.apache.nutch.scoring
+NutchBean.java: org.apache.nutch.searcher
+LogUtil.java: org.apache.nutch.util

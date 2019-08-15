@@ -1,0 +1,6 @@
+BDBStoreUpgrade.java; org.apache.qpid.server.store.berkeleydb;
+QpidCompositeRollingAppender.java; org.apache.log4j;
+JMXManagedObjectRegistry.java; org.apache.qpid.server.management;
+SimpleAMQQueue.java; org.apache.qpid.server.queue;
+FailoverHandler.java; org.apache.qpid.client.failover;
+QpidRAManagedConnection.java; org.apache.qpid.ra;

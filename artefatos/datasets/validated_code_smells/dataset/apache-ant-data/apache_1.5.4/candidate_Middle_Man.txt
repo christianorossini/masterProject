@@ -1,0 +1,16 @@
+MatchingTask.java: org.apache.tools.ant.taskdefs
+Taskdef.java: org.apache.tools.ant.taskdefs
+DependSet.java: org.apache.tools.ant.taskdefs
+Typedef.java: org.apache.tools.ant.taskdefs
+Os.java: org.apache.tools.ant.taskdefs.condition
+ConditionBase.java: org.apache.tools.ant.taskdefs.condition
+CCMCheckout.java: org.apache.tools.ant.taskdefs.optional.ccm
+JavaCC.java: org.apache.tools.ant.taskdefs.optional.javacc
+JJTree.java: org.apache.tools.ant.taskdefs.optional.javacc
+P4Have.java: org.apache.tools.ant.taskdefs.optional.perforce
+SplashScreen.java: org.apache.tools.ant.taskdefs.optional.splash
+FlexInteger.java: org.apache.tools.ant.types
+FilterChain.java: org.apache.tools.ant.types
+BaseSelectorContainer.java: org.apache.tools.ant.types.selectors
+TaskLogger.java: org.apache.tools.ant.util
+ErrorInQuitException.java: org.apache.tools.mail

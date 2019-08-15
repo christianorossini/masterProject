@@ -1,0 +1,8 @@
+SettingsReloader.java: org.gjt.sp.jedit
+SyntaxUtilities.java: org.gjt.sp.jedit.syntax
+EditorExitRequested.java: org.gjt.sp.jedit.msg
+ModeCatalogHandler.java: org.gjt.sp.jedit
+LineElement.java: org.gjt.sp.jedit.buffer
+MouseActions.java: org.gjt.sp.jedit.textarea
+PositionManager.java: org.gjt.sp.jedit.buffer
+HelpSearchPanel.java: org.gjt.sp.jedit.help

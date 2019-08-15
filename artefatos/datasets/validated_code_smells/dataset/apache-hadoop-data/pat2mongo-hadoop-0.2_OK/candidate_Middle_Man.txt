@@ -1,0 +1,15 @@
+MustangFile.java: org.apache.hadoop.streaming
+HadoopStreaming.java: org.apache.hadoop.streaming
+DfsPath.java: org.apache.hadoop.dfs
+DF.java: org.apache.hadoop.fs
+FSDataInputStream.java: org.apache.hadoop.fs
+DataOutputBuffer.java: org.apache.hadoop.io
+DataInputBuffer.java: org.apache.hadoop.io
+JobConf.java: org.apache.hadoop.mapred
+SequenceFileRecordReader.java: org.apache.hadoop.mapred
+IdentityMapper.java: org.apache.hadoop.mapred.lib
+InverseMapper.java: org.apache.hadoop.mapred.lib
+BinaryInputArchive.java: org.apache.hadoop.record
+RecordReader.java: org.apache.hadoop.record
+JVector.java: org.apache.hadoop.record.compiler
+TestVersionedWritable.java: org.apache.hadoop.io

@@ -1,0 +1,9 @@
+Batch.java; org.apache.hadoop.hbase.client.coprocessor;
+BaseRegionObserver.java; org.apache.hadoop.hbase.coprocessor;
+CoprocessorHost.java; org.apache.hadoop.hbase.coprocessor;
+TableMapper.java; org.apache.hadoop.hbase.mapreduce;
+LogMonitoring.java; org.apache.hadoop.hbase.monitoring;
+ThreadMonitoring.java; org.apache.hadoop.hbase.monitoring;
+AbstractKeyValueScanner.java; org.apache.hadoop.hbase.regionserver;
+JvmVersion.java; org.apache.hadoop.hbase.util;
+AbstractHBaseTool.java; org.apache.hadoop.hbase.util;

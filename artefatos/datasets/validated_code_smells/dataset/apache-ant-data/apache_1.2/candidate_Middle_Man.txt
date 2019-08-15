@@ -1,0 +1,9 @@
+GUnzip.java: org.apache.tools.ant.taskdefs
+MatchingTask.java: org.apache.tools.ant.taskdefs
+Rename.java: org.apache.tools.ant.taskdefs
+ExecuteOn.java: org.apache.tools.ant.taskdefs
+XalanLiaison.java: org.apache.tools.ant.taskdefs.optional
+NetRexxC.java: org.apache.tools.ant.taskdefs.optional
+XslpLiaison.java: org.apache.tools.ant.taskdefs.optional
+JavaCC.java: org.apache.tools.ant.taskdefs.optional.javacc
+JJTree.java: org.apache.tools.ant.taskdefs.optional.javacc

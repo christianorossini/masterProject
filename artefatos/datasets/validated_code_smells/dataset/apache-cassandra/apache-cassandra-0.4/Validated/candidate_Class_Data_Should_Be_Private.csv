@@ -1,0 +1,8 @@
+CliSessionState.java; org.apache.cassandra.cli;
+CFMetaData.java; org.apache.cassandra.config;
+SliceFromReadCommand.java; org.apache.cassandra.db;
+DBConstants.java; org.apache.cassandra.db;
+OrderPreservingPartitioner.java; org.apache.cassandra.dht;
+RandomPartitioner.java; org.apache.cassandra.dht;
+MessagingConfig.java; org.apache.cassandra.net;
+ProtocolHeader.java; org.apache.cassandra.net;

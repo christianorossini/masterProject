@@ -1,0 +1,5 @@
+Javadoc.java: org.apache.tools.ant.taskdefs	Exec.java: org.apache.tools.ant.taskdefs	
+Jar.java: org.apache.tools.ant.taskdefs	Zip.java: org.apache.tools.ant.taskdefs	
+Patch.java: org.apache.tools.ant.taskdefs	Exec.java: org.apache.tools.ant.taskdefs	
+Java.java: org.apache.tools.ant.taskdefs	Exec.java: org.apache.tools.ant.taskdefs	
+MSVSS.java: org.apache.tools.ant.taskdefs.optional.vss	Exec.java: org.apache.tools.ant.taskdefs	

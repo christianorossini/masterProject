@@ -1,0 +1,1 @@
+EncodingMap.java: org.apache.xerces.util

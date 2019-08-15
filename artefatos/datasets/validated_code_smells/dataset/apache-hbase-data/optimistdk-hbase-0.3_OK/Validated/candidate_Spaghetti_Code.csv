@@ -1,0 +1,3 @@
+DemoClient.java; org.apache.hadoop.hbase.thrift;
+HRegion.java; org.apache.hadoop.hbase.regionserver;
+HRegionServer.java; org.apache.hadoop.hbase.regionserver;

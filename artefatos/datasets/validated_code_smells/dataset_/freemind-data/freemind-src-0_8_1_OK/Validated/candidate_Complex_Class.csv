@@ -1,0 +1,4 @@
+ControllerAdapter.java; freemind.modes;
+NodeAdapter.java; freemind.modes;
+MapView.java; freemind.view.mindmapview;
+ObjectFactory.java; freemind.controller.actions.generated.instance;

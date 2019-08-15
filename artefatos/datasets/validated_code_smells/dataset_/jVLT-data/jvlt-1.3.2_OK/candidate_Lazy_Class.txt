@@ -1,0 +1,10 @@
+AddSenseDialogData.java: net.sourceforge.jvlt.ui.vocabulary.entrydialog
+CollatingEntryComparator.java: net.sourceforge.jvlt.utils
+EntryQueryDialog.java: net.sourceforge.jvlt.ui.vocabulary
+EntryQueryDialog.java: net.sourceforge.jvlt.ui.vocabulary
+EntryQueryDialog.java: net.sourceforge.jvlt.ui.vocabulary
+StringListEditor.java: net.sourceforge.jvlt.ui.components
+EntryQueryDialog.java: net.sourceforge.jvlt.ui.vocabulary
+EntryQueryDialog.java: net.sourceforge.jvlt.ui.vocabulary
+EntryQueryDialog.java: net.sourceforge.jvlt.ui.vocabulary
+EditSenseDialogData.java: net.sourceforge.jvlt.ui.vocabulary.entrydialog

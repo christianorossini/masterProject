@@ -1,0 +1,14 @@
+UDFLTrim.java: org.apache.hadoop.hive.ql.udf
+DefaultUDFMethodResolver.java: org.apache.hadoop.hive.ql.exec
+UDFExp.java: org.apache.hadoop.hive.ql.udf
+UDFSqrt.java: org.apache.hadoop.hive.ql.udf
+UDFLog2.java: org.apache.hadoop.hive.ql.udf
+UDFRTrim.java: org.apache.hadoop.hive.ql.udf
+UDFTrim.java: org.apache.hadoop.hive.ql.udf
+UDFDate.java: org.apache.hadoop.hive.ql.udf
+UDFLog10.java: org.apache.hadoop.hive.ql.udf
+UDFLn.java: org.apache.hadoop.hive.ql.udf
+UDFFloor.java: org.apache.hadoop.hive.ql.udf
+UDFOPNotNull.java: org.apache.hadoop.hive.ql.udf
+UDFOPNull.java: org.apache.hadoop.hive.ql.udf
+ForwardOperator.java: org.apache.hadoop.hive.ql.exec

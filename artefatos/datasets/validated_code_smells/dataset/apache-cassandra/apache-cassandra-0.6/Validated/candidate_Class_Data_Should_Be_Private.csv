@@ -1,0 +1,8 @@
+RingModel.java; org.apache.cassandra.contrib.circuit;
+SimpleAuthenticator.java; org.apache.cassandra.auth;
+CliSessionState.java; org.apache.cassandra.cli;
+KSMetaData.java; org.apache.cassandra.config;
+CFMetaData.java; org.apache.cassandra.config;
+DBConstants.java; org.apache.cassandra.db;
+SliceFromReadCommand.java; org.apache.cassandra.db;
+ProtocolHeader.java; org.apache.cassandra.net;

@@ -1,0 +1,2 @@
+IdentityTableReduce.java; org.apache.hadoop.hbase.mapred;
+HQLSecurityManager.java; org.apache.hadoop.hbase.hql;

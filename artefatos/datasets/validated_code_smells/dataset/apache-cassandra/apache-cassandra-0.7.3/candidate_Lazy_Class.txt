@@ -1,0 +1,15 @@
+StreamUtil.java: org.apache.cassandra.streaming
+DescriptorTest.java: org.apache.cassandra.io.sstable
+AbstractCache.java: org.apache.cassandra.cache
+MessageDeliveryTask.java: org.apache.cassandra.net
+ResourceWatcher.java: org.apache.cassandra.utils
+LocalByPartionerType.java: org.apache.cassandra.db.marshal
+KeyPair.java: org.apache.cassandra.utils
+DefinitionsAnnounceVerbHandler.java: org.apache.cassandra.db
+TCustomServerSocket.java: org.apache.cassandra.thrift
+BufferedSegmentedFile.java: org.apache.cassandra.io.util
+SuperColumnTest.java: org.apache.cassandra.db
+ReadRepairVerbHandler.java: org.apache.cassandra.db
+ColumnSortedMap.java: org.apache.cassandra.io.util
+GossipDigestAck2VerbHandler.java: org.apache.cassandra.gms
+AsyncRepairCallback.java: org.apache.cassandra.service

@@ -1,0 +1,6 @@
+DirectoryScanner.java; org.apache.tools.ant; 1885;
+CBZip2OutputStream.java; org.apache.tools.bzip2; 2100;
+FTPTaskMirrorImpl.java; org.apache.tools.ant.taskdefs.optional.net; 1944;
+Javadoc.java; org.apache.tools.ant.taskdefs; 2474;
+Project.java; org.apache.tools.ant; 2477;
+Zip.java; org.apache.tools.ant.taskdefs; 2182;

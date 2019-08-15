@@ -1,0 +1,17 @@
+PipeCombiner.java: org.apache.hadoop.streaming
+HadoopStreaming.java: org.apache.hadoop.streaming
+MustangFile.java: org.apache.hadoop.streaming
+DfsPath.java: org.apache.hadoop.dfs
+FSDataInputStream.java: org.apache.hadoop.fs
+DataInputBuffer.java: org.apache.hadoop.io
+DataOutputBuffer.java: org.apache.hadoop.io
+MapOutputFile.java: org.apache.hadoop.mapred
+SequenceFileRecordReader.java: org.apache.hadoop.mapred
+JobConf.java: org.apache.hadoop.mapred
+InverseMapper.java: org.apache.hadoop.mapred.lib
+IdentityMapper.java: org.apache.hadoop.mapred.lib
+BinaryInputArchive.java: org.apache.hadoop.record
+RecordReader.java: org.apache.hadoop.record
+JVector.java: org.apache.hadoop.record.compiler
+TestVersionedWritable.java: org.apache.hadoop.io
+TestMiniMRBringup.java: org.apache.hadoop.mapred

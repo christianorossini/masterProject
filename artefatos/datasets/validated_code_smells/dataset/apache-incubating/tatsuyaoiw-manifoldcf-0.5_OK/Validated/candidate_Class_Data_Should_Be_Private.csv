@@ -1,0 +1,16 @@
+ActiveDirectoryConfig.java; org.apache.manifoldcf.authorities.authorities.activedirectory;
+Constants.java; org.apache.manifoldcf.crawler.connectors.alfresco;
+AlfrescoConfig.java; org.apache.manifoldcf.crawler.connectors.alfresco;
+CmisConfig.java; org.apache.manifoldcf.crawler.connectors.cmis;
+GTSConfig.java; org.apache.manifoldcf.agents.output.gts;
+SharedDriveParameters.java; org.apache.manifoldcf.crawler.connectors.sharedrive;
+JDBCConstants.java; org.apache.manifoldcf.crawler.connectors.jdbc;
+LiveLinkParameters.java; org.apache.manifoldcf.crawler.connectors.livelink;
+MeridioClassContents.java; org.apache.manifoldcf.crawler.connectors.meridio;
+IThrottledConnection.java; org.apache.manifoldcf.crawler.connectors.rss;
+SolrConfig.java; org.apache.manifoldcf.agents.output.solr;
+WebcrawlerConfig.java; org.apache.manifoldcf.crawler.connectors.webcrawler;
+WikiConfig.java; org.apache.manifoldcf.crawler.connectors.wiki;
+Logging.java; org.apache.manifoldcf.agents.system;
+IDBInterface.java; org.apache.manifoldcf.core.interfaces;
+XML.java; org.json;

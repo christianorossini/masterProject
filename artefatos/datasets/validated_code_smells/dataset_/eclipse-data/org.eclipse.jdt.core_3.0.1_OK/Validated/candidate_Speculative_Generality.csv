@@ -1,0 +1,10 @@
+ClasspathVariableInitializer.java; org.eclipse.jdt.core;
+ClasspathContainerInitializer.java; org.eclipse.jdt.core;
+CompletionRequestor.java; org.eclipse.jdt.core;
+CodeFormatter.java; org.eclipse.jdt.core.formatter;
+SearchDocument.java; org.eclipse.jdt.core.search;
+ClassFileBytesDisassembler.java; org.eclipse.jdt.core.util;
+SortJavaElement.java; org.eclipse.jdt.internal.core;
+IndexQueryRequestor.java; org.eclipse.jdt.internal.core.search;
+InternalSearchPattern.java; org.eclipse.jdt.internal.core.search.matching;
+JobManager.java; org.eclipse.jdt.internal.core.search.processing;

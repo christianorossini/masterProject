@@ -1,0 +1,6 @@
+CompletionEngine.java; org.eclipse.jdt.internal.codeassist; 2703;
+DefaultBytecodeVisitor.java; org.eclipse.jdt.internal.core.util; 2961;
+Scanner.java; org.eclipse.jdt.internal.compiler.parser; 3056;
+ClassFile.java; org.eclipse.jdt.internal.compiler; 2960;
+CodeStream.java; org.eclipse.jdt.internal.compiler.codegen; 5691;
+ConstantPool.java; org.eclipse.jdt.internal.compiler.codegen; 3121;

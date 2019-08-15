@@ -1,0 +1,2 @@
+IvyNode.java, org.apache.ivy.core.resolve: 1150
+BasicResolver.java, org.apache.ivy.plugins.resolver: 1042

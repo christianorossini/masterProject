@@ -1,0 +1,12 @@
+DefaultPublishingDRResolver.java: fr.jayasoft.ivy
+LatestTimeStrategy.java: fr.jayasoft.ivy.latest
+LatestLexicographicStrategy.java: fr.jayasoft.ivy.latest
+AbstractModuleDescriptorParser.java: fr.jayasoft.ivy.parser
+FileResource.java: fr.jayasoft.ivy.repository.file
+URLResource.java: fr.jayasoft.ivy.repository.url
+ApacheHttpURLLister.java: fr.jayasoft.ivy.resolver
+SFTPResolver.java: fr.jayasoft.ivy.resolver
+ResolvedModuleRevisionProxy.java: fr.jayasoft.ivy.resolver
+RevisionEntry.java: fr.jayasoft.ivy.resolver
+DefaultMessageImpl.java: fr.jayasoft.ivy.util
+XmlReportOutputterTest.java: fr.jayasoft.ivy.report

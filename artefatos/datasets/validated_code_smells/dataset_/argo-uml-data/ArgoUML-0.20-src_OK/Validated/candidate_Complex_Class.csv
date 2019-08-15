@@ -1,0 +1,10 @@
+ClassfileParser.java; org.argouml.uml.reveng.classfile;
+CPPParser.java; org.argouml.language.cpp.reveng;
+IDLParser.java; org.argouml.uml.reveng.idl;
+IDLLexer.java; org.argouml.uml.reveng.idl;
+GeneratorJava.java; org.argouml.language.java.generator;
+JavaRecognizer.java; org.argouml.language.java.generator;
+CoreHelperImpl.java; org.argouml.model.uml;
+CollaborationsHelperImpl.java; org.argouml.model.uml;
+FigNodeModelElement.java; org.argouml.uml.diagram.ui;
+GeneratorDisplay.java; org.argouml.uml.generator;

@@ -1,0 +1,2 @@
+execute: Recorder.java: org.apache.tools.ant.taskdefs
+execute: ServerDeploy.java: org.apache.tools.ant.taskdefs.optional.j2ee

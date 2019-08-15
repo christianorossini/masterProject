@@ -1,0 +1,4 @@
+BrazilianStemmer.java; org.apache.lucene.analysis.br;
+SegmentReader.java; org.apache.lucene.index;
+IndexWriter.java; org.apache.lucene.index;
+SolrCore.java; org.apache.solr.core;

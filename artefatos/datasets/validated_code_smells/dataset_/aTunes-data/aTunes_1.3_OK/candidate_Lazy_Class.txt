@@ -1,0 +1,13 @@
+CustomTextField.java: com.fleax.common.swing.components
+SearchFactory.java: com.fleax.atunes.kernel.modules.search
+Log4jPropertiesLoader.java: com.fleax.atunes.utils
+CustomPasswordField.java: com.fleax.common.swing.components
+PlayListArtistComparator.java: com.fleax.atunes.model.player
+PlayListAlbumComparator.java: com.fleax.atunes.model.player
+FileViewRefresher.java: com.fleax.atunes.kernel.controllers.navigation
+FleaxSplitPaneUI.java: com.fleax.common.swing.fleaxLaF
+GradientViewport.java: com.fleax.common.swing.components
+FleaxMenuBarUI.java: com.fleax.common.swing.fleaxLaF
+FleaxPasswordFieldUI.java: com.fleax.common.swing.fleaxLaF
+FleaxTextFieldUI.java: com.fleax.common.swing.fleaxLaF
+PlayListTitleComparator.java: com.fleax.atunes.model.player

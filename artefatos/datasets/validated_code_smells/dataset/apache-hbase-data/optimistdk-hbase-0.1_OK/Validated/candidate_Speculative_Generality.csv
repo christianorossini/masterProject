@@ -1,0 +1,4 @@
+HAbstractScanner.java; org.apache.hadoop.hbase;
+Chore.java; org.apache.hadoop.hbase;
+TableMap.java; org.apache.hadoop.hbase.mapred;
+TableReduce.java; org.apache.hadoop.hbase.mapred;

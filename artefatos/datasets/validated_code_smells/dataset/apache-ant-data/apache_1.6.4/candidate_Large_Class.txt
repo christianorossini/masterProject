@@ -1,0 +1,4 @@
+CBZip2OutputStream.java, org.apache.tools.bzip2: 1633
+DirectoryScanner.java, org.apache.tools.ant: 1659
+FTP.java, org.apache.tools.ant.taskdefs.optional.net: 2080
+Javadoc.java, org.apache.tools.ant.taskdefs: 2134

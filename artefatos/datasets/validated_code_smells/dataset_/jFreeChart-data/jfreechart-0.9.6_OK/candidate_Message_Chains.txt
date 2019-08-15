@@ -1,0 +1,13 @@
+setDisplayToolTips: ChartPanel.java: package com.jrefinery.chart [in ChartPanel.java [in src.com.jrefinery.chart [in <project root> [in jfreechart-0.9.6]]]]: 3
+pick1PointerActionPerformed: CompassDemo.java: package com.jrefinery.chart.demo [in CompassDemo.java [in src.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.9.6]]]]: 4
+centerRange: ValueAxis.java: package com.jrefinery.chart.axis [in ValueAxis.java [in src.com.jrefinery.chart.axis [in <project root> [in jfreechart-0.9.6]]]]: 4
+initialise: BarRenderer.java: package com.jrefinery.chart.renderer [in BarRenderer.java [in src.com.jrefinery.chart.renderer [in <project root> [in jfreechart-0.9.6]]]]: 3
+adjustData: CompassDemo.java: package com.jrefinery.chart.demo [in CompassDemo.java [in src.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.9.6]]]]: 3
+autoRangeHorizontal: ChartPanel.java: package com.jrefinery.chart [in ChartPanel.java [in src.com.jrefinery.chart [in <project root> [in jfreechart-0.9.6]]]]: 3
+createCompassChart: JFreeChartDemoBase.java: package com.jrefinery.chart.demo [in JFreeChartDemoBase.java [in src.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.9.6]]]]: 3
+setAxisRange: ThermometerPlot.java: package com.jrefinery.chart.plot [in ThermometerPlot.java [in src.com.jrefinery.chart.plot [in <project root> [in jfreechart-0.9.6]]]]: 3
+setSecondaryDataset: Plot.java: package com.jrefinery.chart.plot [in Plot.java [in src.com.jrefinery.chart.plot [in <project root> [in jfreechart-0.9.6]]]]: 3
+getLastMillisecond: Month.java: package com.jrefinery.data [in Month.java [in src.com.jrefinery.data [in <project root> [in jfreechart-0.9.6]]]]: 3
+getOLSRegression: Regression.java: package com.jrefinery.data [in Regression.java [in src.com.jrefinery.data [in <project root> [in jfreechart-0.9.6]]]]: 3
+pick2PointerActionPerformed: CompassDemo.java: package com.jrefinery.chart.demo [in CompassDemo.java [in src.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.9.6]]]]: 3
+run: SampleXYDatasetThread.java: package com.jrefinery.chart.demo [in SampleXYDatasetThread.java [in src.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.9.6]]]]: 3

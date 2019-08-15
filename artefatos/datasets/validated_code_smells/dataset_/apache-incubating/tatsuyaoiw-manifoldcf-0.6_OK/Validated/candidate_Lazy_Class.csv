@@ -1,0 +1,4 @@
+MetaParseState.java; org.apache.manifoldcf.crawler.connectors.webcrawler;
+ManifoldCFConfiguration.java; org.apache.manifoldcf.core.system;
+MCFVelocityResourceLoader.java; org.apache.manifoldcf.core.i18n;
+NullAuthority.java; org.apache.manifoldcf.authorities.authorities.nullauthority;

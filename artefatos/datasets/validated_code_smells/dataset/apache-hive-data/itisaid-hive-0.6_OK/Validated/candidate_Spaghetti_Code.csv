@@ -1,0 +1,2 @@
+Driver.java; org.apache.hadoop.hive.ql;
+thrift_grammar.java; org.apache.hadoop.hive.serde2.dynamic_type;

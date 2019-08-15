@@ -1,0 +1,9 @@
+open: FSNamesystem.java: src.java.org.apache.hadoop.dfs
+gotHeartbeat: FSNamesystem.java: src.java.org.apache.hadoop.dfs
+createTaskEntry: JobTracker.java: src.java.org.apache.hadoop.mapred
+submitJob: JobTracker.java: src.java.org.apache.hadoop.mapred
+updateTaskStatuses: JobTracker.java: src.java.org.apache.hadoop.mapred
+updateTaskStatus: JobInProgress.java: src.java.org.apache.hadoop.mapred
+obtainNewMapTask: JobInProgress.java: src.java.org.apache.hadoop.mapred
+updateStatus: TaskInProgress.java: src.java.org.apache.hadoop.mapred
+hasTaskWithCacheHit: TaskInProgress.java: src.java.org.apache.hadoop.mapred

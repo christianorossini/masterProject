@@ -1,0 +1,4 @@
+Project.java, org.apache.tools.ant: 2089
+IPlanetEjbc.java, org.apache.tools.ant.taskdefs.optional.ejb: 1530
+CBZip2OutputStream.java, org.apache.tools.bzip2: 1671
+FTP.java, org.apache.tools.ant.taskdefs.optional.net: 2123

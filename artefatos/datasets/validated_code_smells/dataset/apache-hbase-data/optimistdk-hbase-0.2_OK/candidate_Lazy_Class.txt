@@ -1,0 +1,6 @@
+ModifyColumn.java: org.apache.hadoop.hbase.master
+TransactionScannerCallable.java: org.apache.hadoop.hbase.client.transactional
+IdentityTableReduce.java: org.apache.hadoop.hbase.mapred
+UnmodifyableHRegionInfo.java: org.apache.hadoop.hbase.client
+TableDelete.java: org.apache.hadoop.hbase.master
+LocalTransactionLogger.java: org.apache.hadoop.hbase.client.transactional

@@ -1,0 +1,4 @@
+Buffer.java; org.gjt.sp.jedit;
+jEdit.java; org.gjt.sp.jedit;
+View.java; org.gjt.sp.jedit;
+JEditTextArea.java; org.gjt.sp.jedit.textarea;

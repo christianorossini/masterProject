@@ -1,0 +1,2 @@
+TestRegexUrlNormalizer.java: org.apache.nutch.net	TestBasicUrlNormalizer.java: org.apache.nutch.net	
+SimpleTestPlugin.java: org.apache.nutch.plugin	Plugin.java: org.apache.nutch.plugin	

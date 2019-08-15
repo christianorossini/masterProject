@@ -1,0 +1,6 @@
+ProtobufMessageBodyProducer.java: org.apache.hadoop.hbase.rest.provider.producer
+ProtobufMessageBodyConsumer.java: org.apache.hadoop.hbase.rest.provider.consumer
+IdentityTableMap.java: org.apache.hadoop.hbase.mapred
+NamedThreadFactory.java: org.apache.hadoop.hbase.executor
+UnmodifyableHRegionInfo.java: org.apache.hadoop.hbase.client
+HTableFactory.java: org.apache.hadoop.hbase.client

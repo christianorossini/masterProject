@@ -1,0 +1,5 @@
+ColumnDescriptor.java; org.apache.hadoop.hbase.thrift.generated;
+Mutation.java; org.apache.hadoop.hbase.thrift.generated;
+TRegionInfo.java; org.apache.hadoop.hbase.thrift.generated;
+Bytes.java; org.apache.hadoop.hbase.util;
+RemoveScheme.java; org.onelab.filter;

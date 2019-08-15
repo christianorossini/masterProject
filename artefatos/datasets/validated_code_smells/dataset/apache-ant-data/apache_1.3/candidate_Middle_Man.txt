@@ -1,0 +1,11 @@
+MatchingTask.java: org.apache.tools.ant.taskdefs
+ExecuteOn.java: org.apache.tools.ant.taskdefs
+GUnzip.java: org.apache.tools.ant.taskdefs
+Rename.java: org.apache.tools.ant.taskdefs
+XslpLiaison.java: org.apache.tools.ant.taskdefs.optional
+TraXLiaison.java: org.apache.tools.ant.taskdefs.optional
+XalanLiaison.java: org.apache.tools.ant.taskdefs.optional
+JavaCC.java: org.apache.tools.ant.taskdefs.optional.javacc
+JJTree.java: org.apache.tools.ant.taskdefs.optional.javacc
+P4Have.java: org.apache.tools.ant.taskdefs.optional.perforce
+P4Sync.java: org.apache.tools.ant.taskdefs.optional.perforce

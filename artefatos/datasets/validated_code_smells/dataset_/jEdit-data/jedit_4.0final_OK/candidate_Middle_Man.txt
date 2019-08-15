@@ -1,0 +1,7 @@
+AboutDialog.java: org.gjt.sp.jedit.gui
+MacrosMenu.java: org.gjt.sp.jedit.gui
+ErrorListDialog.java: org.gjt.sp.jedit.gui
+EditAbbrevDialog.java: org.gjt.sp.jedit.gui
+ViewRegisters.java: org.gjt.sp.jedit.gui
+BeanShellErrorDialog.java: org.gjt.sp.jedit.gui
+Handler.java: org.gjt.sp.jedit.proto.jeditresource

@@ -1,0 +1,6 @@
+SAXParserFactory.java; javax.xml.parsers;
+DocumentBuilderFactory.java; javax.xml.parsers;
+SAXParser.java; javax.xml.parsers;
+DocumentBuilder.java; javax.xml.parsers;
+XMLCatalogHandler.java; org.apache.xerces.readers;
+SerializerFactory.java; org.apache.xml.serialize;

@@ -1,0 +1,4 @@
+Definer.java; org.apache.tools.ant.taskdefs;
+DefaultJspCompilerAdapter.java; org.apache.tools.ant.taskdefs.optional.jsp.compilers;
+AbstractSelectorContainer.java; org.apache.tools.ant.types.selectors;
+WeakishReference.java; org.apache.tools.ant.util;

@@ -1,0 +1,6 @@
+CppGenerator: CppGenerator.java: qpid.gentools.src.org.apache.qpid.gentools
+DotnetGenerator: DotnetGenerator.java: qpid.gentools.src.org.apache.qpid.gentools
+getContstants: AmqpConstantSet.java: qpid.gentools.src.org.apache.qpid.gentools
+JavaGenerator: JavaGenerator.java: qpid.gentools.src.org.apache.qpid.gentools
+testSingleTransportDefaultedBrokerWithIPandPort: ConnectionURLTest.java: qpid.java.client.src.test.java.org.apache.qpid.test.unit.client.connectionurl
+testSetObject: PropertyFieldTableTest.java: qpid.java.common.src.test.java.org.apache.qpid.framing

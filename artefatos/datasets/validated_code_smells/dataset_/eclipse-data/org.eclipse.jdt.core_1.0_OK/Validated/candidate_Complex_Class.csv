@@ -1,0 +1,8 @@
+CompletionParser.java; org.eclipse.jdt.internal.codeassist.complete;
+BinaryExpression.java; org.eclipse.jdt.internal.compiler.ast;
+ConstantPool.java; org.eclipse.jdt.internal.compiler.codegen;
+Scope.java; org.eclipse.jdt.internal.compiler.lookup;
+Scanner.java; org.eclipse.jdt.internal.compiler.parser;
+Parser.java; org.eclipse.jdt.internal.compiler.parser;
+CodeSnippetConstantPool.java; org.eclipse.jdt.internal.eval;
+CodeFormatter.java; org.eclipse.jdt.internal.formatter;

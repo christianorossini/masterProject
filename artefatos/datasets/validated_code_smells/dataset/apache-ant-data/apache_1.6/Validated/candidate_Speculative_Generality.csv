@@ -1,0 +1,3 @@
+Definer.java; org.apache.tools.ant.taskdefs;
+DefaultJspCompilerAdapter.java; org.apache.tools.ant.taskdefs.optional.jsp.compilers;
+WeakishReference.java; org.apache.tools.ant.util;

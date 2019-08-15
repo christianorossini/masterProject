@@ -1,0 +1,10 @@
+UncaughtExceptionHandler.java: net.sourceforge.atunes
+Log4jPropertiesLoader.java: net.sourceforge.atunes.utils.log4j
+RegexpUtils.java: net.sourceforge.atunes.kernel.modules.regexp
+TagDetector.java: net.sourceforge.atunes.kernel.modules.repository.tags.reader
+SetTrackNumberProcess.java: net.sourceforge.atunes.kernel.executors.processes
+SearchFactory.java: net.sourceforge.atunes.kernel.modules.search
+ClipboardFacade.java: net.sourceforge.atunes.kernel.utils
+FileViewRefresher.java: net.sourceforge.atunes.kernel.controllers.navigation
+ChangeTitlesProcess.java: net.sourceforge.atunes.kernel.executors.processes
+GetCoversFromAmazonProcess.java: net.sourceforge.atunes.kernel.executors.processes

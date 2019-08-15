@@ -1,0 +1,10 @@
+WarningNonMatchingVersionReporter.java: org.apache.ivy.core.sort
+NotFilter.java: org.apache.ivy.util.filter
+AndFilter.java: org.apache.ivy.util.filter
+PackageMapping.java: org.apache.ivy.ant
+AntTestHelper.java: org.apache.ivy.ant
+OrFilter.java: org.apache.ivy.util.filter
+NeedArtifactEvent.java: org.apache.ivy.core.event.download
+ModuleDescriptorParserRegistryTest.java: org.apache.ivy.plugins.parser
+AbstractLatestStrategy.java: org.apache.ivy.plugins.latest
+SFTPResolver.java: org.apache.ivy.plugins.resolver

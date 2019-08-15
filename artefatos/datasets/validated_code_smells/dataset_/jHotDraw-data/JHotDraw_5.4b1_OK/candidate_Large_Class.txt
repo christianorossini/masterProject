@@ -1,0 +1,2 @@
+DrawApplication.java, CH.ifa.draw.application: 1148
+StandardDrawingView.java, CH.ifa.draw.standard: 1077

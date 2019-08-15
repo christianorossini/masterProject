@@ -1,0 +1,7 @@
+MagicNames.java; org.apache.tools.ant;
+P4Counter.java; org.apache.tools.ant.taskdefs.optional.perforce;
+WLRmic.java; org.apache.tools.ant.taskdefs.rmic;
+SunRmic.java; org.apache.tools.ant.taskdefs.rmic;
+ColorMapper.java; org.apache.tools.ant.types.optional.image;
+DepthSelector.java; org.apache.tools.ant.types.selectors;
+XmlConstants.java; org.apache.tools.ant.util;

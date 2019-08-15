@@ -1,0 +1,6 @@
+Tools.java; freemind.main;
+NodeAdapter.java; freemind.modes;
+ControllerAdapter.java; freemind.modes;
+MindMapController.java; freemind.modes.mindmapmode;
+MapView.java; freemind.view.mindmapview;
+NodeView.java; freemind.view.mindmapview;

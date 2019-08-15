@@ -1,0 +1,4 @@
+DemoClient.java; org.apache.hadoop.hbase.thrift;
+ServerShutdownHandler.java; org.apache.hadoop.hbase.master.handler;
+HRegionServer.java; org.apache.hadoop.hbase.regionserver;
+ReplicationSource.java; org.apache.hadoop.hbase.replication.regionserver;

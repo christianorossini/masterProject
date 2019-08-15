@@ -1,0 +1,6 @@
+SharedDriveConnector.java, org.apache.manifoldcf.crawler.connectors.sharedrive: 4764
+MeridioConnector.java, org.apache.manifoldcf.crawler.connectors.meridio: 4887
+LivelinkConnector.java, org.apache.manifoldcf.crawler.connectors.livelink: 6253
+RSSConnector.java, org.apache.manifoldcf.crawler.connectors.rss: 6217
+DCTM.java, org.apache.manifoldcf.crawler.connectors.DCTM: 4027
+SharePointRepository.java, org.apache.manifoldcf.crawler.connectors.sharepoint: 5226

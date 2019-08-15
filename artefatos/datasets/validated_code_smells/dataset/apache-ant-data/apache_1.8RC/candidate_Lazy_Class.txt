@@ -1,0 +1,16 @@
+LocationResolver.java: org.apache.tools.ant.taskdefs.optional.extension.resolvers
+LongCPInfo.java: org.apache.tools.ant.taskdefs.optional.depend.constantpool
+P4Have.java: org.apache.tools.ant.taskdefs.optional.perforce
+SecureInputHandler.java: org.apache.tools.ant.input
+UnPackageNameMapper.java: org.apache.tools.ant.util
+Xalan2TraceSupport.java: org.apache.tools.ant.taskdefs.optional
+AntClassLoader5.java: org.apache.tools.ant.loader
+ErrorInQuitException.java: org.apache.tools.mail
+P4Sync.java: org.apache.tools.ant.taskdefs.optional.perforce
+DemuxInputStream.java: org.apache.tools.ant
+FloatCPInfo.java: org.apache.tools.ant.taskdefs.optional.depend.constantpool
+RedirectingOutputStream.java: org.apache.tools.ant.taskdefs.cvslib
+DoubleCPInfo.java: org.apache.tools.ant.taskdefs.optional.depend.constantpool
+HashvalueAlgorithm.java: org.apache.tools.ant.types.selectors.modifiedselector
+UUMailer.java: org.apache.tools.ant.taskdefs.email
+IntegerCPInfo.java: org.apache.tools.ant.taskdefs.optional.depend.constantpool

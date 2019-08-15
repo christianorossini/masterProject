@@ -1,0 +1,17 @@
+ASTConverter.java; org.eclipse.jdt.core.dom;
+ASTMatcher.java; org.eclipse.jdt.core.dom;
+CompletionEngine.java; org.eclipse.jdt.internal.codeassist;
+CompletionParser.java; org.eclipse.jdt.internal.codeassist.complete;
+AssistParser.java; org.eclipse.jdt.internal.codeassist.impl;
+BinaryExpression.java; org.eclipse.jdt.internal.compiler.ast;
+ConstantPool.java; org.eclipse.jdt.internal.compiler.codegen;
+Scope.java; org.eclipse.jdt.internal.compiler.lookup;
+Parser.java; org.eclipse.jdt.internal.compiler.parser;
+Scanner.java; org.eclipse.jdt.internal.compiler.parser;
+ProblemReporter.java; org.eclipse.jdt.internal.compiler.problem;
+JavaProject.java; org.eclipse.jdt.internal.core;
+DeltaProcessor.java; org.eclipse.jdt.internal.core;
+TypeHierarchy.java; org.eclipse.jdt.internal.core.hierarchy;
+PublicScanner.java; org.eclipse.jdt.internal.core.util;
+CodeSnippetConstantPool.java; org.eclipse.jdt.internal.eval;
+CodeFormatter.java; org.eclipse.jdt.internal.formatter;

@@ -1,0 +1,17 @@
+HiveConf.java: org.apache.hadoop.hive.conf
+MetaStore.java: org.apache.hadoop.hive.metastore
+HiveRecordReader.java: org.apache.hadoop.hive.ql.io
+QBParseInfo.java: org.apache.hadoop.hive.ql.parse
+UDFToString.java: org.apache.hadoop.hive.ql.udf
+UDFOPDivide.java: org.apache.hadoop.hive.ql.udf
+UDFOPMod.java: org.apache.hadoop.hive.ql.udf
+UDFRand.java: org.apache.hadoop.hive.ql.udf
+UDFSize.java: org.apache.hadoop.hive.ql.udf
+UDFOPMultiply.java: org.apache.hadoop.hive.ql.udf
+UDFOPPlus.java: org.apache.hadoop.hive.ql.udf
+UDFOPMinus.java: org.apache.hadoop.hive.ql.udf
+UDFToDate.java: org.apache.hadoop.hive.ql.udf
+UDAFCount.java: org.apache.hadoop.hive.ql.udf
+ThriftStructObjectInspector.java: org.apache.hadoop.hive.serde2.objectinspector
+LazyListObjectInspector.java: org.apache.hadoop.hive.serde2.objectinspector
+TypeInfo.java: org.apache.hadoop.hive.serde2.typeinfo

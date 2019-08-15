@@ -1,0 +1,3 @@
+CreateColumnFamilyStatement.java; org.apache.cassandra.cql;
+AbstractCassandraDaemon.java; org.apache.cassandra.service;
+StressAction.java; org.apache.cassandra.stress;

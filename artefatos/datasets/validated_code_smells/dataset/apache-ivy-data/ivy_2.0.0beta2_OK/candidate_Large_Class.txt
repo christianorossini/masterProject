@@ -1,0 +1,2 @@
+IvyNode.java, org.apache.ivy.core.resolve: 1284
+DefaultRepositoryCacheManager.java, org.apache.ivy.core.cache: 1053

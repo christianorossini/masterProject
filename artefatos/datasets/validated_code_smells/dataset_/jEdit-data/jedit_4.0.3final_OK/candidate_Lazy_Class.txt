@@ -1,0 +1,5 @@
+OverviewOptionPane.java: org.gjt.sp.jedit.options
+FontSelector.java: org.gjt.sp.jedit.gui
+ExplicitFoldHandler.java: org.gjt.sp.jedit.buffer
+OpenWithEncodingMenu.java: org.gjt.sp.jedit.gui
+IndentFoldHandler.java: org.gjt.sp.jedit.buffer

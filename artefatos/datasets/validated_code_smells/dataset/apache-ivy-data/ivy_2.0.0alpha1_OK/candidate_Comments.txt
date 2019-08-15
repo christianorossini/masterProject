@@ -1,0 +1,2 @@
+runAnt: AntCallTriggerTest.java: org.apache.ivy.ant
+runBuild: AntCallTriggerTest.java: org.apache.ivy.ant

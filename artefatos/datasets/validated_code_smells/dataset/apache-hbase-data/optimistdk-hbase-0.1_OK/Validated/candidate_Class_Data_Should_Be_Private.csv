@@ -1,0 +1,5 @@
+Shell.java; org.apache.hadoop.hbase;
+Token.java; org.apache.hadoop.hbase.hql.generated;
+ColumnDescriptor.java; org.apache.hadoop.hbase.thrift.generated;
+Mutation.java; org.apache.hadoop.hbase.thrift.generated;
+RemoveScheme.java; org.onelab.filter;

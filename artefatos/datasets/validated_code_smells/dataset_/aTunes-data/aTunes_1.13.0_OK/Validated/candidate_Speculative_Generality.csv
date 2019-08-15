@@ -1,0 +1,10 @@
+CustomModalFrame.java; net.sourceforge.atunes.gui.views.controls;
+Column.java; net.sourceforge.atunes.gui.views.controls.playList;
+WindowController.java; net.sourceforge.atunes.kernel.controllers.model;
+PanelController.java; net.sourceforge.atunes.kernel.controllers.model;
+ToolBarController.java; net.sourceforge.atunes.kernel.controllers.model;
+FrameController.java; net.sourceforge.atunes.kernel.controllers.model;
+DialogController.java; net.sourceforge.atunes.kernel.controllers.model;
+Pattern.java; net.sourceforge.atunes.kernel.modules.pattern;
+Tag.java; net.sourceforge.atunes.kernel.modules.repository.tags.tag;
+SearchResultTableModel.java; net.sourceforge.atunes.kernel.modules.search;

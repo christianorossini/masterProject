@@ -1,0 +1,3 @@
+ServerCallable.java; org.apache.hadoop.hbase.client;
+TableMap.java; org.apache.hadoop.hbase.mapred;
+TableReduce.java; org.apache.hadoop.hbase.mapred;

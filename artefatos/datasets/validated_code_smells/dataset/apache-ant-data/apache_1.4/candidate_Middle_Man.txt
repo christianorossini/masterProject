@@ -1,0 +1,12 @@
+Typedef.java: org.apache.tools.ant.taskdefs
+GUnzip.java: org.apache.tools.ant.taskdefs
+MatchingTask.java: org.apache.tools.ant.taskdefs
+DependSet.java: org.apache.tools.ant.taskdefs
+Taskdef.java: org.apache.tools.ant.taskdefs
+ConditionBase.java: org.apache.tools.ant.taskdefs.condition
+CCMCheckout.java: org.apache.tools.ant.taskdefs.optional.ccm
+JavaCC.java: org.apache.tools.ant.taskdefs.optional.javacc
+JJTree.java: org.apache.tools.ant.taskdefs.optional.javacc
+P4Have.java: org.apache.tools.ant.taskdefs.optional.perforce
+P4Sync.java: org.apache.tools.ant.taskdefs.optional.perforce
+P4Reopen.java: org.apache.tools.ant.taskdefs.optional.perforce

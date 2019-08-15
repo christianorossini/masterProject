@@ -1,0 +1,5 @@
+RangeImpl.java; org.apache.xerces.dom;
+NodeImpl.java; org.apache.xerces.dom;
+DocumentImpl.java; org.apache.xerces.dom;
+UTF8Reader.java; org.apache.xerces.readers;
+XMLValidator.java; org.apache.xerces.validators.common;

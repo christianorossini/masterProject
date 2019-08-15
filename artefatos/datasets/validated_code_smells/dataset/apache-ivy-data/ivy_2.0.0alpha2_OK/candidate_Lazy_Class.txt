@@ -1,0 +1,12 @@
+Hello.java: example
+Hello.java: example
+AbstractLatestStrategy.java: org.apache.ivy.plugins.latest
+NotFilter.java: org.apache.ivy.util.filter
+NeedArtifactEvent.java: org.apache.ivy.core.event.download
+ModuleDescriptorParserRegistryTest.java: org.apache.ivy.plugins.parser
+PackageMapping.java: org.apache.ivy.ant
+Hello.java: example
+Hello.java: example
+OrFilter.java: org.apache.ivy.util.filter
+AndFilter.java: org.apache.ivy.util.filter
+SFTPResolver.java: org.apache.ivy.plugins.resolver

@@ -1,0 +1,7 @@
+AutoscrollHelper.java; CH.ifa.draw.contrib;
+DNDHelper.java; CH.ifa.draw.contrib.dnd;
+DisposableResourceManagerFactory.java; CH.ifa.draw.contrib.html;
+AreaTracker.java; CH.ifa.draw.contrib.zoom;
+AbstractLineDecoration.java; CH.ifa.draw.figures;
+ActionTool.java; CH.ifa.draw.standard;
+PaletteButton.java; CH.ifa.draw.util;

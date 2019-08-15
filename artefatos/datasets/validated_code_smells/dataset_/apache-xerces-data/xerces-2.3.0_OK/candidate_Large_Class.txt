@@ -1,0 +1,6 @@
+XMLEntityManager.java, org.apache.xerces.impl: 2597
+RegularExpression.java, org.apache.xerces.impl.xpath.regex: 3190
+XSSimpleTypeDecl.java, org.apache.xerces.impl.dv.xs: 2205
+AbstractDOMParser.java, org.apache.xerces.parsers: 2540
+CoreDocumentImpl.java, org.apache.xerces.dom: 2359
+DTDGrammar.java, org.apache.xerces.impl.dtd: 2804

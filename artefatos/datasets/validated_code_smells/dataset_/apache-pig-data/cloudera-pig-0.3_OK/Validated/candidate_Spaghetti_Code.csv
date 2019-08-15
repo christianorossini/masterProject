@@ -1,0 +1,6 @@
+POForEach.java; org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators;
+LOCogroup.java; org.apache.pig.impl.logicalLayer;
+LOCross.java; org.apache.pig.impl.logicalLayer;
+LOProject.java; org.apache.pig.impl.logicalLayer;
+LOForEach.java; org.apache.pig.impl.logicalLayer;
+RuleMatcher.java; org.apache.pig.impl.plan.optimizer;

@@ -1,0 +1,17 @@
+PluginJAR.java; org.gjt.sp.jedit;
+jEdit.java; org.gjt.sp.jedit;
+Parser.java; org.gjt.sp.jedit.bsh;
+ParserTokenManager.java; org.gjt.sp.jedit.bsh;
+Interpreter.java; org.gjt.sp.jedit.bsh;
+ActionBar.java; org.gjt.sp.jedit.gui;
+AppearanceOptionPane.java; org.gjt.sp.jedit.options;
+PluginManagerOptionPane.java; org.gjt.sp.jedit.options;
+BufferOptionPane.java; org.gjt.sp.jedit.options;
+TextAreaOptionPane.java; org.gjt.sp.jedit.options;
+StatusBarOptionPane.java; org.gjt.sp.jedit.options;
+ViewOptionPane.java; org.gjt.sp.jedit.options;
+GutterOptionPane.java; org.gjt.sp.jedit.options;
+EditingOptionPane.java; org.gjt.sp.jedit.options;
+GeneralOptionPane.java; org.gjt.sp.jedit.options;
+SearchDialog.java; org.gjt.sp.jedit.search;
+HyperSearchRequest.java; org.gjt.sp.jedit.search;

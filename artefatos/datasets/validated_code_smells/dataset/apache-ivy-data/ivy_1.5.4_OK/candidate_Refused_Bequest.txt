@@ -1,0 +1,7 @@
+CacheResolver.java: fr.jayasoft.ivy.resolver	FileSystemResolver.java: fr.jayasoft.ivy.resolver	
+IvyRepResolver.java: fr.jayasoft.ivy.resolver	URLResolver.java: fr.jayasoft.ivy.resolver	
+IBiblioResolver.java: fr.jayasoft.ivy.resolver	URLResolver.java: fr.jayasoft.ivy.resolver	
+VsftpResolver.java: fr.jayasoft.ivy.resolver	RepositoryResolver.java: fr.jayasoft.ivy.resolver	
+VfsResolver.java: fr.jayasoft.ivy.resolver	RepositoryResolver.java: fr.jayasoft.ivy.resolver	
+FileSystemResolver.java: fr.jayasoft.ivy.resolver	RepositoryResolver.java: fr.jayasoft.ivy.resolver	
+MDResolvedResource.java: fr.jayasoft.ivy.resolver	ResolvedResource.java: fr.jayasoft.ivy.resolver	

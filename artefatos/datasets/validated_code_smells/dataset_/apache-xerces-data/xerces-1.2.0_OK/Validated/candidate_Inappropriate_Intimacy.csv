@@ -1,0 +1,1 @@
+NodeImpl.java; org.apache.xerces.dom; DeferredDocumentImpl.java; org.apache.xerces.dom; 1->2;90;  2->1;52XMLEntityHandler.java; org.apache.xerces.readers; StringReader.java; org.apache.xerces.readers; 1->2;65;  2->1;40DocumentImpl.java; org.apache.xerces.dom; ElementImpl.java; org.apache.xerces.dom; 1->2;61;  2->1;46

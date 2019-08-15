@@ -1,0 +1,25 @@
+
+
+	Project: xerces-1.0.4 [1/1]	09/10/2012 11:06:28
+		Looking for Comments Antipattern... [1/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/xerces-1.0.4/candidate_Comments.txt... [1/10]
+		Looking for Feature Envy Antipattern... [2/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/xerces-1.0.4/candidate_Feature_Envy.txt... [2/10]
+		Looking for Large Class Antipattern... [3/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/xerces-1.0.4/candidate_Large_Class.txt... [3/10]
+		Looking for Long Method Antipattern... [4/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/xerces-1.0.4/candidate_Long_Methods.txt... [4/10]
+		Looking for Long Parameter List Antipattern... [5/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/xerces-1.0.4/candidate_Long_Parameter_List.txt... [5/10]
+		Looking for Lazy Class Antipattern... [6/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/xerces-1.0.4/candidate_Lazy_Class.txt... [6/10]
+		Looking for Message Chains Antipattern... [7/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/xerces-1.0.4/candidate_Message_Chains.txt... [7/10]
+		Looking for Middle Man Antipattern... [8/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/xerces-1.0.4/candidate_Middle_Man.txt... [8/10]
+		Looking for Refused Bequest Antipattern... [9/10]
+		Writing file /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/xerces-1.0.4/candidate_Refused_Bequest.txt... [9/10]
+		Looking for Inappropriate Intimacy Antipattern... [10/10]
+		Writing file  /Users/fabio/Documents/runtime-EclipseApplication/Antipatterns/xerces-1.0.4/candidate_Inappropriate_Intimacy.txt... [10/10]
+	End of the evaluation of Project: xerces-1.0.4 [1/1]	09/10/2012 11:12:41
+

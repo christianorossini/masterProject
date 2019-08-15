@@ -1,0 +1,12 @@
+DefaultPublishingDRResolver.java: org.apache.ivy.core.deliver
+RevisionEntry.java: org.apache.ivy.core.search
+LatestTimeStrategy.java: org.apache.ivy.plugins.latest
+LatestLexicographicStrategy.java: org.apache.ivy.plugins.latest
+AbstractModuleDescriptorParser.java: org.apache.ivy.plugins.parser
+FileResource.java: org.apache.ivy.plugins.repository.file
+URLResource.java: org.apache.ivy.plugins.repository.url
+SFTPResolver.java: org.apache.ivy.plugins.resolver
+ApacheHttpURLLister.java: org.apache.ivy.plugins.resolver.util
+ResolvedModuleRevisionProxy.java: org.apache.ivy.plugins.resolver.util
+DefaultMessageImpl.java: org.apache.ivy.util
+XmlReportParserTest.java: org.apache.ivy.plugins.report

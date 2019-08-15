@@ -1,0 +1,2 @@
+SWTPlotEditor.java: org.jfree.experimental.chart.swt.editor
+SWTPlotAppearanceEditor.java: org.jfree.experimental.chart.swt.editor

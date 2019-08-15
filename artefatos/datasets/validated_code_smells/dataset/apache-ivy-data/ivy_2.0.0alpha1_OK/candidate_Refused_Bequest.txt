@@ -1,0 +1,4 @@
+CacheResolver.java: org.apache.ivy.plugins.resolver	FileSystemResolver.java: org.apache.ivy.plugins.resolver	
+IvyRepResolver.java: org.apache.ivy.plugins.resolver	URLResolver.java: org.apache.ivy.plugins.resolver	
+MDResolvedResource.java: org.apache.ivy.plugins.resolver.util	ResolvedResource.java: org.apache.ivy.plugins.resolver.util	
+DefaultExtendableItem.java: org.apache.ivy.util.extendable	UnmodifiableExtendableItem.java: org.apache.ivy.util.extendable	

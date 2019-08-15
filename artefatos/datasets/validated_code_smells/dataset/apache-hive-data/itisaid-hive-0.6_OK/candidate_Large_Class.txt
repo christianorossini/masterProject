@@ -1,0 +1,2 @@
+HiveResultSet.java, org.apache.hadoop.hive.jdbc: 2332
+thrift_grammar.java, org.apache.hadoop.hive.serde2.dynamic_type: 3122

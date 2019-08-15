@@ -1,0 +1,6 @@
+createSocket: HsqlSocketFactorySecure.java: org.hsqldb
+MAX_CHAR_OR_VARCHAR_DISPLAY_SIZE: Types.java: org.hsqldb
+setConditions: TableFilter.java: org.hsqldb
+toString: HsqlArrayHeap.java: org.hsqldb.lib
+increaseCapacity: HsqlArrayHeap.java: org.hsqldb.lib
+setSwingLAF: CommonSwing.java: org.hsqldb.util

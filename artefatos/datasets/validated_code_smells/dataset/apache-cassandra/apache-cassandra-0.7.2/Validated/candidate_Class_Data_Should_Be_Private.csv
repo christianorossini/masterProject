@@ -1,0 +1,13 @@
+RingModel.java; org.apache.cassandra.contrib.circuit;
+SimpleAuthenticator.java; org.apache.cassandra.auth;
+CliSessionState.java; org.apache.cassandra.cli;
+RawColumnDefinition.java; org.apache.cassandra.config;
+Config.java; org.apache.cassandra.config;
+RawKeyspace.java; org.apache.cassandra.config;
+RawColumnFamily.java; org.apache.cassandra.config;
+RequestSchedulerOptions.java; org.apache.cassandra.config;
+DBConstants.java; org.apache.cassandra.db;
+SliceFromReadCommand.java; org.apache.cassandra.db;
+VersionedValue.java; org.apache.cassandra.gms;
+ProtocolHeader.java; org.apache.cassandra.net;
+StreamReply.java; org.apache.cassandra.streaming;

@@ -1,0 +1,9 @@
+NotFilter.java: org.apache.ivy.util.filter
+AbstractLatestStrategy.java: org.apache.ivy.plugins.latest
+OrFilter.java: org.apache.ivy.util.filter
+SFTPResolver.java: org.apache.ivy.plugins.resolver
+RegexpPatternMatcherTest.java: org.apache.ivy.plugins.matcher
+AndFilter.java: org.apache.ivy.util.filter
+ModuleDescriptorParserRegistryTest.java: org.apache.ivy.plugins.parser
+PackageMapping.java: org.apache.ivy.ant
+NeedArtifactEvent.java: org.apache.ivy.core.event.download

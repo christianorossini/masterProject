@@ -1,0 +1,15 @@
+TreeCache.java; org.jboss.cache;
+CacheImpl.java; org.jboss.cache;
+TreeCacheView.java; org.jboss.cache;
+NamingContext.java; org.jnp.interfaces;
+JDBCUtil.java; org.jboss.ejb.plugins.cmp.jdbc;
+EJBQLToSQL92Compiler.java; org.jboss.ejb.plugins.cmp.jdbc;
+JDBCEJBQLCompiler.java; org.jboss.ejb.plugins.cmp.jdbc;
+JDBCStartCommand.java; org.jboss.ejb.plugins.cmp.jdbc;
+JDBCCMRFieldBridge.java; org.jboss.ejb.plugins.cmp.jdbc.bridge;
+JDBCEntityBridge.java; org.jboss.ejb.plugins.cmp.jdbc.bridge;
+JDBCEntityMetaData.java; org.jboss.ejb.plugins.cmp.jdbc.metadata;
+JDBCCMRFieldBridge2.java; org.jboss.ejb.plugins.cmp.jdbc2.bridge;
+EntityTable.java; org.jboss.ejb.plugins.cmp.jdbc2.schema;
+AbstractVerifier.java; org.jboss.verifier.strategy;
+EJBVerifier20.java; org.jboss.verifier.strategy;

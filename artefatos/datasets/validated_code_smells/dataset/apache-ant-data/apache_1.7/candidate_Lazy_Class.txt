@@ -1,0 +1,17 @@
+LocationResolver.java: org.apache.tools.ant.taskdefs.optional.extension.resolvers
+DemuxInputStream.java: org.apache.tools.ant
+UUMailer.java: org.apache.tools.ant.taskdefs.email
+FloatCPInfo.java: org.apache.tools.ant.taskdefs.optional.depend.constantpool
+HashvalueAlgorithm.java: org.apache.tools.ant.types.selectors.modifiedselector
+RedirectingOutputStream.java: org.apache.tools.ant.taskdefs.cvslib
+Javac13.java: org.apache.tools.ant.taskdefs.compilers
+LongCPInfo.java: org.apache.tools.ant.taskdefs.optional.depend.constantpool
+P4Have.java: org.apache.tools.ant.taskdefs.optional.perforce
+P4Sync.java: org.apache.tools.ant.taskdefs.optional.perforce
+UnPackageNameMapper.java: org.apache.tools.ant.util
+CompositeMapper.java: org.apache.tools.ant.util
+StringCPInfo.java: org.apache.tools.ant.taskdefs.optional.depend.constantpool
+AptExternalCompilerAdapter.java: org.apache.tools.ant.taskdefs.compilers
+IntegerCPInfo.java: org.apache.tools.ant.taskdefs.optional.depend.constantpool
+ErrorInQuitException.java: org.apache.tools.mail
+DoubleCPInfo.java: org.apache.tools.ant.taskdefs.optional.depend.constantpool

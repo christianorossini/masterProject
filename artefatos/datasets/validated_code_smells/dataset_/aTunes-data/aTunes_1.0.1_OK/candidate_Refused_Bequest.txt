@@ -1,0 +1,3 @@
+ID3v1_1Tag.java: com.fleax.atunes.model.tag	ID3v1Tag.java: com.fleax.atunes.model.tag	
+ID3v2Tag.java: com.fleax.atunes.model.tag	ID3v1_1Tag.java: com.fleax.atunes.model.tag	
+PopUpButton.java: com.fleax.common.swing.components	GradientButton.java: com.fleax.common.swing.components	

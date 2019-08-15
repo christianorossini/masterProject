@@ -1,0 +1,14 @@
+setFirstLine: JEditTextArea.java: package org.gjt.sp.jedit.textarea [in JEditTextArea.java [in org.gjt.sp.jedit.textarea [in src [in jedit_3.2.2final]]]]: 3
+setRepeatEnabled: InputHandler.java: package org.gjt.sp.jedit.gui [in InputHandler.java [in org.gjt.sp.jedit.gui [in src [in jedit_3.2.2final]]]]: 3
+setAntiAliasEnabled: TextAreaPainter.java: package org.gjt.sp.jedit.textarea [in TextAreaPainter.java [in org.gjt.sp.jedit.textarea [in src [in jedit_3.2.2final]]]]: 3
+setHorizontalOffset: JEditTextArea.java: package org.gjt.sp.jedit.textarea [in JEditTextArea.java [in org.gjt.sp.jedit.textarea [in src [in jedit_3.2.2final]]]]: 3
+setLineHighlightEnabled: TextAreaPainter.java: package org.gjt.sp.jedit.textarea [in TextAreaPainter.java [in org.gjt.sp.jedit.textarea [in src [in jedit_3.2.2final]]]]: 3
+filesSelected: VFSBrowser.java: package org.gjt.sp.jedit.browser [in VFSBrowser.java [in org.gjt.sp.jedit.browser [in src [in jedit_3.2.2final]]]]: 3
+setFractionalFontMetricsEnabled: TextAreaPainter.java: package org.gjt.sp.jedit.textarea [in TextAreaPainter.java [in org.gjt.sp.jedit.textarea [in src [in jedit_3.2.2final]]]]: 3
+_getWidth: TextRendererAWT.java: package org.gjt.sp.jedit.textarea [in TextRendererAWT.java [in org.gjt.sp.jedit.textarea [in src [in jedit_3.2.2final]]]]: 3
+recalculateVisibleLines: JEditTextArea.java: package org.gjt.sp.jedit.textarea [in JEditTextArea.java [in org.gjt.sp.jedit.textarea [in src [in jedit_3.2.2final]]]]: 3
+setSelectionColor: TextAreaPainter.java: package org.gjt.sp.jedit.textarea [in TextAreaPainter.java [in org.gjt.sp.jedit.textarea [in src [in jedit_3.2.2final]]]]: 3
+updateGutterBorders: View.java: package org.gjt.sp.jedit [in View.java [in org.gjt.sp.jedit [in src [in jedit_3.2.2final]]]]: 3
+readNextChar: InputHandler.java: package org.gjt.sp.jedit.gui [in InputHandler.java [in org.gjt.sp.jedit.gui [in src [in jedit_3.2.2final]]]]: 3
+setRepeatCount: InputHandler.java: package org.gjt.sp.jedit.gui [in InputHandler.java [in org.gjt.sp.jedit.gui [in src [in jedit_3.2.2final]]]]: 3
+updateButtons: CloseDialog.java: package org.gjt.sp.jedit.gui [in CloseDialog.java [in org.gjt.sp.jedit.gui [in src [in jedit_3.2.2final]]]]: 3

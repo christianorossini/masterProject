@@ -1,0 +1,1 @@
+ManifoldCFConfiguration.java: org.apache.manifoldcf.core.system

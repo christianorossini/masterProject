@@ -1,0 +1,5 @@
+VAJUtil.java; org.apache.tools.ant.taskdefs.optional.ide;
+HotDeploymentTool.java; org.apache.tools.ant.taskdefs.optional.j2ee;
+P4Counter.java; org.apache.tools.ant.taskdefs.optional.perforce;
+Utils.java; org.apache.tools.ant.taskdefs.optional.sitraka.bytecode;
+DepthSelector.java; org.apache.tools.ant.types.selectors;

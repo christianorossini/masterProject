@@ -1,0 +1,13 @@
+ModuleDescriptorParserRegistryTest.java: fr.jayasoft.ivy.parser
+SubVersionMatcher.java: fr.jayasoft.ivy.version
+SFTPResolver.java: fr.jayasoft.ivy.resolver
+NeedArtifactEvent.java: fr.jayasoft.ivy.event.download
+AbstractLatestStrategy.java: fr.jayasoft.ivy.latest
+NotFilter.java: fr.jayasoft.ivy.filter
+PackageMapping.java: fr.jayasoft.ivy.ant
+GlobPatternMatcher.java: fr.jayasoft.ivy.matcher
+IvyWebdavClientFactory.java: fr.jayasoft.ivy.repository.vfs
+ExactVersionMatcher.java: fr.jayasoft.ivy.version
+OrFilter.java: fr.jayasoft.ivy.filter
+AndFilter.java: fr.jayasoft.ivy.filter
+ExactOrRegexpPatternMatcher.java: fr.jayasoft.ivy.matcher

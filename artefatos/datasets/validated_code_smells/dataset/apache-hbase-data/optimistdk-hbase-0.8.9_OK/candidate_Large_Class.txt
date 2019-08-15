@@ -1,0 +1,6 @@
+TestHRegion.java, org.apache.hadoop.hbase.regionserver: 3011
+RegionManager.java, org.apache.hadoop.hbase.master: 2109
+HLog.java, org.apache.hadoop.hbase.regionserver.wal: 2033
+KeyValue.java, org.apache.hadoop.hbase: 2058
+HRegion.java, org.apache.hadoop.hbase.regionserver: 3709
+HRegionServer.java, org.apache.hadoop.hbase.regionserver: 2914

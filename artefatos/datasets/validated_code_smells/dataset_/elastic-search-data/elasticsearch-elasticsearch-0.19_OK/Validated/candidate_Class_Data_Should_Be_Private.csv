@@ -1,0 +1,4 @@
+Version.java; org.elasticsearch;
+Scoping.java; org.elasticsearch.common.inject.internal;
+SimpleBoundaryScanner2.java; org.elasticsearch.common.lucene.search.vectorhighlight;
+OsUtils.java; org.elasticsearch.common.os;

@@ -1,0 +1,3 @@
+FSConstants.java; org.apache.hadoop.dfs;
+MRConstants.java; org.apache.hadoop.mapred;
+Token.java; org.apache.hadoop.record.compiler.generated;

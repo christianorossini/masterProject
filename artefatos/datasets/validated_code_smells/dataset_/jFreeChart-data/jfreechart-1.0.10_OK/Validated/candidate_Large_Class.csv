@@ -1,0 +1,7 @@
+ContourPlot.java; org.jfree.chart.plot; 1861;
+JFreeChart.java; org.jfree.chart; 1878;
+PiePlot.java; org.jfree.chart.plot; 3400;
+CategoryPlot.java; org.jfree.chart.plot; 4119;
+ChartComposite.java; org.jfree.experimental.chart.swt; 1887;
+AbstractRenderer.java; org.jfree.chart.renderer; 3658;
+ChartPanel.java; org.jfree.chart; 2577;

@@ -1,0 +1,10 @@
+EventImpl.java; org.apache.xerces.dom.events;
+UIEvent.java; org.apache.xerces.domx.events;
+NodeFilter.java; org.apache.xerces.domx.traversal;
+XMLContentSpecNode.java; org.apache.xerces.framework;
+XMLEntityHandler.java; org.apache.xerces.readers;
+SymbolCache.java; org.apache.xerces.utils;
+DatatypeValidator.java; org.apache.xerces.validators.datatype;
+InsertableElementsInfo.java; org.apache.xerces.validators.dtd;
+DOMException.java; org.w3c.dom;
+Node.java; org.w3c.dom;

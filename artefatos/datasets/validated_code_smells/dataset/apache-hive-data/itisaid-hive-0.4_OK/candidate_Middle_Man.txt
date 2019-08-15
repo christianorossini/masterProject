@@ -1,0 +1,2 @@
+HiveConf.java: org.apache.hadoop.hive.conf
+ForwardOperator.java: org.apache.hadoop.hive.ql.exec

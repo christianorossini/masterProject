@@ -1,0 +1,2 @@
+ServerCallable.java; org.apache.hadoop.hbase.client;
+HAbstractScanner.java; org.apache.hadoop.hbase.regionserver;

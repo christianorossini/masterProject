@@ -1,0 +1,13 @@
+getStartXValue: TimePeriodValuesCollection.java: package org.jfree.data.time [in TimePeriodValuesCollection.java [in src.org.jfree.data.time [in <project root> [in jfreechart-0.9.10]]]]: 3
+getLastMillisecond: Month.java: package org.jfree.data.time [in Month.java [in src.org.jfree.data.time [in <project root> [in jfreechart-0.9.10]]]]: 3
+getEndXValue: TimePeriodValuesCollection.java: package org.jfree.data.time [in TimePeriodValuesCollection.java [in src.org.jfree.data.time [in <project root> [in jfreechart-0.9.10]]]]: 3
+readResolve: PlotOrientation.java: package org.jfree.chart.plot [in PlotOrientation.java [in src.org.jfree.chart.plot [in <project root> [in jfreechart-0.9.10]]]]: 3
+zoomRange: ValueAxis.java: package org.jfree.chart.axis [in ValueAxis.java [in src.org.jfree.chart.axis [in <project root> [in jfreechart-0.9.10]]]]: 3
+setDisplayToolTips: ChartPanel.java: package org.jfree.chart [in ChartPanel.java [in src.org.jfree.chart [in <project root> [in jfreechart-0.9.10]]]]: 3
+getOLSRegression: Regression.java: package org.jfree.data [in Regression.java [in src.org.jfree.data [in <project root> [in jfreechart-0.9.10]]]]: 3
+pick1PointerActionPerformed: CompassDemo.java: package org.jfree.chart.demo [in CompassDemo.java [in src.org.jfree.chart.demo [in <project root> [in jfreechart-0.9.10]]]]: 4
+pick2PointerActionPerformed: CompassDemo.java: package org.jfree.chart.demo [in CompassDemo.java [in src.org.jfree.chart.demo [in <project root> [in jfreechart-0.9.10]]]]: 4
+centerRange: ValueAxis.java: package org.jfree.chart.axis [in ValueAxis.java [in src.org.jfree.chart.axis [in <project root> [in jfreechart-0.9.10]]]]: 4
+run: SampleXYDatasetThread.java: package org.jfree.chart.demo [in SampleXYDatasetThread.java [in src.org.jfree.chart.demo [in <project root> [in jfreechart-0.9.10]]]]: 3
+setAxisRange: ThermometerPlot.java: package org.jfree.chart.plot [in ThermometerPlot.java [in src.org.jfree.chart.plot [in <project root> [in jfreechart-0.9.10]]]]: 3
+adjustData: CompassDemo.java: package org.jfree.chart.demo [in CompassDemo.java [in src.org.jfree.chart.demo [in <project root> [in jfreechart-0.9.10]]]]: 3

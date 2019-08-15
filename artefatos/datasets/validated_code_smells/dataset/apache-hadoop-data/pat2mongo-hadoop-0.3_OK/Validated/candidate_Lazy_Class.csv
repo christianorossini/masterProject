@@ -1,0 +1,3 @@
+RegexMapper.java; org.apache.hadoop.mapred.lib;
+HashPartitioner.java; org.apache.hadoop.mapred.lib;
+InverseMapper.java; org.apache.hadoop.mapred.lib;

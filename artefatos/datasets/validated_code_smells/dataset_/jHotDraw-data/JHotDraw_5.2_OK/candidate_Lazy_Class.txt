@@ -1,0 +1,7 @@
+ChopPolygonConnector.java: CH.ifa.draw.contrib
+ToggleGridCommand.java: CH.ifa.draw.standard
+PolyLineLocator.java: CH.ifa.draw.figures
+ChopEllipseConnector.java: CH.ifa.draw.figures
+CopyCommand.java: CH.ifa.draw.standard
+ElbowConnection.java: CH.ifa.draw.figures
+DrawApplet.java: CH.ifa.draw.applet

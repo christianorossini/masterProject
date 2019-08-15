@@ -1,0 +1,6 @@
+AbstractAttributedCompositeFigure.java; org.jhotdraw.draw;
+AlignAction.java; org.jhotdraw.draw.action;
+AbstractEditorAction.java; org.jhotdraw.draw.action;
+MoveAction.java; org.jhotdraw.draw.action;
+Insets2D.java; org.jhotdraw.geom;
+Worker.java; org.jhotdraw.gui;

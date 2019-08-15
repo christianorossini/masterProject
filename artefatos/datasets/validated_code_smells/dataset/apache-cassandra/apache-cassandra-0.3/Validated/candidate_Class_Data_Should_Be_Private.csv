@@ -1,0 +1,5 @@
+CliSessionState.java; org.apache.cassandra.cli;
+CFMetaData.java; org.apache.cassandra.config;
+DBConstants.java; org.apache.cassandra.db;
+MessagingConfig.java; org.apache.cassandra.net;
+ProtocolHeader.java; org.apache.cassandra.net;

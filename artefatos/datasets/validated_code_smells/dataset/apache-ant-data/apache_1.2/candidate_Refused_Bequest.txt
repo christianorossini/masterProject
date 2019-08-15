@@ -1,0 +1,5 @@
+Chmod.java: org.apache.tools.ant.taskdefs	ExecuteOn.java: org.apache.tools.ant.taskdefs	
+Jar.java: org.apache.tools.ant.taskdefs	Zip.java: org.apache.tools.ant.taskdefs	
+WeblogicTOPLinkDeploymentTool.java: org.apache.tools.ant.taskdefs.optional.ejb	WeblogicDeploymentTool.java: org.apache.tools.ant.taskdefs.optional.ejb	
+WeblogicDeploymentTool.java: org.apache.tools.ant.taskdefs.optional.ejb	GenericDeploymentTool.java: org.apache.tools.ant.taskdefs.optional.ejb	
+P4sync.java: org.apache.tools.ant.taskdefs.optional.perforce	Exec.java: org.apache.tools.ant.taskdefs	

@@ -1,0 +1,6 @@
+PlayListTable.java; net.sourceforge.atunes.gui.views.controls.playList;
+ApplicationMenuBar.java; net.sourceforge.atunes.gui.views.menu;
+NavigationPanel.java; net.sourceforge.atunes.gui.views.panels;
+PlayerControlsPanel.java; net.sourceforge.atunes.gui.views.panels;
+PlayListControlsPanel.java; net.sourceforge.atunes.gui.views.panels;
+SystemTrayHandler.java; net.sourceforge.atunes.kernel.handlers;

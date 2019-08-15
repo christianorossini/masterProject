@@ -1,0 +1,11 @@
+AbstractBean.java: org.jhotdraw.beans
+HandleMulticaster.java: org.jhotdraw.draw
+MoveHandle.java: org.jhotdraw.draw
+SelectionTool.java: org.jhotdraw.draw
+FloatingTextField.java: org.jhotdraw.draw
+NetFactory.java: org.jhotdraw.samples.net
+PertFactory.java: org.jhotdraw.samples.pert
+SVGEllipse.java: org.jhotdraw.samples.svg.figures
+SVGImage.java: org.jhotdraw.samples.svg.figures
+SVGRect.java: org.jhotdraw.samples.svg.figures
+UndoRedoManager.java: org.jhotdraw.undo

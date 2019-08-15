@@ -1,0 +1,4 @@
+ModifyColumn.java: org.apache.hadoop.hbase.master
+IdentityTableReduce.java: org.apache.hadoop.hbase.mapred
+UnmodifyableHRegionInfo.java: org.apache.hadoop.hbase.client
+TableDelete.java: org.apache.hadoop.hbase.master

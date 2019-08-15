@@ -1,0 +1,6 @@
+IdentityMapper.java; org.apache.hadoop.mapred.lib;
+RegexMapper.java; org.apache.hadoop.mapred.lib;
+IdentityReducer.java; org.apache.hadoop.mapred.lib;
+HashPartitioner.java; org.apache.hadoop.mapred.lib;
+JavaGenerator.java; org.apache.hadoop.record.compiler;
+InverseMapper.java; org.apache.hadoop.mapred.lib;

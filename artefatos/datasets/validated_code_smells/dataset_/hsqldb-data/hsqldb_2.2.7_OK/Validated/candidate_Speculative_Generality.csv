@@ -1,0 +1,3 @@
+ValidatingResourceBundle.java; org.hsqldb.lib;
+ScriptWriterBase.java; org.hsqldb.scriptio;
+ScriptReaderBase.java; org.hsqldb.scriptio;

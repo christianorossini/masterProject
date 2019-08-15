@@ -1,0 +1,14 @@
+CompletionEngine.java; org.eclipse.jdt.internal.codeassist; 8905;
+DefaultCodeFormatterConstants.java; org.eclipse.jdt.core.formatter; 3570;
+PublicScanner.java; org.eclipse.jdt.internal.core.util; 3863;
+CompletionParser.java; org.eclipse.jdt.internal.codeassist.complete; 4351;
+ASTRewriteAnalyzer.java; org.eclipse.jdt.internal.core.dom.rewrite; 3301;
+Main.java; org.eclipse.jdt.internal.compiler.batch; 4004;
+ClassFile.java; org.eclipse.jdt.internal.compiler; 5982;
+Scope.java; org.eclipse.jdt.internal.compiler.lookup; 3626;
+CodeStream.java; org.eclipse.jdt.internal.compiler.codegen; 6412;
+CodeFormatterVisitor.java; org.eclipse.jdt.internal.formatter; 5350;
+ASTConverter.java; org.eclipse.jdt.core.dom; 5155;
+JavaModelManager.java; org.eclipse.jdt.internal.core; 4301;
+Scanner.java; org.eclipse.jdt.internal.compiler.parser; 3866;
+JavaCore.java; org.eclipse.jdt.core; 4721;

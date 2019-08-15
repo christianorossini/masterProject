@@ -1,0 +1,3 @@
+AbstractCvsTask.java; org.apache.tools.ant.taskdefs;
+DefaultJspCompilerAdapter.java; org.apache.tools.ant.taskdefs.optional.jsp.compilers;
+P4HandlerAdapter.java; org.apache.tools.ant.taskdefs.optional.perforce;

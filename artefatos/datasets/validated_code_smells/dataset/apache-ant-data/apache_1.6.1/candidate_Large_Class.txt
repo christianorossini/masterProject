@@ -1,0 +1,3 @@
+FTP.java, org.apache.tools.ant.taskdefs.optional.net: 2086
+Project.java, org.apache.tools.ant: 2067
+CBZip2OutputStream.java, org.apache.tools.bzip2: 1634

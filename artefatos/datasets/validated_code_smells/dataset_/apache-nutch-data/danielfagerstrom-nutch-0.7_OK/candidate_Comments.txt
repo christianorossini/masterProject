@@ -1,0 +1,9 @@
+DistributedWebDBWriter: DistributedWebDBWriter.java: src.java.org.apache.nutch.db
+close: DistributedWebDBWriter.java: src.java.org.apache.nutch.db
+updateTaskStatuses: JobTracker.java: src.java.org.apache.nutch.mapReduce
+open: FSNamesystem.java: src.java.org.apache.nutch.ndfs
+gotHeartbeat: FSNamesystem.java: src.java.org.apache.nutch.ndfs
+toString: HttpDateFormat.java: src.java.org.apache.nutch.net.protocols
+getOutlinksJakartaRegexpImpl: OutlinkExtractor.java: src.java.org.apache.nutch.parse
+getOutlinksJDK5Impl: OutlinkExtractor.java: src.java.org.apache.nutch.parse
+testNormalizer: TestBasicUrlNormalizer.java: src.test.org.apache.nutch.net

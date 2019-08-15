@@ -1,0 +1,5 @@
+MRCompiler.java; org.apache.pig.backend.hadoop.executionengine.mapReduceLayer;
+POCast.java; org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators;
+Schema.java; org.apache.pig.impl.logicalLayer.schema;
+TypeCheckingVisitor.java; org.apache.pig.impl.logicalLayer.validators;
+OperatorPlan.java; org.apache.pig.impl.plan;

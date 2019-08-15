@@ -1,0 +1,7 @@
+DocumentBuilderFactory.java; javax.xml.parsers;
+SAXParserFactory.java; javax.xml.parsers;
+DTDDVFactory.java; org.apache.xerces.impl.dv;
+AbstractSAXParser.java; org.apache.xerces.parsers;
+XMLGrammarParser.java; org.apache.xerces.parsers;
+DTDParser.java; org.apache.xerces.parsers;
+SerializerFactory.java; org.apache.xml.serialize;

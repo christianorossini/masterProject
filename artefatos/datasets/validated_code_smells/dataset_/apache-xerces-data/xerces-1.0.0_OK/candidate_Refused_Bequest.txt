@@ -1,0 +1,6 @@
+DeferredProcessingInstructionImpl.java: org.apache.xerces.dom	ProcessingInstructionImpl.java: org.apache.xerces.dom	
+DeferredCDATASectionImpl.java: org.apache.xerces.dom	CDATASectionImpl.java: org.apache.xerces.dom	
+DeferredCommentImpl.java: org.apache.xerces.dom	CommentImpl.java: org.apache.xerces.dom	
+SAXNotRecognizedException.java: org.xml.sax	SAXException.java: org.xml.sax	
+SAXNotSupportedException.java: org.xml.sax	SAXException.java: org.xml.sax	
+SAXParseException.java: org.xml.sax	SAXException.java: org.xml.sax	

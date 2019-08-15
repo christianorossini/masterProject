@@ -1,0 +1,1 @@
+getHorizontalDataRange: CombinedXYPlot.java: source.com.jrefinery.chart

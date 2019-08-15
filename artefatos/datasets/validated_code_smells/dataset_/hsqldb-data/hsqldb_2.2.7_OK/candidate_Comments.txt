@@ -1,0 +1,9 @@
+sqlException: Util.java: org.hsqldb.jdbc
+JDBCXAConnectionWrapper: JDBCXAConnectionWrapper.java: org.hsqldb.jdbc.pool
+toString: HsqlArrayHeap.java: org.hsqldb.lib
+increaseCapacity: HsqlArrayHeap.java: org.hsqldb.lib
+createSocket: HsqlSocketFactorySecure.java: org.hsqldb.server
+TestScript: TestScript.java: org.hsqldb.test
+MAX_CHAR_OR_VARCHAR_DISPLAY_SIZE: Types.java: org.hsqldb.types
+setSwingLAF: CommonSwing.java: org.hsqldb.util
+compare: Parser.java: org.hsqldb.util.preprocessor

@@ -1,0 +1,7 @@
+XMLStringContext.java: org.apache.manifoldcf.agents.common
+RepositoryDocument.java: org.apache.manifoldcf.agents.interfaces
+RRow.java: org.apache.manifoldcf.core.database
+RSet.java: org.apache.manifoldcf.core.database
+UTF8Stdout.java: org.apache.manifoldcf.core.interfaces
+StringSetBuffer.java: org.apache.manifoldcf.core.interfaces
+UTF8Stderr.java: org.apache.manifoldcf.core.interfaces

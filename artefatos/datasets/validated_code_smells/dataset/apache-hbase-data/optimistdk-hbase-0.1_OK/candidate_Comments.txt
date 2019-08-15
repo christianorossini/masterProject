@@ -1,0 +1,5 @@
+loadOrCreateBloomFilter: HStore.java: src.java.org.apache.hadoop.hbase
+getFull: HStore.java: src.java.org.apache.hadoop.hbase
+HRegion: HRegion.java: src.java.org.apache.hadoop.hbase
+largestHStore: HRegion.java: src.java.org.apache.hadoop.hbase
+batchUpdate: HRegion.java: src.java.org.apache.hadoop.hbase

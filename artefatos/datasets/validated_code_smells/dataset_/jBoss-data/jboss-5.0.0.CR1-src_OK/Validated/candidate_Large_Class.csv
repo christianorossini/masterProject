@@ -1,0 +1,9 @@
+EntityTable.java; org.jboss.ejb.plugins.cmp.jdbc2.schema; 1891;
+Container.java; org.jboss.ejb; 1641;
+JDBCCMRFieldBridge.java; org.jboss.ejb.plugins.cmp.jdbc.bridge; 2389;
+PersistenceManager.java; org.jboss.mq.pm.jdbc2; 1998;
+JBossCacheManager.java; org.jboss.web.tomcat.service.session; 2284;
+JDBCCMRFieldBridge2.java; org.jboss.ejb.plugins.cmp.jdbc2.bridge; 1832;
+ClusterPartition.java; org.jboss.ha.framework.server; 2173;
+MBeanServerImpl.java; org.jboss.mx.server; 1749;
+JDBCEJBQLCompiler.java; org.jboss.ejb.plugins.cmp.jdbc; 1950;

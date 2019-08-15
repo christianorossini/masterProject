@@ -1,0 +1,6 @@
+BaseOutputConnector.java; org.apache.manifoldcf.agents.output;
+BaseDescription.java; org.apache.manifoldcf.core.cachemanager;
+ExecutorBase.java; org.apache.manifoldcf.core.cachemanager;
+BaseConnector.java; org.apache.manifoldcf.core.connector;
+CharacterInput.java; org.apache.manifoldcf.core.interfaces;
+BinaryInput.java; org.apache.manifoldcf.core.interfaces;

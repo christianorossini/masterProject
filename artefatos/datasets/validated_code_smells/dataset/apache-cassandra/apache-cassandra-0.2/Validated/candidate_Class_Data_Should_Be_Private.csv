@@ -1,0 +1,12 @@
+CliSessionState.java; org.apache.cassandra.cli;
+CliLexer.java; org.apache.cassandra.cli;
+CFMetaData.java; org.apache.cassandra.config;
+CqlLexer.java; org.apache.cassandra.cql.compiler.parse;
+DBConstants.java; org.apache.cassandra.db;
+MessagingConfig.java; org.apache.cassandra.net;
+ProtocolHeader.java; org.apache.cassandra.net;
+column_t.java; org.apache.cassandra.service;
+batch_mutation_super_t.java; org.apache.cassandra.service;
+CqlResult_t.java; org.apache.cassandra.service;
+batch_mutation_t.java; org.apache.cassandra.service;
+ClusterTool.java; org.apache.cassandra.tools;

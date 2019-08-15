@@ -1,0 +1,5 @@
+SimpleAbstractColumnIterator.java; org.apache.cassandra.db.filter;
+AbstractColumnIterator.java; org.apache.cassandra.db.filter;
+Token.java; org.apache.cassandra.dht;
+ReducingIterator.java; org.apache.cassandra.utils;
+Filter.java; org.apache.cassandra.utils;

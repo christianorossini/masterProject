@@ -1,0 +1,6 @@
+HBaseFsck.java; org.apache.hadoop.hbase.client;
+RegionManager.java; org.apache.hadoop.hbase.master;
+HRegion.java; org.apache.hadoop.hbase.regionserver;
+HRegionServer.java; org.apache.hadoop.hbase.regionserver;
+LruHashMap.java; org.apache.hadoop.hbase.regionserver;
+Hbase.java; org.apache.hadoop.hbase.thrift.generated;

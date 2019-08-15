@@ -1,0 +1,10 @@
+IvyWebdavClientFactory.java: org.apache.ivy.plugins.repository.vfs
+SFTPResolver.java: org.apache.ivy.plugins.resolver
+ModuleDescriptorParserRegistryTest.java: org.apache.ivy.plugins.parser
+NotFilter.java: org.apache.ivy.util.filter
+OrFilter.java: org.apache.ivy.util.filter
+AbstractLatestStrategy.java: org.apache.ivy.plugins.latest
+AndFilter.java: org.apache.ivy.util.filter
+NeedArtifactEvent.java: org.apache.ivy.core.event.download
+PackageMapping.java: org.apache.ivy.ant
+ExactVersionMatcher.java: org.apache.ivy.plugins.version

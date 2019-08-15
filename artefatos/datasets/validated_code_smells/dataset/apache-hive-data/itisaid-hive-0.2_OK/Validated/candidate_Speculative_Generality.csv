@@ -1,0 +1,6 @@
+Operator.java; org.apache.hadoop.hive.ql.exec;
+Task.java; org.apache.hadoop.hive.ql.exec;
+TerminalOperator.java; org.apache.hadoop.hive.ql.exec;
+ByteStreamTypedSerDe.java; org.apache.hadoop.hive.serde2;
+TypedSerDe.java; org.apache.hadoop.hive.serde2;
+LazyPrimitive.java; org.apache.hadoop.hive.serde2.lazy;

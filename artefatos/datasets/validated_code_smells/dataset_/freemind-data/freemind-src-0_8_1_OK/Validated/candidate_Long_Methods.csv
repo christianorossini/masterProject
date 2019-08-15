@@ -1,0 +1,7 @@
+processKeyEvent; KeyEventWorkaround.java; freemind.preferences.layout; 221;
+show; EditNodeTextField.java; freemind.view.mindmapview; 240;
+show; EditNodeDialog.java; freemind.view.mindmapview; 262;
+startupMapHook; TimeList.java; plugins.time; 155;
+saveHTML; MindMapNodeModel.java; freemind.modes.mindmapmode; 155;
+FreeMind; FreeMind.java; freemind.main; 198;
+saveHTML; MindMapMapModel.java; freemind.modes.mindmapmode; 180;

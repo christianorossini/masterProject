@@ -1,0 +1,13 @@
+AutoSavingCache.java; org.apache.cassandra.cache;
+AbstractJdbcType.java; org.apache.cassandra.cql.jdbc;
+SimpleAbstractColumnIterator.java; org.apache.cassandra.db.columniterator;
+AbstractCommitLogExecutorService.java; org.apache.cassandra.db.commitlog;
+AbstractCompactionTask.java; org.apache.cassandra.db.compaction;
+AbstractColumnIterator.java; org.apache.cassandra.db.filter;
+PerRowSecondaryIndex.java; org.apache.cassandra.db.index;
+PerColumnSecondaryIndex.java; org.apache.cassandra.db.index;
+SecondaryIndexSearcher.java; org.apache.cassandra.db.index;
+AbstractType.java; org.apache.cassandra.db.marshal;
+AbstractCommutativeType.java; org.apache.cassandra.db.marshal;
+Token.java; org.apache.cassandra.dht;
+MergeIterator.java; org.apache.cassandra.utils;
