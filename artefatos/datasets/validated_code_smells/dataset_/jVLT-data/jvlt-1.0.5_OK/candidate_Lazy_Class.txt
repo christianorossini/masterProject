@@ -1,7 +1,0 @@
-EntryQueryDialog.java
-EntryQueryDialog.java
-EntryQueryDialog.java
-EntryDialogData.java
-EntryQueryDialog.java
-EntryQueryDialog.java
-EntryQueryDialog.java

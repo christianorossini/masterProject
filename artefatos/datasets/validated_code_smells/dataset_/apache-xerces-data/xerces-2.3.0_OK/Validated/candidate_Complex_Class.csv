@@ -1,9 +1,0 @@
-RangeImpl.java; org.apache.xerces.dom;
-XMLEntityScanner.java; org.apache.xerces.impl;
-XMLEntityManager.java; org.apache.xerces.impl;
-XMLDTDProcessor.java; org.apache.xerces.impl.dtd;
-XSSimpleTypeDecl.java; org.apache.xerces.impl.dv.xs;
-RegularExpression.java; org.apache.xerces.impl.xpath.regex;
-XMLSchemaValidator.java; org.apache.xerces.impl.xs;
-AbstractDOMParser.java; org.apache.xerces.parsers;
-URI.java; org.apache.xerces.util;

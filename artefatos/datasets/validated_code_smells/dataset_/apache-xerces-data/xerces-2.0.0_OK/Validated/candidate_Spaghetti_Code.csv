@@ -1,5 +1,0 @@
-RangeImpl.java; org.apache.xerces.dom;
-XMLDTDScanner.java; org.apache.xerces.impl;
-UTF8Reader.java; org.apache.xerces.impl.io;
-DatatypeValidatorFactoryImpl.java; org.apache.xerces.impl.validation.datatypes;
-RegexParser.java; org.apache.xerces.impl.validation.datatypes.regex;

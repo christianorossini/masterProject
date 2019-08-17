@@ -1,7 +1,0 @@
-AutoscrollHelper.java; org.jhotdraw.contrib;
-DNDHelper.java; org.jhotdraw.contrib.dnd;
-DisposableResourceManagerFactory.java; org.jhotdraw.contrib.html;
-AreaTracker.java; org.jhotdraw.contrib.zoom;
-AbstractLineDecoration.java; org.jhotdraw.figures;
-ActionTool.java; org.jhotdraw.standard;
-PaletteButton.java; org.jhotdraw.util;

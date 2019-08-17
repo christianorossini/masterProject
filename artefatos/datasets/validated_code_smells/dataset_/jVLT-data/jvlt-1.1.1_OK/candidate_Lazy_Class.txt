@@ -1,7 +1,0 @@
-EntryQueryDialog.java: net.sourceforge.jvlt
-EntryQueryDialog.java: net.sourceforge.jvlt
-EntryQueryDialog.java: net.sourceforge.jvlt
-EntryQueryDialog.java: net.sourceforge.jvlt
-EntryQueryDialog.java: net.sourceforge.jvlt
-EntryQueryDialog.java: net.sourceforge.jvlt
-AdvancedEntryDialogData.java: net.sourceforge.jvlt

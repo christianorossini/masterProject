@@ -1,5 +1,0 @@
-SimpleAMQQueue.java; org.apache.qpid.server.queue;
-DerbyMessageStore.java; org.apache.qpid.server.store;
-ServerSessionDelegate.java; org.apache.qpid.server.transport;
-AMQSession.java; org.apache.qpid.client;
-AMQSession_0_10.java; org.apache.qpid.client;

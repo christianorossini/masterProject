@@ -1,5 +1,0 @@
-Expression.java; org.hsqldb;
-Select.java; org.hsqldb;
-Table.java; org.hsqldb;
-Parser.java; org.hsqldb;
-SqlFile.java; org.hsqldb.util;

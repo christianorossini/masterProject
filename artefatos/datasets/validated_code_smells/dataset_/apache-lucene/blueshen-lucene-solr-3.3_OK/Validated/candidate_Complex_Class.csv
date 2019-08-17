@@ -1,4 +1,0 @@
-BrazilianStemmer.java; org.apache.lucene.analysis.br;
-KStemmer.java; org.apache.lucene.analysis.en;
-IndexWriter.java; org.apache.lucene.index;
-SolrCore.java; org.apache.solr.core;

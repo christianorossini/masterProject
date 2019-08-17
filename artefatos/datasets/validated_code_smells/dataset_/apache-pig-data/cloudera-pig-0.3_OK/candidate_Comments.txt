@@ -1,2 +1,0 @@
-setIndex: POLocalRearrange.java: src.org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators
-getNext: POStreamLocal.java: src.org.apache.pig.backend.local.executionengine.physicalLayer.relationalOperators

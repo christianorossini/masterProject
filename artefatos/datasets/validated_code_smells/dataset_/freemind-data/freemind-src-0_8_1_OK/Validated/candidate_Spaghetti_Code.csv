@@ -1,9 +1,0 @@
-FreeMind.java; freemind.main;
-OptionPanel.java; freemind.preferences.layout;
-EditNodeTextField.java; freemind.view.mindmapview;
-EditNodeDialog.java; freemind.view.mindmapview;
-NodeView.java; freemind.view.mindmapview;
-CompoundActionImpl.java; freemind.controller.actions.generated.instance.impl;
-CompoundActionTypeImpl.java; freemind.controller.actions.generated.instance.impl;
-TimeManagement.java; plugins.time;
-TimeList.java; plugins.time;

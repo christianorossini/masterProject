@@ -1,9 +1,0 @@
-CategoryPlot.java; org.jfree.chart.plot; 5195;
-PiePlot.java; org.jfree.chart.plot; 3799;
-ChartComposite.java; org.jfree.experimental.chart.swt; 1910;
-PolarPlot.java; org.jfree.chart.plot; 2159;
-ChartPanel.java; org.jfree.chart; 3134;
-AbstractXYItemRenderer.java; org.jfree.chart.renderer.xy; 1925;
-DateAxis.java; org.jfree.chart.axis; 1958;
-AbstractRenderer.java; org.jfree.chart.renderer; 4133;
-StandardChartTheme.java; org.jfree.chart; 1914;

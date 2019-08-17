@@ -1,9 +1,0 @@
-IdentityMapper.java; org.apache.nutch.mapReduce.lib;
-InverseMapper.java; org.apache.nutch.mapReduce.lib;
-SimpleTestPlugin.java; org.apache.nutch.plugin;
-IndexingFilters.java; org.apache.nutch.indexer;
-IdentityReducer.java; org.apache.nutch.mapReduce.lib;
-TextOutputFormat.java; org.apache.nutch.mapReduce;
-CCParseFilter.java; org.creativecommons.nutch;
-HashPartitioner.java; org.apache.nutch.mapReduce.lib;
-SequenceFileOutputFormat.java; org.apache.nutch.mapReduce;

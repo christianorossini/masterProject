@@ -1,5 +1,0 @@
-Constants.java; net.sourceforge.atunes;
-AlbumInfoDataSource.java; net.sourceforge.atunes.kernel.modules.context.album;
-ArtistInfoDataSource.java; net.sourceforge.atunes.kernel.modules.context.artist;
-AudioObjectBasicInfoDataSource.java; net.sourceforge.atunes.kernel.modules.context.audioobject;
-LogCategories.java; net.sourceforge.atunes.misc.log;

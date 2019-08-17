@@ -1,4 +1,0 @@
-MultiQueryOptimizer.java; org.apache.pig.backend.hadoop.executionengine.mapReduceLayer;	MROpPlanVisitor.java; org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans;	
-PhyPlanSetter.java; org.apache.pig.backend.hadoop.executionengine.mapReduceLayer;	PhyPlanVisitor.java; org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans;	
-MRCompiler.java; org.apache.pig.backend.hadoop.executionengine.mapReduceLayer;	PhyPlanVisitor.java; org.apache.pig.backend.hadoop.executionengine.physicalLayer.plans;	
-LocalLogToPhyTranslationVisitor.java; org.apache.pig.backend.local.executionengine.physicalLayer;	LogToPhyTranslationVisitor.java; org.apache.pig.backend.hadoop.executionengine.physicalLayer;	

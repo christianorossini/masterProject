@@ -1,1 +1,0 @@
-ASTVisitor.java; org.eclipse.jdt.core.dom; Parser.java; org.eclipse.jdt.internal.compiler.parser; 1->2;2250;  2->1;0JavaCore.java; org.eclipse.jdt.core; DefaultCodeFormatterConstants.java; org.eclipse.jdt.core.formatter; 1->2;1843;  2->1;18Disassembler.java; org.eclipse.jdt.internal.core.util; DefaultBytecodeVisitor.java; org.eclipse.jdt.internal.core.util; 1->2;2607;  2->1;47

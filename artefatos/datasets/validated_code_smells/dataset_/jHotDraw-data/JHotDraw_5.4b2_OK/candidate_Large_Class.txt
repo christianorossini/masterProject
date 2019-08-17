@@ -1,2 +1,0 @@
-DrawApplication.java, CH.ifa.draw.application: 1175
-HTMLTextAreaFigure.java, CH.ifa.draw.contrib.html: 1144

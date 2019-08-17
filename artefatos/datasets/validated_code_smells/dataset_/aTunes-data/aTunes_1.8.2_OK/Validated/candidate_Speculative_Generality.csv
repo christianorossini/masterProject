@@ -1,9 +1,0 @@
-CustomDialog.java; net.sourceforge.atunes.gui.views.controls;
-CustomModalFrame.java; net.sourceforge.atunes.gui.views.controls;
-Column.java; net.sourceforge.atunes.gui.views.controls.playList;
-FrameController.java; net.sourceforge.atunes.kernel.controllers.model;
-ToolBarController.java; net.sourceforge.atunes.kernel.controllers.model;
-DialogController.java; net.sourceforge.atunes.kernel.controllers.model;
-PanelController.java; net.sourceforge.atunes.kernel.controllers.model;
-PlayerHandler.java; net.sourceforge.atunes.kernel.handlers;
-Tag.java; net.sourceforge.atunes.kernel.modules.repository.tags.tag;

@@ -1,4 +1,0 @@
-DistributedWebDBWriter.java; org.apache.nutch.db;
-WebDBWriter.java; org.apache.nutch.db;
-IndexSegment.java; org.apache.nutch.indexer;
-SegmentMergeTool.java; org.apache.nutch.tools;

@@ -1,5 +1,0 @@
-ChartUtilities.java; org.jfree.chart;
-ChartFactory.java; org.jfree.chart;
-Statistics.java; org.jfree.data.statistics;
-Regression.java; org.jfree.data.statistics;
-BoxAndWhiskerCalculator.java; org.jfree.data.statistics;

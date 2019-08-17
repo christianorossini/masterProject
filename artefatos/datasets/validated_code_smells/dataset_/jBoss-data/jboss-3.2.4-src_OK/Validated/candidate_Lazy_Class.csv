@@ -1,3 +1,0 @@
-AppendObjectOutputStream.java; org.jboss.util.stream;
-JmsMetaData.java; org.jboss.resource.adapter.jms;
-JBossTransactionManagerLookup.java; org.jboss.cache;

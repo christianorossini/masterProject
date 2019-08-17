@@ -1,3 +1,0 @@
-addContent: DockableWindow.java: src.net.sourceforge.atunes.gui.dockableView
-getInsidePicture: AudioFilePictureUtils.java: src.net.sourceforge.atunes.kernel.utils
-isValidPicture: AudioFilePictureUtils.java: src.net.sourceforge.atunes.kernel.utils

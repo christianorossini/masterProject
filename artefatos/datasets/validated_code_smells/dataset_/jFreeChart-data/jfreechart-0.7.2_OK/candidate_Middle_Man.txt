@@ -1,1 +1,0 @@
-LegendItemCollection.java: com.jrefinery.chart

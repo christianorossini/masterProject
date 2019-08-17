@@ -1,6 +1,0 @@
-DCTM.java; org.apache.manifoldcf.crawler.connectors.DCTM;
-SharedDriveConnector.java; org.apache.manifoldcf.crawler.connectors.sharedrive;
-LivelinkConnector.java; org.apache.manifoldcf.crawler.connectors.livelink;
-RSSConnector.java; org.apache.manifoldcf.crawler.connectors.rss;
-SharePointRepository.java; org.apache.manifoldcf.crawler.connectors.sharepoint;
-WebcrawlerConnector.java; org.apache.manifoldcf.crawler.connectors.webcrawler;

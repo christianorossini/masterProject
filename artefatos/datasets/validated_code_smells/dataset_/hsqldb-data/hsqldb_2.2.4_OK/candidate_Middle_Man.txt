@@ -1,4 +1,0 @@
-Tokens.java: org.hsqldb
-SqltoolRB.java: org.hsqldb.cmdline
-LineReader.java: org.hsqldb.lib
-RB.java: org.hsqldb.lib.tar

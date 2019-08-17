@@ -1,6 +1,0 @@
-LineFigure.java: CH.ifa.draw.figures
-SimpleUpdateStrategy.java: CH.ifa.draw.standard
-FigureEnumerator.java: CH.ifa.draw.standard
-ReverseFigureEnumerator.java: CH.ifa.draw.standard
-ReverseVectorEnumerator.java: CH.ifa.draw.util
-ColorMap.java: CH.ifa.draw.util

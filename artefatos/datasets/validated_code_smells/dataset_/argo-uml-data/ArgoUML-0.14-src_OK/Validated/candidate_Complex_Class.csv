@@ -1,5 +1,0 @@
-GeneratorJava.java; org.argouml.language.java.generator;
-JavaRecognizer.java; org.argouml.language.java.generator;
-ModelFacade.java; org.argouml.model;
-FigSeqLink.java; org.argouml.uml.diagram.sequence.ui;
-GeneratorDisplay.java; org.argouml.uml.generator;

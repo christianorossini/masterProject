@@ -1,6 +1,0 @@
-RepositoryImpl.java; org.apache.karaf.features.internal;
-GrepAction.java; org.apache.karaf.shell.commands;
-ListBundles.java; org.apache.karaf.shell.osgi;
-ListServices.java; org.apache.karaf.shell.osgi;
-InstallCommand.java; org.apache.karaf.shell.wrapper;
-Terminal.java; org.apache.karaf.webconsole.gogo;

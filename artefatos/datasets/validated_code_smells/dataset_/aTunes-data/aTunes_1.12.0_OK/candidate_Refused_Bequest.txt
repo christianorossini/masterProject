@@ -1,5 +1,0 @@
-PodcastFeedEntryPropertiesDialog.java: net.sourceforge.atunes.gui.views.dialogs.properties	PropertiesDialog.java: net.sourceforge.atunes.gui.views.dialogs.properties	
-AudioFilePropertiesDialog.java: net.sourceforge.atunes.gui.views.dialogs.properties	PropertiesDialog.java: net.sourceforge.atunes.gui.views.dialogs.properties	
-RadioPropertiesDialog.java: net.sourceforge.atunes.gui.views.dialogs.properties	PropertiesDialog.java: net.sourceforge.atunes.gui.views.dialogs.properties	
-EditTagFromNavigatorAction.java: net.sourceforge.atunes.kernel.actions	EditTagAction.java: net.sourceforge.atunes.kernel.actions	
-OpenFolderFromNavigatorAction.java: net.sourceforge.atunes.kernel.actions	OpenFolderAction.java: net.sourceforge.atunes.kernel.actions	

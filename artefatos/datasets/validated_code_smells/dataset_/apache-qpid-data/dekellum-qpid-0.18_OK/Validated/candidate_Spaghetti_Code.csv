@@ -1,3 +1,0 @@
-QpidCompositeRollingAppender.java; org.apache.log4j;
-SimpleAMQQueue.java; org.apache.qpid.server.queue;
-FailoverHandler.java; org.apache.qpid.client.failover;

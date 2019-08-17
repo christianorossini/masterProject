@@ -1,6 +1,0 @@
-DataOutputBuffer.java: org.apache.nutch.io
-DataInputBuffer.java: org.apache.nutch.io
-JobConf.java: org.apache.nutch.mapReduce
-NDFSClient.java: org.apache.nutch.ndfs
-NutchBean.java: org.apache.nutch.searcher
-TestVersionedWritable.java: org.apache.nutch.io

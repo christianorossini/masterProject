@@ -1,6 +1,0 @@
-Debug.java; org.gjt.sp.jedit;
-ParserTreeConstants.java; org.gjt.sp.jedit.bsh;
-BSHArrayDimensions.java; org.gjt.sp.jedit.bsh;
-Token.java; org.gjt.sp.jedit.bsh;
-HyperSearchResult.java; org.gjt.sp.jedit.search;
-ParserRule.java; org.gjt.sp.jedit.syntax;

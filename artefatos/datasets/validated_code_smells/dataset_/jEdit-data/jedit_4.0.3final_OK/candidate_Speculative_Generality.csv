@@ -1,7 +1,0 @@
-EditAction.java; org.gjt.sp.jedit;
-EditPlugin.java; org.gjt.sp.jedit;
-EBPlugin.java; org.gjt.sp.jedit;
-BufferChangeAdapter.java; org.gjt.sp.jedit.buffer;
-InputHandler.java; org.gjt.sp.jedit.gui;
-TextAreaExtension.java; org.gjt.sp.jedit.textarea;
-Selection.java; org.gjt.sp.jedit.textarea;

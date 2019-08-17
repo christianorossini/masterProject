@@ -1,7 +1,0 @@
-writeFontAttributes: SVGOutputFormat.java: main.java.org.jhotdraw.samples.svg.io
-readOpacityAttribute: SVGInputFormat.java: main.java.org.jhotdraw.samples.svg.io
-readShapeAttributes: SVGInputFormat.java: main.java.org.jhotdraw.samples.svg.io
-readLineAttributes: SVGInputFormat.java: main.java.org.jhotdraw.samples.svg.io
-readViewportAttributes: SVGInputFormat.java: main.java.org.jhotdraw.samples.svg.io
-readGraphicsAttributes: SVGInputFormat.java: main.java.org.jhotdraw.samples.svg.io
-readFontAttributes: SVGInputFormat.java: main.java.org.jhotdraw.samples.svg.io

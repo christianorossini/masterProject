@@ -1,7 +1,0 @@
-PlayListTable.java; com.fleax.atunes.gui.views.controls;
-OpenStrandsConfigurationDialog.java; com.fleax.atunes.gui.views.dialogs;
-ExportOptionsDialog.java; com.fleax.atunes.gui.views.dialogs;
-ApplicationMenuBar.java; com.fleax.atunes.gui.views.menu;
-PlayerControlsPanel.java; com.fleax.atunes.gui.views.panels;
-NavigationPanel.java; com.fleax.atunes.gui.views.panels;
-SystemTrayHandler.java; com.fleax.atunes.kernel.handlers;

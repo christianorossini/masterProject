@@ -1,9 +1,0 @@
-AbstractConstrainer.java; org.jhotdraw.draw;
-AbstractRotateHandle.java; org.jhotdraw.draw;
-QuadTreeCompositeFigure.java; org.jhotdraw.draw;
-MoveAction.java; org.jhotdraw.draw.action;
-MoveConstrainedAction.java; org.jhotdraw.draw.action;
-AlignAction.java; org.jhotdraw.draw.action;
-Insets2D.java; org.jhotdraw.geom;
-Worker.java; org.jhotdraw.gui;
-AbstractTransferable.java; org.jhotdraw.gui.datatransfer;

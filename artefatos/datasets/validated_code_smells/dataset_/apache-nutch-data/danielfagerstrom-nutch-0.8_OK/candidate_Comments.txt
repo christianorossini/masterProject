@@ -1,4 +1,0 @@
-toString: HttpDateFormat.java: src.java.org.apache.nutch.net.protocols
-getOutlinksJakartaRegexpImpl: OutlinkExtractor.java: src.java.org.apache.nutch.parse
-getOutlinksJDK5Impl: OutlinkExtractor.java: src.java.org.apache.nutch.parse
-testNormalizer: TestBasicUrlNormalizer.java: src.test.org.apache.nutch.net

@@ -1,8 +1,0 @@
-PropertyMap.java: net.sourceforge.jvlt
-CustomConstraints.java: net.sourceforge.jvlt
-SortedComboBoxModel.java: net.sourceforge.jvlt
-IndentedComboBox.java: net.sourceforge.jvlt
-ListeningInputComponent.java: net.sourceforge.jvlt
-EntryClass.java: net.sourceforge.jvlt
-QueryModel.java: net.sourceforge.jvlt
-AbstractModel.java: net.sourceforge.jvlt

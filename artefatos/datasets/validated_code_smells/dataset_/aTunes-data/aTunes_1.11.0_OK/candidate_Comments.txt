@@ -1,2 +1,0 @@
-addContent: DockableWindow.java: src.net.sourceforge.atunes.gui.dockableView
-getInstance: PlayerHandler.java: src.net.sourceforge.atunes.kernel.handlers

@@ -1,1 +1,0 @@
-StandardPieToolTipGenerator.java: com.jrefinery.chart.tooltips

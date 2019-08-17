@@ -1,7 +1,0 @@
-CustomTextField.java: com.fleax.common.swing.components
-FleaxSplitPaneUI.java: com.fleax.common.swing.fleaxLaF
-FleaxMenuBarUI.java: com.fleax.common.swing.fleaxLaF
-GradientViewport.java: com.fleax.common.swing.components
-FleaxSliderUI.java: com.fleax.common.swing.fleaxLaF
-TagDetector.java: com.fleax.atunes.kernel.tags.reader
-FleaxTextFieldUI.java: com.fleax.common.swing.fleaxLaF

@@ -1,5 +1,0 @@
-GrepAction.java; org.apache.felix.karaf.shell.commands;
-ListServices.java; org.apache.felix.karaf.shell.osgi;
-ListBundles.java; org.apache.felix.karaf.shell.osgi;
-InstallCommand.java; org.apache.felix.karaf.shell.wrapper;
-Terminal.java; org.apache.felix.karaf.webconsole.gogo;

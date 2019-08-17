@@ -1,1 +1,0 @@
-OpenFolderFromNavigatorAction.java: net.sourceforge.atunes.kernel.actions	OpenFolderAction.java: net.sourceforge.atunes.kernel.actions	

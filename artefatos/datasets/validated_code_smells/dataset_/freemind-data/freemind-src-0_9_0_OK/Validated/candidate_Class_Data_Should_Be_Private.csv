@@ -1,5 +1,0 @@
-NodeNote.java; accessories.plugins;
-FreeMindMain.java; freemind.main;
-MindMapNode.java; freemind.modes;
-MindMapActions.java; freemind.modes.mindmapmode.actions;
-ViewControllerAdapter.java; freemind.modes.viewmodes;

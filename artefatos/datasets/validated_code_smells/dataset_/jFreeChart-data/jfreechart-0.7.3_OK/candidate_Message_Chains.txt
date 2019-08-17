@@ -1,3 +1,0 @@
-getObjectLoop: Performance2.java: package com.jrefinery.chart.demo [in Performance2.java [in source.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.7.3]]]]: 3
-run: SampleXYDatasetThread.java: package com.jrefinery.chart.demo [in SampleXYDatasetThread.java [in source.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.7.3]]]]: 3
-getPrimitiveAsObjectLoop: Performance2.java: package com.jrefinery.chart.demo [in Performance2.java [in source.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.7.3]]]]: 3

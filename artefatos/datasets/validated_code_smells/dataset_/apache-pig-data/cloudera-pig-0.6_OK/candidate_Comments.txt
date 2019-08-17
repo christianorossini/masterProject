@@ -1,5 +1,0 @@
-verify: TestMergeJoinPrune.java: contrib.zebra.src.test.org.apache.hadoop.zebra.pig
-verify: TestMergeJoin.java: contrib.zebra.src.test.org.apache.hadoop.zebra.pig
-setIndex: POLocalRearrange.java: src.org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators
-getNext: POStreamLocal.java: src.org.apache.pig.backend.local.executionengine.physicalLayer.relationalOperators
-buildPlan: LogicalPlanTester.java: test.org.apache.pig.test.utils

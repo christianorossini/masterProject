@@ -1,3 +1,0 @@
-ParserNotFound.java: org.apache.nutch.parse	ParseException.java: org.apache.nutch.analysis	
-ProtocolNotFound.java: org.apache.nutch.protocol	ProtocolException.java: org.apache.nutch.net.protocols	
-SimpleTestPlugin.java: org.apache.nutch.plugin	Plugin.java: org.apache.nutch.plugin	

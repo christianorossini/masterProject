@@ -1,6 +1,0 @@
-BagSize.java: org.apache.pig.builtin
-RINT.java: org.apache.pig.piggybank.evaluation.math
-FileInputHandler.java: org.apache.pig.impl.streaming
-StringSize.java: org.apache.pig.builtin
-GFAny.java: org.apache.pig.impl.builtin
-TupleSize.java: org.apache.pig.builtin

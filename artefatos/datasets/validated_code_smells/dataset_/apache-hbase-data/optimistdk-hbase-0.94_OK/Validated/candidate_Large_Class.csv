@@ -1,8 +1,0 @@
-StorageClusterStatusMessage.java; org.apache.hadoop.hbase.rest.protobuf.generated; 2874;
-TestHRegion.java; org.apache.hadoop.hbase.regionserver; 3998;
-TestFromClientSide.java; org.apache.hadoop.hbase.client; 4727;
-HRegionServer.java; org.apache.hadoop.hbase.regionserver; 3726;
-AssignmentManager.java; org.apache.hadoop.hbase.master; 3424;
-KeyValue.java; org.apache.hadoop.hbase; 2269;
-Store.java; org.apache.hadoop.hbase.regionserver; 2369;
-HBaseFsck.java; org.apache.hadoop.hbase.util; 3296;

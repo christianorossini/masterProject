@@ -1,6 +1,0 @@
-jdbcConnection.java; org.hsqldb.jdbc; 2671;
-jdbcResultSet.java; org.hsqldb.jdbc; 5031;
-DatabaseInformationMain.java; org.hsqldb; 3033;
-Parser.java; org.hsqldb; 2606;
-Expression.java; org.hsqldb; 3688;
-Table.java; org.hsqldb; 3122;

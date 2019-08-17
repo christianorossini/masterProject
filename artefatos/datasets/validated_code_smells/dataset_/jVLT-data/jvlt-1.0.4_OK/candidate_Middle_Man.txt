@@ -1,9 +1,0 @@
-IndentedComboBox.java
-QueryModel.java
-AbstractModel.java
-AttributeChoiceListPanel.java
-ListeningInputComponent.java
-EntryClass.java
-SelectionNotifier.java
-CustomConstraints.java
-PropertyMap.java

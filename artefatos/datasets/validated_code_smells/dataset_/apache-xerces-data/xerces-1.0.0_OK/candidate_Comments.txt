@@ -1,8 +1,0 @@
-getFeature: XMLParser.java: org.apache.xerces.framework
-parseSome: XMLDocumentScanner.java: org.apache.xerces.framework
-resolveEntity: HandlerBase.java: org.xml.sax
-notationDecl: HandlerBase.java: org.xml.sax
-warning: HandlerBase.java: org.xml.sax
-SAXParseException: SAXParseException.java: org.xml.sax
-setFeature: ConfigurableParserAdapter.java: org.xml.sax.helpers
-setAttributeList: AttributeListImpl.java: org.xml.sax.helpers

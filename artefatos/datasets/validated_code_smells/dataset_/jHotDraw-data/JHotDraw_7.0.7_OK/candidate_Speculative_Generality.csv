@@ -1,7 +1,0 @@
-AbstractAttributedCompositeFigure.java; org.jhotdraw.draw;
-AbstractEditorAction.java; org.jhotdraw.draw.action;
-MoveAction.java; org.jhotdraw.draw.action;
-RunnableWorker.java; org.jhotdraw.draw.action;
-AlignAction.java; org.jhotdraw.draw.action;
-SwingWorker.java; org.jhotdraw.draw.action;
-Worker.java; org.jhotdraw.util;

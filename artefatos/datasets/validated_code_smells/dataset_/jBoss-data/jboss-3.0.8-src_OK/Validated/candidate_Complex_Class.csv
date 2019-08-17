@@ -1,9 +1,0 @@
-Watchdog.java; org.jbossmx.cluster.watchdog.mbean;
-HttpContext.java; org.mortbay.http;
-WebApplicationContext.java; org.mortbay.jetty.servlet;
-NamingContext.java; org.jnp.interfaces;
-JDBCEJBQLCompiler.java; org.jboss.ejb.plugins.cmp.jdbc;
-JDBCCMRFieldBridge.java; org.jboss.ejb.plugins.cmp.jdbc.bridge;
-JDBCEntityMetaData.java; org.jboss.ejb.plugins.cmp.jdbc.metadata;
-EJBVerifier20.java; org.jboss.verifier.strategy;
-AbstractVerifier.java; org.jboss.verifier.strategy;

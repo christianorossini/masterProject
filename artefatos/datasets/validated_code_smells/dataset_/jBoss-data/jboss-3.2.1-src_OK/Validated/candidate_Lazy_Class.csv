@@ -1,4 +1,0 @@
-ServletHttpContextMBean.java; org.mortbay.jetty.servlet.jmx;
-AppletRemoteMBeanInvoker.java; org.jboss.console.remote;
-JmsMetaData.java; org.jboss.resource.adapter.jms;
-AppendObjectOutputStream.java; org.jboss.util.stream;

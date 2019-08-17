@@ -1,2 +1,0 @@
-Base64.java, org.jhotdraw.io: 1451
-PaletteToolBarUI.java, org.jhotdraw.gui.plaf.palette: 1454

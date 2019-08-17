@@ -1,5 +1,0 @@
-DataStorage.java; org.apache.pig.backend.datastorage;
-ElementDescriptor.java; org.apache.pig.backend.datastorage;
-PigOutputFormat.java; org.apache.pig.backend.hadoop.executionengine.mapReduceLayer;
-POStatus.java; org.apache.pig.backend.hadoop.executionengine.physicalLayer;
-DataType.java; org.apache.pig.data;

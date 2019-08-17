@@ -1,3 +1,0 @@
-TransportActions.java; org.elasticsearch.action;
-Scoping.java; org.elasticsearch.common.inject.internal;
-OsUtils.java; org.elasticsearch.common.os;

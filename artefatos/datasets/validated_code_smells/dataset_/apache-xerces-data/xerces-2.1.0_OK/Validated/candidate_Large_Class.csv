@@ -1,6 +1,0 @@
-AbstractSAXParser.java; org.apache.xerces.parsers; 2021;
-DeferredDocumentImpl.java; org.apache.xerces.dom; 1973;
-XMLEntityManager.java; org.apache.xerces.impl; 3391;
-RegularExpression.java; org.apache.xerces.impl.xpath.regex; 3192;
-XMLDTDScannerImpl.java; org.apache.xerces.impl; 1971;
-XMLDTDValidator.java; org.apache.xerces.impl.dtd; 3024;

@@ -1,2 +1,0 @@
-JSheet.java, org.jhotdraw.gui: 1025
-XMLElement.java, net.n3.nanoxml: 1040

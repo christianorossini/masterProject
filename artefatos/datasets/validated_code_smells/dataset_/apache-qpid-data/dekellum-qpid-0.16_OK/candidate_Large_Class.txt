@@ -1,6 +1,0 @@
-DerbyMessageStore.java, org.apache.qpid.server.store: 2715
-QMFService.java, org.apache.qpid.qmf: 2063
-BDBMessageStore.java, org.apache.qpid.server.store.berkeleydb: 2529
-PingPongProducer.java, org.apache.qpid.requestreply: 1819
-JavaGenerator.java, org.apache.qpid.gentools: 1827
-SimpleAMQQueue.java, org.apache.qpid.server.queue: 2449

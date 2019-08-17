@@ -1,3 +1,0 @@
-CouchdbRiver.java; org.elasticsearch.river.couchdb;	AbstractRiverComponent.java; org.elasticsearch.river;	
-RabbitmqRiver.java; org.elasticsearch.river.rabbitmq;	AbstractRiverComponent.java; org.elasticsearch.river;	
-TwitterRiver.java; org.elasticsearch.river.twitter;	AbstractRiverComponent.java; org.elasticsearch.river;	

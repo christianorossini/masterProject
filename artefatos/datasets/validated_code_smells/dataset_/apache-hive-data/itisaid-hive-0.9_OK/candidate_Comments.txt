@@ -1,1 +1,0 @@
-testPrepareStatement: TestJdbcDriver.java: jdbc.src.test.org.apache.hadoop.hive.jdbc

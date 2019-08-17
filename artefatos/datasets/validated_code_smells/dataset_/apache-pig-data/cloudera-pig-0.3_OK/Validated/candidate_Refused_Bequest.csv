@@ -1,2 +1,0 @@
-MultiQueryOptimizer.java; org.apache.pig.backend.hadoop.executionengine.mapReduceLayer;	MROpPlanVisitor.java; org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans;	
-CombinerOptimizer.java; org.apache.pig.backend.hadoop.executionengine.mapReduceLayer;	MROpPlanVisitor.java; org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans;	

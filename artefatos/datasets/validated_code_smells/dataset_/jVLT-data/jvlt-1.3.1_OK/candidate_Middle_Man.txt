@@ -1,7 +1,0 @@
-EntryClass.java: net.sourceforge.jvlt.core
-AbstractModel.java: net.sourceforge.jvlt.model
-QueryModel.java: net.sourceforge.jvlt.model
-ListeningInputComponent.java: net.sourceforge.jvlt.ui.components
-IndentedComboBox.java: net.sourceforge.jvlt.ui.components
-SortedComboBoxModel.java: net.sourceforge.jvlt.ui.components
-CustomConstraints.java: net.sourceforge.jvlt.ui.utils

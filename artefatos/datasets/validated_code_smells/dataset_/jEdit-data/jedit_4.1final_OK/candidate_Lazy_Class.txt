@@ -1,3 +1,0 @@
-HelpSearchPanel.java: org.gjt.sp.jedit.help
-IndentFoldHandler.java: org.gjt.sp.jedit.buffer
-ExplicitFoldHandler.java: org.gjt.sp.jedit.buffer

@@ -1,6 +1,0 @@
-VFSBrowser.java, org.gjt.sp.jedit.browser: 2114
-View.java, org.gjt.sp.jedit: 2303
-Parser.java, org.gjt.sp.jedit.bsh: 5816
-jEdit.java, org.gjt.sp.jedit: 4373
-JEditBuffer.java, org.gjt.sp.jedit.buffer: 2851
-Buffer.java, org.gjt.sp.jedit: 2159

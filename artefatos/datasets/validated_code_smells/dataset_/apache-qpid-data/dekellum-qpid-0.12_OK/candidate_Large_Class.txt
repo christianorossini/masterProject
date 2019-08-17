@@ -1,4 +1,0 @@
-JavaGenerator.java, org.apache.qpid.gentools: 1827
-SimpleAMQQueue.java, org.apache.qpid.server.queue: 2233
-DerbyMessageStore.java, org.apache.qpid.server.store: 1847
-PingPongProducer.java, org.apache.qpid.requestreply: 1834

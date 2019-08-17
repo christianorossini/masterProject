@@ -1,9 +1,0 @@
-setRenderer: CombinedXYPlot.java: src.org.jfree.chart.plot
-getHorizontalDataRange: CombinedXYPlot.java: src.org.jfree.chart.plot
-setXYItemRenderer: CombinedXYPlot.java: src.org.jfree.chart.plot
-getDatasetGroup: Plot.java: src.org.jfree.chart.plot
-getDataAreaRatio: Plot.java: src.org.jfree.chart.plot
-isShapeFilled: StandardXYItemRenderer.java: src.org.jfree.chart.renderer
-getStartXValue: CombinedDataset.java: src.org.jfree.data
-getParent: CombinedDataset.java: src.org.jfree.data
-getChildPosition: CombinedDataset.java: src.org.jfree.data

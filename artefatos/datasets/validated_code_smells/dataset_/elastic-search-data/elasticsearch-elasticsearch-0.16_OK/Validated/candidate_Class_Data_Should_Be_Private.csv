@@ -1,4 +1,0 @@
-TransportActions.java; org.elasticsearch.action;
-Lucene.java; org.elasticsearch.common.lucene;
-OsUtils.java; org.elasticsearch.common.os;
-RestActions.java; org.elasticsearch.rest.action.support;

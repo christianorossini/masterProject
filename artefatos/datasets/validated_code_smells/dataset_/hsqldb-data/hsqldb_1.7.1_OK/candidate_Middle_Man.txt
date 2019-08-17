@@ -1,2 +1,0 @@
-BinaryServerRowInput.java: org.hsqldb
-QuotedTextDatabaseRowOutput.java: org.hsqldb

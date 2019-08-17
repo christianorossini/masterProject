@@ -1,4 +1,0 @@
-NodeImpl.java; org.apache.xerces.dom;
-UTF8Reader.java; org.apache.xerces.readers;
-DTDValidator.java; org.apache.xerces.validators.dtd;
-XSchemaValidator.java; org.apache.xerces.validators.schema;

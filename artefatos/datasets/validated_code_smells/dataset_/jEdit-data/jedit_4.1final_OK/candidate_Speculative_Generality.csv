@@ -1,5 +1,0 @@
-EditAction.java; org.gjt.sp.jedit;
-OptionsDialog.java; org.gjt.sp.jedit.gui;
-InputHandler.java; org.gjt.sp.jedit.gui;
-TextAreaExtension.java; org.gjt.sp.jedit.textarea;
-Selection.java; org.gjt.sp.jedit.textarea;

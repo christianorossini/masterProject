@@ -1,1 +1,0 @@
-StopAnalyzerProvider.java; org.elasticsearch.index.analysisRobinEngineModule.java; org.elasticsearch.index.engine.robinWeakQueryParserCache.java; org.elasticsearch.cache.query.parser.weakLocalDiscoveryModule.java; org.elasticsearch.discovery.localOrDocSet.java; org.elasticsearch.common.lucene.docset

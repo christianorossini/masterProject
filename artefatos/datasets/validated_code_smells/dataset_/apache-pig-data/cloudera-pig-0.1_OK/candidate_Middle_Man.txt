@@ -1,8 +1,0 @@
-HSeekableInputStream.java: org.apache.pig.backend.hadoop.datastorage
-LocalSeekableInputStream.java: org.apache.pig.backend.local.datastorage
-InstantiateFuncCallerPOVisitor.java: org.apache.pig.backend.local.executionengine
-DataMap.java: org.apache.pig.data
-NotCond.java: org.apache.pig.impl.eval.cond
-BufferedPositionedInputStream.java: org.apache.pig.impl.io
-LOVisitor.java: org.apache.pig.impl.logicalLayer
-POVisitor.java: org.apache.pig.impl.physicalLayer

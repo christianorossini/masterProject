@@ -1,6 +1,0 @@
-ClasspathVariableInitializer.java; org.eclipse.jdt.core;
-ClasspathContainerInitializer.java; org.eclipse.jdt.core;
-ClassFileBytesDisassembler.java; org.eclipse.jdt.core.util;
-SortJavaElement.java; org.eclipse.jdt.internal.core;
-IndexOutput.java; org.eclipse.jdt.internal.core.index.impl;
-JobManager.java; org.eclipse.jdt.internal.core.search.processing;

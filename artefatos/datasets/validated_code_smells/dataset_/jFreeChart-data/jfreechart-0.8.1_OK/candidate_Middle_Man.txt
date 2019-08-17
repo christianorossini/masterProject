@@ -1,2 +1,0 @@
-LegendItemCollection.java: com.jrefinery.chart
-SampleSignalDataset.java: com.jrefinery.chart.demo

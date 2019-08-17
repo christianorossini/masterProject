@@ -1,4 +1,0 @@
-getHorizontalDataRange: CombinedXYPlot.java: src.com.jrefinery.chart
-getStartXValue: CombinedDataset.java: src.com.jrefinery.data
-getParent: CombinedDataset.java: src.com.jrefinery.data
-getChildPosition: CombinedDataset.java: src.com.jrefinery.data

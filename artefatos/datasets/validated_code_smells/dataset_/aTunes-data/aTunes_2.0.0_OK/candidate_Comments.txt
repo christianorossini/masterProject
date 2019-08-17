@@ -1,3 +1,0 @@
-setPlayListAfterFiltering: PlayListHandler.java: src.net.sourceforge.atunes.kernel.modules.playlist
-moveRowTo: PlayList.java: src.net.sourceforge.atunes.kernel.modules.playlist
-run: YoutubeMoreResultsRunnable.java: src.net.sourceforge.atunes.kernel.modules.webservices.youtube

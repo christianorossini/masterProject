@@ -1,7 +1,0 @@
-AsciiStringInputStream.java: org.hsqldb.lib	StringInputStream.java: org.hsqldb.lib	
-InformixTransferHelper.java: org.hsqldb.util	TransferHelper.java: org.hsqldb.util	
-TransferDb.java: org.hsqldb.util	DataAccessPoint.java: org.hsqldb.util	
-HsqldbTransferHelper.java: org.hsqldb.util	TransferHelper.java: org.hsqldb.util	
-McKoiTransferHelper.java: org.hsqldb.util	TransferHelper.java: org.hsqldb.util	
-PostgresTransferHelper.java: org.hsqldb.util	TransferHelper.java: org.hsqldb.util	
-TransferSQLText.java: org.hsqldb.util	DataAccessPoint.java: org.hsqldb.util	

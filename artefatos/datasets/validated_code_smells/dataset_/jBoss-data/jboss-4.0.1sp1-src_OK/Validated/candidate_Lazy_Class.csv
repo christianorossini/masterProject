@@ -1,9 +1,0 @@
-LockStrategyReadUncommitted.java; org.jboss.cache.lock;
-JBossTransactionManagerLookup.java; org.jboss.cache;
-AppendObjectOutputStream.java; org.jboss.util.stream;
-ThreadNDCConverter.java; org.jboss.logging.layout;
-ThreadMDCConverter.java; org.jboss.logging.layout;
-JmsMessageListener.java; org.jboss.resource.adapter.jms;
-Throwables.java; org.jboss.util;
-FIFOAlgorithm.java; org.jboss.cache.eviction;
-JmsMetaData.java; org.jboss.resource.adapter.jms;

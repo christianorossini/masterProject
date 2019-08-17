@@ -1,6 +1,0 @@
-TxManagerTimeOutReader.java; org.jboss.aspects.tx;
-AroundInvokeImpl.java; org.jboss.ejb;
-WarConfigBeanRoot.java; org.jboss.deployment.spi.beans;
-TxTimeoutReaderFactory.java; org.jboss.aspects.tx;
-JmsMetaData.java; org.jboss.resource.adapter.jms;
-JmsMessageListener.java; org.jboss.resource.adapter.jms;

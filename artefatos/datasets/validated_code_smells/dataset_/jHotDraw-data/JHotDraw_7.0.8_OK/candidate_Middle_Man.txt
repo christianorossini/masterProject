@@ -1,8 +1,0 @@
-AbstractBean.java: org.jhotdraw.beans
-FloatingTextField.java: org.jhotdraw.draw
-MoveHandle.java: org.jhotdraw.draw
-HandleMulticaster.java: org.jhotdraw.draw
-InputStreamTransferable.java: org.jhotdraw.gui.datatransfer
-StraightLineFigure.java: org.jhotdraw.samples.mini
-PertFactory.java: org.jhotdraw.samples.pert
-UndoRedoManager.java: org.jhotdraw.undo

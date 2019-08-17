@@ -1,7 +1,0 @@
-GenericWritableConfigurable.java: org.apache.nutch.util
-DelayHandler.java: org.apache.nutch.tools.proxy
-IndexerOutputFormat.java: org.apache.nutch.indexer
-NotFoundHandler.java: org.apache.nutch.tools.proxy
-URLMetaIndexingFilter.java: org.apache.nutch.indexer.urlmeta
-DefaultFetchSchedule.java: org.apache.nutch.crawl
-ArcInputFormat.java: org.apache.nutch.tools.arc

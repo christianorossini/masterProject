@@ -1,3 +1,0 @@
-ObjectStore.java; org.apache.hadoop.hive.metastore;
-DDLTask.java; org.apache.hadoop.hive.ql.exec;
-SemanticAnalyzer.java; org.apache.hadoop.hive.ql.parse;

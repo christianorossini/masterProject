@@ -1,8 +1,0 @@
-Constants.java; net.sourceforge.atunes;
-ColorDefinitions.java; net.sourceforge.atunes.gui;
-FontSingleton.java; net.sourceforge.atunes.gui;
-ImageLoader.java; net.sourceforge.atunes.gui.images;
-RendererSingleton.java; net.sourceforge.atunes.gui.views;
-NavigationControllerViews.java; net.sourceforge.atunes.kernel.controllers.navigation;
-SearchFactory.java; net.sourceforge.atunes.kernel.modules.search;
-LogCategories.java; net.sourceforge.atunes.utils.log4j;

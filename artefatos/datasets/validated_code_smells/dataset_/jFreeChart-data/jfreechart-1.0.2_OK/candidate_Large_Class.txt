@@ -1,6 +1,0 @@
-DateAxis.java, org.jfree.chart.axis: 1805
-CategoryPlot.java, org.jfree.chart.plot: 3273
-AbstractRenderer.java, org.jfree.chart.renderer: 2854
-PiePlot.java, org.jfree.chart.plot: 2341
-ChartPanel.java, org.jfree.chart: 2447
-ContourPlot.java, org.jfree.chart.plot: 1921

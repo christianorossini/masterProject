@@ -1,1 +1,0 @@
-configuration: CoreTest.java: itests.tests.src.test.java.org.apache.karaf.shell.itests

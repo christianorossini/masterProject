@@ -1,4 +1,0 @@
-ComparisonFunc.java; org.apache.pig;
-EvalFunc.java; org.apache.pig;
-PlanCompiler.java; org.apache.pig.impl.physicalLayer;
-Command.java; org.apache.pig.tools.grunt;

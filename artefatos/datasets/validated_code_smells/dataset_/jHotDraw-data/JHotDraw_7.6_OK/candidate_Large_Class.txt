@@ -1,2 +1,0 @@
-DefaultDrawingView.java, org.jhotdraw.draw: 1603
-ButtonFactory.java, org.jhotdraw.draw.action: 1916

@@ -1,9 +1,0 @@
-HttpFields.java; org.mortbay.http; 1422;
-TxCapsule.java; org.jboss.tm; 1888;
-HttpContext.java; org.mortbay.http; 2250;
-HttpServer.java; org.mortbay.http; 1456;
-Watchdog.java; org.jbossmx.cluster.watchdog.mbean; 2025;
-EJBVerifier20.java; org.jboss.verifier.strategy; 2941;
-Scheduler.java; org.jboss.varia.scheduler; 1375;
-JDBCCMRFieldBridge.java; org.jboss.ejb.plugins.cmp.jdbc.bridge; 1357;
-RelationService.java; javax.management.relation; 1530;

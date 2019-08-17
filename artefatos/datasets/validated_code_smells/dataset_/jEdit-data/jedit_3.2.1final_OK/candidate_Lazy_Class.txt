@@ -1,6 +1,0 @@
-MarkersMenu.java: org.gjt.sp.jedit.gui
-LogViewer.java: org.gjt.sp.jedit.gui
-TipOfTheDay.java: org.gjt.sp.jedit.gui
-OpenWithEncodingMenu.java: org.gjt.sp.jedit.gui
-PluginsMenu.java: org.gjt.sp.jedit.gui
-FontSelector.java: org.gjt.sp.jedit.gui

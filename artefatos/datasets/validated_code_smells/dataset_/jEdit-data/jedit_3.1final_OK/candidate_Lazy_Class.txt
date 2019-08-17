@@ -1,5 +1,0 @@
-CommandShortcutsOptionPane.java: org.gjt.sp.jedit.options
-TipOfTheDay.java: org.gjt.sp.jedit.gui
-MacroShortcutsOptionPane.java: org.gjt.sp.jedit.options
-FontSelector.java: org.gjt.sp.jedit.gui
-PluginShortcutsOptionPane.java: org.gjt.sp.jedit.options

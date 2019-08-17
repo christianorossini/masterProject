@@ -1,3 +1,0 @@
-setChart: Plot.java: package com.jrefinery.chart [in Plot.java [in source.com.jrefinery.chart [in <project root> [in jfreechart-0.7.0]]]]: 4
-run: SampleXYDatasetThread.java: package com.jrefinery.chart.demo [in SampleXYDatasetThread.java [in source.com.jrefinery.chart.demo [in <project root> [in jfreechart-0.7.0]]]]: 3
-clone: AbstractTitle.java: package com.jrefinery.chart [in AbstractTitle.java [in source.com.jrefinery.chart [in <project root> [in jfreechart-0.7.0]]]]: 3

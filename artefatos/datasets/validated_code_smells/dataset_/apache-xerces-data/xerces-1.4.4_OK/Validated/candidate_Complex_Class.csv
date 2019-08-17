@@ -1,7 +1,0 @@
-RangeImpl.java; org.apache.xerces.dom;
-UTF8Reader.java; org.apache.xerces.readers;
-URI.java; org.apache.xerces.utils;
-RegularExpression.java; org.apache.xerces.utils.regex;
-RegexParser.java; org.apache.xerces.utils.regex;
-XMLValidator.java; org.apache.xerces.validators.common;
-TraverseSchema.java; org.apache.xerces.validators.schema;

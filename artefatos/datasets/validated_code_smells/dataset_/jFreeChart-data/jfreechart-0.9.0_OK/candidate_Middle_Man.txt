@@ -1,3 +1,0 @@
-LegendItemCollection.java: com.jrefinery.chart
-JThermometer.java: com.jrefinery.chart
-SampleSignalDataset.java: com.jrefinery.chart.demo

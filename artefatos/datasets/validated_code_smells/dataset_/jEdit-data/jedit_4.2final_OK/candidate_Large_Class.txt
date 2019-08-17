@@ -1,3 +1,0 @@
-DisplayManager.java, org.gjt.sp.jedit.textarea: 1961
-jEdit.java, org.gjt.sp.jedit: 3870
-Buffer.java, org.gjt.sp.jedit: 4335

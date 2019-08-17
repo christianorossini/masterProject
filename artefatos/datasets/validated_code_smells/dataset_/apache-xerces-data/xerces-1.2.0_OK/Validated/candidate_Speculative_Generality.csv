@@ -1,7 +1,0 @@
-SAXParserFactory.java; javax.xml.parsers;
-DocumentBuilder.java; javax.xml.parsers;
-DocumentBuilderFactory.java; javax.xml.parsers;
-SAXParser.java; javax.xml.parsers;
-DOMException.java; org.apache.xerces.domx;
-XMLCatalogHandler.java; org.apache.xerces.readers;
-SerializerFactory.java; org.apache.xml.serialize;

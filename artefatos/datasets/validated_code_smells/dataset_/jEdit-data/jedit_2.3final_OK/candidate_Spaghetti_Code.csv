@@ -1,6 +1,0 @@
-jEdit.java; org.gjt.sp.jedit;
-SendDialog.java; org.gjt.sp.jedit.gui;
-GeneralOptionPane.java; org.gjt.sp.jedit.options;
-EditorOptionPane.java; org.gjt.sp.jedit.options;
-PerlTokenMarker.java; org.gjt.sp.jedit.syntax;
-TSQLTokenMarker.java; org.gjt.sp.jedit.syntax;

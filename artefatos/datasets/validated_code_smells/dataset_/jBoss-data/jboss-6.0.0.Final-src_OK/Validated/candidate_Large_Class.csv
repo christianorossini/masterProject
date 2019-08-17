@@ -1,7 +1,0 @@
-Container.java; org.jboss.ejb; 1689;
-RDBMSStoreBase.java; org.jboss.web.tomcat.service.session.persistent; 1785;
-ClusteredSession.java; org.jboss.web.tomcat.service.session; 2146;
-JDBCCMRFieldBridge2.java; org.jboss.ejb.plugins.cmp.jdbc2.bridge; 1832;
-JDBCEJBQLCompiler.java; org.jboss.ejb.plugins.cmp.jdbc; 1978;
-EntityTable.java; org.jboss.ejb.plugins.cmp.jdbc2.schema; 1893;
-JDBCCMRFieldBridge.java; org.jboss.ejb.plugins.cmp.jdbc.bridge; 2389;

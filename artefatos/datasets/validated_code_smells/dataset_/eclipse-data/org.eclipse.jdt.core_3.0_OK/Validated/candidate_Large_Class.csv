@@ -1,9 +1,0 @@
-PublicScanner.java; org.eclipse.jdt.internal.core.util; 3410;
-CompletionEngine.java; org.eclipse.jdt.internal.codeassist; 3559;
-CodeStream.java; org.eclipse.jdt.internal.compiler.codegen; 5337;
-CodeFormatterVisitor.java; org.eclipse.jdt.internal.formatter; 4204;
-Scanner.java; org.eclipse.jdt.internal.compiler.parser; 3414;
-ConstantPool.java; org.eclipse.jdt.internal.compiler.codegen; 3085;
-JavaProject.java; org.eclipse.jdt.internal.core; 2872;
-ASTConverter.java; org.eclipse.jdt.core.dom; 3476;
-JavaCore.java; org.eclipse.jdt.core; 3685;

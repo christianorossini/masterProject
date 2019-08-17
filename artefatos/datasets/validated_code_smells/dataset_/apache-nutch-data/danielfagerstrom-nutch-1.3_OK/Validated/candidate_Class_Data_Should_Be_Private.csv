@@ -1,9 +1,0 @@
-CrawlDb.java; org.apache.nutch.crawl;
-FetchSchedule.java; org.apache.nutch.crawl;
-SolrConstants.java; org.apache.nutch.indexer.solr;
-Office.java; org.apache.nutch.metadata;
-HttpHeaders.java; org.apache.nutch.metadata;
-Feed.java; org.apache.nutch.metadata;
-Nutch.java; org.apache.nutch.metadata;
-DublinCore.java; org.apache.nutch.metadata;
-WebGraph.java; org.apache.nutch.scoring.webgraph;

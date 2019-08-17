@@ -1,6 +1,0 @@
-DTDGrammar.java; org.apache.xerces.impl.dtd; 2804;
-CoreDocumentImpl.java; org.apache.xerces.dom; 2359;
-XSSimpleTypeDecl.java; org.apache.xerces.impl.dv.xs; 2205;
-XMLEntityManager.java; org.apache.xerces.impl; 2597;
-RegularExpression.java; org.apache.xerces.impl.xpath.regex; 3190;
-AbstractDOMParser.java; org.apache.xerces.parsers; 2540;

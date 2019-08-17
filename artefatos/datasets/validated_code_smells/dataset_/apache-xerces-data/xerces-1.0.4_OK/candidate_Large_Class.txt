@@ -1,4 +1,0 @@
-UTF8Reader.java, org.apache.xerces.readers: 2749
-XMLDTDScanner.java, org.apache.xerces.framework: 2696
-DOMParser.java, org.apache.xerces.parsers: 2891
-Schema.java, org.apache.xerces.validators.schema: 2356

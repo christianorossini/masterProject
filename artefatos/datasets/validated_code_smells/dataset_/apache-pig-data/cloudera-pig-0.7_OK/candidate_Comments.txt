@@ -1,9 +1,0 @@
-verify: TestMergeJoinPrune.java: contrib.zebra.src.test.org.apache.hadoop.zebra.pig
-test_sorted_table_union_03: TestOrderPreserveProjection.java: contrib.zebra.src.test.org.apache.hadoop.zebra.pig
-verify: TestMergeJoin.java: contrib.zebra.src.test.org.apache.hadoop.zebra.pig
-setIndex: POLocalRearrange.java: src.org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators
-setUid: BagDereferenceExpression.java: src.org.apache.pig.experimental.logical.expression
-visitLOStore: LogToPhyTranslationVisitor.java: src.org.apache.pig.experimental.logical.relational
-checkSuccessors: PColFilterExtractor.java: src.org.apache.pig.impl.logicalLayer
-getNext: POStreamLocal.java: src.org.apache.pig.pen.physicalOperators
-buildPlan: LogicalPlanTester.java: test.org.apache.pig.test.utils

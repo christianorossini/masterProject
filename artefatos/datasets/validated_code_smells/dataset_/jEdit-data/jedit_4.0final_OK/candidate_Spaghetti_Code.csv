@@ -1,5 +1,0 @@
-EditPane.java; org.gjt.sp.jedit;
-BufferOptions.java; org.gjt.sp.jedit.gui;
-BufferIORequest.java; org.gjt.sp.jedit.io;
-LoadSaveOptionPane.java; org.gjt.sp.jedit.options;
-EditingOptionPane.java; org.gjt.sp.jedit.options;

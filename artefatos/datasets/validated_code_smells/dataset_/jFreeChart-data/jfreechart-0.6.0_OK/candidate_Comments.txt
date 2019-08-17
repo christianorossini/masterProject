@@ -1,1 +1,0 @@
-autoAdjustRange: NumberAxis.java: source.com.jrefinery.chart

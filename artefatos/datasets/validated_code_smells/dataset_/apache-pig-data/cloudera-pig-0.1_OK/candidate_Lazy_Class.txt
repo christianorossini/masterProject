@@ -1,6 +1,0 @@
-FileInputHandler.java: org.apache.pig.impl.streaming
-FindQuantiles.java: org.apache.pig.impl.builtin
-MapRedPhysicalPlan.java: org.apache.pig.backend.hadoop.executionengine
-RandomSampleLoader.java: org.apache.pig.impl.builtin
-ComparisonFunc.java: org.apache.pig
-GFAny.java: org.apache.pig.impl.builtin

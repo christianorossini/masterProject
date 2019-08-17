@@ -1,1 +1,0 @@
-IsolationLevel.java: org.apache.hadoop.hbase.client

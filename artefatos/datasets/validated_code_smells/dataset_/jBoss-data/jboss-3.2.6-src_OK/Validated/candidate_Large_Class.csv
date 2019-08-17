@@ -1,5 +1,0 @@
-tcpmon.java; org.apache.axis.utils; 2383;
-SOAPElementAxisImpl.java; org.apache.axis.message; 2133;
-Emitter.java; org.apache.axis.wsdl.fromJava; 2345;
-Call.java; org.apache.axis.client; 3226;
-SymbolTable.java; org.apache.axis.wsdl.symbolTable; 3092;

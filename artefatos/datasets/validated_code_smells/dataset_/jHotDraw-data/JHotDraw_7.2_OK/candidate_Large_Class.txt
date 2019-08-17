@@ -1,1 +1,0 @@
-PaletteToolBarUI.java, org.jhotdraw.gui.plaf.palette: 1456

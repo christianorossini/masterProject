@@ -1,9 +1,0 @@
-SegmentedTimeline: SegmentedTimeline.java: source.org.jfree.chart.axis
-setUp: SegmentedTimelineTests.java: source.org.jfree.chart.axis.junit
-testBasicSegmentedTimeline: SegmentedTimelineTests.java: source.org.jfree.chart.axis.junit
-setAxisProperties: DefaultAxisEditor.java: source.org.jfree.chart.editor
-getImage: StandardXYItemRenderer.java: source.org.jfree.chart.renderer.xy
-getStartX: SubSeriesDataset.java: source.org.jfree.data.general
-getStartX: CombinedDataset.java: source.org.jfree.data.general
-getParent: CombinedDataset.java: source.org.jfree.data.general
-getChildPosition: CombinedDataset.java: source.org.jfree.data.general

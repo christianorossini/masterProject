@@ -1,9 +1,0 @@
-AlbumToolTip.java: net.sourceforge.atunes.gui.views.dialogs
-PlayerPanel.java: net.sourceforge.atunes.gui.views.dialogs.editPreferences
-GeneralPanel.java: net.sourceforge.atunes.gui.views.dialogs.editPreferences
-RepairTrackNumbersAction.java: net.sourceforge.atunes.kernel.actions
-RepairGenresAction.java: net.sourceforge.atunes.kernel.actions
-RepairAlbumNamesAction.java: net.sourceforge.atunes.kernel.actions
-DeviceConnectionMonitor.java: net.sourceforge.atunes.kernel.modules.device
-DeviceDisconnectionMonitor.java: net.sourceforge.atunes.kernel.modules.device
-Timer.java: net.sourceforge.atunes.misc

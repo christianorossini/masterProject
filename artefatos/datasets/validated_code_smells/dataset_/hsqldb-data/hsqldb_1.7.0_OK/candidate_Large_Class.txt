@@ -1,3 +1,0 @@
-Parser.java, org.hsqldb: 1875
-jdbcConnection.java, org.hsqldb: 2954
-Database.java, org.hsqldb: 2803

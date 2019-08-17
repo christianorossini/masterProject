@@ -1,3 +1,0 @@
-ViewRegisters.java: org.gjt.sp.jedit.gui
-AboutDialog.java: org.gjt.sp.jedit.gui
-Handler.java: org.gjt.sp.jedit.proto.jeditresource

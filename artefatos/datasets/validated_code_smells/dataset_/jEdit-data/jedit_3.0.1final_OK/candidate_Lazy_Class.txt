@@ -1,4 +1,0 @@
-CommandShortcutsOptionPane.java: org.gjt.sp.jedit.options
-MacroShortcutsOptionPane.java: org.gjt.sp.jedit.options
-FontSelector.java: org.gjt.sp.jedit.gui
-RESearchMatcher.java: org.gjt.sp.jedit.search

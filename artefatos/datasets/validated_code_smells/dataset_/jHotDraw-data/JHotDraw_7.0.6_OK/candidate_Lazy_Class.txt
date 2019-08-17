@@ -1,8 +1,0 @@
-PaletteMenuItemUI.java: org.jhotdraw.draw.action
-GeometryEdit.java: org.jhotdraw.draw
-FontSizeLocator.java: org.jhotdraw.draw
-ZoomEditorAction.java: org.jhotdraw.draw.action
-XMLParserFactory.java: net.n3.nanoxml
-Colors.java: org.jhotdraw.draw.action
-PIReader.java: net.n3.nanoxml
-ColorAttributeIcon.java: org.jhotdraw.draw.action

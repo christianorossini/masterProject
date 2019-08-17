@@ -1,5 +1,0 @@
-JSPRuntime.java; org.apache.struts2;
-Compiler.java; org.apache.struts2.jasper.compiler;
-JspFragmentHelper.java; org.apache.struts2.jasper.runtime;
-HttpJspBase.java; org.apache.struts2.jasper.runtime;
-JSONCleaner.java; org.apache.struts2.json;

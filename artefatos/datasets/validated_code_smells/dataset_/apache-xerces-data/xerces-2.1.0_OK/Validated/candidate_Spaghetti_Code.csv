@@ -1,6 +1,0 @@
-DeferredDocumentImpl.java; org.apache.xerces.dom;
-XMLDTDScannerImpl.java; org.apache.xerces.impl;
-SchemaDVFactoryImpl.java; org.apache.xerces.impl.dv.xs;
-UTF8Reader.java; org.apache.xerces.impl.io;
-RegexParser.java; org.apache.xerces.impl.xpath.regex;
-XSDHandler.java; org.apache.xerces.impl.xs.traversers;

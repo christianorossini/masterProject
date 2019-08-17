@@ -1,9 +1,0 @@
-ConstantPool.java; org.eclipse.jdt.internal.compiler.codegen; 3085;
-ASTConverter.java; org.eclipse.jdt.core.dom; 3476;
-PublicScanner.java; org.eclipse.jdt.internal.core.util; 3430;
-JavaCore.java; org.eclipse.jdt.core; 3685;
-CodeFormatterVisitor.java; org.eclipse.jdt.internal.formatter; 4204;
-CodeStream.java; org.eclipse.jdt.internal.compiler.codegen; 5337;
-CompletionEngine.java; org.eclipse.jdt.internal.codeassist; 3559;
-Scanner.java; org.eclipse.jdt.internal.compiler.parser; 3433;
-JavaProject.java; org.eclipse.jdt.internal.core; 2888;
