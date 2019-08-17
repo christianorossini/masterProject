@@ -22,6 +22,19 @@ lpl = pd.Series(["longParameterList","candidate_Long_Parameter_List.csv","lpl","
 csType = pd.DataFrame([gc, cdsbp, lm, lpl])
 csType.columns=["csName", "csCSV", "cs", "granularity"]
 
+dsClassHeader = ["AvgCyclomatic","AvgCyclomaticModified","AvgCyclomaticStrict","AvgEssential","AvgLine",
+"AvgLineBlank","AvgLineCode","AvgLineComment","CountClassBase","CountClassCoupled","CountClassDerived",
+"CountDeclClass","CountDeclClassMethod","CountDeclClassVariable","CountDeclInstanceMethod","CountDeclInstanceVariable",
+"CountDeclMethod","CountDeclMethodAll","CountDeclInstanceMethod","CountDeclInstanceVariable","CountDeclMethod","CountDeclMethodAll",
+"CountDeclMethodDefault","CountDeclMethodPrivate", "CountDeclMethodProtected", "CountDeclMethodPublic","CountLine","CountLineBlank"
+"CountLineCode","CountLineCodeDecl","CountLineCodeExe","CountLineComment","CountSemicolon","CountStmt","CountStmtDecl", "MaxCyclomatic",
+"MaxCyclomaticModified","MaxCyclomaticStrict","MaxEssential","MaxInheritanceTree","MaxNesting","PercentLackOfCohesion","PercentLackOfCohesionModified",
+"RatioCommentToCode","SumCyclomatic","SumCyclomaticModified","SumCyclomaticStrict","SumEssential"]        
+
+dsMethodHeader = ["CountInput", "CountLine","CountLineBlank","CountLineCode","CountLineCodeDecl","CountLineCodeExe","CountLineComment","CountOutput","CountPath"
+"CountPathLog","CountSemicolon","CountStmt","CountStmtDecl","CountStmtExe","Cyclomatic","CyclomaticModified","CyclomaticStrict","Essential", 
+"Knots","MaxEssentialKnots","MaxNesting","MinEssentialKnots","RatioCommentToCode","SumCyclomatic","SumCyclomaticModified","SumCyclomaticStrict","SumEssential"]
+
 for index, row in projects.iterrows():                
         csmells = pd.DataFrame()
         
@@ -44,15 +57,20 @@ for index, row in projects.iterrows():
                         
                         csmells["id"] = csmells["id"].str.strip() #retira os espaços em branco
 
-                        # LEITURA DOS DATASET DE MÉTRICAS E FAZ UM MATCH DOS CODE SMELLS VALIDADOS
+                        # LEITURA DOS DATASET DE MÉTRICAS E FAZ UM MATCH COM OS CODE SMELLS VALIDADOS
+
                         dfMetrics = pd.read_csv("metrics_extracted/" + row["name"] + "/" + row["name"] + ".csv")
-                                
+
                         if rowCs["granularity"]=="class":
                                 # Escolhe os tipos "Class"    
                                 dfMetrics = dfMetrics[dfMetrics["Kind"].str.contains("Class")]
+                                #escolha apenas as métricas "colunas" que tem escopo de classe
+                                dfMetrics = dfMetrics.loc[:,["Name"].append(dsClassHeader)]
                         else:
                                 #Escolhe os tipos "Constructor" e "Method"                        
                                 dfMetrics = dfMetrics[dfMetrics["Kind"].str.contains("Method|Constructor")]
+                                #escolha apenas as métricas "colunas" que tem escopo de método
+                                dfMetrics = dfMetrics.loc[:,["Name", dsMethodHeader]]
                         
                         # TODO filtrar as colunas por métricas OO nível de classe ou método
                         
@@ -82,3 +100,5 @@ for indexCs, rowCs in csType.iterrows():
         mergedPath = "oracle_dataset/" + rowCs["cs"] + ".csv"
         print("--> Escrevendo em " + mergedPath)            
         csDataset.to_csv(mergedPath)        
+
+ 
