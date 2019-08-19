@@ -11,11 +11,17 @@ elasticSearch = pd.Series(["elasticsearch","elastic-search-data","elasticsearch-
 hadoop = pd.Series(["hadoop","apache-hadoop-data","pat2mongo-hadoop-0.9_OK"])
 hbase = pd.Series(["hbase","apache-hbase-data","optimistdk-hbase-0.94_OK"])
 lucene = pd.Series(["lucene","apache-lucene","blueshen-lucene-solr-3.6_OK"])
+nutch = pd.Series(["nutch","apache-nutch-data","danielfagerstrom-nutch-1.4_OK"])
+pig = pd.Series(["pig","apache-pig-data","cloudera-pig-0.8_OK"])
+qpid = pd.Series(["qpid","apache-qpid-data","dekellum-qpid-0.18_OK"])
 hive = pd.Series(["hive","apache-hive-data","itisaid-hive-0.9_OK"])
-ivy = pd.Series(["hive","apache-hive-data","itisaid-hive-0.9_OK"])
+ivy = pd.Series(["ivy","apache-ivy-data","ivy_2.1.0_OK"])
+karaf = pd.Series(["karaf","apache-karaf-data","apache-karaf-2.3"])
+wicket = pd.Series(["wicket","apache-wicket-data","l0rdn1kk0n-wicket-1.4.20_OK"])
+xerces = pd.Series(["xerces","apache-xerces-data","xerces-2.3.0_OK"])
 
 ## ADICIONAR OS PROJETOS NA PRÓXIMA LINHA
-projects = pd.DataFrame([ant, cassandra, eclipse, elasticSearch, hadoop, hbase, lucene, hive, ivy])
+projects = pd.DataFrame([ant, cassandra, eclipse, elasticSearch, hadoop, hbase, lucene, nutch, pig, qpid, hive, ivy, karaf, wicket, xerces])
 projects.columns = columns=["name","validatedPjDir","validatedPjVersion"]
                   
 #TIPOS DE CODE SMELLS ESTUDADOS
@@ -68,7 +74,7 @@ for index, row in projects.iterrows():
                         ### LEITURA DOS DATASET DE MÉTRICAS E FAZ UM MATCH COM OS CODE SMELLS VALIDADOS
                         dfMetrics = pd.read_csv("metrics_extracted/" + row["name"] + "/" + row["name"] + ".csv")
 
-                        arrInitialDsLayout = ["project","Name"]
+                        arrInitialDsLayout = ["project", "Kind" ,"Name"]
                         if rowCs["granularity"]=="class":
                                 # Escolhe os tipos "Class"    
                                 dfMetrics = dfMetrics[dfMetrics["Kind"].str.contains("Class")]
@@ -87,7 +93,7 @@ for index, row in projects.iterrows():
 
                         #escreve o novo CSV se no projeto houver alguma ocorrência do tipo de codesmell                        
                         print("--> Escrevendo em " + "oracle_dataset/" + rowCs["cs"] + "/" + row["name"] + ".csv")
-                        dfMetrics.to_csv("oracle_dataset/" + rowCs["cs"] + "/" + row["name"] + ".csv", index=False) 
+                        dfMetrics.to_csv("oracle_dataset/" + rowCs["cs"] + "/" + row["name"] + ".csv", index=False) #TODO pensar em fazer um balanceamento (proporção entre TRUE and FALSE) do dataset antes de salvar em CSV
 
                 except EmptyDataError:
                         print("*** VAZIO: " + path)
