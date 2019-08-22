@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from pandas.io.common import EmptyDataError
 import os
+from sklearn.utils import resample
 
 ## PROJETOS QUE ESTÃO SENDO UTILIZADOS NO ESTUDO
 ant = pd.Series(["ant","apache-ant-data","apache_1.8.3"])
@@ -37,12 +38,12 @@ csType.columns=["csName", "csCSV", "cs", "granularity"]
 # FILTRO DE MÉTRICAS CLASS LEVEL
 dsClassHeader = ["AvgCyclomatic","AvgCyclomaticModified","AvgCyclomaticStrict","AvgEssential","AvgLine",
 "AvgLineBlank","AvgLineCode","AvgLineComment","CountClassBase","CountClassCoupled","CountClassDerived",
-"CountDeclClass","CountDeclClassMethod","CountDeclClassVariable","CountDeclInstanceMethod","CountDeclInstanceVariable",
-"CountDeclMethod","CountDeclMethodAll","CountDeclInstanceMethod","CountDeclInstanceVariable","CountDeclMethod","CountDeclMethodAll",
-"CountDeclMethodDefault","CountDeclMethodPrivate", "CountDeclMethodProtected", "CountDeclMethodPublic","CountLine","CountLineBlank",
-"CountLineCode","CountLineCodeDecl","CountLineCodeExe","CountLineComment","CountSemicolon","CountStmt","CountStmtDecl", "MaxCyclomatic",
-"MaxCyclomaticModified","MaxCyclomaticStrict","MaxEssential","MaxInheritanceTree","MaxNesting","PercentLackOfCohesion","PercentLackOfCohesionModified",
-"RatioCommentToCode","SumCyclomatic","SumCyclomaticModified","SumCyclomaticStrict","SumEssential"]        
+"CountDeclClassMethod","CountDeclClassVariable","CountDeclMethod","CountDeclMethodAll","CountDeclInstanceMethod",
+"CountDeclInstanceVariable","CountDeclMethodDefault","CountDeclMethodPrivate", "CountDeclMethodProtected",
+"CountDeclMethodPublic","CountLine","CountLineBlank","CountLineCode","CountLineCodeDecl","CountLineCodeExe",
+"CountLineComment","CountSemicolon","CountStmt","CountStmtDecl", "MaxCyclomatic","MaxCyclomaticModified","MaxCyclomaticStrict",
+"MaxEssential","MaxInheritanceTree","MaxNesting","PercentLackOfCohesion","PercentLackOfCohesionModified","RatioCommentToCode",
+"SumCyclomatic","SumCyclomaticModified","SumCyclomaticStrict","SumEssential"]        
 
 # FILTRO DE MÉTRICAS METHOD LEVEL
 dsMethodHeader = ["CountInput", "CountLine","CountLineBlank","CountLineCode","CountLineCodeDecl","CountLineCodeExe","CountLineComment","CountOutput","CountPath",
@@ -85,17 +86,58 @@ for index, row in projects.iterrows():
                                 dfMetrics = dfMetrics[dfMetrics["Kind"].str.contains("Method|Constructor")]
                                 # escolha apenas as métricas "colunas" que tem escopo de MÉTODO
                                 dfMetrics = dfMetrics.loc[:,arrInitialDsLayout + dsMethodHeader]
+                                # retira todos os métodos com repetição de nome do ds de métricas, 
+                                # pois o dataset de codesmells validados contém apenas o nome do método 
+                                # sem especificar sua assinatura completa. Isto poderá gerar o problema de 
+                                # haver várias ocorrências do mesmo método classificado como code smell de forma injusta.        
+                                dfMetrics = dfMetrics[~dfMetrics.Name.duplicated(keep=False)]
                                                
                         # inclui uma coluna de nome do projeto
                         dfMetrics["project"] = row["name"]
-                        #atribuição da coluna de classificação
-                        dfMetrics["is_" + rowCs["cs"]] = dfMetrics["Name"].isin(csmells["id"])
+                        
+                        # faz o merge entre o dataset de métricas e o dataset de code smells
+                        targetName = "is_" + rowCs["cs"]
+                        dfMergedDs = dfMetrics.copy()  
+                        dfMetrics[targetName] = dfMetrics["Name"].isin(csmells["id"])
+                              
+                        #### Datasets gerados estão desbalanceados. Resolvendo o desbalanceamento dos datasets através de undersampling
+                        
+                        # Class count
+                        count_class_0, count_class_1 = dfMetrics[targetName].value_counts()
+
+                        # Divide by class
+                        df_class_0 = dfMetrics[dfMetrics[targetName] == 0]
+                        df_class_1 = dfMetrics[dfMetrics[targetName] == 1]
+
+                        df_class_0_under = df_class_0.sample(count_class_1*4) # proporção True/False será 1/4
+                        dfMetrics = pd.concat([df_class_0_under, df_class_1], axis=0)
+
+                        print('Random under-sampling:')
+                        print(dfMetrics[targetName].value_counts())
+                                                                        
+                        """ #### Datasets gerados estão desbalanceados. Resolvendo o desbalanceamento dos datasets
+
+                        # Separate majority and minority classes
+                        df_majority = dfMetrics[dfMetrics[targetName]==False]
+                        df_minority = dfMetrics[dfMetrics[targetName]==True]                        
+                        
+                        # Downsample majority class
+                        df_majority_downsampled = resample(df_majority, 
+                                                        replace=False,    # sample without replacement
+                                                        n_samples=3*df_minority.size,     # 3 times minority class
+                                                        random_state=123) # reproducible results
+                        
+                        # Combine minority class with downsampled majority class
+                        dfMetrics = pd.concat([df_majority_downsampled, df_minority])
+                        
+                        # Display new class counts
+                        #df_downsampled.balance.value_counts() """
 
                         #escreve o novo CSV se no projeto houver alguma ocorrência do tipo de codesmell                        
                         print("--> Escrevendo em " + "oracle_dataset/" + rowCs["cs"] + "/" + row["name"] + ".csv")
-                        dfMetrics.to_csv("oracle_dataset/" + rowCs["cs"] + "/" + row["name"] + ".csv", index=False) #TODO pensar em fazer um balanceamento (proporção entre TRUE and FALSE) do dataset antes de salvar em CSV
+                        dfMetrics.to_csv("oracle_dataset/" + rowCs["cs"] + "/" + row["name"] + ".csv", index=False) 
 
-                except EmptyDataError:
+                except (EmptyDataError, ValueError) as err:
                         print("*** VAZIO: " + path)
                                        
 ## FAZENDO O MERGE DE TODOS OS DATASETS, DIVIDINDO POR TIPO DE CODE SMELL
