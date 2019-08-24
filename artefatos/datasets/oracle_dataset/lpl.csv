@@ -1,146 +1,113 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lpl
-ant,Public Method,org.apache.tools.ant.taskdefs.PreSetDef.PreSetDefinition.getTypeClass,2.0,8.0,0.0,3.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.LoadProperties.createClasspath,0.0,7.0,0.0,3.0,1.0,1.0,4.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.MacroDef.NestedSequential.similar,3.0,22.0,0.0,14.0,4.0,9.0,8.0,4.0,4.0,1.0,8.0,12.0,5.0,7.0,4.0,4.0,4.0,4.0,4.0,4.0,2.0,4.0,0.57,4,4,4,4,False
-ant,Public Method,org.apache.tools.ant.taskdefs.optional.clearcase.CCMkattr.setComment,1.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-ant,Public Method,org.apache.tools.mail.MailMessage.cc,3.0,11.0,0.0,4.0,1.0,2.0,7.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.75,1,1,1,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.Javadoc.setWindowtitle,1.0,9.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-ant,Private Method,org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.deleteClassLoader,4.0,14.0,0.0,10.0,1.0,6.0,4.0,3.0,4.0,1.0,4.0,7.0,1.0,6.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.4,3,3,3,1,False
-ant,Static Method,org.apache.tools.ant.DefaultLogger.throwableMessage,5.0,21.0,0.0,21.0,4.0,15.0,1.0,7.0,10.0,1.0,9.0,14.0,4.0,10.0,5.0,5.0,6.0,4.0,6.0,4.0,2.0,3.0,0.05,5,5,6,4,False
-ant,Private Method,org.apache.tools.ant.taskdefs.optional.depend.Depend.readCachedDependencies,3.0,31.0,2.0,23.0,7.0,18.0,6.0,8.0,3.0,0.0,13.0,17.0,7.0,10.0,3.0,3.0,3.0,1.0,1.0,0.0,3.0,0.0,0.26,3,3,3,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.Javadoc.createGroup,1.0,10.0,0.0,5.0,2.0,3.0,5.0,3.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.optional.junit.DOMUtil.NodeListImpl.getLength,0.0,7.0,0.0,3.0,1.0,1.0,4.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-ant,Protected Method,org.apache.tools.ant.taskdefs.optional.ejb.WeblogicDeploymentTool.getClassLoaderFromJar,2.0,21.0,4.0,9.0,3.0,6.0,8.0,8.0,2.0,0.0,5.0,7.0,3.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.89,2,2,2,1,False
-ant,Static Method,org.apache.tools.zip.ZipEncodingHelper.isUTF8,6.0,12.0,0.0,7.0,1.0,4.0,5.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,0.71,2,2,3,1,False
-ant,Public Method,org.apache.tools.ant.helper.ProjectHelper2.RootHandler.endPrefixMapping,2.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.optional.ssh.SSHExec.setCommandResource,1.0,8.0,0.0,3.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-ant,Public Method,org.apache.tools.ant.types.resources.JavaResource.compareTo,1.0,41.0,0.0,34.0,4.0,23.0,7.0,12.0,10.0,1.0,13.0,23.0,4.0,19.0,10.0,10.0,10.0,10.0,20.0,20.0,3.0,20.0,0.21,10,10,10,10,False
-ant,Public Constructor,org.apache.tools.ant.taskdefs.optional.depend.constantpool.Utf8CPInfo.Utf8CPInfo,2.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-ant,Protected Method,org.apache.tools.ant.taskdefs.Rmic.scanDir,11.0,25.0,0.0,18.0,4.0,14.0,7.0,9.0,6.0,1.0,10.0,14.0,5.0,9.0,4.0,4.0,6.0,1.0,2.0,0.0,1.0,0.0,0.39,4,4,6,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.optional.jlink.jlink.addMergeFiles,3.0,12.0,0.0,8.0,1.0,4.0,4.0,1.0,3.0,0.0,4.0,7.0,2.0,5.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.5,3,3,3,1,False
-ant,Public Method,org.apache.tools.ant.util.SourceFileScanner.getResource,2.0,10.0,0.0,3.0,1.0,1.0,7.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.33,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.taskdefs.Pack.setSrcResource,4.0,16.0,0.0,12.0,2.0,8.0,4.0,7.0,6.0,1.0,5.0,9.0,2.0,7.0,4.0,4.0,4.0,1.0,1.0,0.0,1.0,0.0,0.33,4,4,4,1,False
+ant,Private Static Method,org.apache.tools.ant.Diagnostics.header,3.0,7.0,0.0,7.0,1.0,5.0,0.0,2.0,1.0,0.0,5.0,6.0,1.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.helper.AntXMLContext.setLocator,2.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.types.resources.selectors.InstanceOf.getURI,1.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.taskdefs.optional.clearcase.CCMkattr.setReplace,1.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+ant,Protected Method,org.apache.tools.ant.taskdefs.optional.net.FTP.FTPDirectoryScanner.AntFTPFile.setCurpwd,2.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.AntTypeDefinition.getClassName,7.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.types.Resource.isExists,41.0,11.0,0.0,6.0,1.0,3.0,5.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,1.0,0.0,1.0,0.0,0.83,2,2,3,1,False
+ant,Public Method,org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector.setDelayUpdate,3.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.types.selectors.ContainsSelector.setParameters,5.0,25.0,0.0,19.0,2.0,14.0,6.0,9.0,6.0,1.0,8.0,14.0,3.0,11.0,6.0,6.0,6.0,1.0,3.0,0.0,3.0,0.0,0.32,6,6,6,1,False
+ant,Public Method,org.apache.tools.ant.types.resources.FileResource.setFile,8.0,8.0,0.0,4.0,1.0,2.0,4.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.taskdefs.optional.clearcase.CCUnlock.setComment,1.0,9.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.types.resources.Resources.(Anon_2).hasNext,0.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.taskdefs.optional.net.FTPTask.setSeparator,1.0,11.0,0.0,3.0,1.0,1.0,8.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.67,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.taskdefs.Javac.setDepend,1.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
 ant,Protected Method,org.apache.tools.ant.taskdefs.Expand.extractFile,20.0,136.0,14.0,107.0,26.0,82.0,15.0,29.0,3432.0,4.0,52.0,70.0,24.0,46.0,19.0,19.0,30.0,5.0,6.0,5.0,5.0,5.0,0.14,19,19,30,5,True
 ant,Private Method,org.apache.tools.ant.taskdefs.Zip.addDirectoryResource,9.0,23.0,2.0,16.0,5.0,9.0,5.0,7.0,4.0,1.0,4.0,7.0,2.0,5.0,4.0,4.0,4.0,1.0,0.0,0.0,1.0,0.0,0.31,4,4,4,1,True
 ant,Private Method,org.apache.tools.ant.taskdefs.Zip.addResource,12.0,38.0,2.0,33.0,8.0,23.0,3.0,12.0,4.0,1.0,12.0,18.0,5.0,13.0,5.0,5.0,5.0,1.0,1.0,0.0,3.0,0.0,0.09,5,5,5,1,True
 ant,Public Constructor,org.apache.tools.ant.taskdefs.optional.extension.Extension.Extension,13.0,55.0,4.0,38.0,11.0,25.0,13.0,9.0,18.0,1.0,12.0,18.0,3.0,15.0,6.0,6.0,6.0,1.0,2.0,0.0,2.0,0.0,0.34,6,6,6,1,True
 ant,Private Static Method,org.apache.tools.bzip2.CBZip2InputStream.hbCreateDecodeTables,8.0,44.0,5.0,36.0,8.0,20.0,3.0,3.0,128.0,2.0,26.0,34.0,9.0,25.0,9.0,9.0,9.0,1.0,0.0,0.0,3.0,0.0,0.08,9,9,9,1,True
-cassandra,Public Method,org.apache.cassandra.thrift.CfSplit._Fields.getFieldName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.config.KSMetaData.hashCode,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.describe_cluster_name_args.read,4.0,20.0,1.0,18.0,2.0,11.0,1.0,6.0,3.0,0.0,8.0,12.0,2.0,10.0,3.0,4.0,3.0,3.0,2.0,2.0,2.0,2.0,0.06,3,4,3,3,False
-cassandra,Public Method,org.apache.cassandra.io.util.BufferedSegmentedFile.Builder.addPotentialBoundary,0.0,9.0,0.0,3.0,1.0,0.0,6.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-cassandra,Private Method,org.apache.cassandra.thrift.NotFoundException.writeObject,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-cassandra,Public Method,org.apache.cassandra.db.Table.getAllSSTables,3.0,10.0,0.0,7.0,2.0,4.0,3.0,5.0,2.0,0.0,3.0,6.0,3.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.43,2,2,2,1,False
-cassandra,Public Static Method,org.apache.cassandra.thrift.Cassandra.system_add_column_family_result._Fields.findByName,2.0,6.0,0.0,3.0,1.0,1.0,3.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.set_cql_version_args._Fields.values,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Private Method,org.apache.cassandra.gms.Gossiper.doGossipToUnreachableMember,5.0,13.0,0.0,12.0,5.0,7.0,1.0,4.0,3.0,0.0,5.0,8.0,5.0,3.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.08,3,3,3,1,False
-cassandra,Public Static Method,org.apache.cassandra.config.DatabaseDescriptor.setCompactionThroughputMbPerSec,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.batch_mutate_args.setMutation_mapIsSet,1.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-cassandra,Public Abstract Method,org.apache.cassandra.locator.DynamicEndpointSnitchMBean.getScores,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-cassandra,Public Method,org.apache.cassandra.db.SuperColumn.size,0.0,7.0,0.0,4.0,1.0,1.0,3.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.75,1,1,1,1,False
-cassandra,Public Constructor,org.apache.cassandra.cql3.statements.SelectStatement.RawStatement.RawStatement,4.0,7.0,0.0,7.0,1.0,4.0,0.0,6.0,1.0,0.0,4.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
-cassandra,Public Method,org.apache.cassandra.db.compaction.CompactionController.mayThrottle,6.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.db.RowMutation.deleteColumnOrSuperColumn,10.0,17.0,0.0,17.0,1.0,8.0,0.0,4.0,4.0,1.0,3.0,8.0,2.0,6.0,4.0,4.0,6.0,1.0,2.0,0.0,3.0,0.0,0.0,4,4,6,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.system_update_keyspace_result.setFieldValue,5.0,28.0,3.0,25.0,1.0,19.0,0.0,6.0,7.0,1.0,9.0,14.0,1.0,13.0,7.0,5.0,7.0,1.0,6.0,0.0,2.0,0.0,0.0,7,5,7,1,False
+cassandra,Public Method,org.apache.cassandra.utils.DestructivePQIterator.remove,0.0,3.0,0.0,3.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.get_count_args.fieldForId,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.system_add_keyspace_result.setSuccess,2.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.cql3.PropertyDefinitions.getInt,3.0,5.0,0.0,5.0,2.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.io.sstable.SSTableLoader.CountDownCallback.onFailure,5.0,7.0,0.0,7.0,1.0,4.0,0.0,5.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.cql3.Term.getType,1.0,9.0,0.0,4.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
+cassandra,Private Method,org.apache.cassandra.thrift.Cassandra.set_keyspace_args.writeObject,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+cassandra,Public Abstract Method,org.apache.cassandra.cql.jdbc.AbstractJdbcType.toString,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+cassandra,Public Static Method,org.apache.cassandra.thrift.Cassandra.describe_schema_versions_result._Fields.findByThriftId,5.0,13.0,0.0,10.0,1.0,7.0,5.0,1.0,3.0,0.0,3.0,5.0,1.0,4.0,3.0,2.0,3.0,1.0,3.0,0.0,1.0,0.0,0.5,3,2,3,1,False
+cassandra,Protected Method,org.apache.cassandra.utils.MergeIterator.ManyToOne.advance,3.0,8.0,0.0,7.0,2.0,3.0,1.0,3.0,3.0,0.0,2.0,5.0,2.0,3.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.14,3,3,3,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.describe_keyspace_args.hashCode,1.0,10.0,2.0,8.0,3.0,6.0,0.0,4.0,2.0,0.0,5.0,7.0,3.0,4.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,3,1,False
 cassandra,Public Constructor,org.apache.cassandra.cql.SelectStatement.SelectStatement,7.0,11.0,0.0,11.0,2.0,7.0,0.0,9.0,1.0,0.0,7.0,8.0,1.0,7.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,True
 cassandra,Private Constructor,org.apache.cassandra.db.ColumnFamilyStore.ColumnFamilyStore,22.0,89.0,10.0,74.0,17.0,47.0,7.0,46.0,96.0,2.0,33.0,46.0,13.0,33.0,12.0,12.0,13.0,1.0,3.0,0.0,4.0,0.0,0.09,12,12,13,1,True
 cassandra,Public Static Method,org.apache.cassandra.db.ExpiringColumn.create,9.0,8.0,0.0,6.0,1.0,3.0,2.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,1.0,0.0,1.0,0.0,0.33,2,2,3,1,True
 cassandra,Private Constructor,org.apache.cassandra.streaming.StreamingRepairTask.StreamingRepairTask,10.0,11.0,0.0,11.0,1.0,8.0,0.0,9.0,1.0,0.0,8.0,9.0,1.0,8.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,True
-hadoop,Public Method,org.apache.hadoop.mapred.PhasedFileSystem.exists,2.0,4.0,0.0,4.0,2.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hadoop,Public Method,org.apache.hadoop.fs.LocalFileSystem.close,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hadoop,Public Static Method,org.apache.hadoop.util.StringUtils.byteToHexString,3.0,14.0,0.0,8.0,2.0,5.0,6.0,5.0,2.0,0.0,5.0,7.0,3.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.75,2,2,2,1,False
-hadoop,Public Method,org.apache.hadoop.mapred.LocalJobRunner.getClusterStatus,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hadoop,Public Static Method,org.apache.hadoop.io.WritableName.getName,2.0,7.0,0.0,6.0,2.0,4.0,1.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.17,2,2,2,1,False
+hadoop,Public Constructor,org.apache.hadoop.ipc.RPC.VersionMismatch.VersionMismatch,4.0,14.0,0.0,8.0,2.0,5.0,6.0,4.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.75,1,1,1,1,False
+hadoop,Private Method,org.apache.hadoop.metrics.spi.AbstractMetricsContext.timerEvent,6.0,38.0,1.0,29.0,10.0,20.0,8.0,10.0,10.0,1.0,13.0,20.0,10.0,10.0,6.0,6.0,6.0,1.0,1.0,0.0,3.0,0.0,0.28,6,6,6,1,False
 hadoop,Public Static Method,org.apache.hadoop.fs.FileUtil.copyMerge,9.0,38.0,6.0,31.0,7.0,21.0,1.0,13.0,9.0,1.0,13.0,21.0,5.0,16.0,6.0,6.0,6.0,3.0,2.0,2.0,5.0,2.0,0.03,6,6,6,3,True
-hbase,Public Method,org.apache.hadoop.hbase.executor.RegionTransitionData.getOrigin,7.0,9.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.ThriftServerRunner.HBaseHandler.deleteAllTs,9.0,21.0,1.0,20.0,7.0,13.0,0.0,10.0,3.0,0.0,9.0,12.0,4.0,8.0,3.0,3.0,3.0,1.0,2.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-hbase,Public Method,org.apache.hadoop.hbase.io.hfile.CacheConfig.toString,2.0,12.0,0.0,12.0,1.0,9.0,0.0,8.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hbase,Public Method,org.apache.hadoop.hbase.client.HBaseAdmin.getTableDescriptor,6.0,11.0,0.0,4.0,2.0,1.0,7.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.75,1,1,1,1,False
-hbase,Public Constructor,org.apache.hadoop.hbase.thrift2.generated.THBaseService.AsyncClient.Factory.Factory,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getRowsTs_args.isSetAttributes,6.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hbase,Public Static Method,org.apache.hadoop.hbase.filter.SingleColumnValueExcludeFilter.createFilterFromArguments,1.0,13.0,1.0,12.0,5.0,9.0,0.0,12.0,2.0,0.0,5.0,7.0,3.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hbase,Method,org.apache.hadoop.hbase.security.token.AuthenticationTokenSecretManager.getCurrentKey,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getTableNames_args._Fields.getFieldName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.master.CatalogJanitor.SplitParentFirstComparator.compare,3.0,27.0,0.0,22.0,3.0,17.0,8.0,5.0,8.0,1.0,11.0,19.0,2.0,17.0,8.0,8.0,10.0,8.0,9.0,9.0,2.0,9.0,0.36,8,8,10,8,False
-hbase,Protected Method,org.apache.hadoop.hbase.thrift.generated.Hbase.Processor.getRows.getEmptyArgsInstance,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.ColumnDescriptor.setBloomFilterType,2.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Static Method,org.apache.hadoop.hbase.io.hfile.HFile.getReadTimeMs,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.replication.regionserver.ReplicationSourceManager.transferQueues,6.0,17.0,0.0,9.0,2.0,6.0,8.0,4.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.89,2,2,2,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.deleteAllRow_result.isSet,2.0,12.0,1.0,10.0,1.0,6.0,1.0,2.0,4.0,1.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.1,3,3,3,1,False
-hbase,Public Method,org.apache.hadoop.hbase.ipc.HBaseClient.Call.setException,4.0,9.0,0.0,4.0,1.0,2.0,5.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.coprocessor.MultiRowMutationEndpoint.mutateRows,2.0,27.0,2.0,18.0,6.0,13.0,7.0,11.0,4.0,1.0,8.0,13.0,6.0,7.0,4.0,4.0,4.0,1.0,1.0,0.0,3.0,0.0,0.39,4,4,4,1,False
-hbase,Public Method,org.apache.hadoop.hbase.replication.ReplicationPeer.abort,4.0,4.0,0.0,4.0,1.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.regionserver.LruHashMap.remove,2.0,14.0,0.0,6.0,2.0,4.0,8.0,4.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.33,2,2,2,1,False
-hbase,Public Method,org.apache.hadoop.hbase.zookeeper.MiniZooKeeperCluster.setDefaultClientPort,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hbase,Public Abstract Method,org.apache.hadoop.hbase.thrift.generated.Hbase.Iface.isTableEnabled,1.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getColumnDescriptors_args.getColumnDescriptors_argsTupleScheme.write,3.0,11.0,0.0,11.0,3.0,7.0,0.0,4.0,4.0,1.0,5.0,8.0,3.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
-hbase,Public Constructor,org.apache.hadoop.hbase.thrift.generated.Hbase.Client.Factory.Factory,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getColumnDescriptors_args.getColumnDescriptors_argsStandardScheme.write,5.0,12.0,1.0,11.0,1.0,8.0,0.0,7.0,2.0,0.0,7.0,9.0,1.0,8.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hbase,Private Static Method,org.apache.hadoop.hbase.regionserver.HRegion.listPaths,5.0,17.0,0.0,17.0,3.0,11.0,0.0,7.0,5.0,1.0,8.0,13.0,4.0,9.0,5.0,5.0,6.0,3.0,3.0,2.0,3.0,2.0,0.0,5,5,6,3,False
-hbase,Public Method,org.apache.hadoop.hbase.util.MetaUtils.updateMETARegionInfo,6.0,51.0,3.0,41.0,13.0,32.0,7.0,16.0,10.0,1.0,21.0,28.0,12.0,16.0,7.0,7.0,7.0,7.0,8.0,8.0,2.0,8.0,0.17,7,7,7,7,False
-hbase,Public Method,org.apache.hadoop.hbase.util.MetaUtils.getLog,8.0,14.0,0.0,10.0,5.0,7.0,4.0,5.0,2.0,0.0,4.0,6.0,3.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.4,2,2,2,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift2.generated.THBaseService.checkAndPut_args.clear,0.0,8.0,0.0,8.0,1.0,6.0,0.0,6.0,1.0,0.0,6.0,7.0,1.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Static Method,org.apache.hadoop.hbase.regionserver.StoreFile.rename,5.0,21.0,1.0,12.0,4.0,5.0,8.0,4.0,4.0,1.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.67,3,3,3,1,False
-hbase,Public Method,org.apache.hadoop.hbase.rest.protobuf.generated.StorageClusterStatusMessage.StorageClusterStatus.getAverageLoad,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Private Method,org.apache.hadoop.hbase.thrift2.generated.THBaseService.getScannerRows_args.writeObject,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hbase,Public Method,org.apache.hadoop.hbase.mapreduce.hadoopbackport.InputSampler.RandomSampler.getSample,6.0,55.0,1.0,40.0,13.0,31.0,14.0,22.0,12.0,1.0,24.0,31.0,13.0,18.0,7.0,7.0,9.0,1.0,1.0,0.0,5.0,0.0,0.35,7,7,9,1,False
-hbase,Public Method,org.apache.hadoop.hbase.ipc.HBaseServer.join,1.0,10.0,0.0,5.0,1.0,2.0,5.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,1.0,2,2,2,1,False
-hbase,Public Constructor,org.apache.hadoop.hbase.regionserver.ScanWildcardColumnTracker.ScanWildcardColumnTracker,4.0,13.0,0.0,6.0,2.0,3.0,7.0,4.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.17,1,1,1,1,False
-hbase,Public Constructor,org.apache.hadoop.hbase.regionserver.KeyValueHeap.KVScannerComparator.KVScannerComparator,2.0,7.0,0.0,3.0,1.0,1.0,4.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift2.generated.THBaseService.AsyncClient.getMultiple_call.getResult,0.0,8.0,0.0,8.0,3.0,5.0,0.0,8.0,2.0,0.0,4.0,6.0,3.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hbase,Public Abstract Method,org.apache.hadoop.hbase.thrift.generated.Hbase.Iface.getRowWithColumns,1.0,15.0,0.0,1.0,1.0,0.0,14.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,0,0,0,0,False
-hbase,Public Static Method,org.apache.hadoop.hbase.KeyValue.getFamilyDelimiterIndex,5.0,9.0,0.0,4.0,2.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift2.generated.THBaseService.checkAndDelete_args.setRowIsSet,3.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hbase,Public Method,org.apache.hadoop.hbase.HServerLoad.getUsedHeapMB,3.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.client.HTable.append.(Anon_8).call,3.0,4.0,0.0,4.0,0.0,3.0,0.0,4.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Abstract Method,org.apache.hadoop.hbase.thrift2.generated.THBaseService.AsyncIface.openScanner,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.atomicIncrement_result.setIoIsSet,3.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hbase,Public Static Method,org.apache.hadoop.hbase.RemoteExceptionHandler.checkThrowable,5.0,20.0,0.0,12.0,2.0,8.0,8.0,2.0,3.0,0.0,4.0,7.0,2.0,5.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.67,3,3,3,1,False
-hbase,Method,org.apache.hadoop.hbase.regionserver.GetClosestRowBeforeTracker.isTargetTable,7.0,8.0,0.0,6.0,1.0,4.0,2.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.33,2,2,2,1,False
-hbase,Public Static Method,org.apache.hadoop.hbase.thrift.generated.Hbase.deleteAll_result._Fields.findByThriftId,4.0,11.0,0.0,8.0,1.0,5.0,4.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.5,2,2,2,1,False
-hbase,Public Method,org.apache.hadoop.hbase.HColumnDescriptor.getDataBlockEncodingOnDisk,5.0,16.0,1.0,13.0,3.0,8.0,2.0,4.0,4.0,1.0,6.0,9.0,3.0,6.0,3.0,3.0,3.0,1.0,2.0,0.0,1.0,0.0,0.15,3,3,3,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift2.generated.TColumnIncrement.unsetFamily,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.client.MultiAction.getRegions,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.atomicIncrement_args.atomicIncrement_argsTupleScheme.write,6.0,29.0,0.0,29.0,3.0,19.0,0.0,8.0,256.0,2.0,11.0,20.0,3.0,17.0,9.0,9.0,9.0,1.0,0.0,0.0,1.0,0.0,0.0,9,9,9,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Mutation.unsetIsDelete,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.HDFSBlocksDistribution.HostAndWeight.addWeight,2.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.util.PoolMap.put,7.0,7.0,0.0,7.0,2.0,4.0,0.0,5.0,2.0,0.0,3.0,5.0,2.0,3.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
-hbase,Public Abstract Method,org.apache.hadoop.hbase.client.MetaScanner.MetaScannerVisitor.processRow,1.0,10.0,0.0,1.0,1.0,0.0,9.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,0,0,0,0,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.ColumnDescriptor.isSetInMemory,5.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.createTable_args.createTable_argsStandardSchemeFactory.getScheme,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Abstract Method,org.apache.hadoop.hbase.rest.protobuf.generated.VersionMessage.VersionOrBuilder.getJvmVersion,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.enableTable_result.hashCode,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerClose_args.scannerClose_argsTupleScheme.write,3.0,11.0,0.0,11.0,3.0,7.0,0.0,4.0,4.0,1.0,5.0,8.0,3.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
-hbase,Protected Method,org.apache.hadoop.hbase.thrift2.generated.THBaseService.Processor.exists.getEmptyArgsInstance,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Static Method,org.apache.hadoop.hbase.util.Addressing.createHostAndPortStr,6.0,12.0,0.0,3.0,1.0,1.0,9.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.client.Scan.setCaching,7.0,9.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-hbase,Public Constructor,org.apache.hadoop.hbase.replication.regionserver.ReplicationSourceManager.PeersWatcher.PeersWatcher,2.0,6.0,0.0,3.0,1.0,1.0,3.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.master.SplitLogManager.ResubmitDirective.values,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerGetList_args.scannerGetList_argsStandardSchemeFactory.getScheme,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.regionserver.HRegion.getOpenAndCloseThreadPool.(Anon_3).newThread,3.0,4.0,0.0,4.0,1.0,3.0,0.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerOpenWithScan_args.compareTo,4.0,40.0,2.0,38.0,3.0,26.0,0.0,9.0,23.0,1.0,16.0,27.0,3.0,24.0,11.0,11.0,11.0,11.0,10.0,10.0,2.0,10.0,0.0,11,11,11,11,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getRowsWithColumns_args._Fields.values,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getRowsTs_args.getAttributes,2.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.get_result.setIo,2.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.client.Increment.numColumns,3.0,12.0,0.0,8.0,2.0,5.0,4.0,4.0,3.0,0.0,4.0,8.0,3.0,5.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.5,3,3,3,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift2.generated.TColumnIncrement.fieldForId,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.deleteAllRow_args.isSetRow,6.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.regionserver.Leases.Lease.compareTo,2.0,6.0,1.0,5.0,3.0,3.0,0.0,4.0,1.0,0.0,2.0,3.0,2.0,1.0,3.0,3.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,3,3,3,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift2.generated.THBaseService.closeScanner_result._Fields.valueOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getTableRegions_result.getTableRegions_resultStandardScheme.read,7.0,48.0,1.0,46.0,4.0,32.0,4.0,17.0,13.0,1.0,25.0,32.0,5.0,27.0,8.0,7.0,8.0,3.0,7.0,3.0,4.0,2.0,0.09,8,7,8,3,False
-hbase,Public Method,org.apache.hadoop.hbase.io.hfile.HFileBlockIndex.BlockIndexWriter.getTotalUncompressedSize,2.0,9.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-hbase,Method,org.apache.hadoop.hbase.master.MasterCoprocessorHost.preDeleteTable,4.0,16.0,0.0,16.0,2.0,10.0,0.0,5.0,6.0,1.0,5.0,11.0,3.0,8.0,5.0,5.0,5.0,4.0,4.0,4.0,3.0,3.0,0.0,5,5,5,4,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerOpenWithStopTs_result.scannerOpenWithStopTs_resultTupleScheme.write,4.0,17.0,0.0,17.0,3.0,11.0,0.0,6.0,16.0,1.0,7.0,12.0,3.0,9.0,5.0,5.0,5.0,1.0,0.0,0.0,1.0,0.0,0.0,5,5,5,1,False
-hbase,Public Constructor,org.apache.hadoop.hbase.thrift.generated.Hbase.AsyncClient.disableTable_call.disableTable_call,6.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Private Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getRowsTs_result.writeObject,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hbase,Abstract Method,org.apache.hadoop.hbase.rest.protobuf.generated.VersionMessage.VersionOrBuilder.hasJvmVersion,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-hbase,Public Static Method,org.apache.hadoop.hbase.ServerName.parseVersionedServerName,13.0,19.0,0.0,8.0,3.0,5.0,11.0,6.0,2.0,0.0,4.0,6.0,3.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.38,2,2,2,1,False
-hbase,Public Method,org.apache.hadoop.hbase.io.hfile.AbstractHFileReader.Scanner.isSeeked,4.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Static Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerOpenWithPrefix_result._Fields.findByName,2.0,6.0,0.0,3.0,1.0,1.0,3.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.deleteTable_result.deleteTable_resultTupleScheme.read,3.0,9.0,0.0,9.0,3.0,6.0,0.0,6.0,2.0,0.0,5.0,7.0,3.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hbase,Public Method,org.apache.hadoop.hbase.regionserver.TimeRangeTracker.getMinimumTimestamp,3.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.filter.PageFilter.filterAllRemaining,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.deleteAllRow_result.write,3.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hbase,Public Method,org.apache.hadoop.hbase.io.hfile.slab.SlabCache.addSlabByConf,9.0,63.0,5.0,37.0,11.0,30.0,21.0,12.0,16.0,1.0,15.0,21.0,10.0,11.0,5.0,5.0,5.0,1.0,0.0,0.0,1.0,0.0,0.57,5,5,5,1,False
-hbase,Public Abstract Method,org.apache.hadoop.hbase.replication.regionserver.ReplicationSourceInterface.getPeerClusterZnode,3.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-hbase,Protected Method,org.apache.hadoop.hbase.thrift.generated.Hbase.Processor.getTableRegions.getEmptyArgsInstance,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.enableTable_args.read,3.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.mapreduce.ImportTsv.TsvParser.ParsedLine.getRowKeyLength,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.HRegionInfo.write,11.0,11.0,0.0,11.0,1.0,9.0,0.0,5.0,1.0,0.0,9.0,10.0,1.0,9.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.security.HBaseSaslRpcClient.getOutputStream,3.0,15.0,0.0,6.0,1.0,3.0,9.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,1.5,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.client.Scan.getBatch,3.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getColumnDescriptors_result.clear,0.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.master.SplitLogManager.Task.heartbeatNoDetails,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getRowWithColumns_args.getAttributesSize,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.Client.deleteAllRowTs,4.0,5.0,0.0,5.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.io.hfile.HFileDataBlockEncoderImpl.beforeWriteToDisk,7.0,16.0,1.0,10.0,4.0,6.0,5.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.5,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.regionserver.compactions.CompactSelection.clearSubList,4.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.rest.protobuf.generated.StorageClusterStatusMessage.StorageClusterStatus.Region.hasCurrentCompactedKVs,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.mutateRowTs_args.bufferForTableName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Static Method,org.apache.hadoop.hbase.util.Objects.describeQuantity,3.0,17.0,0.0,11.0,4.0,8.0,6.0,6.0,2.0,0.0,7.0,10.0,5.0,5.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.55,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.HTableDescriptor.hashCode,5.0,14.0,0.0,11.0,2.0,7.0,3.0,7.0,3.0,0.0,5.0,9.0,3.0,6.0,3.0,3.0,4.0,1.0,0.0,0.0,2.0,0.0,0.27,3,3,4,1,False
+hbase,Method,org.apache.hadoop.hbase.mapreduce.hadoopbackport.TotalOrderPartitioner.TrieNode.getLevel,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.rest.protobuf.generated.TableSchemaMessage.TableSchema.Attribute.isInitialized,5.0,15.0,1.0,14.0,2.0,10.0,0.0,4.0,4.0,1.0,8.0,12.0,2.0,10.0,4.0,4.0,4.0,4.0,3.0,3.0,1.0,3.0,0.0,4,4,4,4,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift2.generated.THBaseService.deleteMultiple_args.getDeletesIterator,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+hbase,Method,org.apache.hadoop.hbase.util.HBaseFsck.HbckInfo.containsOnlyHdfsEdits,4.0,6.0,0.0,6.0,1.0,3.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getColumnDescriptors_result._Fields.valueOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Private Method,org.apache.hadoop.hbase.client.Get.createForName,2.0,9.0,0.0,9.0,3.0,5.0,0.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.regionserver.Leases.closeAfterLeasesExpire,1.0,10.0,0.0,3.0,1.0,1.0,7.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.33,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerOpenWithPrefix_result.unsetSuccess,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.rest.filter.GZIPResponseWrapper.getWriter,1.0,6.0,0.0,6.0,1.0,3.0,0.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerGetList_result.scannerGetList_resultTupleScheme.read,6.0,28.0,0.0,28.0,5.0,18.0,1.0,16.0,12.0,1.0,17.0,22.0,6.0,16.0,5.0,5.0,5.0,1.0,0.0,0.0,2.0,0.0,0.04,5,5,5,1,False
+hbase,Public Static Method,org.apache.hadoop.hbase.util.Strings.domainNamePointerToHostName,6.0,13.0,0.0,5.0,1.0,3.0,8.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,1.6,3,3,3,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.mutateRowsTs_args.isSet,5.0,18.0,1.0,16.0,1.0,12.0,1.0,5.0,10.0,1.0,6.0,9.0,1.0,8.0,6.0,3.0,6.0,1.0,10.0,0.0,1.0,0.0,0.06,6,3,6,1,False
+hbase,Public Method,org.apache.hadoop.hbase.rest.protobuf.generated.StorageClusterStatusMessage.StorageClusterStatus.Region.getStorefileIndexSizeMB,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Constructor,org.apache.hadoop.hbase.io.hfile.HFileWriterV2.WriterFactoryV2.WriterFactoryV2,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerGetList_result.setIa,2.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.client.Mutation.getWriteToWAL,10.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.createTable_args.createTable_argsStandardScheme.read,6.0,47.0,1.0,45.0,4.0,31.0,4.0,16.0,13.0,1.0,24.0,31.0,5.0,26.0,8.0,7.0,8.0,3.0,7.0,3.0,4.0,2.0,0.09,8,7,8,3,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getRowsTs_args.getRowsIterator,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerOpenWithStopTs_args.scannerOpenWithStopTs_argsStandardScheme.write,15.0,50.0,1.0,49.0,1.0,34.0,0.0,16.0,72.0,2.0,27.0,37.0,3.0,34.0,8.0,8.0,8.0,1.0,0.0,0.0,2.0,0.0,0.0,8,8,8,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getRow_args.getRow,2.0,7.0,0.0,4.0,1.0,2.0,3.0,4.0,1.0,0.0,2.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.75,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift2.generated.THBaseService.putMultiple_args.putMultiple_argsTupleScheme.read,4.0,17.0,0.0,17.0,4.0,10.0,1.0,9.0,2.0,0.0,12.0,14.0,5.0,9.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.06,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.master.SplitLogManager.TerminationStatus.toString,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.rest.RowResource.putBinary,5.0,7.0,0.0,7.0,2.0,3.0,0.0,5.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.ipc.RequestContext.getProtocol,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift2.generated.THBaseService.getScannerRows_result.setSuccessIsSet,3.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hbase,Public Abstract Method,org.apache.hadoop.hbase.master.MXBean.getIsActiveMaster,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+hbase,Public Static Method,org.apache.hadoop.hbase.security.access.AccessControlLists.getGroupName,3.0,11.0,1.0,6.0,1.0,3.0,4.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.67,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.io.hfile.HFileBlockIndex.BlockIndexWriter.ensureSingleLevel,2.0,10.0,0.0,7.0,1.0,4.0,3.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.43,2,2,2,1,False
+hbase,Public Static Method,org.apache.hadoop.hbase.thrift2.generated.THBaseService.openScanner_args._Fields.findByThriftIdOrThrow,1.0,9.0,0.0,5.0,2.0,3.0,4.0,2.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.8,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.LocalHBaseCluster.getMasters,3.0,6.0,0.0,3.0,1.0,1.0,3.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+hbase,Constructor,org.apache.hadoop.hbase.thrift.generated.Hbase.mutateRowsTs_args._Fields._Fields,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.mutateRowTs_args.hashCode,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerClose_args._Fields.getFieldName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerClose_result.unsetIo,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.HTableDescriptor.isReadOnly,5.0,9.0,0.0,3.0,1.0,1.0,6.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
+hbase,Method,org.apache.hadoop.hbase.security.token.AuthenticationTokenSecretManager.getKey,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.filter.PrefixFilter.filterRowKey,5.0,15.0,0.0,12.0,3.0,9.0,3.0,3.0,4.0,1.0,5.0,9.0,2.0,7.0,4.0,4.0,5.0,3.0,2.0,2.0,1.0,2.0,0.25,4,4,5,3,False
+hbase,Public Method,org.apache.hadoop.hbase.HTableDescriptor.removeCoprocessor,5.0,32.0,0.0,25.0,5.0,17.0,8.0,11.0,18.0,1.0,11.0,18.0,6.0,12.0,6.0,6.0,6.0,5.0,4.0,4.0,2.0,4.0,0.32,6,6,6,5,False
+hbase,Public Static Method,org.apache.hadoop.hbase.thrift.generated.Hbase.getRowWithColumnsTs_args._Fields.findByThriftIdOrThrow,1.0,9.0,0.0,5.0,2.0,3.0,4.0,2.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.8,2,2,2,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.deleteAllRowTs_args.deleteAllRowTs_argsStandardScheme.write,11.0,33.0,1.0,32.0,1.0,23.0,0.0,14.0,12.0,1.0,19.0,25.0,2.0,23.0,5.0,5.0,5.0,1.0,0.0,0.0,2.0,0.0,0.0,5,5,5,1,False
+hbase,Public Abstract Method,org.apache.hadoop.hbase.rest.ProtobufMessageHandler.getObjectFromMessage,1.0,8.0,0.0,2.0,2.0,0.0,6.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+hbase,Public Method,org.apache.hadoop.hbase.HRegionInfo.readFields,7.0,37.0,0.0,32.0,3.0,28.0,5.0,19.0,4.0,1.0,23.0,27.0,3.0,24.0,4.0,4.0,4.0,1.0,3.0,0.0,2.0,0.0,0.16,4,4,4,1,False
+hbase,Public Static Method,org.apache.hadoop.hbase.client.Result.compareResults,3.0,26.0,0.0,20.0,4.0,13.0,6.0,8.0,12.0,1.0,7.0,12.0,4.0,8.0,5.0,5.0,6.0,1.0,0.0,0.0,2.0,0.0,0.3,5,5,6,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerOpenWithPrefix_args.unsetStartAndPrefix,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.get_args.isSetColumn,6.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+hbase,Method,org.apache.hadoop.hbase.regionserver.MultiVersionConsistencyControl.advanceMemstore,6.0,41.0,5.0,36.0,4.0,25.0,0.0,9.0,56.0,2.0,14.0,24.0,4.0,20.0,8.0,8.0,8.0,3.0,4.0,2.0,3.0,1.0,0.0,8,8,8,3,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.atomicIncrement_result.write,3.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.thrift.generated.Hbase.scannerOpenWithPrefix_args.clear,0.0,6.0,0.0,6.0,1.0,4.0,0.0,4.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.rest.protobuf.generated.TableInfoMessage.TableInfo.Region.Builder.getStartKey,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hbase,Public Method,org.apache.hadoop.hbase.io.hfile.LruBlockCache.shutdown,4.0,11.0,0.0,11.0,2.0,7.0,0.0,6.0,6.0,1.0,7.0,11.0,3.0,8.0,4.0,4.0,4.0,1.0,0.0,0.0,2.0,0.0,0.0,4,4,4,1,False
+hbase,Public Method,org.apache.hadoop.hbase.migration.HRegionInfo090x.compareTo,5.0,20.0,3.0,14.0,2.0,9.0,3.0,3.0,4.0,1.0,6.0,10.0,2.0,8.0,4.0,4.0,4.0,4.0,3.0,3.0,1.0,3.0,0.21,4,4,4,4,False
+hbase,Public Method,org.apache.hadoop.hbase.security.access.AccessController.postOpen,4.0,28.0,2.0,23.0,3.0,17.0,3.0,11.0,7.0,1.0,9.0,14.0,3.0,11.0,5.0,5.0,5.0,1.0,3.0,0.0,2.0,0.0,0.13,5,5,5,1,False
+hbase,Public Method,org.apache.hadoop.hbase.rest.protobuf.generated.VersionMessage.Version.getSerializedSize,3.0,29.0,1.0,28.0,2.0,21.0,0.0,10.0,33.0,2.0,11.0,18.0,2.0,16.0,7.0,7.0,7.0,1.0,1.0,0.0,1.0,0.0,0.0,7,7,7,1,False
+hbase,Method,org.apache.hadoop.hbase.regionserver.Store.assertBulkLoadHFileOk,7.0,63.0,4.0,55.0,10.0,46.0,4.0,31.0,24.0,1.0,20.0,28.0,9.0,19.0,9.0,9.0,9.0,1.0,0.0,0.0,5.0,0.0,0.07,9,9,9,1,False
 hbase,Static Method,org.apache.hadoop.hbase.KeyValue.compareColumns,9.0,26.0,0.0,13.0,6.0,7.0,13.0,2.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.0,2,2,2,1,True
 hbase,Public Method,org.apache.hadoop.hbase.coprocessor.BaseRegionObserver.postCheckAndDelete,1.0,6.0,0.0,6.0,4.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,True
 hbase,Public Method,org.apache.hadoop.hbase.coprocessor.BaseRegionObserver.postCheckAndPut,1.0,6.0,0.0,6.0,4.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,True
@@ -164,130 +131,99 @@ hbase,Public Method,org.apache.hadoop.hbase.regionserver.HRegion.checkAndMutate,
 hbase,Private Method,org.apache.hadoop.hbase.regionserver.HRegionServer.checkAndMutate,15.0,17.0,0.0,17.0,5.0,10.0,0.0,10.0,3.0,0.0,6.0,9.0,2.0,7.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.0,3,3,3,1,True
 hbase,Public Method,org.apache.hadoop.hbase.security.access.AccessController.preCheckAndDelete,4.0,9.0,0.0,9.0,5.0,3.0,0.0,4.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,True
 hbase,Public Method,org.apache.hadoop.hbase.security.access.AccessController.preCheckAndPut,4.0,9.0,0.0,9.0,5.0,3.0,0.0,4.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,True
-hive,Public Method,org.apache.hadoop.hive.jdbc.HiveDatabaseMetaData.dataDefinitionCausesTransactionCommit,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.ql.parse.SemanticAnalyzer.addDefaultProperties,5.0,27.0,0.0,21.0,4.0,13.0,6.0,6.0,12.0,1.0,8.0,15.0,5.0,10.0,6.0,6.0,7.0,4.0,2.0,2.0,3.0,1.0,0.29,6,6,7,4,False
-hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.fetchAll_result.compareTo,3.0,30.0,2.0,28.0,3.0,19.0,0.0,8.0,11.0,1.0,12.0,20.0,3.0,17.0,8.0,8.0,8.0,8.0,7.0,7.0,2.0,7.0,0.0,8,8,8,8,False
-hive,Private Method,org.apache.hadoop.hive.ql.parse.DDLSemanticAnalyzer.analyzeCreateIndex,23.0,80.0,7.0,73.0,21.0,64.0,0.0,25.0,63.0,2.0,44.0,51.0,20.0,31.0,14.0,7.0,14.0,3.0,31.0,3.0,3.0,1.0,0.0,14,7,14,3,False
-hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.fetchAll_args.hashCode,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_args.setPart_vals,4.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Constructor,org.apache.hadoop.hive.metastore.api.NoSuchObjectException._Fields._Fields,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.metadata.Table.getSchema,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Database.isSetPrivileges,7.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.AlterTableSimpleDesc.setDbName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Type.setFieldsIsSet,1.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.isPartitionMarkedForEvent_args.putToPart_vals,3.0,6.0,0.0,6.0,1.0,3.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_by_filter_args.setTbl_name,4.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client.get_schema,2.0,5.0,0.0,5.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.markPartitionForEvent_result.isSetO4,6.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.thrift.TBinarySortableProtocol.readMapEnd,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Operator.toString,6.0,46.0,1.0,45.0,3.0,39.0,0.0,3.0,512.0,3.0,31.0,41.0,3.0,38.0,10.0,10.0,10.0,1.0,4.0,0.0,1.0,0.0,0.0,10,10,10,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.Partition.fieldForId,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.optimizer.GenMRProcContext.GenMRUnionCtx.addTaskTmpDir,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_table_result.toString,2.0,22.0,1.0,21.0,3.0,17.0,0.0,3.0,8.0,1.0,13.0,17.0,3.0,14.0,4.0,4.0,4.0,1.0,2.0,0.0,1.0,0.0,0.0,4,4,4,1,False
+hive,Private Method,org.apache.hadoop.hive.ql.optimizer.physical.index.IndexWhereTaskDispatcher.createOperatorRules,2.0,34.0,5.0,20.0,6.0,14.0,9.0,10.0,6.0,1.0,11.0,16.0,7.0,9.0,4.0,4.0,4.0,1.0,1.0,0.0,2.0,0.0,0.45,4,4,4,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_databases_args.toString,1.0,14.0,1.0,13.0,3.0,10.0,0.0,3.0,2.0,0.0,8.0,10.0,3.0,7.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.io.CombineHiveRecordReader.getProgress,2.0,7.0,1.0,6.0,1.0,3.0,0.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.exec.JobCloseFeedBack.FeedBackType.valueOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Query.getQueryId,4.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.dynamic_type.DynamicSerDeTypeList.getRealType,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_partition_by_name_args.write,12.0,25.0,1.0,24.0,1.0,19.0,0.0,8.0,8.0,1.0,16.0,20.0,1.0,19.0,4.0,4.0,4.0,1.0,0.0,0.0,1.0,0.0,0.0,4,4,4,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.PrivilegeBag.hashCode,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_result.isSetO2,6.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+hive,Public Static Method,org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesInput.get,5.0,12.0,0.0,5.0,2.0,3.0,7.0,3.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.4,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.index.bitmap.BitmapObjectOutput.writeUTF,0.0,3.0,0.0,3.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.exec.KeyWrapperFactory.TextKeyWrapper.getNewKey,2.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_with_auth_args.unsetTbl_name,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Abstract Method,org.apache.hadoop.hive.metastore.IMetaStoreClient.listTableNamesByFilter,0.0,38.0,0.0,2.0,2.0,0.0,36.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.0,0,0,0,0,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.partition_name_to_vals_args.setPart_nameIsSet,1.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_with_auth_args.setFieldValue,7.0,44.0,5.0,39.0,1.0,31.0,0.0,10.0,11.0,1.0,15.0,22.0,1.0,21.0,11.0,7.0,11.0,1.0,15.0,0.0,2.0,0.0,0.0,11,7,11,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.io.TestHiveBinarySearchRecordReader.TestHiveRecordReader.createValue,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.UnlockTableDesc.getPartSpec,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.binarysortable.OutputByteBuffer.dumpHex,2.0,12.0,0.0,9.0,4.0,6.0,3.0,4.0,2.0,0.0,7.0,9.0,5.0,4.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.33,3,3,3,1,False
+hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.getThriftSchema_result.isSetSuccess,7.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.MapJoinDesc.getAliasBucketFileNameMapping,4.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Static Method,org.apache.hadoop.hive.ql.optimizer.index.RewriteCanApplyCtx.getInstance,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils.ObjectInspectorCopyOption.valueOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Protected Abstract Method,org.apache.hadoop.hive.ql.exec.Task.execute,1.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+hive,Public Method,org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesOutput.writeFloat,7.0,11.0,0.0,4.0,1.0,2.0,7.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.75,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.exec.errors.ErrorAndSolution.getSolution,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Static Method,org.apache.hadoop.hive.ql.metadata.HiveUtils.getIndexHandler,7.0,18.0,1.0,17.0,6.0,11.0,0.0,6.0,3.0,0.0,5.0,8.0,3.0,5.0,3.0,3.0,3.0,3.0,2.0,2.0,1.0,2.0,0.0,3,3,3,3,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.StatsWork.setNoStatsAggregator,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_role_args.isSetRole_name,5.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.DDLWork.setCreateViewDesc,1.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.PrivilegeGrantInfo.isSetCreateTime,4.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.markPartitionForEvent_args.getPart_valsSize,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+hive,Private Method,org.apache.hadoop.hive.serde2.dynamic_type.thrift_grammarTokenManager.jjStopAtPos,3.0,5.0,0.0,5.0,1.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.HiveObjectPrivilege.toString,4.0,38.0,1.0,37.0,3.0,31.0,0.0,3.0,128.0,2.0,23.0,31.0,3.0,28.0,8.0,8.0,8.0,1.0,4.0,0.0,1.0,0.0,0.0,8,8,8,1,False
+hive,Constructor,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.add_partition_result._Fields._Fields,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client.send_get_delegation_token,3.0,7.0,0.0,7.0,2.0,4.0,0.0,4.0,1.0,0.0,4.0,5.0,2.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.TableType.valueOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.MsckDesc.getResFile,2.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.list_privileges_result.unsetSuccess,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDFSize.initialize,6.0,20.0,1.0,19.0,4.0,14.0,0.0,9.0,4.0,1.0,6.0,9.0,3.0,6.0,3.0,3.0,5.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,5,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.list_privileges_args.getPrincipal_name,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.PrivilegeGrantInfo.isSet,6.0,20.0,1.0,18.0,1.0,14.0,1.0,6.0,12.0,1.0,7.0,10.0,1.0,9.0,7.0,3.0,7.0,1.0,15.0,0.0,1.0,0.0,0.06,7,3,7,1,False
+hive,Private Method,org.apache.hadoop.hive.ql.lockmgr.zookeeper.ZooKeeperHiveLockManager.unlockWithRetry,8.0,22.0,2.0,20.0,3.0,14.0,0.0,3.0,4.0,1.0,9.0,13.0,2.0,11.0,5.0,5.0,5.0,3.0,2.0,2.0,3.0,2.0,0.0,5,5,5,3,False
+hive,Protected Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Processor.alter_partition.getEmptyArgsInstance,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.revoke_role_args.unsetPrincipal_type,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_table_objects_by_name_args.getTbl_namesSize,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.model.MRoleMap.setGrantOption,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.cancel_delegation_token_args.clear,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.session.SessionState.getHiveVariables,6.0,6.0,0.0,6.0,1.0,3.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_with_auth_args.setFieldValue,7.0,44.0,5.0,39.0,1.0,31.0,0.0,10.0,11.0,1.0,15.0,22.0,1.0,21.0,11.0,7.0,11.0,1.0,15.0,0.0,2.0,0.0,0.0,11,7,11,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.cancel_delegation_token_result.hashCode,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.lazybinary.LazyBinaryLong.init,7.0,5.0,0.0,5.0,1.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.conf.TestHiveConf.testConfProperties,7.0,28.0,5.0,17.0,1.0,15.0,6.0,3.0,1.0,0.0,15.0,16.0,1.0,15.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.35,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_privilege_set_result.validate,1.0,3.0,0.0,2.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
+hive,Protected Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Processor.get_partitions_ps.getEmptyArgsInstance,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.thrift.test.Complex.getLintStringIterator,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+hive,Method,org.apache.hadoop.hive.cli.CliDriver.processLocalCmd,8.0,75.0,10.0,65.0,13.0,50.0,0.0,24.0,54.0,2.0,33.0,47.0,14.0,33.0,14.0,14.0,14.0,9.0,10.0,10.0,7.0,10.0,0.0,14,14,14,9,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_table_result.isSet,3.0,14.0,1.0,12.0,1.0,8.0,1.0,3.0,6.0,1.0,4.0,7.0,1.0,6.0,4.0,3.0,4.0,1.0,3.0,0.0,1.0,0.0,0.08,4,3,4,1,False
 hive,Public Method,org.apache.hadoop.hive.serde2.lazy.objectinspector.primitive.LazyStringObjectInspector.isEscaped,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.JoinDesc.getFilters,7.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.Task.getFeedSubscribers,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_result.setO2IsSet,1.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Public Static Method,org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe.initSerdeParams,24.0,51.0,6.0,40.0,6.0,32.0,5.0,14.0,20.0,1.0,26.0,32.0,7.0,25.0,6.0,6.0,7.0,1.0,0.0,0.0,2.0,0.0,0.13,6,6,7,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.AlterTableDesc.setAfterCol,1.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_databases_args.isSetPattern,5.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.ConditionalResolverCommonJoin.ConditionalResolverCommonJoinCtx.getAliasToKnownSize,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.create_database_result.deepCopy,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_result.getFieldValue,4.0,14.0,3.0,11.0,1.0,8.0,0.0,4.0,4.0,1.0,4.0,6.0,1.0,5.0,4.0,2.0,4.0,1.0,6.0,0.0,1.0,0.0,0.0,4,2,4,1,False
-hive,Public Abstract Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.AsyncIface.get_partitions_with_auth,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.api.QueryPlan.getFieldValue,4.0,14.0,3.0,11.0,1.0,8.0,0.0,5.0,4.0,1.0,4.0,6.0,1.0,5.0,4.0,2.0,4.0,1.0,6.0,0.0,1.0,0.0,0.0,4,2,4,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.list_privileges_args.deepCopy,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Static Method,org.apache.hadoop.hive.serde2.objectinspector.ObjectInspectorUtils.getFieldTypes,18.0,15.0,0.0,12.0,3.0,8.0,3.0,9.0,3.0,0.0,7.0,10.0,4.0,6.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.25,3,3,3,1,False
-hive,Public Static Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_privilege_set_args._Fields.findByThriftIdOrThrow,1.0,9.0,0.0,5.0,2.0,3.0,4.0,2.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.8,2,2,2,1,False
-hive,Public Static Method,org.apache.hadoop.hive.metastore.api.HiveObjectPrivilege._Fields.findByThriftIdOrThrow,1.0,9.0,0.0,5.0,2.0,3.0,4.0,2.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.8,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_names_result.setFieldValue,4.0,20.0,2.0,18.0,1.0,13.0,0.0,4.0,5.0,1.0,6.0,10.0,1.0,9.0,5.0,4.0,5.0,1.0,3.0,0.0,2.0,0.0,0.0,5,4,5,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.dynamic_type.DynamicSerDe.deserialize,6.0,16.0,0.0,16.0,3.0,12.0,0.0,7.0,3.0,0.0,8.0,11.0,3.0,8.0,3.0,3.0,3.0,1.0,2.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Index.setSd,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Constructor,org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectInspectorConverter.DoubleConverter.DoubleConverter,2.0,6.0,0.0,6.0,2.0,3.0,0.0,5.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_database_result.isSetO2,6.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.QTestUtil.clearTestSideEffects,10.0,43.0,1.0,32.0,4.0,22.0,10.0,19.0,26.0,1.0,13.0,26.0,8.0,18.0,9.0,9.0,11.0,5.0,3.0,3.0,5.0,3.0,0.31,9,9,11,5,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_args.fieldForId,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.Context.setHiveLockMgr,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.model.MTable.getTableName,6.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_table_args.getFieldValue,4.0,14.0,3.0,11.0,1.0,8.0,0.0,4.0,4.0,1.0,4.0,6.0,1.0,5.0,4.0,2.0,4.0,1.0,6.0,0.0,1.0,0.0,0.0,4,2,4,1,False
-hive,Public Method,org.apache.hadoop.fs.ProxyFileSystem.setReplication,2.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.AlterDatabaseDesc.getComment,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.index.compact.CompactIndexHandler.usesIndexTable,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.getSchema_args._Fields.valueOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Query.setStageList,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Constructor,org.apache.hadoop.hive.serde2.lazybinary.LazyBinarySerDe.LazyBinarySerDe,2.0,2.0,0.0,2.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.FetchOperator.setupContext,6.0,17.0,0.0,12.0,2.0,8.0,5.0,8.0,3.0,0.0,5.0,8.0,2.0,6.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.42,3,3,3,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_role_names_result.compareTo,3.0,30.0,2.0,28.0,3.0,19.0,0.0,8.0,11.0,1.0,12.0,20.0,3.0,17.0,8.0,8.0,8.0,8.0,7.0,7.0,2.0,7.0,0.0,8,8,8,8,False
-hive,Public Method,org.apache.hadoop.hive.serde2.thrift.TCTLSeparatedProtocol.skip,1.0,10.0,0.0,7.0,1.0,4.0,3.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.43,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_database_args.isSetCascade,4.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.TUGIBasedProcessor.process.(Anon_1).run,5.0,8.0,0.0,8.0,0.0,6.0,0.0,2.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Public Static Method,org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectInspectorUtils.getJavaPrimitiveClassFromObjectInspector,4.0,9.0,0.0,9.0,4.0,5.0,0.0,4.0,2.0,0.0,4.0,6.0,3.0,3.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.0,3,3,3,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_args.isSetTbl_name,5.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_by_filter_args.clear,0.0,7.0,1.0,6.0,1.0,4.0,0.0,4.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Constructor,org.apache.hadoop.hive.serde2.DelimitedJSONSerDe.DelimitedJSONSerDe,0.0,2.0,0.0,2.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_table_args.setDbname,4.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.ql.exec.DDLTask.setArchived,4.0,14.0,0.0,6.0,1.0,4.0,8.0,6.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.GrantRevokeRoleDDL.isGrantOption,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDFHash.getDisplayString,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_database_result._Fields.getThriftFieldId,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.jdbc.HiveDatabaseMetaData.supportsLikeEscapeClause,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.objectinspector.primitive.WritableConstantDoubleObjectInspector.getWritableConstantValue,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_table_args.unsetNew_tbl,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_database_args.writeObject,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Private Method,org.apache.hadoop.hive.ql.parse.DDLSemanticAnalyzer.analyzeAlterTableRenamePart,9.0,25.0,0.0,25.0,7.0,19.0,0.0,14.0,6.0,1.0,12.0,16.0,5.0,11.0,4.0,4.0,4.0,1.0,2.0,0.0,2.0,0.0,0.0,4,4,4,1,False
-hive,Private Method,org.apache.hadoop.hive.ql.parse.DDLSemanticAnalyzer.analyzeAlterTableSerde,7.0,19.0,2.0,17.0,7.0,12.0,0.0,16.0,2.0,0.0,9.0,11.0,4.0,7.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Private Constructor,org.apache.hadoop.hive.ql.parse.TypeCheckProcFactory.TypeCheckProcFactory,0.0,3.0,0.0,2.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.lazy.LazyNonPrimitive.hashCode,3.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.grant_role_args.hashCode,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.metadata.Dimension.equals,4.0,13.0,0.0,13.0,2.0,8.0,0.0,2.0,4.0,1.0,5.0,9.0,2.0,7.0,4.0,4.0,5.0,4.0,3.0,3.0,1.0,3.0,0.0,4,4,5,4,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_table_args.isSetTbl_name,5.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.create_table_args.getFieldValue,2.0,8.0,1.0,7.0,1.0,4.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.shims.Hadoop20Shims.CombineFileRecordReader.close,1.0,6.0,0.0,6.0,1.0,3.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_database_result.setFieldValue,5.0,28.0,3.0,25.0,1.0,19.0,0.0,6.0,7.0,1.0,9.0,14.0,1.0,13.0,7.0,5.0,7.0,1.0,6.0,0.0,2.0,0.0,0.0,7,5,7,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.udf.xml.UDFXPathLong.evaluate,3.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.dynamic_type.thrift_grammar.Definition,13.0,79.0,0.0,78.0,3.0,52.0,1.0,13.0,83.0,2.0,29.0,42.0,3.0,39.0,20.0,14.0,20.0,8.0,35.0,22.0,3.0,22.0,0.01,20,14,20,8,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Graph.setRootsIsSet,1.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.shims.Hadoop20Shims.CombineFileInputFormatShim.getRecordReader,4.0,7.0,0.0,7.0,5.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Constructor,org.apache.hadoop.hive.serde2.objectinspector.primitive.WritableConstantStringObjectInspector.WritableConstantStringObjectInspector,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Static Method,org.apache.hadoop.hive.ql.plan.api.Query._Fields.findByName,2.0,6.0,0.0,3.0,1.0,1.0,3.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_ps_result.unsetSuccess,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesRecordInput.readString,1.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.HadoopJobExecHelper.ExecDriverTaskHandle.setRunningJob,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Stage.putToStageCounters,3.0,6.0,0.0,6.0,1.0,3.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.hooks.LineageInfo.Dependency.setBaseCols,7.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.RetryingRawStore.updateConnectionURL,9.0,36.0,1.0,27.0,4.0,20.0,8.0,11.0,8.0,1.0,10.0,15.0,3.0,12.0,5.0,5.0,6.0,1.0,2.0,0.0,3.0,0.0,0.3,5,5,6,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.HiveMetaStoreClient.revoke_role,4.0,4.0,0.0,4.0,2.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.rename_partition_args.deepCopy,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.fetchN_result._Fields.getThriftFieldId,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Constructor,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_by_name_result._Fields._Fields,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.udf.UDFPI.evaluate,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.AlterIndexDesc.setProps,2.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.thrift.HadoopThriftAuthBridge20S.Server.getRemoteAddress,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.index.IndexMetadataChangeWork.setPartSpec,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_schema_result.getSuccess,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_partition_by_name_result.isSetSuccess,6.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.api.Type.writeObject,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.fetchOne_result.hashCode,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_partition_by_name_result.setO1,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.dynamic_type.DynamicSerDeTypeBase.isPrimitive,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.revoke_privileges_result.readObject,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.isPartitionMarkedForEvent_args.getFieldValue,5.0,17.0,4.0,13.0,1.0,10.0,0.0,5.0,5.0,1.0,5.0,7.0,1.0,6.0,5.0,2.0,5.0,1.0,10.0,0.0,1.0,0.0,0.0,5,2,5,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.add_index_result._Fields.getThriftFieldId,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.shims.Jetty23Shims.startServer,2.0,5.0,0.0,5.0,2.0,3.0,0.0,2.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.fs.ProxyFileSystem.setPermission,2.0,4.0,0.0,4.0,2.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Protected Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDFEWAHBitmapAnd.bitmapBop,2.0,4.0,0.0,4.0,2.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.thrift.TCTLSeparatedProtocol.getRowSeparator,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Protected Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Processor.grant_privileges.getResult,4.0,10.0,0.0,10.0,2.0,7.0,0.0,6.0,2.0,0.0,5.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.append_partition_by_name_result.isSetO3,6.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.ExecDriver.requireLock,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Query.unsetQueryId,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.metadata.Table.getViewExpandedText,4.0,6.0,0.0,3.0,1.0,1.0,3.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.parse.RowResolver.put,31.0,23.0,3.0,20.0,3.0,15.0,0.0,7.0,8.0,1.0,12.0,16.0,3.0,13.0,4.0,4.0,4.0,1.0,0.0,0.0,1.0,0.0,0.0,4,4,4,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.model.MStorageDescriptor.setCompressed,2.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.optimizer.unionproc.UnionProcContext.setUnionParseContext,7.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.AsyncClient.get_table,6.0,6.0,0.0,6.0,2.0,4.0,0.0,3.0,1.0,0.0,4.0,5.0,2.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.add_partition_result.readObject,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.jdbc.HiveDatabaseMetaData.getDatabaseMajorVersion,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDAFSum.GenericUDAFSumDouble.merge,4.0,7.0,0.0,7.0,2.0,4.0,0.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-hive,Constructor,org.apache.hadoop.hive.serde2.objectinspector.primitive.WritableConstantLongObjectInspector.WritableConstantLongObjectInspector,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Database.isSetLocationUri,5.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-hive,Constructor,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.rename_partition_result._Fields._Fields,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.append_partition_by_name_args._Fields.values,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Method,org.apache.hadoop.hive.serde2.lazybinary.TestLazyBinarySerDe.testLazyBinaryMap,4.0,73.0,9.0,63.0,33.0,53.0,1.0,27.0,37.0,2.0,37.0,48.0,32.0,16.0,10.0,10.0,10.0,5.0,3.0,3.0,5.0,2.0,0.02,10,10,10,5,False
+hive,Public Method,org.apache.hadoop.hive.ql.index.AbstractIndexHandler.checkQuerySize,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_database_result.fieldForId,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Protected Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Processor.get_fields.getEmptyArgsInstance,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.grant_role_args.deepCopy,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.thrift.test.IntString.unsetMyString,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.execute_result.getFieldValue,2.0,8.0,1.0,7.0,1.0,4.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.metadata.Table.getViewOriginalText,3.0,6.0,0.0,3.0,1.0,1.0,3.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.append_partition_by_name_result.compareTo,5.0,50.0,2.0,48.0,3.0,33.0,0.0,10.0,47.0,2.0,20.0,34.0,3.0,31.0,14.0,14.0,14.0,14.0,13.0,13.0,2.0,13.0,0.0,14,14,14,14,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.MsckDesc.setResFile,1.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.TestHiveMetaStore.testSynchronized,1.0,11.0,0.0,6.0,4.0,3.0,5.0,4.0,1.0,0.0,3.0,4.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.83,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDFWhen.getDisplayString,2.0,19.0,0.0,19.0,2.0,15.0,0.0,3.0,4.0,1.0,15.0,18.0,3.0,15.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_database_result.setO1IsSet,1.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.lazybinary.LazyBinarySerDe.getSerDeStats,5.0,15.0,2.0,9.0,1.0,6.0,4.0,3.0,2.0,0.0,4.0,6.0,1.0,5.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.44,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.thrift.test.Complex.compareTo,7.0,70.0,2.0,68.0,3.0,47.0,0.0,12.0,191.0,2.0,28.0,48.0,3.0,45.0,20.0,20.0,20.0,20.0,19.0,19.0,2.0,19.0,0.0,20,20,20,20,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Stage.deepCopy,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.contrib.udaf.example.UDAFExampleMax.MaxLongEvaluator.terminatePartial,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.thrift.TestHadoop20SAuthBridge.testMetastoreProxyUser.(Anon_2).run,0.0,9.0,0.0,7.0,0.0,5.0,2.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.29,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_config_value_args.compareTo,3.0,30.0,2.0,28.0,3.0,19.0,0.0,8.0,11.0,1.0,12.0,20.0,3.0,17.0,8.0,8.0,8.0,8.0,7.0,7.0,2.0,7.0,0.0,8,8,8,8,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.renew_delegation_token_result.setSuccess,2.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.objectinspector.StandardStructObjectInspector.setStructFieldData,4.0,7.0,0.0,7.0,4.0,4.0,0.0,2.0,1.0,0.0,4.0,5.0,3.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Abstract Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.AsyncIface.drop_type,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+hive,Private Method,org.apache.hadoop.hive.service.ThriftHive.fetchAll_result.writeObject,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.lazy.objectinspector.primitive.LazyStringObjectInspector.getEscapeChar,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.jdbc.HiveBaseResultSet.wasNull,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_indexes_args.compareTo,4.0,40.0,2.0,38.0,3.0,26.0,0.0,9.0,23.0,1.0,16.0,27.0,3.0,24.0,11.0,11.0,11.0,11.0,10.0,10.0,2.0,10.0,0.0,11,11,11,11,False
+hive,Public Method,org.apache.hadoop.hive.ql.metadata.formatting.TextMetaDataFormatter.showDatabases,4.0,16.0,0.0,12.0,2.0,6.0,4.0,2.0,3.0,0.0,3.0,7.0,2.0,5.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.33,3,3,3,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.StorageDescriptor.setLocationIsSet,1.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.PrivilegeGrantInfo.isSetGrantOption,4.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
 hive,Public Method,org.apache.hadoop.fs.ProxyFileSystem.create,7.0,6.0,0.0,6.0,3.0,2.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,True
 hive,Public Static Method,org.apache.hadoop.hive.metastore.MetaStoreUtils.getPartSchemaFromTableSchema,13.0,110.0,13.0,65.0,17.0,44.0,32.0,22.0,756.0,3.0,23.0,38.0,12.0,26.0,14.0,14.0,20.0,4.0,3.0,3.0,3.0,1.0,0.49,14,14,20,4,True
 hive,Public Method,org.apache.hadoop.hive.ql.Driver.launchTask,13.0,45.0,2.0,23.0,4.0,16.0,20.0,18.0,12.0,1.0,11.0,16.0,3.0,13.0,5.0,5.0,7.0,1.0,1.0,0.0,2.0,0.0,0.87,5,5,7,1,True
@@ -319,87 +255,68 @@ hive,Public Static Method,org.apache.hadoop.hive.serde2.lazy.LazyFactory.createL
 hive,Private Static Method,org.apache.hadoop.hive.serde2.lazy.LazyUtils.writeEscaped,8.0,32.0,0.0,20.0,4.0,11.0,12.0,1.0,7.0,1.0,7.0,13.0,3.0,10.0,6.0,6.0,8.0,1.0,1.0,0.0,4.0,0.0,0.6,6,6,8,1,True
 hive,Protected Constructor,org.apache.hadoop.hive.serde2.lazy.objectinspector.LazyMapObjectInspector.LazyMapObjectInspector,8.0,16.0,1.0,12.0,4.0,7.0,3.0,8.0,1.0,0.0,7.0,8.0,1.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,True
 hive,Public Static Method,org.apache.hadoop.hive.serde2.lazy.objectinspector.LazyObjectInspectorFactory.getLazySimpleMapObjectInspector,9.0,23.0,0.0,23.0,8.0,16.0,0.0,7.0,2.0,0.0,12.0,14.0,3.0,11.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,True
-ivy,Public Method,org.apache.ivy.util.url.HttpClientHandler.getHttpClientMajorVersion,0.0,4.0,0.0,4.0,2.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.core.resolve.ResolveTest.testExtraAttributes3,1.0,16.0,2.0,12.0,5.0,10.0,2.0,14.0,1.0,0.0,9.0,10.0,4.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.17,1,1,1,1,False
-ivy,Public Static Method,org.apache.ivy.util.Message.setShowProgress,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.plugins.resolver.AbstractSshBasedResolver.setUser,1.0,10.0,0.0,3.0,1.0,1.0,7.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.33,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.plugins.repository.ssh.AbstractSshBasedRepository.getKeyFilePassword,2.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.plugins.matcher.ExactOrRegexpPatternMatcherTest.testImplementation,1.0,25.0,4.0,21.0,2.0,18.0,0.0,6.0,2.0,0.0,16.0,18.0,2.0,16.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-ivy,Public Constructor,org.apache.ivy.core.check.CheckEngine.CheckEngine,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.ant.IvyInstall.getMatcher,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-ivy,Private Method,org.apache.ivy.core.settings.XmlSettingsParser.moduleStarted,5.0,11.0,0.0,11.0,6.0,9.0,0.0,4.0,1.0,0.0,8.0,9.0,6.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
-ivy,Public Method,org.apache.ivy.ant.IvyListModules.setOrganisation,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-ivy,Public Constructor,org.apache.ivy.plugins.resolver.ChainResolver.ResolvedModuleRevisionArtifactInfo.ResolvedModuleRevisionArtifactInfo,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.core.cache.DefaultRepositoryCacheManager.setCheckmodified,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+ivy,Private Method,org.apache.ivy.plugins.resolver.IBiblioResolver.updateWholePattern,5.0,6.0,0.0,6.0,1.0,3.0,0.0,6.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,3,1,False
+ivy,Public Abstract Method,org.apache.ivy.core.sort.SortEngineSettings.getCircularDependencyStrategy,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+ivy,Public Method,org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.mediate,3.0,7.0,0.0,7.0,2.0,4.0,0.0,4.0,2.0,0.0,5.0,7.0,3.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+ivy,Public Method,filter.hmimpl.HMFilterTest.getIFilter,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.plugins.repository.vfs.VfsResource.getLastModified,4.0,9.0,0.0,4.0,1.0,2.0,5.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.ant.IvyCleanCacheTest.testCleanAll,4.0,6.0,0.0,6.0,1.0,4.0,0.0,3.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+ivy,Protected Method,org.apache.ivy.core.event.EventManager.fireTransferEvent,5.0,8.0,0.0,8.0,2.0,4.0,0.0,2.0,3.0,0.0,4.0,7.0,3.0,4.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.0,3,3,3,1,False
+ivy,Protected Method,org.apache.ivy.plugins.resolver.BasicResolver.getArtifactRef,7.0,22.0,0.0,22.0,4.0,16.0,0.0,18.0,3.0,0.0,11.0,15.0,4.0,11.0,3.0,3.0,4.0,1.0,1.0,0.0,3.0,0.0,0.0,3,3,4,1,False
+ivy,Public Abstract Method,org.apache.ivy.ant.IvyTask.doExecute,1.0,7.0,0.0,1.0,1.0,0.0,6.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0,0,0,0,False
 ivy,Public Method,org.apache.ivy.Ivy14.install,9.0,11.0,0.0,11.0,3.0,7.0,0.0,7.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,True
 ivy,Private Method,org.apache.ivy.Ivy14.newResolveOptions,25.0,11.0,0.0,11.0,3.0,6.0,0.0,12.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,True
 ivy,Public Constructor,org.apache.ivy.plugins.resolver.packager.PackagerCacheEntry.PackagerCacheEntry,11.0,13.0,0.0,13.0,3.0,9.0,0.0,11.0,1.0,0.0,9.0,10.0,1.0,9.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,True
-karaf,Public Constructor,org.apache.karaf.tooling.exam.options.KarafDistributionConfigurationFileReplacementOption.KarafDistributionConfigurationFileReplacementOption,3.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-karaf,Public Method,org.apache.karaf.management.MBeanServerFactory.destroy,2.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-karaf,Public Method,org.apache.karaf.shell.console.commands.AnnotatedSubShell.getName,0.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-karaf,Private Method,org.apache.karaf.features.internal.FeaturesServiceImpl.createConfigurationKey,4.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
-karaf,Public Method,org.apache.karaf.management.ConnectorServerFactory.getKeyStore,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-karaf,Public Constructor,org.apache.karaf.shell.dev.watch.BundleWatcher.BundleWatcher,0.0,5.0,0.0,2.0,1.0,0.0,3.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.5,1,1,1,1,False
-karaf,Protected Method,org.apache.karaf.features.internal.FeaturesServiceImplTest.testGetFeatureStripVersion.(Anon_2).getFeatures,1.0,2.0,0.0,2.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-karaf,Public Method,org.apache.karaf.webconsole.gogo.GogoPlugin.SessionTerminal.handle,7.0,19.0,0.0,19.0,2.0,13.0,0.0,9.0,8.0,1.0,7.0,13.0,3.0,10.0,5.0,5.0,6.0,1.0,2.0,0.0,3.0,0.0,0.0,5,5,6,1,False
+karaf,Public Method,org.apache.karaf.management.RmiRegistryFactory.getObject,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+karaf,Private Method,org.apache.karaf.webconsole.gogo.Terminal.esc_PM,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+karaf,Public Method,org.apache.karaf.features.internal.FeatureImpl.getVersion,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+karaf,Public Method,org.apache.karaf.shell.dev.util.TreeTest.writeTreeWithOneChildAndNodeConverter.(Anon_1).toString,1.0,3.0,0.0,3.0,0.0,2.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+karaf,Public Method,org.apache.karaf.main.BaseJDBCLockTest.releaseShouldSucceedForANullConnectionReference,6.0,12.0,4.0,8.0,1.0,6.0,0.0,7.0,1.0,0.0,6.0,7.0,1.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+karaf,Public Method,org.apache.karaf.shell.osgi.BlueprintListener.getName,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
 karaf,Abstract Method,org.apache.karaf.admin.management.AdminServiceMBean.createInstance,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,True
 karaf,Public Method,org.apache.karaf.admin.management.internal.AdminServiceMBeanImpl.createInstance,11.0,19.0,2.0,17.0,5.0,11.0,0.0,6.0,8.0,1.0,6.0,10.0,3.0,7.0,4.0,4.0,4.0,1.0,1.0,0.0,1.0,0.0,0.0,4,4,4,1,True
-nutch,Public Method,org.apache.nutch.metadata.TestMetadata.testWritable,1.0,21.0,0.0,20.0,3.0,18.0,1.0,7.0,1.0,0.0,18.0,19.0,3.0,16.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.05,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.feed.FeedParser.setConf,3.0,25.0,0.0,8.0,1.0,6.0,17.0,9.0,1.0,0.0,5.0,6.0,1.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.13,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.util.domain.DomainStatistics.setConf,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.plugin.PluginDescriptor.addExtensionPoint,3.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.tika.DOMBuilder.startEntity,0.0,20.0,1.0,3.0,1.0,0.0,16.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,5.33,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.indexer.solr.SolrWriter.open,2.0,5.0,0.0,5.0,1.0,3.0,0.0,6.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Constructor,org.apache.nutch.metadata.TestSpellCheckedMetadata.TestSpellCheckedMetadata,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.crawl.Generator.SelectorInverseMapper.map,3.0,5.0,0.0,5.0,3.0,2.0,0.0,1.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.tools.CrawlDBScanner.reduce,3.0,7.0,0.0,7.0,3.0,3.0,0.0,3.0,2.0,0.0,2.0,4.0,2.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-nutch,Public Method,org.apache.nutch.protocol.ftp.Client.disconnect,2.0,13.0,0.0,5.0,1.0,2.0,8.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.6,1,1,1,1,False
-nutch,Private Constructor,org.creativecommons.nutch.CCParseFilter.Walker.Walker,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.protocol.ftp.PrintCommandListener.protocolReplyReceived,3.0,9.0,0.0,9.0,1.0,5.0,0.0,3.0,3.0,0.0,2.0,5.0,1.0,4.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-nutch,Public Method,org.apache.nutch.parse.tika.DOMBuilder.entityReference,2.0,9.0,0.0,4.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.protocol.httpclient.HttpAuthenticationFactory.findAuthentication,5.0,49.0,5.0,43.0,7.0,32.0,1.0,13.0,46.0,2.0,20.0,32.0,7.0,25.0,12.0,12.0,13.0,6.0,10.0,9.0,3.0,8.0,0.02,12,12,13,6,False
-nutch,Public Method,org.apache.nutch.util.NodeWalker.skipChildren,5.0,22.0,2.0,9.0,3.0,5.0,11.0,5.0,3.0,0.0,5.0,8.0,4.0,4.0,4.0,4.0,4.0,1.0,0.0,0.0,2.0,0.0,1.22,4,4,4,1,False
-nutch,Public Method,org.apache.nutch.fetcher.Fetcher.fetch,11.0,46.0,11.0,31.0,7.0,26.0,4.0,23.0,4.0,1.0,24.0,27.0,6.0,21.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.13,3,3,3,1,False
-nutch,Public Method,org.apache.nutch.scoring.webgraph.LinkDumper.run,3.0,33.0,3.0,26.0,11.0,20.0,4.0,13.0,3.0,0.0,15.0,18.0,8.0,10.0,3.0,3.0,4.0,3.0,3.0,3.0,2.0,3.0,0.15,3,3,4,3,False
-nutch,Public Static Method,org.apache.nutch.parse.ParseText.main,3.0,32.0,6.0,26.0,13.0,21.0,0.0,8.0,2.0,0.0,18.0,21.0,12.0,9.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-nutch,Public Method,org.apache.nutch.urlfilter.api.RegexURLFilterBase.getConf,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Abstract Method,org.apache.nutch.indexer.NutchIndexWriter.close,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-nutch,Public Method,org.apache.nutch.parse.zip.ZipTextExtractor.extractText,11.0,53.0,7.0,45.0,19.0,33.0,1.0,26.0,17.0,1.0,30.0,39.0,21.0,18.0,9.0,9.0,9.0,1.0,1.0,0.0,5.0,0.0,0.02,9,9,9,1,False
-nutch,Public Method,org.apache.nutch.tools.CrawlDBScanner.close,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.segment.SegmentReader.list,9.0,25.0,0.0,25.0,3.0,22.0,0.0,7.0,33.0,2.0,23.0,30.0,4.0,26.0,7.0,7.0,7.0,1.0,5.0,0.0,2.0,0.0,0.0,7,7,7,1,False
-nutch,Public Method,org.apache.nutch.crawl.CrawlDatum.compareTo,7.0,16.0,0.0,15.0,1.0,13.0,1.0,2.0,7.0,1.0,7.0,14.0,1.0,13.0,11.0,11.0,11.0,7.0,6.0,6.0,1.0,6.0,0.07,11,11,11,7,False
-nutch,Public Method,org.apache.nutch.tools.arc.ArcSegmentCreator.close,0.0,2.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Private Method,org.apache.nutch.plugin.PluginRepository.displayStatus,5.0,21.0,2.0,19.0,1.0,13.0,0.0,7.0,9.0,1.0,7.0,14.0,3.0,11.0,5.0,5.0,7.0,1.0,2.0,0.0,2.0,0.0,0.0,5,5,7,1,False
-nutch,Public Static Method,org.apache.nutch.util.EncodingDetector.resolveEncodingAlias,6.0,12.0,0.0,12.0,2.0,9.0,0.0,7.0,3.0,0.0,5.0,8.0,2.0,6.0,4.0,4.0,5.0,3.0,3.0,3.0,2.0,3.0,0.0,4,4,5,3,False
-nutch,Public Method,org.apache.nutch.scoring.webgraph.Loops.LoopSet.setLoopSet,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.ParseData.getVersion,1.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.indexer.solr.SolrClean.DBFilter.map,5.0,8.0,1.0,7.0,3.0,2.0,0.0,2.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-nutch,Private Method,org.apache.nutch.protocol.httpclient.TestProtocolHttpClient.getURL,2.0,10.0,0.0,3.0,1.0,1.0,7.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.33,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.scoring.webgraph.Loops.Route.readFields,1.0,7.0,1.0,6.0,2.0,3.0,0.0,5.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.protocol.ftp.Client.setRemoteVerificationEnabled,1.0,13.0,0.0,4.0,1.0,1.0,9.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.25,1,1,1,1,False
+nutch,Private Static Method,org.apache.nutch.protocol.http.HttpResponse.readLine,6.0,28.0,0.0,26.0,3.0,17.0,4.0,6.0,12.0,1.0,9.0,16.0,2.0,14.0,9.0,7.0,9.0,4.0,3.0,3.0,5.0,3.0,0.15,9,7,9,4,False
+nutch,Public Method,org.apache.nutch.indexer.anchor.AnchorIndexingFilter.getConf,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+nutch,Public Constructor,org.apache.nutch.util.NodeWalker.NodeWalker,12.0,10.0,1.0,4.0,1.0,2.0,5.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.protocol.ProtocolFactory.getProtocol,19.0,39.0,5.0,25.0,7.0,20.0,9.0,10.0,8.0,1.0,13.0,18.0,7.0,11.0,6.0,6.0,6.0,4.0,6.0,6.0,3.0,6.0,0.36,6,6,6,4,False
+nutch,Protected Method,org.apache.nutch.urlfilter.regex.TestRegexURLFilter.getURLFilter,2.0,8.0,0.0,8.0,1.0,5.0,0.0,4.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+nutch,Public Method,org.apache.nutch.scoring.webgraph.LinkDatum.getAnchor,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.protocol.httpclient.HttpBasicAuthentication.setConf,2.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.parse.HTMLMetaTags.getNoFollow,4.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
 nutch,Public Method,org.apache.nutch.protocol.http.api.HttpBase.getProxyHost,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Static Method,org.apache.nutch.crawl.CrawlDBTestUtil.generateSeedList,5.0,18.0,0.0,14.0,5.0,10.0,4.0,8.0,2.0,0.0,10.0,12.0,5.0,7.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.29,2,2,2,1,False
-nutch,Public Method,org.apache.nutch.tika.TestMSWordParser.testOpeningDocs,2.0,7.0,0.0,7.0,2.0,4.0,0.0,5.0,3.0,0.0,5.0,8.0,3.0,5.0,3.0,3.0,3.0,3.0,1.0,1.0,2.0,1.0,0.0,3,3,3,3,False
-nutch,Public Method,org.apache.nutch.indexer.basic.BasicIndexingFilter.getConf,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.indexer.solr.SolrClean.DBFilter.close,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.urlfilter.suffix.TestSuffixURLFilter.testModeAcceptIgnoreCase,4.0,7.0,0.0,7.0,1.0,4.0,0.0,4.0,2.0,0.0,5.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-nutch,Method,org.apache.nutch.util.TrieStringMatcher.TrieNode.getChildAddIfNotPresent,8.0,36.0,5.0,25.0,5.0,20.0,6.0,13.0,14.0,1.0,15.0,21.0,5.0,16.0,6.0,6.0,7.0,3.0,2.0,2.0,1.0,2.0,0.24,6,6,7,3,False
-nutch,Protected Constructor,org.apache.nutch.indexer.solr.SolrMappingReader.SolrMappingReader,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.ParseStatus.setMessage,3.0,6.0,0.0,6.0,1.0,3.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,3,1,False
-nutch,Public Method,org.apache.nutch.indexer.solr.SolrMappingReader.mapKey,3.0,6.0,0.0,6.0,1.0,3.0,0.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-nutch,Private Method,org.apache.nutch.plugin.PluginManifestParser.parseManifestFile,2.0,14.0,0.0,7.0,5.0,3.0,7.0,5.0,1.0,0.0,3.0,4.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.tika.DOMBuilder.setIDAttribute,1.0,11.0,1.0,3.0,1.0,0.0,7.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.33,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.swf.ExtractText.TextDumper.setY,2.0,5.0,0.0,5.0,1.0,3.0,1.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.2,2,2,2,1,False
-nutch,Public Method,org.apache.nutch.scoring.webgraph.LinkDumper.dumpLinks,10.0,76.0,7.0,63.0,16.0,55.0,6.0,25.0,8.0,1.0,49.0,53.0,14.0,39.0,4.0,4.0,4.0,1.0,2.0,0.0,1.0,0.0,0.1,4,4,4,1,False
-nutch,Public Method,org.apache.nutch.parse.TestOutlinkExtractor.testGetOutlinksFtp,2.0,9.0,1.0,8.0,3.0,6.0,4.0,4.0,1.0,0.0,4.0,5.0,2.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
-nutch,Public Constructor,org.apache.nutch.parse.swf.NutchSWFActions.NutchSWFActions,4.0,5.0,0.0,5.0,1.0,3.0,0.0,5.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.swf.ExtractText.tagDefineText,2.0,8.0,0.0,5.0,1.0,3.0,3.0,3.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.6,1,1,1,1,False
-nutch,Public Static Method,org.apache.nutch.crawl.SignatureFactory.getSignature,8.0,20.0,0.0,19.0,5.0,14.0,1.0,11.0,4.0,1.0,10.0,14.0,5.0,9.0,4.0,4.0,4.0,1.0,1.0,0.0,3.0,0.0,0.05,4,4,4,1,False
+nutch,Public Abstract Method,org.apache.nutch.protocol.RobotRules.isAllowed,1.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+nutch,Public Method,org.apache.nutch.protocol.ftp.Client.retrieveList,8.0,64.0,8.0,38.0,14.0,26.0,18.0,14.0,30.0,1.0,18.0,25.0,8.0,17.0,8.0,8.0,9.0,4.0,4.0,4.0,2.0,3.0,0.47,8,8,9,4,False
+nutch,Public Method,org.apache.nutch.parse.ext.ExtParser.getParse,10.0,72.0,20.0,51.0,16.0,46.0,2.0,24.0,15.0,1.0,29.0,37.0,15.0,22.0,8.0,8.0,9.0,5.0,7.0,6.0,2.0,6.0,0.04,8,8,9,5,False
+nutch,Public Method,org.apache.nutch.crawl.TestLinkDbMerger.tearDown,3.0,9.0,0.0,9.0,1.0,7.0,0.0,3.0,6.0,1.0,2.0,6.0,1.0,5.0,4.0,4.0,4.0,1.0,2.0,0.0,2.0,0.0,0.0,4,4,4,1,False
+nutch,Public Method,org.apache.nutch.parse.js.JSParseFilter.getParse,4.0,22.0,0.0,21.0,8.0,17.0,1.0,19.0,7.0,1.0,13.0,18.0,7.0,11.0,5.0,5.0,7.0,1.0,2.0,0.0,2.0,0.0,0.05,5,5,7,1,False
+nutch,Public Method,org.apache.nutch.crawl.Inlink.getAnchor,3.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+nutch,Public Constructor,org.apache.nutch.util.TestEncodingDetector.TestEncodingDetector,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.urlfilter.validator.UrlValidator.filter,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+nutch,Public Constructor,org.apache.nutch.parse.ParsePluginsReader.ParsePluginsReader,2.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.util.NodeWalker.skipChildren,5.0,22.0,2.0,9.0,3.0,5.0,11.0,5.0,3.0,0.0,5.0,8.0,4.0,4.0,4.0,4.0,4.0,1.0,0.0,0.0,2.0,0.0,1.22,4,4,4,1,False
+nutch,Public Method,org.apache.nutch.parse.html.DOMBuilder.startCDATA,1.0,10.0,0.0,5.0,1.0,2.0,5.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
 nutch,Public Method,org.apache.nutch.protocol.http.api.HttpBase.getTimeout,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.TestParseData.testMaxOutlinks,2.0,12.0,0.0,12.0,5.0,9.0,1.0,6.0,2.0,0.0,7.0,9.0,5.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.08,2,2,2,1,False
-nutch,Public Method,org.apache.nutch.protocol.httpclient.TestProtocolHttpClient.testNtlmAuth,0.0,9.0,0.0,4.0,1.0,2.0,5.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.ParseStatus.readFields,3.0,17.0,0.0,17.0,2.0,14.0,0.0,7.0,3.0,0.0,10.0,12.0,2.0,10.0,3.0,2.0,3.0,1.0,3.0,0.0,1.0,0.0,0.0,3,2,3,1,False
-nutch,Public Method,org.apache.nutch.crawl.URLPartitioner.getPartition,10.0,29.0,3.0,24.0,5.0,19.0,2.0,11.0,8.0,1.0,13.0,18.0,5.0,13.0,5.0,5.0,6.0,1.0,3.0,0.0,2.0,0.0,0.08,5,5,6,1,False
+nutch,Public Method,org.apache.nutch.plugin.PluginDescriptor.addNotExportedLibRelative,4.0,10.0,0.0,5.0,3.0,2.0,5.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.tools.arc.ArcRecordReader.createValue,2.0,6.0,0.0,3.0,1.0,1.0,3.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.fetcher.Fetcher.InputFormat.getSplits,2.0,12.0,0.0,11.0,5.0,7.0,1.0,4.0,2.0,0.0,7.0,9.0,5.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.09,2,2,2,1,False
+nutch,Public Method,org.apache.nutch.segment.SegmentMerger.configure,2.0,6.0,0.0,6.0,1.0,3.0,0.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+nutch,Public Method,org.apache.nutch.protocol.EmptyRobotRules.getExpireTime,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+nutch,Method,org.apache.nutch.util.domain.DomainSuffixesReader.readCCTLDs,3.0,6.0,0.0,6.0,2.0,3.0,0.0,5.0,2.0,0.0,4.0,6.0,3.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+nutch,Public Static Method,org.apache.nutch.collection.CollectionManager.getCollectionManager,4.0,17.0,0.0,17.0,4.0,12.0,0.0,7.0,4.0,1.0,8.0,12.0,4.0,8.0,4.0,4.0,4.0,1.0,1.0,0.0,3.0,0.0,0.0,4,4,4,1,False
+nutch,Public Method,org.apache.nutch.util.EncodingDetector.EncodingClue.toString,4.0,4.0,0.0,4.0,1.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+nutch,Protected Method,org.apache.nutch.protocol.file.TestProtocolFile.setUp,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.metadata.Metadata.equals,6.0,28.0,4.0,24.0,5.0,17.0,0.0,5.0,8.0,1.0,15.0,23.0,7.0,16.0,8.0,8.0,8.0,8.0,12.0,12.0,3.0,12.0,0.0,8,8,8,8,False
+nutch,Public Constructor,org.apache.nutch.metadata.TestMetadata.TestMetadata,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.protocol.ftp.PrintCommandListener.protocolReplyReceived,3.0,9.0,0.0,9.0,1.0,5.0,0.0,3.0,3.0,0.0,2.0,5.0,1.0,4.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.0,3,3,3,1,False
+nutch,Public Method,org.apache.nutch.scoring.webgraph.Loops.Initializer.map,3.0,11.0,1.0,7.0,4.0,3.0,3.0,2.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.43,1,1,1,1,False
+nutch,Private Method,org.apache.nutch.net.urlnormalizer.regex.TestRegexURLNormalizer.bench,6.0,14.0,0.0,14.0,3.0,10.0,0.0,6.0,4.0,1.0,8.0,12.0,4.0,8.0,4.0,4.0,4.0,3.0,3.0,3.0,2.0,3.0,0.0,4,4,4,3,False
+nutch,Public Method,org.apache.nutch.tools.proxy.LogDebugHandler.init,0.0,4.0,1.0,2.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.parse.swf.NutchSWFActions.lookupTable,3.0,8.0,0.0,7.0,1.0,4.0,1.0,4.0,3.0,0.0,5.0,8.0,2.0,6.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.14,3,3,3,1,False
+nutch,Public Method,org.apache.nutch.tika.TestFeedParser.testIt,4.0,61.0,11.0,32.0,9.0,21.0,20.0,16.0,11.0,1.0,20.0,26.0,11.0,15.0,6.0,6.0,7.0,1.0,0.0,0.0,3.0,0.0,0.63,6,6,7,1,False
+nutch,Public Method,org.apache.nutch.util.TestSuffixStringMatcher.testSuffixMatcher,6.0,66.0,16.0,48.0,11.0,40.0,2.0,12.0,51.0,2.0,30.0,40.0,15.0,25.0,11.0,11.0,13.0,1.0,0.0,0.0,5.0,0.0,0.04,11,11,13,1,False
+nutch,Public Method,org.apache.nutch.urlfilter.domain.DomainURLFilter.setConf,7.0,61.0,4.0,51.0,8.0,36.0,7.0,20.0,432.0,3.0,21.0,33.0,8.0,25.0,12.0,12.0,13.0,3.0,6.0,3.0,2.0,2.0,0.14,12,12,13,3,False
+nutch,Public Method,org.apache.nutch.parse.tika.DOMBuilder.cdata,5.0,38.0,2.0,12.0,3.0,9.0,25.0,4.0,4.0,1.0,5.0,9.0,3.0,6.0,4.0,4.0,5.0,1.0,2.0,0.0,1.0,0.0,2.08,4,4,5,1,False
+nutch,Private Method,org.apache.nutch.crawl.TestGenerator.createCrawlDB,10.0,17.0,1.0,8.0,2.0,5.0,8.0,4.0,1.0,0.0,5.0,6.0,1.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
 nutch,Public Method,org.apache.nutch.crawl.AbstractFetchSchedule.setFetchSchedule,3.0,12.0,0.0,6.0,3.0,2.0,6.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,True
 nutch,Public Method,org.apache.nutch.crawl.AdaptiveFetchSchedule.setFetchSchedule,16.0,34.0,0.0,33.0,6.0,26.0,1.0,7.0,72.0,2.0,18.0,25.0,4.0,21.0,9.0,7.0,9.0,1.0,4.0,0.0,2.0,0.0,0.03,9,7,9,1,True
 nutch,Public Method,org.apache.nutch.crawl.DefaultFetchSchedule.setFetchSchedule,8.0,12.0,0.0,12.0,3.0,7.0,0.0,6.0,2.0,0.0,5.0,7.0,1.0,6.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,True
@@ -414,107 +331,82 @@ nutch,Public Abstract Method,org.apache.nutch.segment.SegmentMergeFilter.filter,
 nutch,Public Method,org.apache.nutch.segment.SegmentMergeFilters.filter,11.0,24.0,0.0,17.0,3.0,11.0,7.0,6.0,6.0,1.0,4.0,10.0,2.0,8.0,5.0,5.0,5.0,3.0,3.0,3.0,3.0,3.0,0.41,5,5,5,3,True
 nutch,Public Method,org.apache.nutch.tools.Benchmark.benchmark,13.0,95.0,2.0,91.0,24.0,79.0,7.0,37.0,208.0,2.0,72.0,83.0,22.0,61.0,10.0,10.0,10.0,3.0,2.0,2.0,3.0,2.0,0.08,10,10,10,3,True
 nutch,Private Method,org.apache.nutch.tools.arc.ArcSegmentCreator.output,19.0,117.0,11.0,82.0,13.0,60.0,24.0,44.0,1154.0,3.0,33.0,51.0,10.0,41.0,17.0,17.0,18.0,4.0,7.0,3.0,6.0,3.0,0.29,17,17,18,4,True
-pig,Method,org.apache.hadoop.zebra.tfile.TFile.Reader.end,3.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-pig,Public Static Method,org.apache.pig.test.TestOptimizeLimit.setup,0.0,3.0,1.0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputsTypedApiNeg.run,0.0,16.0,5.0,7.0,2.0,5.0,4.0,4.0,1.0,0.0,5.0,6.0,2.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.57,1,1,1,1,False
-pig,Public Static Method,org.apache.hadoop.zebra.pig.TestLoaderWithCollection.tearDown,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.builtin.IntMax.outputSchema,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.hadoop.zebra.pig.TestTableMergeJoinInteger.getCurrentMethodName,1.0,22.0,1.0,16.0,7.0,14.0,10.0,7.0,1.0,0.0,14.0,15.0,7.0,8.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.63,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestTypeChecking.testByScript6,2.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
 pig,Public Constructor,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.POFRJoin,11.0,22.0,1.0,21.0,6.0,15.0,0.0,18.0,1.0,0.0,15.0,16.0,2.0,14.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,True
-qpid,Public Method,org.apache.qpid.disttest.client.ProducerParticipant.toString,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Constructor,org.apache.qpid.transport.network.security.sasl.SASLReceiver.SASLReceiver,3.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.model.adapter.VirtualHostAdapter.getName,5.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.client.security.crammd5hashed.CRAMMD5HashedSaslClient.hasInitialResponse,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.amqp_1_0.transport.SASLEndpointImpl.send,5.0,12.0,0.0,11.0,1.0,4.0,1.0,2.0,3.0,0.0,2.0,5.0,1.0,4.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.09,3,3,3,1,False
-qpid,Public Method,org.apache.qpid.server.txn.LocalTransactionTest.testStoreDequeuesCauseExceptions,6.0,27.0,3.0,18.0,1.0,11.0,6.0,16.0,2.0,0.0,9.0,11.0,1.0,10.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.33,2,2,2,1,False
-qpid,Static Method,org.apache.qpid.amqp_1_0.client.SendBytes.encode,2.0,37.0,8.0,21.0,8.0,14.0,8.0,8.0,2.0,0.0,13.0,15.0,8.0,7.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.38,3,3,3,1,False
-qpid,Public Constructor,org.apache.qpid.server.virtualhost.HouseKeepingTask.HouseKeepingTask,6.0,6.0,0.0,6.0,1.0,3.0,0.0,9.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.SupportedProtocolVersionsTest.testProtocolInclusionThroughConfigOverridesProtocolExclusion,0.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.security.auth.manager.AuthenticationManagerRegistryTest.testGetAuthenticationManagerWithMultipleAuthenticationManager,3.0,25.0,6.0,19.0,11.0,16.0,0.0,14.0,1.0,0.0,16.0,17.0,11.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.security.AbstractProxyPlugin.authorisePurge,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.model.Attribute.StringAttribute.getType,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.plugins.PluginManager.getVirtualHostPlugins,3.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.amqp_1_0.client.Connection.Connection.(Anon_1).getName,1.0,4.0,0.0,4.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.store.berkeleydb.BDBMessageStoreTest.createPublishInfoBody_0_8.(Anon_1).getExchange,0.0,4.0,0.0,4.0,0.0,2.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Protected Method,org.apache.qpid.amqp_1_0.codec.BinaryWriter.getSingleOctetEncodingCode,0.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Private Method,org.apache.qpid.example.Spout.setProperties,3.0,11.0,0.0,11.0,1.0,4.0,0.0,6.0,3.0,0.0,1.0,5.0,2.0,3.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-qpid,Protected Method,org.apache.qpid.client.AMQSession_0_10.requestQueueDepth,2.0,9.0,0.0,9.0,1.0,4.0,0.0,8.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-qpid,Method,org.apache.qpid.amqp_1_0.codec.FloatWriter.getFormatCode,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Constructor,org.apache.qpid.server.virtualhost.plugins.VirtualHostHouseKeepingPlugin.VirtualHostHouseKeepingPlugin,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.qmf.QMFObject.getDeleteTime,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Protected Method,org.apache.qpid.disttest.client.ParticipantExecutorTest.setUp,5.0,13.0,3.0,10.0,1.0,7.0,0.0,11.0,1.0,0.0,7.0,8.0,1.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.amqp_1_0.jms.impl.MessageProducerImpl.setDeliveryMode,1.0,5.0,0.0,5.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Protected Method,org.apache.qpid.framing.AMQMethodBodyImpl.writeShort,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.framing.ByteArrayDataInput.length,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Private Static Method,org.apache.qpid.amqp_1_0.type.codec.AMQPDescribedTypeRegistry.registerSecurityConstructors,2.0,9.0,1.0,8.0,1.0,5.0,0.0,5.0,1.0,0.0,5.0,6.0,1.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.management.plugin.servlet.rest.VirtualHostRestTest.testCreateQueueWithDLQEnabled,6.0,38.0,8.0,26.0,10.0,23.0,4.0,9.0,1.0,0.0,23.0,24.0,10.0,14.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.15,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.exchange.AbstractExchange.removeCloseTask,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.exchange.DirectExchange.BindingSet.removeBinding,3.0,5.0,0.0,5.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.store.berkeleydb.AbstractBDBMessageStore.BDBTransaction.enqueueMessage,3.0,11.0,1.0,10.0,2.0,5.0,0.0,7.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-qpid,Public Static Method,org.apache.qpid.framing.EncodingUtils.writeShort,4.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.security.acl.ExternalACLTest.setUpClientCreateTemporaryQueueFailed,0.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.client.message.JMSStreamMessage.clearBody,1.0,7.0,1.0,6.0,1.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Abstract Method,org.apache.qpid.server.queue.AMQQueueFactory.QueueProperty.setPropertyValue,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-qpid,Public Method,org.apache.qpid.qmf.QMFService.QueueDelegate.getDiscardsLvq,0.0,5.0,0.0,4.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-qpid,Abstract Method,org.apache.qpid.server.protocol.AMQProtocolSession.createDeliveryMethod,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-qpid,Public Method,org.apache.qpid.server.AMQChannel.WriteReturnAction.onRollback,0.0,4.0,0.0,3.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.store.QuotaMessageStore.newTransaction.(Anon_1).abortTran,0.0,3.0,0.0,3.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.client.AMQConnection.setTemporaryQueueExchangeName,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Protected Method,org.apache.qpid.amqp_1_0.type.messaging.codec.RejectedWriter.Writer.hasNext,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Private Method,org.apache.qpid.server.management.plugin.servlet.rest.StructureServlet.generateStructure,3.0,27.0,4.0,23.0,4.0,12.0,0.0,9.0,6.0,1.0,8.0,15.0,6.0,9.0,5.0,5.0,5.0,1.0,0.0,0.0,3.0,0.0,0.0,5,5,5,1,False
-qpid,Private Constructor,org.apache.qpid.amqp_1_0.codec.ShortTypeConstructor.ShortTypeConstructor,0.0,3.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.protocol.AMQProtocolEngine.getAddress,0.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.management.ui.ManagedBean.getDomain,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Abstract Method,org.apache.qpid.amqp_1_0.jms.Message.getUnsignedShortProperty,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-qpid,Public Method,org.apache.qpid.management.ui.views.MBeanTabFolderFactory.QpidMBeanType.valueOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Protected Method,org.apache.qpid.gentools.CppGenerator.generateMethodBodyMapEntry,4.0,32.0,2.0,30.0,9.0,17.0,1.0,19.0,5.0,1.0,10.0,18.0,12.0,6.0,6.0,6.0,6.0,1.0,1.0,0.0,4.0,0.0,0.03,6,6,6,1,False
-qpid,Private Method,org.apache.qpid.client.BasicMessageProducer.checkPreConditions,14.0,13.0,1.0,12.0,1.0,5.0,0.0,4.0,4.0,1.0,3.0,6.0,1.0,5.0,3.0,3.0,4.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,4,1,False
-qpid,Public Method,org.apache.qpid.amqp_1_0.type.transport.Detach.getHandle,4.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Method,org.apache.qpid.test.unit.basic.BytesMessageTest.send,5.0,24.0,2.0,20.0,4.0,11.0,2.0,8.0,3.0,0.0,10.0,13.0,5.0,8.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.1,3,3,3,1,False
-qpid,Public Method,org.apache.qpid.server.queue.SimpleAMQQueue.setFlowResumeCapacity,1.0,6.0,1.0,5.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.security.auth.sasl.crammd5.CRAMMD5HashedSaslServer.dispose,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Abstract Method,org.apache.qpid.transport.codec.Decoder.readInt32,0.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-qpid,Public Method,org.apache.qpid.amqp_1_0.codec.SymbolWriter.(Anon_1).newInstance,0.0,4.0,0.0,4.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.security.access.ObjectType.isAllowed,3.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Constructor,org.apache.qpid.gentools.Generator.NamedTemplate.NamedTemplate,4.0,7.0,1.0,6.0,1.0,3.0,0.0,6.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.qmf.QMFProperty.setMin,3.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.client.AMQSession_0_8.rejectMessage,7.0,16.0,2.0,14.0,3.0,7.0,0.0,12.0,3.0,0.0,4.0,7.0,3.0,4.0,3.0,3.0,7.0,1.0,0.0,0.0,2.0,0.0,0.0,3,3,7,1,False
-qpid,Public Method,org.apache.qpid.ra.QpidRAXAResource.prepare,3.0,15.0,1.0,8.0,1.0,3.0,6.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.75,2,2,2,1,False
-qpid,Public Method,org.apache.qpid.client.handler.ChannelFlowMethodHandler.methodReceived,4.0,5.0,0.0,5.0,2.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.jmx.mbeans.ConnectionMBean.getMaximumNumberOfChannels,1.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Abstract Method,org.apache.qpid.client.message.AMQMessageDelegate.getJMSDeliveryMode,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-qpid,Private Method,org.apache.qpid.server.store.MessageStoreTest.validateQueueProperties,11.0,27.0,2.0,25.0,1.0,14.0,0.0,8.0,6.0,1.0,9.0,13.0,1.0,12.0,4.0,4.0,5.0,1.0,2.0,0.0,1.0,0.0,0.0,4,4,5,1,False
-qpid,Protected Method,org.apache.qpid.client.message.TypedBytesContentReader.readByte,5.0,29.0,0.0,29.0,4.0,19.0,0.0,7.0,4.0,1.0,14.0,17.0,4.0,13.0,4.0,3.0,4.0,1.0,4.0,0.0,2.0,0.0,0.0,4,3,4,1,False
-qpid,Public Method,org.apache.qpid.management.ui.views.exchange.ExchangeOperationsTabControl.ContentProviderImpl.inputChanged,0.0,4.0,1.0,3.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.ra.QpidRAMapMessage.getByte,3.0,15.0,1.0,8.0,1.0,3.0,6.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.75,2,2,2,1,False
-qpid,Public Abstract Method,org.apache.qpid.server.virtualhost.VirtualHost.unblock,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-qpid,Public Method,org.apache.qpid.test.unit.message.NonQpidMessage.setByteProperty,3.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.configuration.ServerNetworkTransportConfiguration.needClientAuth,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.management.ui.RefreshIntervalComboPanel.createControl,11.0,36.0,6.0,30.0,4.0,22.0,2.0,13.0,2.0,0.0,20.0,23.0,6.0,17.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.07,2,2,2,1,False
-qpid,Protected Method,org.apache.qpid.disttest.controller.config.TestInstanceTest.setUp,1.0,7.0,0.0,7.0,1.0,4.0,0.0,5.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Private Method,org.apache.qpid.management.ui.views.NavigationView.createTypeInstanceNode,4.0,7.0,1.0,6.0,2.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.test.unit.ack.RecoverTest.testAcknowledgePerConsumer,2.0,41.0,10.0,31.0,15.0,26.0,0.0,18.0,1.0,0.0,24.0,25.0,13.0,12.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.virtualhost.MockVirtualHost.getQMFId,0.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.store.berkeleydb.upgrade.UpgradeFrom5To6.upgradeXidEntries.(Anon_3).processEntry,6.0,34.0,1.0,33.0,11.0,23.0,0.0,10.0,9.0,1.0,21.0,26.0,14.0,12.0,5.0,5.0,5.0,1.0,0.0,0.0,2.0,0.0,0.0,5,5,5,1,False
-qpid,Protected Method,org.apache.qpid.server.logging.AbstractTestLogging.fromActor,17.0,26.0,0.0,13.0,3.0,6.0,13.0,4.0,2.0,0.0,4.0,6.0,3.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.0,2,2,2,1,False
-qpid,Public Method,org.apache.qpid.ra.QpidResourceAdapter.getConnectionURL,2.0,14.0,1.0,8.0,1.0,3.0,5.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.63,2,2,2,1,False
-qpid,Public Method,org.apache.qpid.server.protocol.MultiVersionProtocolEngine.SelfDelegateProtocolEngine.getConnectionId,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.test.unit.client.connection.ConnectionTest.testPasswordFailureConnection,2.0,23.0,0.0,23.0,3.0,12.0,1.0,10.0,4.0,1.0,8.0,11.0,3.0,8.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.04,3,3,3,1,False
-qpid,Public Method,org.apache.qpid.server.queue.SortedQueueEntryImpl.compareTo,4.0,6.0,0.0,6.0,3.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,3.0,1.0,5.0,5.0,5.0,1.0,0.0,0.0,0.0,0.0,0.0,5,5,5,1,False
-qpid,Public Method,org.apache.qpid.amqp_1_0.client.Receiver.getRemoteUnsettled,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.ra.QpidRAStreamMessage.readLong,2.0,14.0,1.0,8.0,1.0,3.0,5.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.63,2,2,2,1,False
-qpid,Abstract Method,org.apache.qpid.amqp_1_0.jms.Message.getDurable,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-qpid,Method,org.apache.qpid.client.BasicMessageConsumer.notifyError,7.0,35.0,2.0,28.0,2.0,13.0,5.0,12.0,9.0,1.0,7.0,12.0,2.0,10.0,5.0,5.0,5.0,1.0,1.0,0.0,2.0,0.0,0.18,5,5,5,1,False
-qpid,Public Method,org.apache.qpid.filter.LogicExpression.matches,2.0,6.0,1.0,5.0,2.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,2,1,False
-qpid,Public Method,org.apache.qpid.server.store.derby.DerbyMessageStore.DerbyTransaction.dequeueMessage,3.0,5.0,1.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.amqp_1_0.transport.AMQPFrameTransport.setOutputStateChangeListener,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Private Method,org.apache.qpid.disttest.controller.TestRunnerTest.sendTestResultsLater,2.0,11.0,0.0,11.0,1.0,5.0,0.0,1.0,1.0,0.0,2.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.transport.ServerDelegate.connectionTuneOk,0.0,4.0,1.0,3.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.queue.SimpleAMQQueueTest.testGetVirtualHost,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.ra.QpidRAStreamMessage.readString,2.0,14.0,1.0,8.0,1.0,3.0,5.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.63,2,2,2,1,False
-qpid,Public Method,org.apache.qpid.filter.PropertyExpression.TimestampExpression.evaluate,1.0,5.0,0.0,5.0,2.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Protected Method,org.apache.qpid.test.unit.client.AMQSessionTest.tearDown,1.0,12.0,0.0,11.0,1.0,4.0,1.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.09,2,2,2,1,False
-qpid,Protected Method,org.apache.qpid.amqp_1_0.type.messaging.codec.MessageAnnotationsWriter.onSetValue,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.txn.LocalTransactionTest.createTestAMQQueue.(Anon_2).isDurable,1.0,4.0,0.0,4.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.framing.AMQFrame.getBodyFrame,7.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.transport.ProtocolError.getEncodedTrack,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.store.berkeleydb.BDBHAMessageStore.getDurability,3.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.disttest.jms.ControllerJmsDelegate.start,4.0,33.0,2.0,31.0,4.0,17.0,0.0,2.0,2.0,0.0,10.0,14.0,5.0,9.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.client.QueueSenderAdapter.setDeliveryMode,2.0,5.0,0.0,5.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Private Method,org.apache.qpid.amqp_1_0.type.messaging.codec.DeleteOnNoLinksWriter.calculateCount,1.0,6.0,2.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.util.InternalBrokerBaseCase.setMessageStore,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Abstract Method,org.apache.qpid.management.common.mbeans.LoggingManagement.setConfigFileRootLoggerLevel,1.0,8.0,0.0,1.0,1.0,0.0,7.0,3.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0,0,0,0,False
+qpid,Public Method,org.apache.qpid.disttest.client.ParticipantExecutor.ParticipantRunnable.run,0.0,15.0,1.0,14.0,3.0,7.0,0.0,5.0,1.0,0.0,5.0,7.0,3.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.transport.TestNetworkConnection.start,0.0,3.0,0.0,3.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.store.berkeleydb.jmx.BDBHAMessageStoreManagerMBeanTest.testHelperHostPort,4.0,6.0,1.0,5.0,1.0,2.0,0.0,5.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.management.ui.views.NavigationView.createListeners.(Anon_5).handleEvent.(Anon_6).handleEvent,1.0,7.0,0.0,6.0,0.0,4.0,1.0,4.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.17,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.client.security.amqplain.AmqPlainSaslClient.dispose,0.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.virtualhost.VirtualHostImpl.BeforePassivationListener.event,8.0,27.0,4.0,18.0,2.0,11.0,5.0,7.0,1.0,0.0,9.0,11.0,2.0,9.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.28,1,1,1,1,False
+qpid,Abstract Method,org.apache.qpid.client.AMQConnectionDelegate.getMinChannelID,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Public Method,org.apache.qpid.configuration.Accessor.SystemPropertyAccessor.getInt,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Abstract Method,org.apache.qpid.server.protocol.AMQProtocolSession.isClosing,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Private Method,org.apache.qpid.server.management.plugin.Management.getKeyStorePath,2.0,30.0,1.0,29.0,3.0,14.0,0.0,6.0,10.0,1.0,8.0,13.0,3.0,10.0,5.0,5.0,5.0,1.0,2.0,0.0,2.0,0.0,0.0,5,5,5,1,False
+qpid,Public Method,org.apache.qpid.framing.FieldTable.isClean,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Abstract Method,org.apache.qpid.jms.Session.getDefaultPrefetchLow,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+qpid,Public Method,org.apache.qpid.client.message.AMQMessageDelegate_0_10.getJMSDestination,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Protected Method,org.apache.qpid.amqp_1_0.type.security.codec.SaslInitWriter.getDescriptor,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Constructor,org.apache.qpid.server.model.adapter.ConnectionAdapter.ConnectionStatisticsAdapter.ConnectionStatisticsAdapter,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Constructor,org.apache.qpid.server.protocol.v1_0.ReceivingLinkAttachment.ReceivingLinkAttachment,3.0,5.0,0.0,5.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.client.message.AMQMessageDelegate_0_10.getJMSType,1.0,11.0,0.0,11.0,1.0,4.0,0.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.gentools.AmqpField.getOrdinalMap,7.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Private Method,org.apache.qpid.client.QueueReceiverAdaptor.checkPreConditions,9.0,17.0,4.0,13.0,3.0,8.0,0.0,3.0,8.0,1.0,5.0,9.0,3.0,6.0,4.0,4.0,5.0,1.0,0.0,0.0,1.0,0.0,0.0,4,4,5,1,False
+qpid,Public Method,org.apache.qpid.server.store.derby.DerbyMessageStore.deleteBridge,4.0,29.0,2.0,27.0,4.0,16.0,0.0,13.0,3.0,0.0,12.0,15.0,4.0,11.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.0,3,3,3,1,False
+qpid,Public Method,org.apache.qpid.disttest.message.CreateSessionCommand.setConnectionName,4.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.disttest.message.JsonHandlerTest.SendChristmasCards.getPersons,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Static Method,org.apache.qpid.server.store.berkeleydb.FieldTableEncoding.readFieldTable,6.0,25.0,4.0,21.0,3.0,10.0,0.0,4.0,3.0,0.0,6.0,9.0,3.0,6.0,3.0,3.0,3.0,3.0,2.0,2.0,2.0,2.0,0.0,3,3,3,3,False
+qpid,Public Method,org.apache.qpid.amqp_1_0.transport.ReceivingLinkEndpoint.receiveDeliveryState,5.0,12.0,0.0,12.0,1.0,5.0,0.0,6.0,3.0,0.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.0,3,3,3,1,False
+qpid,Public Method,org.apache.qpid.amqp_1_0.type.messaging.Properties.setCreationTime,3.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Static Method,org.apache.qpid.messaging.util.AddressParser.unquote,4.0,68.0,1.0,67.0,4.0,56.0,0.0,9.0,17.0,1.0,39.0,43.0,5.0,38.0,17.0,4.0,17.0,1.0,106.0,0.0,3.0,0.0,0.0,17,4,17,1,False
+qpid,Public Method,org.apache.qpid.framing.ContentBody.BufferContentBody.getFrameType,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.client.message.NonQpidObjectMessage.getJMSRedelivered,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.queue.MockAMQQueue.getMsgTxnEnqueues,0.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.subscription.SubscriptionImpl.getSendLock,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.management.ui.views.queue.QueueOperationsTabControl.ContentProviderImpl.inputChanged,0.0,4.0,1.0,3.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Private Method,org.apache.qpid.server.management.plugin.servlet.rest.RestServlet.filter,4.0,39.0,9.0,30.0,6.0,15.0,0.0,17.0,15.0,1.0,9.0,18.0,8.0,10.0,7.0,7.0,7.0,1.0,1.0,0.0,3.0,0.0,0.0,7,7,7,1,False
+qpid,Public Method,org.apache.qpid.server.subscription.MockSubscription.getSubscriptionID,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Abstract Method,org.apache.qpid.server.protocol.v1_0.Connection_1_0.Task.doTask,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Abstract Method,org.apache.qpid.server.configuration.QueueConfig.getMsgTxnEnqueues,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Public Method,org.apache.qpid.server.configuration.ServerConfiguration.getDeadLetterQueueSuffix,2.0,7.0,0.0,4.0,1.0,1.0,3.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.75,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.queue.SortedQueueEntryImplTest.testTraverseWithDeletedEntries,3.0,14.0,3.0,10.0,2.0,7.0,1.0,6.0,1.0,0.0,7.0,8.0,2.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.1,1,1,1,1,False
+qpid,Protected Method,org.apache.log4j.QpidCompositeRollingAppender.setRollDate,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.disttest.client.ParticipantExecutor.DaemonThreadFactory.newThread,1.0,6.0,0.0,6.0,2.0,3.0,0.0,2.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.transport.Binary.offset,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.BrokerStartupTest.testInvalidLog4jConfigurationFile,5.0,97.0,17.0,46.0,6.0,33.0,34.0,26.0,6.0,1.0,26.0,32.0,7.0,25.0,5.0,5.0,7.0,1.0,1.0,0.0,3.0,0.0,0.74,5,5,7,1,False
+qpid,Protected Method,org.apache.qpid.server.security.auth.database.Base64MD5PasswordFilePrincipalDatabase.createUserFromFileData,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Abstract Method,org.apache.qpid.server.exchange.ExchangeRegistry.addRegistryChangeListener,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Public Method,org.apache.qpid.server.exchange.AbstractHeadersExchangeTestBase.TestQueue.enqueue.(Anon_1).acquiredBySubscription,0.0,4.0,0.0,4.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.test.client.QueueBrowserAutoAckTest.testBrowsingWhileStopped,2.0,16.0,2.0,13.0,3.0,6.0,1.0,5.0,2.0,0.0,4.0,6.0,3.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.08,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.server.AMQChannel.inTransaction,3.0,4.0,0.0,4.0,1.0,1.0,0.0,4.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,3,1,False
+qpid,Public Method,org.apache.qpid.ra.QpidRACredential.getUserName,5.0,13.0,1.0,8.0,1.0,3.0,4.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.5,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.server.security.auth.sasl.UsernamePrincipal.toString,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Static Method,org.apache.qpid.server.security.SecurityManager.setAccessChecksDisabled,3.0,9.0,2.0,6.0,2.0,3.0,1.0,3.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.17,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.util.FileUtilsTest.testOpenFileOrDefaultResourceOpensDefaultResource,0.0,16.0,2.0,11.0,5.0,8.0,3.0,10.0,1.0,0.0,8.0,9.0,5.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.27,1,1,1,1,False
+qpid,Private Constructor,org.apache.qpid.server.configuration.ConnectionConfigType.ConnectionConfigType,0.0,3.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Abstract Method,org.apache.qpid.server.store.DurableConfigurationStore.Source.getMessageStore,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Protected Method,org.apache.qpid.amqp_1_0.type.transaction.codec.DeclareWriter.Writer.clear,0.0,3.0,0.0,3.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.management.ui.jmx.JMXServerRegistry.removeManagedObject,3.0,26.0,2.0,24.0,1.0,11.0,0.0,10.0,6.0,1.0,6.0,12.0,1.0,11.0,6.0,6.0,6.0,1.0,4.0,0.0,1.0,0.0,0.0,6,6,6,1,False
+qpid,Public Method,org.apache.qpid.amqp_1_0.codec.DecimalConstructor.(Anon_1).construct,2.0,16.0,4.0,12.0,1.0,6.0,0.0,5.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.tools.QpidReceive.waitforCompletion,5.0,5.0,0.0,5.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.test.unit.close.MessageRequeueTest.Consumer.getCount,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.virtualhost.MockVirtualHost.initialiseStatistics,0.0,4.0,1.0,3.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.disttest.client.property.SimplePropertyValue.toString,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Private Method,org.apache.qpid.server.management.plugin.servlet.rest.VirtualHostRestTest.tryCreateQueue,9.0,22.0,2.0,20.0,5.0,12.0,0.0,7.0,4.0,1.0,10.0,13.0,4.0,9.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
+qpid,Private Constructor,org.apache.qpid.server.handler.QueueBindHandler.QueueBindHandler,0.0,3.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.transport.Connection.closed,9.0,34.0,4.0,29.0,2.0,13.0,1.0,9.0,16.0,1.0,8.0,16.0,4.0,12.0,5.0,5.0,5.0,1.0,1.0,0.0,1.0,0.0,0.03,5,5,5,1,False
+qpid,Public Method,org.apache.qpid.transport.SessionDelegate.detached,3.0,8.0,0.0,8.0,1.0,3.0,0.0,3.0,1.0,0.0,2.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Abstract Method,org.apache.qpid.server.registry.IApplicationRegistry.getConfigurationManager,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Public Method,org.apache.qpid.client.message.JMSBytesMessage.writeInt,7.0,5.0,0.0,5.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
 qpid,Protected Method,org.apache.qpid.client.AMQSession.createConsumerImpl,15.0,93.0,9.0,84.0,9.0,46.0,0.0,6.0,6.0,1.0,29.0,38.0,8.0,30.0,4.0,4.0,7.0,1.0,2.0,0.0,0.0,0.0,0.0,4,4,7,1,True
 qpid,Public Abstract Method,org.apache.qpid.client.AMQSession.createMessageConsumer,1.0,3.0,0.0,3.0,3.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,True
 qpid,Public Method,org.apache.qpid.client.AMQSession_0_10.createMessageConsumer,17.0,15.0,1.0,11.0,6.0,4.0,3.0,7.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.27,1,1,1,1,True
@@ -539,74 +431,57 @@ qpid,Public Constructor,org.apache.qpid.server.subscription.SubscriptionImpl.Sub
 qpid,Public Constructor,org.apache.qpid.server.subscription.Subscription_0_10.Subscription_0_10,12.0,21.0,1.0,20.0,5.0,13.0,0.0,17.0,1.0,0.0,12.0,13.0,1.0,12.0,3.0,3.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,3,3,3,1,True
 qpid,Public Static Method,org.apache.qpid.ssl.SSLContextFactory.buildClientContext,16.0,11.0,0.0,11.0,6.0,3.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,True
 qpid,Private Static Method,org.apache.qpid.ssl.SSLContextFactory.buildContext,12.0,60.0,7.0,51.0,20.0,28.0,2.0,8.0,6.0,1.0,17.0,21.0,9.0,12.0,5.0,5.0,5.0,1.0,3.0,0.0,2.0,0.0,0.04,5,5,5,1,True
-xerces,Public Method,org.apache.html.dom.HTMLFrameElementImpl.getName,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.wml.dom.WMLMetaElementImpl.setForua,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.util.SecuritySupport12.getResourceAsStream.(Anon_4).run,2.0,9.0,0.0,9.0,1.0,6.0,0.0,3.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-xerces,Public Constructor,org.xml.sax.SAXNotRecognizedException.SAXNotRecognizedException,17.0,9.0,0.0,4.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
-xerces,Public Method,org.apache.wml.dom.WMLUElementImpl.setXmlLang,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Protected Method,org.apache.xerces.parsers.AbstractSAXParser.endNamespaceMapping,3.0,11.0,0.0,8.0,2.0,4.0,3.0,3.0,3.0,0.0,4.0,7.0,3.0,4.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.38,3,3,3,1,False
-xerces,Public Method,org.apache.html.dom.HTMLParamElementImpl.getType,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.NodeIteratorImpl.detach,1.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.parsers.DOMParser.setEntityResolver,4.0,18.0,2.0,8.0,1.0,4.0,9.0,2.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.13,2,2,2,1,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.Op.CharOp.getData,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Protected Method,org.apache.xerces.dom.AttributeMap.cloneContent,6.0,23.0,0.0,20.0,5.0,14.0,4.0,10.0,6.0,1.0,12.0,17.0,6.0,11.0,5.0,5.0,5.0,1.0,0.0,0.0,3.0,0.0,0.2,5,5,5,1,False
-xerces,Method,org.apache.xerces.dom.DocumentImpl.replacedText,2.0,13.0,0.0,8.0,2.0,4.0,5.0,3.0,3.0,0.0,4.0,7.0,3.0,4.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.63,3,3,3,1,False
-xerces,Public Abstract Method,org.apache.xerces.xni.psvi.ElementPSVI.getNotation,2.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Public Method,sax.DocumentTracer.startCDATA,1.0,9.0,2.0,6.0,1.0,4.0,2.0,4.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLOptionElement.setLabel,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSAttributeDeclaration.getEnclosingCTDefinition,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Protected Method,org.apache.xerces.impl.xpath.regex.RegexParser.parseCharacterClass,16.0,122.0,4.0,105.0,16.0,90.0,21.0,22.0,8844.0,4.0,62.0,84.0,15.0,69.0,33.0,22.0,42.0,3.0,13.0,3.0,5.0,2.0,0.2,33,22,42,3,False
-xerces,Public Method,org.apache.xerces.dom.ElementImpl.cloneNode,2.0,17.0,2.0,7.0,2.0,4.0,9.0,4.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,1.29,2,2,2,1,False
-xerces,Public Constructor,org.apache.html.dom.HTMLDocumentImpl.HTMLDocumentImpl,3.0,7.0,0.0,5.0,1.0,2.0,2.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.4,1,1,1,1,False
-xerces,Protected Method,org.apache.xml.serialize.BaseMarkupSerializer.leaveElementState,4.0,20.0,0.0,11.0,2.0,7.0,9.0,4.0,2.0,0.0,5.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.82,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultElement.getAttributeNode,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLTableElementImpl.insertRow,1.0,9.0,1.0,7.0,2.0,3.0,1.0,4.0,1.0,0.0,4.0,5.0,2.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.14,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dtd.XMLDTDProcessor.pcdata,3.0,20.0,0.0,8.0,1.0,5.0,13.0,3.0,4.0,1.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,1.63,3,3,3,1,False
-xerces,Public Method,org.apache.xerces.impl.dv.xs.QNameDV.XQName.toString,3.0,12.0,0.0,11.0,1.0,6.0,1.0,2.0,3.0,0.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.09,3,3,3,1,False
-xerces,Public Constructor,org.apache.xerces.impl.xs.identity.XPathMatcher.XPathMatcher,7.0,17.0,0.0,11.0,1.0,8.0,7.0,9.0,4.0,1.0,9.0,12.0,2.0,10.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.64,3,3,3,1,False
-xerces,Public Method,org.xml.sax.helpers.ParserAdapter.endElement,4.0,32.0,1.0,20.0,5.0,12.0,11.0,8.0,5.0,1.0,8.0,13.0,4.0,9.0,5.0,5.0,5.0,1.0,1.0,0.0,2.0,0.0,0.55,5,5,5,1,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.RegexParser.parseTerm,4.0,22.0,0.0,18.0,4.0,13.0,4.0,6.0,4.0,1.0,9.0,13.0,4.0,9.0,4.0,4.0,8.0,1.0,1.0,0.0,3.0,0.0,0.22,4,4,8,1,False
-xerces,Public Method,org.apache.html.dom.HTMLImageElementImpl.getLongDesc,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLTextAreaElementImpl.setValue,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.Token.ConditionToken.getChild,3.0,5.0,0.0,5.0,1.0,3.0,0.0,1.0,3.0,0.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,3.0,2.0,2.0,1.0,2.0,0.0,3,3,3,3,False
-xerces,Public Method,org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity,2.0,19.0,3.0,6.0,1.0,3.0,11.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,1.83,2,2,3,1,False
-xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSElementDeclaration.isDisallowedSubstitution,0.0,11.0,0.0,1.0,1.0,0.0,10.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0,0,0,0,False
-xerces,Private Static Method,io.UTF8.load,4.0,5.0,0.0,4.0,2.0,2.0,2.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
-xerces,Public Constructor,org.apache.html.dom.HTMLAreaElementImpl.HTMLAreaElementImpl,2.0,9.0,0.0,4.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLOptionElement.getForm,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.dom.PSVIElementNSImpl.getIsNil,1.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dtd.XMLDTDProcessor.getPropertyDefault,4.0,17.0,0.0,8.0,1.0,4.0,10.0,2.0,3.0,0.0,4.0,7.0,2.0,5.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,1.25,3,3,3,3,False
-xerces,Public Abstract Method,org.apache.wml.WMLSelectElement.getXmlLang,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.RegexParser.processParen2,3.0,7.0,0.0,7.0,2.0,5.0,1.0,6.0,2.0,0.0,5.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.14,2,2,2,1,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.ParserForXMLSchema.processBacksolidus_C,0.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLAnchorElementImpl.setHref,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.traversers.XSDHandler.setDeclPool,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Private Static Method,org.apache.xerces.impl.xs.XSConstraints.removePointlessChildren,10.0,16.0,5.0,11.0,3.0,9.0,0.0,2.0,3.0,0.0,7.0,10.0,4.0,6.0,3.0,3.0,5.0,1.0,1.0,0.0,1.0,0.0,0.0,3,3,5,1,False
-xerces,Public Method,org.apache.html.dom.HTMLInputElementImpl.getAccessKey,0.0,10.0,1.0,8.0,2.0,4.0,1.0,4.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,0.13,2,2,3,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaLoader.setFeature,10.0,23.0,0.0,14.0,2.0,10.0,10.0,6.0,5.0,1.0,5.0,10.0,1.0,9.0,5.0,5.0,5.0,1.0,4.0,0.0,1.0,0.0,0.71,5,5,5,1,False
-xerces,Public Abstract Method,org.w3c.dom.Element.getSchemaTypeInfo,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableColElement.setSpan,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Static Method,org.apache.xerces.impl.Constants.main,8.0,9.0,2.0,6.0,1.0,4.0,2.0,1.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLOptionElementImpl.getLabel,0.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Constructor,org.apache.xerces.impl.xs.XMLSchemaValidator.LocalIDKey.LocalIDKey,5.0,4.0,0.0,4.0,1.0,2.0,1.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-xerces,Public Constructor,org.apache.xerces.impl.dv.dtd.NOTATIONDatatypeValidator.NOTATIONDatatypeValidator,1.0,2.0,0.0,2.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.xml.sax.HandlerBase.setDocumentLocator,0.0,15.0,0.0,3.0,1.0,0.0,12.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.util.IntStack.print,2.0,19.0,0.0,18.0,1.0,13.0,1.0,2.0,5.0,1.0,12.0,16.0,2.0,14.0,4.0,4.0,4.0,3.0,2.0,2.0,2.0,2.0,0.06,4,4,4,3,False
-xerces,Public Static Method,org.apache.xerces.util.XMLChar.isNCName,6.0,10.0,0.0,3.0,1.0,1.0,8.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,2.67,1,1,2,1,False
-xerces,Public Method,org.apache.html.dom.HTMLTableElementImpl.getTFoot,2.0,14.0,1.0,13.0,2.0,7.0,0.0,5.0,3.0,0.0,5.0,8.0,2.0,6.0,3.0,3.0,4.0,3.0,3.0,3.0,2.0,3.0,0.0,3,3,4,3,False
-xerces,Public Method,org.apache.html.dom.HTMLUListElementImpl.setType,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.AttrImpl.setValue,9.0,96.0,3.0,73.0,6.0,55.0,21.0,30.0,416.0,3.0,36.0,49.0,6.0,43.0,13.0,13.0,15.0,1.0,5.0,0.0,4.0,0.0,0.29,13,13,15,1,False
-xerces,Public Method,org.apache.xerces.dom.PSVIElementNSImpl.getSchemaNormalizedValue,1.0,10.0,0.0,3.0,1.0,1.0,7.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.33,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.xerces.xni.Augmentations.getItem,13.0,9.0,0.0,1.0,1.0,0.0,8.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.parsers.XMLGrammarPreparser.getFeature,3.0,4.0,0.0,4.0,2.0,2.0,1.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.xerces.xni.parser.XMLPullParserConfiguration.parse,1.0,17.0,0.0,1.0,1.0,0.0,16.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0,0,0,0,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableCellElement.getHeaders,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Method,org.apache.html.dom.HTMLAreaElementImpl.setCoords,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,DesignDoc.printInterfaceFooter,3.0,4.0,0.0,4.0,1.0,2.0,1.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-xerces,Protected Method,org.apache.xerces.impl.XMLNamespaceBinder.prefixBoundToNullURI,5.0,3.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,2,1,False
-xerces,Public Method,org.apache.xerces.dom.ElementDefinitionImpl.getAttributes,3.0,18.0,2.0,6.0,1.0,3.0,11.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,1.83,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.util.IntStack.pop,4.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Method,dom.events.EventReporter.handleEvent,4.0,28.0,1.0,27.0,2.0,22.0,0.0,14.0,69.0,2.0,11.0,20.0,2.0,18.0,9.0,9.0,9.0,1.0,1.0,0.0,2.0,0.0,0.0,9,9,9,1,False
+xerces,Public Abstract Method,org.apache.xerces.impl.dtd.models.ContentModelValidator.validate,1.0,13.0,0.0,1.0,1.0,0.0,12.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0,0,0,0,False
+xerces,Public Abstract Method,org.apache.xerces.dom3.as.ASNotationDeclaration.getSystemId,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+xerces,Public Method,org.apache.html.dom.HTMLInputElementImpl.getReadOnly,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,socket.KeepSocketOpen.Client.run,5.0,41.0,8.0,25.0,4.0,19.0,9.0,10.0,20.0,1.0,15.0,22.0,4.0,18.0,8.0,8.0,8.0,1.0,3.0,0.0,3.0,0.0,0.36,8,8,8,1,False
+xerces,Public Abstract Method,org.apache.xml.serialize.Serializer.setOutputFormat,1.0,10.0,0.0,1.0,1.0,0.0,9.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableRowElement.deleteCell,0.0,9.0,0.0,2.0,2.0,0.0,7.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.5,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLFrameElement.setLongDesc,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Static Method,org.apache.xerces.impl.dv.util.Base64.encode,10.0,128.0,26.0,95.0,20.0,82.0,7.0,2.0,242.0,2.0,75.0,88.0,22.0,66.0,24.0,24.0,24.0,3.0,3.0,2.0,3.0,2.0,0.07,24,24,24,3,False
+xerces,Public Method,org.apache.xerces.impl.dtd.XMLDTDValidator.endDocument,2.0,14.0,2.0,5.0,1.0,2.0,8.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,1.6,2,2,2,1,False
+xerces,Public Abstract Method,org.w3c.dom.traversal.NodeIterator.nextNode,1.0,13.0,0.0,2.0,2.0,0.0,11.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.5,0,0,0,0,False
+xerces,Method,org.apache.xerces.impl.xs.traversers.XSDAbstractTraverser.traverseAnnotationDecl,25.0,27.0,4.0,16.0,4.0,11.0,7.0,7.0,3.0,0.0,8.0,11.0,4.0,7.0,3.0,3.0,4.0,1.0,0.0,0.0,2.0,0.0,0.44,3,3,4,1,False
+xerces,Public Method,org.apache.xerces.util.URI.getUserinfo,3.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLDListElement.getCompact,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultDocument.normalizeDocument,1.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Method,org.apache.html.dom.HTMLHRElementImpl.getAlign,0.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Constructor,org.apache.xerces.impl.XMLErrorReporter.XMLErrorReporter,7.0,21.0,3.0,3.0,1.0,1.0,16.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,5.33,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.(Anon_1).isEntityUnparsed,0.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.xml.sax.helpers.XMLFilterImpl.unparsedEntityDecl,5.0,20.0,0.0,9.0,3.0,3.0,11.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,1.22,2,2,2,1,False
+xerces,Public Abstract Method,org.apache.xerces.dom3.as.ASNotationDeclaration.getPublicId,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+xerces,Public Method,org.apache.html.dom.HTMLTableCellElementImpl.setAlign,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.dom.TreeWalkerImpl.previousNode,1.0,46.0,8.0,29.0,4.0,21.0,9.0,5.0,9.0,1.0,17.0,24.0,4.0,20.0,7.0,7.0,7.0,6.0,6.0,6.0,2.0,6.0,0.31,7,7,7,6,False
+xerces,Public Method,sax.Writer.startElement,3.0,22.0,2.0,19.0,3.0,14.0,2.0,8.0,3.0,0.0,14.0,17.0,3.0,14.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.11,3,3,3,1,False
+xerces,Public Method,org.apache.wml.dom.WMLCardElementImpl.getId,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.dom3.DOMConfiguration.getParameter,0.0,13.0,0.0,2.0,2.0,0.0,11.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.5,0,0,0,0,False
+xerces,Method,org.apache.xerces.dom.CoreDocumentImpl.modifiedAttrValue,1.0,5.0,0.0,2.0,1.0,0.0,3.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.5,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaValidator.OrderedHashtable.keyAt,3.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
+xerces,Private Static Method,javax.xml.parsers.ConvertToURI.quote,5.0,45.0,9.0,34.0,5.0,25.0,3.0,10.0,9.0,1.0,15.0,24.0,6.0,18.0,10.0,10.0,12.0,1.0,3.0,0.0,4.0,0.0,0.09,10,10,12,1,False
+xerces,Protected Method,org.apache.xerces.dom.DeferredElementImpl.synchronizeChildren,1.0,5.0,0.0,5.0,3.0,2.0,1.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.2,1,1,1,1,False
+xerces,Public Static Method,org.apache.xerces.util.XML11Char.isXML11Name,10.0,11.0,0.0,4.0,1.0,2.0,8.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,4.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,4,1,False
+xerces,Public Method,DesignDoc.printMethod,5.0,76.0,0.0,63.0,11.0,51.0,14.0,16.0,72.0,2.0,41.0,50.0,11.0,39.0,10.0,10.0,10.0,1.0,2.0,0.0,3.0,0.0,0.22,10,10,10,1,False
+xerces,Method,org.apache.xerces.impl.xs.traversers.XSDElementTraverser.traverseNamedElement,56.0,238.0,35.0,159.0,22.0,124.0,44.0,43.0,716636160.0,9.0,70.0,108.0,17.0,91.0,41.0,41.0,55.0,1.0,10.0,0.0,4.0,0.0,0.28,41,41,55,1,False
+xerces,Public Method,org.apache.xerces.impl.dv.xs.AbstractDateTimeDV.DateTimeData.equals,3.0,6.0,0.0,6.0,2.0,4.0,0.0,2.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLSelectElement.setSelectedIndex,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Private Method,org.apache.xerces.impl.xs.XMLSchemaValidator.activateSelectorFor,5.0,9.0,0.0,9.0,4.0,7.0,0.0,4.0,2.0,0.0,6.0,8.0,4.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+xerces,Public Static Method,org.apache.xerces.impl.xs.XMLSchemaLoader.tokenizeSchemaLocationStr,3.0,20.0,0.0,20.0,4.0,13.0,2.0,6.0,5.0,1.0,10.0,15.0,4.0,11.0,5.0,5.0,5.0,4.0,4.0,4.0,3.0,4.0,0.1,5,5,5,4,False
+xerces,Public Abstract Method,org.w3c.dom.ls.DOMInputSource.getSystemId,2.0,15.0,0.0,1.0,1.0,0.0,14.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.xpath.regex.RangeToken.toString,13.0,53.0,0.0,53.0,4.0,43.0,0.0,4.0,17.0,1.0,31.0,46.0,6.0,40.0,15.0,15.0,17.0,1.0,10.0,0.0,4.0,0.0,0.0,15,15,17,1,False
+xerces,Protected Constructor,org.apache.xerces.impl.xpath.regex.Op.Op,8.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.xni.XMLDocumentHandler.startDocument,8.0,31.0,0.0,4.0,4.0,0.0,27.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.75,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.dom.DOMInputSourceImpl.getEncoding,1.0,13.0,0.0,3.0,1.0,1.0,10.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.33,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableCellElement.getCellIndex,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.xs.XSModelGroupImpl.getType,1.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLOListElement.setStart,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Method,org.apache.xerces.impl.xpath.regex.ParserForXMLSchema.processParen2,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.dv.DatatypeException.getKey,12.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultXMLDocumentHandler.startGeneralEntity,0.0,22.0,0.0,5.0,4.0,0.0,17.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.4,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.wml.WMLInputElement.getSize,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Private Method,org.apache.xerces.impl.io.UTF8Reader.expectedByte,6.0,9.0,2.0,6.0,4.0,3.0,2.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Private Method,org.apache.xerces.impl.xpath.regex.RegexParser.isSet,7.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Protected Method,org.apache.xerces.impl.XMLDTDScannerImpl.scanComment,3.0,22.0,3.0,9.0,1.0,6.0,11.0,4.0,2.0,0.0,5.0,7.0,1.0,6.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,1.22,2,2,2,1,False
+xerces,Public Constructor,org.apache.xerces.impl.xs.XMLSchemaValidator.KeyRefValueStore.KeyRefValueStore,3.0,5.0,0.0,4.0,1.0,2.0,2.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
 xerces,Public Method,org.apache.xerces.dom.events.MutationEventImpl.initMutationEvent,12.0,14.0,0.0,11.0,3.0,6.0,3.0,6.0,1.0,0.0,6.0,7.0,1.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.27,1,1,1,1,True
 xerces,Public Method,org.apache.xerces.impl.dtd.DTDGrammar.attributeDecl,30.0,141.0,14.0,81.0,9.0,59.0,49.0,28.0,222.0,2.0,40.0,58.0,6.0,52.0,21.0,21.0,21.0,1.0,13.0,0.0,2.0,0.0,0.6,21,21,21,1,True
 xerces,Public Method,org.apache.xerces.impl.dtd.XMLDTDProcessor.attributeDecl,35.0,216.0,25.0,135.0,13.0,96.0,58.0,16.0,109208.0,5.0,34.0,67.0,12.0,55.0,34.0,34.0,49.0,11.0,14.0,12.0,7.0,11.0,0.43,34,34,49,11,True

@@ -1,6 +1,5 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lpl
-hadoop,Public Method,org.apache.hadoop.mapred.PhasedFileSystem.exists,2.0,4,0,4,2,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Public Method,org.apache.hadoop.fs.LocalFileSystem.close,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Public Static Method,org.apache.hadoop.util.StringUtils.byteToHexString,3.0,14,0,8,2,5,6,5.0,2.0,0.0,5,7,3,4,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.75,2,2,2,1,False
-hadoop,Public Method,org.apache.hadoop.mapred.LocalJobRunner.getClusterStatus,2.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Static Method,org.apache.hadoop.io.WritableName.getName,2.0,7,0,6,2,4,1,3.0,2.0,0.0,3,5,2,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.17,2,2,2,1,False
+hadoop,Public Constructor,org.apache.hadoop.ipc.RPC.VersionMismatch.VersionMismatch,4.0,14,0,8,2,5,6,4.0,1.0,0.0,4,5,1,4,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.75,1,1,1,1,False
+hadoop,Private Method,org.apache.hadoop.metrics.spi.AbstractMetricsContext.timerEvent,6.0,38,1,29,10,20,8,10.0,10.0,1.0,13,20,10,10,6.0,6.0,6.0,1.0,1.0,0.0,3,0.0,0.28,6,6,6,1,False
 hadoop,Public Static Method,org.apache.hadoop.fs.FileUtil.copyMerge,9.0,38,6,31,7,21,1,13.0,9.0,1.0,13,21,5,16,6.0,6.0,6.0,3.0,2.0,2.0,5,2.0,0.03,6,6,6,3,True

@@ -1,264 +1,199 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lm
-lucene,Public Abstract Method,org.apache.lucene.analysis.ja.tokenattributes.PartOfSpeechAttribute.getPartOfSpeech,2.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-lucene,Public Method,org.apache.lucene.queryParser.spans.SpanOrQueryNodeBuilder.build,2.0,17.0,5.0,11.0,5.0,8.0,1.0,5.0,2.0,0.0,6.0,9.0,6.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.09,2,2,2,1,False
-lucene,Public Method,org.apache.lucene.analysis.tokenattributes.CharTermAttributeImpl.charAt,7.0,5.0,0.0,5.0,1.0,3.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-lucene,Public Static Method,org.apache.lucene.analysis.util.StemmerUtil.deleteN,8.0,15.0,0.0,5.0,1.0,3.0,10.0,2.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,2.0,2,2,2,1,False
-lucene,Public Method,org.apache.lucene.search.BooleanScorer.nextDoc,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Private Method,org.apache.lucene.index.ThreadedIndexingAndSearchingTestCase.runQuery,6.0,4.0,0.0,4.0,1.0,2.0,0.0,5.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Constructor,org.apache.lucene.queryParser.surround.query.SrndPrefixQuery.SrndPrefixQuery,4.0,5.0,0.0,5.0,1.0,3.0,0.0,4.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.analysis.ja.util.UnknownDictionaryWriter.putCharacterCategory,6.0,9.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.store.instantiated.InstantiatedIndexReader.isDeleted,6.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,4,1,False
-lucene,Protected Method,org.apache.lucene.util.CollectionUtil.getSorter.(Anon_1).comparePivot,4.0,3.0,0.0,3.0,0.0,2.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Abstract Method,org.apache.lucene.queryParser.surround.query.SimpleTerm.visitMatchingTerms,2.0,4.0,0.0,4.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-lucene,Public Method,org.apache.solr.search.SortedIntDocSet.getDocs,1.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.dataimport.SolrEntityProcessor.SolrDocumentListIterator.hasMoreRows,4.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Abstract Method,org.apache.solr.request.SolrQueryRequest.getContentStreams,7.0,3.0,0.0,1.0,1.0,0.0,2.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0,0,0,0,False
-lucene,Public Method,org.apache.solr.servlet.DirectSolrConnectionTest.testSimpleRequest,1.0,16.0,4.0,11.0,3.0,7.0,1.0,4.0,2.0,0.0,5.0,7.0,3.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.09,2,2,2,1,False
-lucene,Constructor,org.apache.lucene.facet.search.sampling.RepeatableSampler.IntPriorityQueue.MI.MI,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Private Method,org.apache.solr.core.PluginInfo.loadSubPlugins,4.0,13.0,0.0,12.0,5.0,9.0,1.0,13.0,9.0,1.0,10.0,15.0,6.0,9.0,6.0,6.0,6.0,4.0,2.0,2.0,2.0,2.0,0.08,6,6,6,4,False
-lucene,Private Method,org.apache.solr.servlet.LogLevelSelection.getEffectiveLevel,4.0,17.0,0.0,15.0,2.0,9.0,2.0,3.0,6.0,1.0,5.0,11.0,3.0,8.0,5.0,5.0,5.0,5.0,5.0,5.0,2.0,5.0,0.13,5,5,5,5,False
-lucene,Public Method,org.apache.solr.search.grouping.distributed.shardresultserializer.TopGroupsResultTransformer.transformToNative,6.0,81.0,9.0,69.0,35.0,53.0,3.0,19.0,99.0,2.0,43.0,57.0,34.0,23.0,13.0,13.0,13.0,3.0,1.0,1.0,4.0,1.0,0.04,13,13,13,3,False
-lucene,Public Method,org.apache.solr.analysis.StemmerOverrideFilterFactory.isIgnoreCase,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Abstract Method,org.apache.solr.common.util.ContentStream.getReader,8.0,21.0,0.0,1.0,1.0,0.0,20.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,0,0,0,0,False
-lucene,Public Method,org.apache.solr.handler.admin.SolrInfoMBeanHandler.getDescription,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.search.function.SimpleFloatFunction.getValues.(Anon_1).strVal,1.0,3.0,0.0,3.0,0.0,2.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.BooleanFilterTest.getNullDISFilter.(Anon_2).getDocIdSet,0.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.store.instantiated.InstantiatedTermEnum.next,4.0,12.0,0.0,9.0,1.0,6.0,3.0,5.0,2.0,0.0,4.0,6.0,1.0,5.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.33,2,2,2,1,False
-lucene,Public Abstract Method,org.apache.lucene.queryParser.standard.config.RangeCollatorAttribute.getRangeCollator,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-lucene,Public Method,org.apache.solr.util.ConcurrentLRUCache.Stats.getCumulativePuts,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.index.TestFieldNormModifier.testNormKiller.(Anon_4).acceptsDocsOutOfOrder,0.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Static Method,org.apache.lucene.util._TestUtil.getTempDir,104.0,12.0,0.0,10.0,2.0,7.0,2.0,4.0,2.0,0.0,5.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.2,2,2,2,1,False
-lucene,Protected Method,org.apache.lucene.queryParser.standard.processors.MatchAllDocsQueryNodeProcessor.postProcessNode,1.0,17.0,7.0,10.0,2.0,6.0,0.0,6.0,3.0,0.0,3.0,6.0,2.0,4.0,3.0,3.0,4.0,3.0,2.0,2.0,2.0,2.0,0.0,3,3,4,3,False
-lucene,Method,org.apache.lucene.search.function.OrdFieldSource.getValues.(Anon_1).getInnerArray,0.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.function.ValueSourceQuery.equals,2.0,13.0,0.0,12.0,2.0,9.0,1.0,5.0,4.0,1.0,5.0,9.0,2.0,7.0,4.0,4.0,5.0,4.0,3.0,3.0,1.0,3.0,0.08,4,4,5,4,False
-lucene,Public Method,org.apache.lucene.index.pruning.CarmelTopKTermPruningPolicy.ThresholdCollector.setNextReader,1.0,4.0,0.0,4.0,2.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.highlight.HtmlEncoder.getSourceId,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.core.PluginInfoTest.testNoChildren,2.0,5.0,0.0,5.0,3.0,3.0,0.0,4.0,1.0,0.0,3.0,4.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.client.solrj.SolrQuery.getStart,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.component.AbstractStatsValues.missing,0.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-lucene,Public Static Method,org.apache.solr.schema.CopyFieldTest.beforeClass,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.queryParser.surround.parser.FastCharStream.getColumn,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Protected Method,org.apache.lucene.search.NRTManager.refreshIfNeeded,3.0,14.0,1.0,12.0,4.0,8.0,1.0,7.0,3.0,0.0,6.0,9.0,4.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.08,3,3,3,1,False
-lucene,Method,org.apache.lucene.index.IndexWriter.getSegmentCount,14.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Constructor,org.apache.lucene.benchmark.utils.ExtractReuters.ExtractReuters,3.0,8.0,0.0,8.0,1.0,5.0,0.0,6.0,2.0,0.0,4.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-lucene,Public Constructor,org.apache.lucene.benchmark.byTask.feeds.DocMaker.DateUtil.DateUtil,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.component.ResponseBuilder.getDebugInfo,4.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.TestFieldValueFilter.testFieldValueFilterNoValue,6.0,28.0,3.0,25.0,12.0,20.0,0.0,18.0,6.0,1.0,17.0,22.0,12.0,10.0,4.0,4.0,4.0,1.0,0.0,0.0,2.0,0.0,0.0,4,4,4,1,False
-lucene,Public Method,org.apache.solr.handler.dataimport.BinFileDataSource.getData,4.0,9.0,0.0,9.0,2.0,6.0,0.0,4.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-lucene,Public Constructor,org.apache.lucene.benchmark.byTask.tasks.ResetInputsTask.ResetInputsTask,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.vectorhighlight.FieldQueryTest.testGetFieldTermMap,2.0,14.0,3.0,11.0,4.0,9.0,0.0,7.0,1.0,0.0,9.0,10.0,4.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Protected Method,org.apache.solr.search.function.SumFloatFunction.name,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Constructor,org.apache.solr.schema.FieldType.DefaultAnalyzer.DefaultAnalyzer,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.search.function.DualFloatFunction.createWeight,4.0,4.0,0.0,4.0,1.0,2.0,0.0,1.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.component.SpellCheckComponentTest.tearDown,0.0,7.0,1.0,6.0,1.0,4.0,0.0,5.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.analysis.bg.TestBulgarianAnalyzer.testRandomStrings,3.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.TestSimpleSearchEquivalence.testPhraseVersusSloppyPhrase,0.0,13.0,0.0,12.0,5.0,10.0,1.0,5.0,1.0,0.0,10.0,11.0,5.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.08,1,1,1,1,False
-lucene,Private Method,org.apache.lucene.analysis.de.GermanStemmer.removeParticleDenotion,2.0,14.0,0.0,11.0,1.0,5.0,3.0,4.0,4.0,1.0,4.0,8.0,2.0,6.0,4.0,4.0,4.0,4.0,4.0,4.0,3.0,4.0,0.27,4,4,4,4,False
-lucene,Method,org.apache.lucene.index.FreqProxFieldMergeState.nextTerm,18.0,22.0,5.0,16.0,3.0,14.0,1.0,8.0,3.0,0.0,12.0,15.0,3.0,12.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.06,3,3,3,1,False
-lucene,Public Method,org.apache.lucene.search.spans.TermSpans.end,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Protected Method,org.apache.lucene.benchmark.byTask.feeds.ContentItemsSource.addBytes,6.0,5.0,0.0,4.0,1.0,2.0,1.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-lucene,Protected Method,org.apache.lucene.benchmark.byTask.feeds.ContentItemsSource.addItem,2.0,5.0,0.0,4.0,1.0,2.0,1.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-lucene,Public Method,org.apache.solr.response.CSVWriter.writeBool,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.search.MultiSearcher.MultiSearcherCallableNoSort.call,11.0,17.0,0.0,16.0,4.0,12.0,3.0,6.0,3.0,0.0,10.0,14.0,5.0,9.0,3.0,3.0,3.0,3.0,4.0,3.0,3.0,2.0,0.19,3,3,3,3,False
+lucene,Public Method,org.apache.lucene.analysis.ngram.NGramTokenizerTest.setUp,0.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.handler.JsonLoaderTest.testSimpleFormat,3.0,27.0,4.0,23.0,9.0,20.0,0.0,13.0,1.0,0.0,20.0,21.0,9.0,12.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Method,org.apache.lucene.util.fst.FST.readLabel,12.0,13.0,0.0,11.0,2.0,7.0,2.0,4.0,3.0,0.0,5.0,8.0,2.0,6.0,3.0,3.0,3.0,1.0,2.0,0.0,1.0,0.0,0.18,3,3,3,1,False
+lucene,Private Method,org.apache.lucene.search.suggest.fst.FSTCompletion.collect,13.0,35.0,2.0,26.0,3.0,18.0,7.0,11.0,14.0,1.0,12.0,19.0,2.0,17.0,7.0,7.0,7.0,6.0,11.0,11.0,3.0,11.0,0.27,7,7,7,6,False
+lucene,Public Method,org.apache.lucene.benchmark.byTask.tasks.RepSumByPrefTask.setPrefix,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Static Method,org.apache.solr.handler.dataimport.TestSqlEntityProcessorDeltaPrefixedPk.beforeClass,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Static Method,org.apache.lucene.facet.taxonomy.CategoryPath.hashCodeOfSerialized,4.0,24.0,0.0,15.0,4.0,10.0,9.0,2.0,5.0,1.0,11.0,15.0,6.0,9.0,4.0,4.0,4.0,1.0,1.0,0.0,1.0,0.0,0.6,4,4,4,1,False
+lucene,Public Method,org.apache.lucene.index.FrozenBufferedDeletes.termsIterable.(Anon_1).iterator,1.0,3.0,0.0,3.0,0.0,2.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Protected Method,org.apache.solr.response.JSONWriter.writeNamedListAsMapWithDups,2.0,24.0,3.0,17.0,3.0,13.0,4.0,11.0,5.0,1.0,13.0,17.0,4.0,13.0,4.0,4.0,4.0,1.0,0.0,0.0,2.0,0.0,0.24,4,4,4,1,False
+lucene,Public Method,org.apache.solr.search.DelegatingCollector.setLastDelegate,5.0,7.0,0.0,6.0,2.0,4.0,1.0,3.0,2.0,0.0,6.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.17,2,2,2,1,False
+lucene,Public Method,org.apache.lucene.util.WeakIdentityMap.IdentityWeakReference.hashCode,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.search.TestSearchPerf.testEmpty,0.0,2.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.benchmark.quality.QualityStats.getSearchTime,1.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+lucene,Private Method,org.tartarus.snowball.ext.NorwegianStemmer.r_main_suffix,8.0,73.0,0.0,57.0,5.0,40.0,16.0,11.0,12.0,1.0,32.0,39.0,5.0,34.0,12.0,9.0,12.0,11.0,24.0,24.0,4.0,24.0,0.28,12,9,12,11,False
+lucene,Public Method,org.apache.lucene.util.LuceneTestCase.setUp.(Anon_4).uncaughtException,4.0,6.0,0.0,6.0,0.0,5.0,0.0,4.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+lucene,Public Method,org.apache.lucene.queryParser.standard.nodes.PrefixWildcardQueryNode.toString,2.0,4.0,0.0,4.0,1.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.queryParser.core.nodes.FieldQueryNode.cloneTree,10.0,12.0,2.0,10.0,2.0,8.0,0.0,8.0,1.0,0.0,8.0,9.0,2.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.util.FindClasses.getClassLoader,3.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.benchmark.byTask.tasks.PerfTask.runAndMaybeStats,10.0,24.0,0.0,20.0,5.0,16.0,4.0,13.0,3.0,0.0,14.0,17.0,5.0,12.0,5.0,5.0,8.0,1.0,1.0,0.0,1.0,0.0,0.2,5,5,8,1,False
+lucene,Public Method,org.apache.solr.search.function.distance.VectorDistanceFunction.getValues.(Anon_1).doubleVal,7.0,3.0,0.0,3.0,0.0,2.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.search.SolrFieldCacheMBean.getDescription,0.0,4.0,0.0,4.0,1.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.hu.TestHungarianLightStemFilter.testVocabulary,1.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.search.spans.SpanOrQuery.getSpans.(Anon_1).skipTo,2.0,20.0,2.0,18.0,1.0,13.0,0.0,9.0,7.0,1.0,7.0,12.0,2.0,10.0,5.0,5.0,6.0,3.0,3.0,2.0,2.0,2.0,0.0,5,5,6,3,False
+lucene,Public Method,org.apache.solr.schema.SpatialDistanceQuery.toString,14.0,16.0,0.0,15.0,2.0,12.0,1.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,3.0,3.0,3.0,1.0,0.0,0.0,0.0,0.0,0.07,3,3,3,1,False
+lucene,Public Method,org.apache.lucene.util.AttributeSource.equals,4.0,34.0,4.0,29.0,4.0,21.0,1.0,6.0,8.0,1.0,12.0,20.0,4.0,16.0,8.0,8.0,10.0,8.0,15.0,15.0,4.0,15.0,0.03,8,8,10,8,False
+lucene,Public Method,org.apache.lucene.analysis.shingle.ShingleFilterTest.testOutputUnigramsIfNoShinglesWithSimpleUnigramlessBigram,4.0,6.0,0.0,5.0,1.0,3.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.2,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.search.vectorhighlight.FieldQueryTest.testQueryPhraseMapOverlapPhrases,6.0,51.0,3.0,45.0,9.0,43.0,3.0,12.0,1.0,0.0,43.0,44.0,9.0,35.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.07,1,1,1,1,False
+lucene,Public Method,org.apache.solr.search.WrappedQuery.clone,1.0,5.0,0.0,5.0,2.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.ru.RussianStemFilter.setStemmer,1.0,10.0,0.0,7.0,1.0,2.0,3.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.43,2,2,2,1,False
+lucene,Public Method,org.apache.lucene.misc.TestLengthNormModifier.testGoodCases.(Anon_4).acceptsDocsOutOfOrder,0.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Abstract Method,org.apache.solr.search.function.ValueSource.equals,18.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+lucene,Public Method,org.apache.lucene.search.Sort.equals,2.0,7.0,0.0,6.0,2.0,4.0,1.0,2.0,3.0,0.0,4.0,7.0,2.0,5.0,3.0,3.0,3.0,3.0,2.0,2.0,1.0,2.0,0.17,3,3,3,3,False
+lucene,Public Static Method,org.apache.solr.handler.dataimport.TestSqlEntityProcessorDelta3.beforeClass,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.cn.smart.SentenceTokenizer.end,2.0,5.0,0.0,4.0,2.0,2.0,1.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
+lucene,Public Method,org.apache.solr.common.util.TestXMLEscaping.testAmpDotWithAccents,0.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+lucene,Public Method,org.apache.solr.core.TestSolrDeletionPolicy1.testKeepOptimizedOnlyCommits,0.0,12.0,1.0,11.0,4.0,8.0,0.0,9.0,3.0,0.0,6.0,10.0,5.0,5.0,3.0,3.0,3.0,3.0,1.0,1.0,2.0,1.0,0.0,3,3,3,3,False
+lucene,Public Method,org.apache.lucene.index.ParallelReader.ParallelTermPositions.getPayloadLength,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.index.IndexReader.toString,16.0,18.0,0.0,17.0,3.0,12.0,1.0,6.0,6.0,1.0,11.0,15.0,4.0,11.0,4.0,4.0,5.0,1.0,0.0,0.0,2.0,0.0,0.06,4,4,5,1,False
+lucene,Public Constructor,org.apache.lucene.util.FieldCacheSanityChecker.ReaderField.ReaderField,4.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Private Constructor,org.apache.solr.handler.clustering.carrot2.LuceneCarrot2TokenizerFactory.ChineseTokenizerFactory.ChineseTokenizer.ChineseTokenizer,2.0,12.0,1.0,9.0,3.0,7.0,2.0,7.0,1.0,0.0,4.0,5.0,2.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.22,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.index.pruning.CarmelTopKTermPruningPolicy.ThresholdCollector.acceptsDocsOutOfOrder,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Constructor,org.apache.lucene.facet.util.ScoredDocIdsUtils.AllDocsScoredDocIDs.AllDocsScoredDocIDs,2.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.index.DirectoryReader.MultiTermEnum.close,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.search.similar.MoreLikeThis.setMaxNumTokensParsed,2.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+lucene,Protected Method,org.apache.lucene.queryParser.standard.processors.WildcardQueryNodeProcessor.setChildrenOrder,1.0,6.0,2.0,4.0,2.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.queryParser.standard.config.StandardQueryConfigHandler.Operator.valueOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Constructor,org.apache.lucene.util.junitcompat.TestSetupTeardownChaining.TestSetupTeardownChaining,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.handler.dataimport.DataImporter.getHandlerName,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Private Method,org.apache.lucene.analysis.PorterStemmer.doublec,5.0,7.0,0.0,7.0,1.0,5.0,0.0,2.0,3.0,0.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,3.0,2.0,2.0,1.0,2.0,0.0,3,3,3,3,False
+lucene,Public Method,org.apache.lucene.index.IndexWriter.getMergeFactor,0.0,16.0,0.0,3.0,1.0,1.0,13.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.33,1,1,1,1,False
+lucene,Public Method,org.apache.solr.search.SolrIndexSearcher.QueryCommand.getSupersetMaxDoc,3.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.getShortPath,6.0,55.0,4.0,46.0,18.0,36.0,5.0,10.0,16.0,1.0,38.0,45.0,20.0,25.0,6.0,6.0,6.0,1.0,0.0,0.0,3.0,0.0,0.11,6,6,6,1,False
+lucene,Private Method,org.apache.lucene.benchmark.byTask.feeds.DocMaker.createDocument,35.0,112.0,13.0,91.0,22.0,74.0,12.0,38.0,1728.0,3.0,62.0,78.0,24.0,54.0,18.0,18.0,21.0,5.0,5.0,4.0,4.0,3.0,0.13,18,18,21,5,False
+lucene,Public Method,org.apache.solr.handler.dataimport.TestContentStreamDataSource.SolrInstance.getHomeDir,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Static Method,org.apache.solr.search.QueryUtils.makeQueryable,11.0,9.0,0.0,6.0,1.0,3.0,3.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.5,3,3,3,1,False
+lucene,Public Method,org.apache.lucene.analysis.phonetic.DoubleMetaphoneFilterTest.testSize8FalseInject,1.0,5.0,0.0,5.0,3.0,3.0,0.0,2.0,1.0,0.0,3.0,4.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Abstract Method,org.apache.lucene.analysis.standard.StandardTokenizerInterface.yylength,6.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+lucene,Protected Method,org.apache.lucene.search.FieldDocSortedHitQueue.lessThan,9.0,42.0,2.0,29.0,7.0,23.0,11.0,7.0,22.0,1.0,16.0,24.0,8.0,16.0,9.0,9.0,10.0,1.0,5.0,0.0,3.0,0.0,0.38,9,9,10,1,False
+lucene,Public Method,org.apache.solr.handler.clustering.carrot2.CarrotClusteringEngineTest.testCarrotAttributePassing,2.0,7.0,0.0,7.0,2.0,5.0,0.0,6.0,1.0,0.0,4.0,5.0,2.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Constructor,org.apache.lucene.search.WildcardTermEnum.WildcardTermEnum,9.0,27.0,2.0,19.0,5.0,15.0,6.0,16.0,3.0,0.0,13.0,16.0,5.0,11.0,4.0,4.0,4.0,1.0,1.0,0.0,1.0,0.0,0.32,4,4,4,1,False
+lucene,Public Method,org.apache.lucene.analysis.TokenStream.reset,114.0,11.0,0.0,1.0,1.0,0.0,10.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,10.0,1,1,1,1,False
+lucene,Private Method,org.apache.lucene.analysis.nl.DutchStemmer.isValidSEnding,3.0,6.0,0.0,6.0,2.0,4.0,0.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,3.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,3,1,False
+lucene,Public Method,org.apache.lucene.queryParser.TestAttributes.testAttributes,24.0,192.0,31.0,161.0,42.0,155.0,0.0,41.0,1.0,0.0,104.0,108.0,33.0,75.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.CharArrayMap.EntryIterator.currentValue,4.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+lucene,Protected Method,org.apache.lucene.index.UpgradeIndexMergePolicy.shouldUpgradeSegment,3.0,8.0,0.0,3.0,1.0,1.0,5.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.icu.TestICUFoldingFilter.(Anon_1).createComponents,2.0,4.0,0.0,4.0,1.0,3.0,0.0,4.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.internal.csv.writer.CSVField.overrideFill,2.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.search.vectorhighlight.FieldQuery.searchPhrase,6.0,11.0,0.0,5.0,2.0,3.0,6.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.2,2,2,2,1,False
+lucene,Protected Method,org.apache.solr.servlet.CacheHeaderTestBase.checkResponseBody,8.0,27.0,0.0,27.0,3.0,21.0,0.0,7.0,10.0,1.0,10.0,14.0,2.0,12.0,6.0,4.0,10.0,1.0,6.0,0.0,2.0,0.0,0.0,6,4,10,1,False
+lucene,Public Method,org.apache.solr.handler.admin.SolrInfoMBeanHandler.getSourceId,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.index.BalancedSegmentMergePolicy.MergePolicyParams.isUseCompoundFile,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Protected Method,org.apache.lucene.analysis.pt.TestPortugueseStemFilter.(Anon_1).createComponents,2.0,6.0,0.0,6.0,2.0,5.0,0.0,5.0,1.0,0.0,3.0,4.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.update.processor.URLClassifyProcessor.processAdd,12.0,27.0,0.0,27.0,4.0,20.0,0.0,17.0,8.0,1.0,13.0,19.0,4.0,15.0,9.0,9.0,9.0,1.0,3.0,0.0,4.0,0.0,0.0,9,9,9,1,False
+lucene,Public Method,org.apache.lucene.util.FixedBitSet.length,13.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.client.solrj.SolrQuery.getTerms,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Static Method,org.apache.lucene.facet.taxonomy.writercache.cl2o.CollisionMap.indexFor,8.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.analysis.TrieTokenizer.close,1.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.util.SlowRAMDirectory.SlowIndexInput.clone,1.0,1.0,0.0,1.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.client.solrj.response.SpellCheckResponse.Suggestion.getToken,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.handler.component.SpellCheckComponentTest.testExtendedResultsCount,5.0,10.0,1.0,9.0,1.0,7.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Constructor,org.apache.lucene.facet.taxonomy.directory.TestIndexClose.LeakChecker.InstrumentedTaxonomyReader.InstrumentedTaxonomyReader,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.analysis.StandardFilterFactory.init,1.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.client.solrj.response.DocumentAnalysisResponse.getDocumentAnalysesCount,2.0,8.0,0.0,3.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+lucene,Public Static Method,org.apache.lucene.analysis.cn.smart.Utility.compareArray,9.0,54.0,2.0,37.0,3.0,28.0,15.0,1.0,14.0,1.0,12.0,22.0,2.0,20.0,10.0,10.0,13.0,9.0,11.0,11.0,3.0,11.0,0.41,10,10,13,9,False
+lucene,Private Method,org.apache.lucene.facet.taxonomy.directory.DirectoryTaxonomyReader.getLabel,8.0,48.0,3.0,25.0,4.0,17.0,20.0,11.0,3.0,0.0,11.0,17.0,4.0,13.0,3.0,3.0,4.0,3.0,4.0,2.0,2.0,2.0,0.8,3,3,4,3,False
+lucene,Public Method,org.apache.lucene.analysis.fr.TestFrenchAnalyzer.testRandomStrings,3.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+lucene,Private Method,org.apache.lucene.index.SegmentReader.checkDeletedCounts,4.0,15.0,4.0,9.0,2.0,7.0,2.0,5.0,1.0,0.0,5.0,6.0,2.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.22,1,1,1,1,False
+lucene,Public Method,org.apache.solr.handler.dataimport.LineEntityProcessor.destroy,1.0,7.0,0.0,7.0,1.0,4.0,0.0,3.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+lucene,Public Method,org.apache.solr.client.solrj.response.DocumentAnalysisResponse.FieldAnalysis.getValueCount,2.0,8.0,0.0,3.0,1.0,1.0,5.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.en.TestKStemmer.testEmptyTerm,0.0,10.0,0.0,10.0,4.0,6.0,0.0,1.0,1.0,0.0,4.0,6.0,4.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Protected Method,org.apache.lucene.analysis.util.CharArrayIterator.newWordInstance.(Anon_4).jreBugWorkaround,1.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Protected Method,org.apache.solr.response.JSONWriter.writeNamedListAsMapMangled,3.0,57.0,7.0,35.0,8.0,30.0,16.0,13.0,7.0,1.0,26.0,31.0,9.0,22.0,6.0,6.0,6.0,1.0,2.0,0.0,4.0,0.0,0.46,6,6,6,1,False
+lucene,Method,org.apache.lucene.index.IndexWriter.isClosed,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Private Method,org.apache.solr.request.SimpleFacetsTest.helpTestDateFacetsWithIncludeOption,6.0,309.0,9.0,280.0,8.0,277.0,26.0,2.0,1.0,0.0,15.0,16.0,7.0,9.0,14.0,14.0,14.0,1.0,0.0,0.0,0.0,0.0,0.09,14,14,14,1,False
 lucene,Public Method,org.apache.lucene.search.DisjunctionMaxQuery.equals,3.0,11.0,0.0,7.0,2.0,5.0,4.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,4.0,1.0,1.0,0.0,1.0,0.0,0.57,2,2,4,1,False
-lucene,Public Method,org.apache.lucene.analysis.NumericTokenStream.setIntValue,8.0,12.0,0.0,6.0,1.0,4.0,6.0,4.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.schema.IndexSchema.DynamicDestCopy.getTargetField,7.0,9.0,1.0,8.0,4.0,5.0,0.0,4.0,1.0,0.0,3.0,4.0,3.0,1.0,3.0,3.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,3,3,3,1,False
-lucene,Public Method,org.apache.lucene.util.CharsRef.UTF16SortedAsUTF8Comparator.compare,5.0,40.0,7.0,29.0,8.0,22.0,5.0,2.0,8.0,1.0,14.0,21.0,8.0,13.0,7.0,7.0,8.0,4.0,6.0,5.0,4.0,4.0,0.17,7,7,8,4,False
-lucene,Public Constructor,org.apache.lucene.search.grouping.SearchGroup.GroupMerger.GroupMerger,3.0,5.0,0.0,5.0,1.0,3.0,0.0,5.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.index.IndexWriterConfig.getIndexDeletionPolicy,8.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-lucene,Public Constructor,org.apache.lucene.analysis.ja.JapaneseTokenizer.WrappedPositionArray.WrappedPositionArray,2.0,5.0,0.0,5.0,1.0,2.0,0.0,2.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-lucene,Protected Method,org.apache.solr.util.ConcurrentLRUCache.finalize,2.0,10.0,0.0,10.0,1.0,6.0,0.0,3.0,2.0,0.0,3.0,6.0,1.0,5.0,2.0,2.0,2.0,1.0,0.0,0.0,2.0,0.0,0.0,2,2,2,1,False
-lucene,Public Method,org.apache.solr.schema.DateFieldTest.testToInternalObj,0.0,6.0,0.0,6.0,1.0,4.0,0.0,1.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Constructor,org.apache.lucene.store.DirectIOLinuxDirectory.DirectIOLinuxIndexOutput.DirectIOLinuxIndexOutput,4.0,10.0,0.0,8.0,2.0,6.0,2.0,10.0,1.0,0.0,6.0,7.0,2.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.dataimport.TestSqlEntityProcessor.T.transformRow,1.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Static Method,org.apache.solr.client.solrj.embedded.SolrExampleStreamingTest.beforeTest,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.queryParser.standard.config.DefaultPhraseSlopAttributeImpl.getDefaultPhraseSlop,5.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.analysis.cjk.TestCJKTokenizer.testMix2,2.0,18.0,1.0,17.0,14.0,13.0,0.0,2.0,1.0,0.0,3.0,4.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Protected Method,org.apache.solr.handler.extraction.SolrContentHandler.addContent,3.0,7.0,0.0,3.0,1.0,1.0,4.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-lucene,Public Abstract Method,org.apache.lucene.facet.taxonomy.directory.DirectoryTaxonomyWriter.OrdinalMap.getMap,2.0,9.0,0.0,1.0,1.0,0.0,8.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,0,0,0,0,False
-lucene,Public Method,org.apache.solr.analysis.SnowballPorterFilterFactoryTest.LinesMockSolrResourceLoader.openResource,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.analysis.nl.TestDutchStemmer.testBuggyStopwordsCasing,1.0,9.0,0.0,4.0,2.0,2.0,5.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
-lucene,Public Static Method,org.apache.solr.schema.NumericFieldsTest.beforeClass,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.component.TermVectorComponent.getVersion,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.tartarus.snowball.ext.ArmenianStemmer.equals,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Private Static Method,org.apache.lucene.search.suggest.tst.TSTLookup.charSeqEquals,3.0,12.0,0.0,12.0,2.0,7.0,0.0,3.0,4.0,1.0,6.0,10.0,3.0,7.0,4.0,4.0,4.0,4.0,4.0,4.0,2.0,4.0,0.0,4,4,4,4,False
-lucene,Protected Method,org.apache.lucene.benchmark.byTask.tasks.CountingHighlighterTestTask.retrieveDoc,2.0,7.0,0.0,7.0,2.0,4.0,0.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-lucene,Public Method,org.egothor.stemmer.Row.setRef,4.0,17.0,0.0,10.0,2.0,7.0,7.0,4.0,2.0,0.0,5.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.7,2,2,2,1,False
-lucene,Public Method,org.apache.solr.client.solrj.response.SpellCheckResponse.Collation.setCollationQueryString,2.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Private Method,org.apache.lucene.search.SloppyPhraseScorer.initComplex,1.0,10.0,0.0,8.0,1.0,5.0,4.0,4.0,2.0,0.0,4.0,6.0,1.0,5.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.5,2,2,2,1,False
-lucene,Public Method,org.apache.solr.core.ClosingRequestHandler.inform.(Anon_2).preClose,0.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.XmlUpdateRequestHandler.getSourceId,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.highlight.SimpleSpanFragmenter.isNewFragment,9.0,31.0,7.0,24.0,5.0,17.0,0.0,11.0,17.0,1.0,12.0,19.0,5.0,14.0,7.0,7.0,8.0,6.0,5.0,5.0,3.0,5.0,0.0,7,7,8,6,False
-lucene,Public Method,org.apache.lucene.queryParser.standard.builders.FuzzyQueryNodeBuilder.build,1.0,8.0,2.0,6.0,2.0,4.0,0.0,7.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Constructor,org.apache.solr.common.util.DateUtil.ThreadLocalDateFormat.ThreadLocalDateFormat,2.0,7.0,0.0,6.0,2.0,4.0,1.0,3.0,1.0,0.0,4.0,5.0,2.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.17,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.Scorer.freq,6.0,9.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-lucene,Public Static Method,org.apache.solr.search.SortedIntDocSet.shrink,4.0,6.0,0.0,6.0,2.0,4.0,0.0,2.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-lucene,Public Method,org.apache.lucene.index.memory.MemoryIndex.MemoryIndexReader.getTermFreqVector.(Anon_6).getOffsets,3.0,15.0,2.0,13.0,6.0,10.0,1.0,4.0,3.0,0.0,10.0,13.0,7.0,6.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.08,3,3,3,1,False
-lucene,Public Method,org.apache.solr.servlet.LogLevelSelection.doGet,5.0,106.0,13.0,87.0,6.0,75.0,6.0,11.0,243.0,2.0,53.0,65.0,6.0,59.0,12.0,12.0,13.0,1.0,4.0,0.0,4.0,0.0,0.07,12,12,13,1,False
-lucene,Public Constructor,org.apache.lucene.queryParser.surround.query.SrndQuery.SrndQuery,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.client.solrj.SolrQuery.setHighlightSimplePost,3.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Method,org.apache.solr.schema.FieldType.setTypeName,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Static Method,org.apache.lucene.util.LuceneTestCase.registerTempDir,4.0,9.0,0.0,3.0,1.0,1.0,6.0,4.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.schema.IndexSchema.getField,51.0,22.0,2.0,5.0,2.0,3.0,15.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,3.0,2,2,2,1,False
-lucene,Public Method,org.apache.solr.handler.MoreLikeThisHandlerTest.testInterface,8.0,78.0,12.0,59.0,8.0,53.0,19.0,15.0,4.0,1.0,37.0,40.0,8.0,32.0,3.0,3.0,3.0,1.0,2.0,0.0,1.0,0.0,0.32,3,3,3,1,False
-lucene,Private Static Method,org.apache.solr.SolrInfoMBeanTest.getClassesForPackage,2.0,28.0,1.0,25.0,9.0,17.0,2.0,17.0,12.0,1.0,11.0,20.0,11.0,9.0,7.0,7.0,8.0,1.0,0.0,0.0,5.0,0.0,0.08,7,7,8,1,False
-lucene,Public Method,org.apache.solr.schema.SortableDoubleFieldSource.hashCode,2.0,4.0,0.0,4.0,3.0,3.0,1.0,3.0,1.0,0.0,3.0,4.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-lucene,Public Method,org.apache.solr.util.ConcurrentLRUCache.CacheEntry.setLastAccessed,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.analysis.shingle.ShingleFilter.incrementToken,13.0,49.0,0.0,49.0,6.0,38.0,0.0,25.0,62.0,2.0,26.0,36.0,7.0,29.0,11.0,11.0,15.0,1.0,2.0,0.0,4.0,0.0,0.0,11,11,15,1,False
-lucene,Public Constructor,org.apache.solr.search.function.StringIndexDocValues.StringIndexDocValues,8.0,10.0,0.0,10.0,1.0,7.0,0.0,7.0,2.0,0.0,5.0,7.0,1.0,6.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-lucene,Public Method,org.apache.lucene.analysis.snowball.TestSnowball.testStopwords,2.0,6.0,0.0,6.0,3.0,4.0,0.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.facet.search.TotalFacetCountsCache.TFCKey.equals,5.0,14.0,0.0,14.0,4.0,9.0,0.0,5.0,4.0,1.0,6.0,10.0,4.0,6.0,4.0,4.0,7.0,4.0,4.0,4.0,2.0,4.0,0.0,4,4,7,4,False
-lucene,Public Method,org.apache.lucene.analysis.th.TestThaiAnalyzer.testReusableTokenStream30,1.0,15.0,2.0,12.0,2.0,10.0,1.0,2.0,1.0,0.0,4.0,5.0,2.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.08,1,1,1,1,False
-lucene,Private Method,org.apache.lucene.queryParser.standard.processors.GroupQueryNodeProcessor.applyModifier,6.0,57.0,22.0,33.0,4.0,22.0,2.0,5.0,10.0,1.0,9.0,19.0,4.0,15.0,10.0,10.0,10.0,10.0,22.0,22.0,4.0,22.0,0.06,10,10,10,10,False
-lucene,Public Method,org.apache.solr.client.solrj.SolrRequest.getPath,5.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.search.LFUCache.size,2.0,4.0,1.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.schema.MockExchangeRateProvider.init,1.0,5.0,0.0,5.0,1.0,3.0,0.0,4.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.index.RandomIndexWriter.deleteAll,6.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.search.SolrIndexSearcher.getIndexDir,2.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.analysis.compound.TestCompoundWordTokenFilter.testInvalidOffsets,0.0,25.0,4.0,19.0,7.0,14.0,2.0,2.0,1.0,0.0,9.0,12.0,8.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.11,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.xmlparser.builders.SpanQueryBuilderFactory.addBuilder,4.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.spelling.SpellCheckCollation.getMisspellingsAndCorrections,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.schema.IndexSchema.printableUniqueKey,8.0,9.0,0.0,4.0,2.0,2.0,5.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,1.25,2,2,2,1,False
-lucene,Protected Method,org.apache.lucene.index.ThreadedIndexingAndSearchingTestCase.releaseSearcher,2.0,2.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Protected Method,org.apache.lucene.benchmark.byTask.tasks.ReadTask.getFieldsToHighlight,4.0,13.0,0.0,8.0,3.0,5.0,5.0,5.0,2.0,0.0,4.0,7.0,4.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.63,2,2,2,1,False
-lucene,Public Method,org.apache.lucene.queryParser.standard.config.FieldDateResolutionMapAttributeImpl.setFieldDateResolutionMap,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Constructor,org.apache.lucene.benchmark.byTask.tasks.ConsumeContentSourceTask.ConsumeContentSourceTask,4.0,15.0,0.0,15.0,3.0,11.0,0.0,10.0,4.0,1.0,8.0,11.0,3.0,8.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.0,3,3,3,1,False
-lucene,Public Method,org.apache.solr.core.SolrCoreCheckLockOnStartupTest.testNativeLockErrorOnStartup,2.0,22.0,2.0,18.0,3.0,15.0,2.0,13.0,2.0,0.0,12.0,14.0,3.0,11.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.11,2,2,2,1,False
-lucene,Public Method,org.apache.lucene.benchmark.byTask.tasks.WaitForMergesTask.doLogic,0.0,4.0,0.0,4.0,1.0,2.0,0.0,4.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Private Static Method,org.apache.lucene.search.highlight.HighlighterTest.createToken,3.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Constructor,org.apache.lucene.analysis.KeywordAnalyzer.KeywordAnalyzer,16.0,2.0,0.0,2.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Method,org.apache.lucene.search.TopFieldCollector.MultiComparatorScoringNoMaxScoreCollector.updateBottom,6.0,5.0,0.0,5.0,1.0,3.0,0.0,4.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Static Method,org.apache.solr.response.TestCSVResponseWriter.createIndex,1.0,6.0,0.0,6.0,1.0,4.0,0.0,3.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.join.ToParentBlockJoinQuery.BlockJoinScorer.docID,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.benchmark.byTask.tasks.WarmTask.withSearch,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.component.TermsComponent.TermsHelper.getLexSorted,2.0,11.0,2.0,9.0,2.0,6.0,0.0,5.0,1.0,0.0,4.0,6.0,3.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.util.collections.ObjectToIntMap.hashCode,1.0,3.0,0.0,3.0,1.0,1.0,0.0,4.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Constructor,org.apache.lucene.search.suggest.fst.InMemorySorter.InMemorySorter,3.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Constructor,org.apache.lucene.search.TopFieldCollector.OneComparatorScoringMaxScoreCollector.OneComparatorScoringMaxScoreCollector,5.0,6.0,0.0,5.0,2.0,2.0,1.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.2,1,1,1,1,False
-lucene,Public Method,org.apache.solr.search.SortedIntDocSet.iterator.(Anon_1).score,0.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Constructor,org.apache.solr.search.PrefixGenerator.PrefixGenerator,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Private Method,org.apache.lucene.search.vectorhighlight.IndexTimeSynonymTest.makeIndex1w,2.0,13.0,0.0,7.0,1.0,5.0,6.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.86,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.admin.ShowFileRequestHandler.getSource,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.analysis.ru.RussianLightStemmer.stem,3.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.FieldComparator.FloatComparator.compare,3.0,13.0,0.0,11.0,3.0,8.0,2.0,1.0,3.0,0.0,5.0,8.0,3.0,5.0,3.0,3.0,3.0,3.0,2.0,2.0,1.0,2.0,0.18,3,3,3,3,False
-lucene,Public Method,org.apache.lucene.analysis.icu.segmentation.CharArrayIterator.getLength,5.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.JsonUpdateRequestHandler.getSourceId,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.util.fst.TestFSTs.testBigSet,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.dataimport.TestXPathEntityProcessor.getDataSource.(Anon_2).getData,1.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.analysis.th.ThaiWordFilter.incrementToken,15.0,57.0,6.0,46.0,4.0,36.0,5.0,24.0,20.0,1.0,25.0,35.0,4.0,31.0,10.0,10.0,11.0,6.0,8.0,5.0,3.0,5.0,0.11,10,10,11,6,False
-lucene,Public Method,org.apache.lucene.queryParser.surround.parser.QueryParser.FieldsQueryList,6.0,24.0,0.0,24.0,3.0,19.0,0.0,6.0,6.0,1.0,15.0,18.0,3.0,15.0,5.0,5.0,5.0,3.0,4.0,2.0,2.0,1.0,0.0,5,5,5,3,False
-lucene,Public Method,org.apache.solr.handler.dataimport.EntityProcessorWrapper.getVariableResolver,3.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.client.solrj.response.DocumentAnalysisResponse.FieldAnalysis.getQueryPhases,2.0,10.0,0.0,3.0,1.0,1.0,7.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.33,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.analysis.ja.TestJapaneseBaseFormFilter.testRandomStrings,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.util.BytesRef.clone,3.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.facet.enhancements.params.DefaultEnhancementsIndexingParams.getCategoryEnhancements,1.0,6.0,0.0,6.0,1.0,3.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,3,1,False
-lucene,Public Method,org.apache.lucene.search.WildcardQuery.equals,4.0,15.0,0.0,15.0,2.0,13.0,0.0,4.0,7.0,1.0,7.0,14.0,2.0,12.0,7.0,7.0,7.0,7.0,8.0,8.0,2.0,8.0,0.0,7,7,7,7,False
-lucene,Public Method,org.apache.lucene.index.SegmentInfo.getDelFileName,11.0,10.0,0.0,7.0,1.0,4.0,3.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.43,2,2,2,1,False
-lucene,Public Method,org.apache.lucene.util.Version.values,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.queryParser.core.nodes.AnyQueryNode.toQueryString,3.0,20.0,2.0,17.0,4.0,12.0,1.0,7.0,6.0,1.0,7.0,12.0,5.0,7.0,4.0,4.0,5.0,1.0,2.0,0.0,2.0,0.0,0.06,4,4,5,1,False
-lucene,Public Method,org.apache.lucene.index.PruningReader.getFieldInfos,1.0,10.0,0.0,7.0,2.0,4.0,3.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.43,2,2,2,1,False
-lucene,Public Method,org.apache.solr.client.solrj.SolrServer.rollback,0.0,12.0,0.0,3.0,1.0,1.0,9.0,4.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,1,1,1,1,False
-lucene,Public Constructor,org.apache.solr.schema.DateField.ThreadLocalDateFormat.ThreadLocalDateFormat,1.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.CachingWrapperFilter.DeletesMode.values,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Private Method,org.apache.lucene.index.FieldsReader.loadNumericField,12.0,15.0,0.0,15.0,1.0,12.0,0.0,12.0,5.0,1.0,6.0,8.0,1.0,7.0,5.0,2.0,5.0,1.0,10.0,0.0,1.0,0.0,0.0,5,2,5,1,False
-lucene,Public Constructor,org.apache.solr.analysis.DoubleMetaphoneFilter.DoubleMetaphoneFilter,3.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Protected Method,org.apache.solr.highlight.DefaultSolrHighlighter.getPhraseHighlighter,5.0,21.0,3.0,10.0,3.0,8.0,8.0,8.0,1.0,0.0,5.0,6.0,3.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.8,1,1,1,1,False
-lucene,Abstract Method,org.apache.lucene.index.InvertedDocConsumerPerThread.addField,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-lucene,Private Method,org.apache.solr.handler.ReplicationHandler.getFileInfo,5.0,10.0,0.0,7.0,2.0,5.0,3.0,5.0,1.0,0.0,5.0,6.0,2.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.43,1,1,1,1,False
-lucene,Public Method,org.apache.solr.search.PrefixQParserPlugin.createParser.(Anon_1).parse,3.0,3.0,0.0,3.0,0.0,2.0,0.0,4.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.analysis.TestLuceneMatchVersion.testStandardTokenizerVersions,5.0,35.0,6.0,28.0,8.0,26.0,1.0,16.0,1.0,0.0,26.0,27.0,8.0,19.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.04,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.vectorhighlight.SingleFragListBuilderTest.testNullFieldFragList,0.0,5.0,0.0,5.0,3.0,3.0,0.0,5.0,1.0,0.0,3.0,4.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Abstract Method,org.apache.solr.request.SolrQueryRequest.getSearcher,61.0,2.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0,0,0,0,False
-lucene,Public Method,org.apache.lucene.analysis.nl.DutchStemFilter.setExclusionTable,1.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.benchmark.byTask.tasks.ReadTask.withCollector,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.index.PayloadProcessorProvider.getDirProcessor,1.0,10.0,0.0,3.0,1.0,1.0,7.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.33,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.util.AttributeSource.getAttributeImplsIterator.(Anon_1).remove,0.0,3.0,0.0,3.0,0.0,2.0,0.0,0.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.benchmark.byTask.tasks.AddDocTask.doLogic,2.0,4.0,0.0,4.0,1.0,2.0,0.0,4.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.dataimport.ContextImpl.getRequestParameters,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.benchmark.byTask.tasks.DeleteDocTask.setup,5.0,8.0,0.0,7.0,1.0,4.0,1.0,6.0,2.0,0.0,3.0,5.0,1.0,4.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.14,3,3,3,1,False
-lucene,Public Method,org.apache.solr.handler.extraction.ExtractingRequestHandler.getSource,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.client.solrj.impl.ConcurrentUpdateSolrServer.request,11.0,86.0,9.0,48.0,8.0,35.0,31.0,18.0,33.0,2.0,23.0,33.0,7.0,26.0,11.0,11.0,14.0,9.0,9.0,9.0,4.0,9.0,0.65,11,11,14,9,False
-lucene,Private Method,org.tartarus.snowball.ext.FrenchStemmer.r_un_accent,4.0,50.0,0.0,41.0,3.0,26.0,9.0,7.0,15.0,1.0,19.0,25.0,3.0,22.0,9.0,9.0,9.0,7.0,9.0,9.0,3.0,9.0,0.22,9,9,9,7,False
-lucene,Public Method,org.apache.solr.schema.DateField.parseDateLenient,3.0,9.0,0.0,7.0,1.0,4.0,2.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.29,2,2,2,1,False
-lucene,Public Method,org.apache.solr.handler.component.QueryElevationComponent.getSourceId,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Protected Method,org.apache.lucene.search.TestNRTManager.doAfterWriter,9.0,35.0,6.0,28.0,6.0,23.0,1.0,16.0,2.0,0.0,21.0,24.0,6.0,18.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.04,2,2,2,1,False
-lucene,Private Method,org.apache.solr.handler.dataimport.FileListEntityProcessor.addDetails,13.0,21.0,0.0,21.0,5.0,19.0,0.0,8.0,6.0,1.0,15.0,21.0,5.0,16.0,6.0,6.0,10.0,6.0,5.0,5.0,1.0,5.0,0.0,6,6,10,6,False
-lucene,Public Method,org.apache.lucene.facet.search.SamplingWrapper.getComplementThreshold,1.0,6.0,0.0,3.0,1.0,1.0,3.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.core.TestArbitraryIndexDir.tearDown,0.0,4.0,1.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Static Method,org.apache.solr.update.processor.SignatureUpdateProcessorFactoryTest.beforeClass,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.queryParser.surround.query.FieldsQuery.toString,1.0,8.0,0.0,8.0,2.0,6.0,0.0,5.0,1.0,0.0,6.0,7.0,2.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Abstract Method,org.apache.lucene.search.spans.SpanMultiTermQueryWrapper.SpanRewriteMethod.rewrite,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-lucene,Public Constructor,org.apache.lucene.facet.enhancements.association.AssociationFloatProperty.AssociationFloatProperty,4.0,9.0,0.0,3.0,1.0,1.0,6.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.client.solrj.response.FacetField.Count.setCount,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Constructor,org.apache.solr.response.SolrQueryResponse.SolrQueryResponse,50.0,7.0,0.0,2.0,1.0,0.0,5.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.5,1,1,1,1,False
-lucene,Abstract Method,org.apache.solr.handler.CSVLoader.addDoc,1.0,2.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0,0,0,0,False
-lucene,Public Method,org.apache.lucene.document.Field.TermVector.(Anon_12).withPositions,0.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.analysis.shingle.ShingleFilterTest.testRandomHugeStrings,2.0,11.0,0.0,10.0,4.0,6.0,1.0,1.0,1.0,0.0,4.0,6.0,4.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.1,1,1,1,1,False
-lucene,Private Constructor,org.apache.lucene.analysis.sinks.TokenTypeSinkTokenizerTest.WordTokenFilter.WordTokenFilter,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.queryParser.standard.parser.JavaCharStream.getBeginLine,3.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-lucene,Public Abstract Method,org.apache.solr.request.SolrQueryRequest.getSchema,55.0,2.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0,0,0,0,False
-lucene,Public Method,org.apache.lucene.util.AttributeSource.getAttributeImplsIterator,4.0,30.0,3.0,23.0,3.0,17.0,4.0,4.0,2.0,0.0,10.0,16.0,7.0,9.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.17,2,2,2,1,False
-lucene,Protected Method,org.apache.lucene.facet.index.CategoryDocumentBuilder.getCountingListTokenizer,3.0,13.0,0.0,4.0,2.0,1.0,9.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.25,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.queryParser.standard.config.DefaultPhraseSlopAttributeImpl.hashCode,0.0,3.0,0.0,3.0,1.0,1.0,0.0,4.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.benchmark.byTask.feeds.TrecContentSource.resetInputs,2.0,8.0,0.0,8.0,1.0,5.0,0.0,4.0,1.0,0.0,4.0,6.0,1.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.core.SolrCore.getInfoRegistry,10.0,11.0,0.0,3.0,1.0,1.0,8.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.67,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.analysis.shingle.ShingleMatrixFilter.OneDimensionalNonWeightedTokenSettingsCodec.getTokenPositioner,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.queryParser.precedence.TestPrecedenceQueryParser.getQueryDOA,6.0,8.0,0.0,8.0,2.0,6.0,0.0,6.0,2.0,0.0,5.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-lucene,Public Constructor,org.apache.lucene.index.MultiLevelSkipListReader.MultiLevelSkipListReader,5.0,16.0,0.0,15.0,1.0,12.0,1.0,9.0,2.0,0.0,13.0,15.0,2.0,13.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.07,2,2,2,1,False
-lucene,Public Method,org.apache.lucene.analysis.reverse.ReverseStringFilter.incrementToken,5.0,15.0,0.0,15.0,2.0,11.0,0.0,8.0,3.0,0.0,8.0,11.0,2.0,9.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-lucene,Public Method,org.apache.solr.search.ValueSourceParser.(Anon_24).func,3.0,3.0,0.0,3.0,0.0,2.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Private Method,org.apache.solr.handler.dataimport.TestScriptTransformer.getContext,6.0,12.0,1.0,11.0,5.0,9.0,0.0,5.0,1.0,0.0,8.0,9.0,4.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.facet.search.params.CountFacetRequest.createAggregator,2.0,10.0,0.0,9.0,4.0,4.0,1.0,4.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.11,2,2,2,1,False
-lucene,Public Method,org.apache.solr.search.SolrConstantScoreQuery.ConstantScorer.docID,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Static Method,org.apache.lucene.util._TestUtil.setUseCompoundFile,2.0,7.0,0.0,7.0,1.0,4.0,0.0,2.0,3.0,0.0,2.0,5.0,1.0,4.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.0,3,3,3,1,False
-lucene,Public Method,org.apache.solr.analysis.SmartChineseSentenceTokenizerFactory.create,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Protected Method,org.apache.lucene.search.grouping.TermAllGroupHeadsCollector.GeneralAllGroupHeadsCollector.getCollectedGroupHeads,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.schema.IndexSchema.getFieldTypeByName,5.0,9.0,0.0,3.0,1.0,1.0,6.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.index.KeepOnlyLastCommitDeletionPolicy.onInit,1.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-lucene,Public Constructor,org.apache.lucene.index.MultipleTermPositions.MultipleTermPositions,4.0,14.0,2.0,7.0,2.0,5.0,5.0,6.0,2.0,0.0,6.0,8.0,3.0,5.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.71,2,2,2,1,False
-lucene,Method,org.apache.solr.search.TestFastLRUCache.doPerfTest,4.0,26.0,3.0,23.0,10.0,19.0,0.0,7.0,5.0,1.0,18.0,23.0,11.0,12.0,5.0,5.0,6.0,1.0,2.0,0.0,3.0,0.0,0.0,5,5,6,1,False
-lucene,Public Method,org.apache.lucene.search.FilterManager.FilterCleaner.run,6.0,30.0,1.0,23.0,5.0,16.0,6.0,11.0,7.0,1.0,10.0,16.0,5.0,11.0,5.0,5.0,6.0,1.0,1.0,0.0,3.0,0.0,0.26,5,5,6,1,False
-lucene,Private Method,org.apache.lucene.search.vectorhighlight.FieldTermStackTest.makeIndex,3.0,14.0,1.0,5.0,3.0,3.0,8.0,1.0,1.0,0.0,3.0,4.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.6,1,1,1,1,False
-lucene,Private Method,org.tartarus.snowball.ext.IrishStemmer.r_noun_sfx,3.0,39.0,0.0,29.0,2.0,19.0,10.0,7.0,7.0,1.0,13.0,18.0,2.0,16.0,7.0,5.0,7.0,7.0,11.0,11.0,2.0,11.0,0.34,7,5,7,7,False
-lucene,Public Method,org.apache.lucene.benchmark.byTask.tasks.ReadTask.numHits,4.0,9.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.xmlparser.TestParser.testUserQueryXML,0.0,5.0,0.0,5.0,2.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.search.function.ShortFieldSource.getValues,4.0,47.0,8.0,39.0,3.0,29.0,0.0,3.0,1.0,0.0,10.0,19.0,10.0,9.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
-lucene,Public Constructor,org.apache.solr.analysis.BufferedTokenStream.BufferedTokenStream,3.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.util.fst.Builder.UnCompiledNode.clear,4.0,9.0,1.0,6.0,1.0,4.0,2.0,4.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-lucene,Public Constructor,org.apache.lucene.analysis.Token.TokenAttributeFactory.TokenAttributeFactory,1.0,5.0,0.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.queryParser.standard.builders.StandardBooleanQueryNodeBuilder.build,4.0,34.0,12.0,22.0,6.0,16.0,0.0,11.0,5.0,1.0,8.0,14.0,7.0,7.0,5.0,5.0,5.0,1.0,1.0,0.0,4.0,0.0,0.0,5,5,5,1,False
-lucene,Public Method,org.apache.solr.handler.dataimport.ClobTransformer.transformRow,6.0,27.0,0.0,27.0,8.0,20.0,0.0,7.0,21.0,1.0,13.0,23.0,10.0,13.0,8.0,8.0,8.0,3.0,2.0,2.0,4.0,1.0,0.0,8,8,8,3,False
-lucene,Public Method,org.apache.lucene.analysis.lv.TestLatvianStemmer.testLength,1.0,8.0,0.0,4.0,1.0,2.0,6.0,1.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.5,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.dataimport.TestSqlEntityProcessor.T2.transformRow,2.0,8.0,0.0,8.0,3.0,6.0,0.0,4.0,1.0,0.0,6.0,7.0,3.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.util.fst.NoOutputs.common,3.0,5.0,0.0,5.0,1.0,3.0,0.0,1.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Constructor,org.apache.lucene.benchmark.byTask.tasks.CommitIndexTask.CommitIndexTask,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Abstract Method,org.apache.lucene.spatial.geometry.LatLng.normalize,2.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-lucene,Public Method,org.apache.lucene.analysis.standard.ClassicTokenizer.setMaxTokenLength,4.0,5.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.util.StressRamUsageEstimator.testSimpleByteArrays,4.0,33.0,3.0,27.0,7.0,21.0,3.0,11.0,6.0,1.0,15.0,20.0,8.0,12.0,5.0,5.0,5.0,4.0,3.0,3.0,3.0,3.0,0.11,5,5,5,4,False
-lucene,Public Method,org.apache.solr.handler.dataimport.TestSqlEntityProcessorDelta2.testCompositePk_DeltaImport_add_delete,3.0,31.0,6.0,25.0,5.0,23.0,4.0,9.0,1.0,0.0,19.0,20.0,5.0,15.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.16,1,1,1,1,False
-lucene,Private Method,org.apache.solr.analysis.FSTSynonymFilterFactory.loadSolrSynonyms,7.0,27.0,2.0,22.0,8.0,18.0,3.0,15.0,6.0,1.0,12.0,17.0,8.0,9.0,4.0,4.0,4.0,1.0,1.0,0.0,2.0,0.0,0.14,4,4,4,1,False
-lucene,Public Method,org.apache.lucene.util.StressRamUsageEstimator.testChainedEstimation,2.0,22.0,2.0,17.0,6.0,12.0,3.0,8.0,4.0,1.0,9.0,13.0,7.0,6.0,4.0,4.0,4.0,1.0,1.0,0.0,3.0,0.0,0.18,4,4,4,1,False
-lucene,Public Static Method,org.apache.lucene.facet.util.ResultSortUtils.createSuitableHeap,5.0,30.0,2.0,23.0,3.0,17.0,5.0,10.0,7.0,1.0,8.0,13.0,3.0,10.0,7.0,5.0,7.0,7.0,12.0,12.0,2.0,12.0,0.22,7,5,7,7,False
-lucene,Public Method,org.apache.solr.handler.dataimport.TestSqlEntityProcessor.testTranformerList,2.0,22.0,2.0,20.0,7.0,17.0,0.0,12.0,3.0,0.0,15.0,18.0,7.0,11.0,3.0,3.0,3.0,3.0,2.0,2.0,2.0,2.0,0.0,3,3,3,3,False
-lucene,Public Method,org.apache.lucene.analysis.hunspell.HunspellAffix.checkCondition,3.0,9.0,0.0,3.0,1.0,1.0,6.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.analysis.snowball.TestSnowball.testReusableTokenStream,1.0,7.0,0.0,7.0,2.0,5.0,0.0,2.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.spell.PlainTextDictionary.FileIterator.getComparator,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Private Method,org.tartarus.snowball.ext.TurkishStemmer.r_mark_sUn,2.0,14.0,0.0,11.0,1.0,5.0,3.0,3.0,3.0,0.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,3.0,2.0,2.0,1.0,2.0,0.27,3,3,3,3,False
-lucene,Public Method,org.apache.lucene.index.IndexWriter.numRamDocs,1.0,6.0,0.0,4.0,1.0,2.0,2.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.extraction.ExtractingRequestHandlerTest.testDefaultField,2.0,46.0,4.0,37.0,2.0,34.0,14.0,8.0,2.0,0.0,12.0,14.0,2.0,12.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.38,2,2,2,1,False
-lucene,Protected Method,org.apache.lucene.search.grouping.TermFirstPassGroupingCollector.copyDocGroupValue,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Protected Method,org.apache.lucene.queryParser.core.nodes.QueryNodeImpl.allocate,12.0,10.0,3.0,7.0,1.0,4.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-lucene,Public Static Method,org.apache.solr.client.solrj.embedded.SolrExampleStreamingBinaryTest.beforeTest,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.client.solrj.request.TestUpdateRequestCodec.testIteratable.(Anon_2).iterator,0.0,1.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.core.TestJmxIntegration.getSchemaFile,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.schema.PointTypeValueSource.name,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.lucene.search.Explanation.setValue,16.0,2.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.core.TestQuerySenderListener.testListenerCreationCounts,2.0,7.0,1.0,6.0,2.0,4.0,0.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Constructor,org.apache.lucene.analysis.pt.RSLPStemmerBase.RuleWithSetExceptions.RuleWithSetExceptions,7.0,10.0,0.0,10.0,2.0,6.0,0.0,6.0,3.0,0.0,5.0,8.0,2.0,6.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-lucene,Public Method,org.apache.lucene.search.TestBlockJoin.testAdvanceSingleParentNoChild,7.0,41.0,3.0,36.0,15.0,32.0,2.0,28.0,2.0,0.0,30.0,32.0,14.0,18.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.06,2,2,2,1,False
-lucene,Private Method,org.apache.lucene.search.spans.SpanOrQuery.getSpans.(Anon_1).top,8.0,1.0,0.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-lucene,Public Method,org.apache.solr.handler.admin.SystemInfoHandlerTest.testMagickGetter,0.0,19.0,4.0,12.0,4.0,10.0,3.0,9.0,1.0,0.0,10.0,11.0,4.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-lucene,Public Method,org.apache.solr.search.BitDocSet.union,2.0,10.0,0.0,10.0,3.0,7.0,0.0,8.0,3.0,0.0,5.0,8.0,3.0,5.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-lucene,Public Method,org.apache.solr.search.DoubleParser.Function.getValues.(Anon_55).longVal,1.0,3.0,0.0,3.0,0.0,2.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.facet.search.params.MultiIteratorsPerCLParamsTest.PerDimensionCLI.nextCategory,1.0,8.0,1.0,7.0,2.0,3.0,0.0,3.0,2.0,0.0,2.0,4.0,2.0,2.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,3,1,False
+lucene,Protected Method,org.apache.lucene.util.collections.IntToObjectMap.calcBaseHashIndex,5.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.index.FilterIndexReader.document,4.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Protected Method,org.apache.lucene.queryParser.QueryParser.newBooleanQuery,4.0,8.0,0.0,3.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+lucene,Private Static Method,org.apache.lucene.search.QueryUtils.makeEmptyIndex,5.0,28.0,3.0,25.0,6.0,21.0,0.0,21.0,4.0,1.0,17.0,20.0,5.0,15.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
+lucene,Abstract Method,org.apache.lucene.search.suggest.fst.BytesRefSorter.getComparator,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+lucene,Public Method,org.apache.lucene.search.IndexSearcher.MultiSearcherCallableWithSort.FakeScorer.nextDoc,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Protected Method,org.apache.lucene.analysis.ngram.NGramTokenFilterTest.testInvalidOffsets.(Anon_1).createComponents,2.0,6.0,0.0,6.0,2.0,5.0,0.0,5.0,1.0,0.0,4.0,5.0,3.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Protected Method,org.apache.solr.handler.component.StringStatsValues.addTypeSpecificStats,0.0,6.0,0.0,2.0,1.0,0.0,4.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
+lucene,Protected Method,org.apache.solr.servlet.SolrDispatchFilter.sendError,5.0,23.0,3.0,18.0,4.0,13.0,2.0,7.0,6.0,1.0,10.0,14.0,4.0,10.0,4.0,4.0,5.0,1.0,0.0,0.0,2.0,0.0,0.11,4,4,5,1,False
+lucene,Private Method,org.apache.lucene.util.AttributeImpl.assertExternalClass,2.0,8.0,0.0,5.0,2.0,3.0,3.0,4.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,3.0,1.0,0.0,0.0,0.0,0.0,0.6,1,1,3,1,False
+lucene,Public Method,org.apache.solr.search.function.distance.StringDistanceFunction.getValues,4.0,36.0,5.0,31.0,4.0,24.0,0.0,2.0,1.0,0.0,12.0,18.0,9.0,9.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.hunspell.HunspellAffix.getAppendFlags,2.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+lucene,Protected Method,org.apache.lucene.store.instantiated.InstantiatedIndexReader.doUndeleteAll,0.0,5.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
+lucene,Protected Method,org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessorFactoryTest.tooShortDoc,0.0,5.0,0.0,5.0,2.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.client.solrj.impl.BinaryRequestWriter.getContentStreams,1.0,17.0,1.0,16.0,3.0,12.0,0.0,9.0,3.0,0.0,6.0,9.0,3.0,6.0,3.0,3.0,6.0,3.0,3.0,3.0,2.0,3.0,0.0,3,3,6,3,False
+lucene,Public Method,org.apache.solr.spelling.AbstractLuceneSpellChecker.getSpellChecker,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Abstract Method,org.apache.lucene.search.Similarity.coord,6.0,13.0,0.0,1.0,1.0,0.0,12.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0,0,0,0,False
+lucene,Public Abstract Method,org.apache.lucene.index.MergeScheduler.close,5.0,3.0,0.0,2.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0,0,0,0,False
+lucene,Public Method,org.apache.lucene.benchmark.byTask.PerfRunData.setIndexReader,6.0,26.0,2.0,15.0,1.0,10.0,9.0,5.0,5.0,1.0,6.0,10.0,1.0,9.0,4.0,4.0,4.0,1.0,2.0,0.0,1.0,0.0,0.6,4,4,4,1,False
+lucene,Public Constructor,org.apache.solr.client.solrj.response.SpellCheckResponse.SpellCheckResponse,6.0,50.0,2.0,47.0,14.0,39.0,1.0,17.0,10.0,1.0,27.0,38.0,15.0,23.0,10.0,10.0,10.0,1.0,6.0,0.0,5.0,0.0,0.02,10,10,10,1,False
+lucene,Public Constructor,org.apache.lucene.analysis.fr.FrenchMinimalStemFilter.FrenchMinimalStemFilter,4.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.shingle.ShingleMatrixFilter.incrementToken,13.0,27.0,2.0,20.0,2.0,15.0,5.0,20.0,6.0,1.0,13.0,17.0,2.0,15.0,5.0,5.0,6.0,1.0,1.0,0.0,2.0,0.0,0.25,5,5,6,1,False
+lucene,Public Static Method,org.apache.solr.handler.TestReplicationHandler.afterClass,4.0,6.0,0.0,6.0,1.0,4.0,0.0,2.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.es.TestSpanishLightStemFilter.testEmptyTerm,0.0,10.0,0.0,10.0,4.0,6.0,0.0,1.0,1.0,0.0,4.0,6.0,4.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Method,org.apache.solr.internal.csv.CSVParser.Token.reset,4.0,6.0,0.0,6.0,1.0,4.0,0.0,4.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Protected Method,org.apache.lucene.analysis.synonym.TestSolrSynonymParser.testSimple.(Anon_1).createComponents,2.0,4.0,0.0,4.0,1.0,3.0,0.0,4.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.core.SolrCore.setName,4.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+lucene,Public Method,org.apache.solr.search.function.LinearFloatFunction.getValues.(Anon_1).strVal,1.0,3.0,0.0,3.0,0.0,2.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Abstract Method,org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute.setPositionIncrement,70.0,5.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+lucene,Protected Method,org.apache.lucene.store.instantiated.InstantiatedIndexReader.doClose,0.0,4.0,0.0,2.0,1.0,0.0,2.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.schema.CustomSimilarityFactory.getSimilarity,1.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Abstract Method,org.apache.solr.common.util.ContentStream.getSize,4.0,4.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+lucene,Public Method,org.apache.lucene.queryParser.standard.builders.MultiPhraseQueryNodeBuilder.build,2.0,40.0,14.0,26.0,11.0,20.0,0.0,12.0,7.0,1.0,13.0,20.0,11.0,9.0,5.0,5.0,5.0,1.0,0.0,0.0,3.0,0.0,0.0,5,5,5,1,False
+lucene,Public Method,org.apache.lucene.queryParser.surround.query.ComposedQuery.isFieldsSubQueryAcceptable,0.0,10.0,0.0,9.0,2.0,5.0,1.0,5.0,3.0,0.0,3.0,6.0,2.0,4.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,0.11,3,3,3,3,False
+lucene,Public Static Method,org.apache.lucene.misc.IndexMergeTool.main,4.0,24.0,4.0,20.0,5.0,16.0,0.0,10.0,4.0,1.0,14.0,17.0,5.0,12.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
+lucene,Public Constructor,org.apache.lucene.index.ConcurrentMergeScheduler.ConcurrentMergeScheduler,44.0,6.0,0.0,5.0,1.0,2.0,1.0,2.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.2,2,2,2,1,False
+lucene,Public Static Method,org.apache.solr.common.util.StrUtils.parseBoolean,4.0,7.0,0.0,4.0,2.0,2.0,3.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,2.0,2.0,4.0,1.0,0.0,0.0,0.0,0.0,0.75,2,2,4,1,False
+lucene,Method,org.apache.lucene.index.SegmentMergeInfo.getDocMap,4.0,19.0,0.0,18.0,3.0,13.0,1.0,6.0,5.0,1.0,10.0,15.0,4.0,11.0,5.0,5.0,5.0,1.0,1.0,0.0,4.0,0.0,0.06,5,5,5,1,False
+lucene,Public Method,org.apache.solr.handler.component.StatsComponentTest.doTestFieldStatisticsMissingResult,2.0,18.0,1.0,17.0,1.0,15.0,8.0,5.0,1.0,0.0,6.0,7.0,1.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.47,1,1,1,1,False
+lucene,Method,org.apache.solr.common.util.TestHash.tstEquiv,3.0,12.0,0.0,12.0,7.0,10.0,0.0,7.0,2.0,0.0,12.0,14.0,8.0,6.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+lucene,Public Method,org.apache.solr.handler.dataimport.TestVariableResolver.testDefaultNamespace,0.0,7.0,0.0,7.0,3.0,5.0,0.0,5.0,1.0,0.0,5.0,6.0,3.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Method,org.apache.lucene.index.PositionBasedTermVectorMapper.TVPositionInfo.addTerm,5.0,7.0,0.0,7.0,1.0,3.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+lucene,Public Method,org.apache.solr.schema.IndexSchema.DynamicCopy.toString,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Private Method,org.apache.lucene.analysis.TeeSinkTokenFilter.SinkTokenStream.setFinalState,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.search.SolrIndexSearcher.getSchema,29.0,2.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.handler.dataimport.AbstractDataImportHandlerTestCase.TestContext.getScriptLanguage,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+lucene,Public Method,org.apache.lucene.analysis.standard.std31.UAX29URLEmailTokenizerImpl31.yycharat,3.0,14.0,0.0,3.0,1.0,1.0,11.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.67,1,1,1,1,False
+lucene,Method,org.apache.solr.servlet.SolrServlet.sendErr,7.0,14.0,0.0,12.0,2.0,9.0,2.0,5.0,5.0,1.0,5.0,9.0,2.0,7.0,4.0,4.0,4.0,1.0,3.0,0.0,2.0,0.0,0.17,4,4,4,1,False
+lucene,Public Method,org.apache.solr.handler.dataimport.AbstractDataImportHandlerTestCase.TestContext.getAllEntityFields,2.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+lucene,Public Method,org.apache.lucene.util.encoding.DGapIntEncoder.createMatchingDecoder,1.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Private Method,org.apache.solr.handler.ReplicationHandler.getIndexVersion,5.0,13.0,0.0,13.0,3.0,10.0,0.0,9.0,2.0,0.0,7.0,9.0,3.0,6.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+lucene,Public Method,org.apache.solr.search.DocSetCollector.setNextReader,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Protected Constructor,org.apache.lucene.util.fst.FST.BytesReader.BytesReader,4.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.index.IndexWriter.getInfoStream,3.0,8.0,0.0,4.0,1.0,2.0,4.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.handler.component.HighlightComponent.getDescription,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Method,org.apache.solr.request.TestFaceting.t,6.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Private Method,org.apache.lucene.analysis.el.GreekStemmer.rule8,5.0,42.0,4.0,37.0,2.0,31.0,2.0,5.0,30.0,1.0,17.0,25.0,2.0,23.0,8.0,8.0,22.0,1.0,3.0,0.0,2.0,0.0,0.05,8,8,22,1,False
+lucene,Public Method,org.apache.solr.handler.dataimport.ContextImpl.getParentContext,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.queryParser.standard.nodes.NumericRangeQueryNode.getNumericConfig,2.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.queryParser.surround.parser.QueryParser.OptionalWeights,9.0,27.0,1.0,26.0,3.0,19.0,1.0,8.0,19.0,1.0,12.0,18.0,3.0,15.0,8.0,8.0,8.0,3.0,4.0,2.0,3.0,1.0,0.04,8,8,8,3,False
+lucene,Private Static Method,org.apache.lucene.analysis.standard.UAX29URLEmailTokenizer.getScannerFor,7.0,9.0,0.0,9.0,1.0,6.0,0.0,5.0,3.0,0.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,3.0,2.0,2.0,1.0,2.0,0.0,3,3,3,3,False
+lucene,Private Method,org.apache.solr.handler.dataimport.SimplePropertiesWriter.getPersistFile,4.0,6.0,0.0,6.0,2.0,4.0,0.0,2.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,3,1,False
+lucene,Method,org.apache.lucene.search.TopFieldCollector.MultiComparatorNonScoringCollector.updateBottom,5.0,5.0,0.0,4.0,1.0,2.0,1.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
+lucene,Public Method,org.apache.solr.handler.dataimport.TestLineEntityProcessor.testOnly_xml_files_no_xsd,5.0,36.0,2.0,24.0,8.0,21.0,16.0,10.0,3.0,0.0,9.0,12.0,6.0,6.0,3.0,3.0,3.0,3.0,2.0,2.0,2.0,2.0,0.67,3,3,3,3,False
+lucene,Public Method,org.apache.lucene.benchmark.byTask.tasks.WriteLineDocTask.close,11.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.search.spans.SpanPositionCheckQuery.PositionCheckSpan.next,1.0,6.0,1.0,5.0,1.0,3.0,0.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+lucene,Public Method,org.apache.lucene.queryParser.QueryParser.setDefaultOperator,18.0,11.0,0.0,3.0,1.0,1.0,8.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.67,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.facet.taxonomy.CategoryPath.deserializeFromStreamReader,7.0,28.0,0.0,18.0,2.0,11.0,10.0,4.0,9.0,1.0,8.0,13.0,2.0,11.0,5.0,5.0,7.0,1.0,1.0,0.0,1.0,0.0,0.56,5,5,7,1,False
+lucene,Private Method,org.apache.lucene.benchmark.byTask.feeds.demohtml.HTMLParserTokenManager.jjStartNfa_2,2.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.analysis.CommonGramsFilterFactory.getCommonWords,4.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.index.SegmentTermEnum.term,11.0,5.0,0.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.compound.TestCompoundWordTokenFilter.testRetainMockAttribute,5.0,16.0,1.0,15.0,6.0,12.0,0.0,6.0,2.0,0.0,6.0,8.0,5.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+lucene,Public Method,org.apache.solr.search.ExtendedDismaxQParserPlugin.init,0.0,2.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Private Method,org.apache.lucene.index.FieldsReader.LazyField.getFieldStream,4.0,8.0,0.0,8.0,2.0,5.0,0.0,4.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+lucene,Private Method,org.apache.solr.handler.dataimport.DocBuilder.findMatchingPkColumn,5.0,21.0,0.0,21.0,2.0,17.0,0.0,6.0,16.0,1.0,7.0,14.0,3.0,11.0,6.0,6.0,7.0,1.0,0.0,0.0,3.0,0.0,0.0,6,6,7,1,False
+lucene,Public Method,org.apache.lucene.index.FieldsReader.LazyField.getBinaryValue,9.0,42.0,4.0,35.0,4.0,26.0,3.0,9.0,14.0,1.0,17.0,24.0,4.0,20.0,7.0,7.0,8.0,3.0,6.0,3.0,4.0,3.0,0.09,7,7,8,3,False
+lucene,Public Constructor,org.apache.solr.core.SolrConfig.UpdateHandlerInfo.UpdateHandlerInfo,5.0,12.0,0.0,6.0,1.0,4.0,6.0,5.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+lucene,Private Method,org.apache.lucene.search.grouping.TestGrouping.slowGrouping,17.0,103.0,12.0,85.0,30.0,57.0,6.0,17.0,209.0,2.0,41.0,55.0,21.0,34.0,16.0,16.0,16.0,5.0,5.0,5.0,4.0,3.0,0.07,16,16,16,5,False
+lucene,Protected Method,org.apache.solr.search.function.ProductFloatFunction.name,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.ar.TestArabicNormalizationFilter.testTehMarbuta,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Method,org.apache.lucene.index.IndexFileDeleter.deleteFiles,1.0,6.0,0.0,6.0,1.0,3.0,0.0,2.0,2.0,0.0,2.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+lucene,Private Generic Method,org.apache.solr.core.SolrCore.addIfNotPresent,6.0,9.0,0.0,9.0,2.0,5.0,0.0,5.0,3.0,0.0,3.0,6.0,2.0,4.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.0,3,3,3,1,False
+lucene,Public Method,org.apache.solr.handler.component.StatsComponent.getSource,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.search.FieldCacheRangeFilter.newShortRange.(Anon_5).getDocIdSet,11.0,30.0,2.0,28.0,4.0,23.0,0.0,3.0,11.0,1.0,13.0,20.0,6.0,14.0,8.0,8.0,10.0,6.0,7.0,7.0,0.0,7.0,0.0,8,8,10,6,False
+lucene,Protected Method,org.apache.solr.schema.FloatField.init,4.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.search.BitDocSet.unionSize,2.0,10.0,0.0,7.0,1.0,4.0,3.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.43,2,2,2,1,False
+lucene,Public Method,org.apache.solr.internal.csv.CSVStrategy.getDelimiter,9.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.compound.hyphenation.ByteVector.put,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.solr.client.solrj.SolrQuery.setStart,4.0,9.0,0.0,9.0,1.0,5.0,0.0,3.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+lucene,Public Method,org.apache.solr.search.LRUCache.init,4.0,42.0,5.0,33.0,4.0,27.0,4.0,11.0,4.0,1.0,20.0,25.0,5.0,20.0,6.0,6.0,6.0,1.0,0.0,0.0,1.0,0.0,0.12,6,6,6,1,False
+lucene,Public Method,org.apache.lucene.analysis.compound.TestCompoundWordTokenFilter.testWordComponentWithLessThanMinimumLength,4.0,21.0,2.0,18.0,4.0,16.0,1.0,2.0,1.0,0.0,3.0,4.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.06,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.miscellaneous.PatternAnalyzerTest.testCustomPattern,2.0,16.0,1.0,9.0,4.0,7.0,6.0,3.0,1.0,0.0,4.0,5.0,3.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
+lucene,Public Method,org.apache.solr.analysis.TestPhoneticFilterFactory.testFactory,4.0,18.0,3.0,12.0,3.0,9.0,4.0,4.0,1.0,0.0,9.0,10.0,3.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.shingle.ShingleFilterTest.testFourGramFilterMinTriGram,4.0,6.0,0.0,6.0,1.0,4.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.util.collections.ArrayHashMap.ValueIterator.hasNext,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+lucene,Public Method,org.apache.lucene.analysis.cjk.TestCJKAnalyzer.FakeStandardTokenizer.incrementToken,4.0,8.0,0.0,8.0,1.0,5.0,0.0,3.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+lucene,Public Method,org.apache.lucene.analysis.en.TestEnglishAnalyzer.testRandomStrings,3.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+lucene,Public Method,org.apache.solr.handler.admin.SystemInfoHandler.getSource,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
 lucene,Public Method,org.apache.lucene.analysis.ISOLatin1AccentFilter.removeAccents,6.0,196.0,7.0,172.0,5.0,167.0,89.0,2.0,140.0,2.0,90.0,96.0,6.0,90.0,77.0,6.0,78.0,1.0,529.0,0.0,3.0,0.0,0.52,77,6,78,1,True
 lucene,Private Method,org.apache.lucene.analysis.br.BrazilianStemmer.step1,5.0,161.0,6.0,142.0,1.0,94.0,13.0,7.0,168.0,2.0,86.0,134.0,1.0,133.0,48.0,48.0,92.0,48.0,84.0,84.0,2.0,84.0,0.09,48,48,92,48,True
 lucene,Private Method,org.apache.lucene.analysis.br.BrazilianStemmer.step2,3.0,381.0,8.0,358.0,1.0,236.0,15.0,5.0,1189.0,3.0,230.0,352.0,1.0,351.0,122.0,122.0,122.0,122.0,229.0,229.0,2.0,229.0,0.04,122,122,122,122,True

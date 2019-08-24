@@ -1,288 +1,217 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lm
-hive,Public Constructor,org.apache.hadoop.hive.ql.io.PerformTestRCFileAndSeqFile.PerformTestRCFileAndSeqFile,8.0,21,0,21,3,16,0,11.0,4.0,1.0,12,15,2,13,3.0,3.0,3.0,1.0,2.0,0.0,1,0.0,0.0,3,3,3,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_config_value_result.fieldForId,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_table_objects_by_name_args.setTbl_names,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.list_roles_result.getSuccessSize,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,2.0,2.0,2.0,1.0,0.0,0.0,0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Index.deepCopy,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Protected Method,org.apache.hadoop.hive.ql.util.TestDosToUnix.tearDown,1.0,7,0,7,2,4,0,2.0,2.0,0.0,3,5,2,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Protected Method,org.apache.hadoop.hive.metastore.TestRemoteHiveMetaStoreIpAddress.createClient,5.0,5,0,5,1,3,1,4.0,1.0,0.0,3,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.2,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.DynamicPartitionCtx.setNumDPCols,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.QueryPlan.getQuery,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.renew_delegation_token_args.isSet,2.0,12,1,10,1,6,1,2.0,4.0,1.0,3,6,1,5,3.0,3.0,3.0,1.0,1.0,0.0,1,0.0,0.1,3,3,3,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.lazydio.LazyDioBoolean.init,6.0,26,3,21,2,16,2,7.0,8.0,1.0,9,13,2,11,4.0,4.0,4.0,1.0,3.0,0.0,1,0.0,0.1,4,4,4,1,False
-hive,Public Static Method,org.apache.hadoop.hive.ql.exec.FunctionRegistry.isStateful,7.0,19,2,14,4,9,3,5.0,4.0,1.0,6,10,4,6,4.0,4.0,6.0,4.0,3.0,3.0,2,3.0,0.21,4,4,6,4,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.InvalidObjectException.hashCode,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_index_args.setFieldValue,6.0,36,4,32,1,25,0,8.0,9.0,1.0,12,18,1,17,9.0,6.0,9.0,1.0,10.0,0.0,2,0.0,0.0,9,6,9,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.io.rcfile.merge.MergeWork.hasDynamicPartitions,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_table_objects_by_name_result.setSuccess,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.io.IOContext.isBinarySearching,14.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde.test.InnerStruct.deepCopy,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.metadata.Table.getSerdeParam,2.0,3,0,3,1,1,0,4.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Stage.setFieldValue,9.0,60,7,53,1,43,0,14.0,15.0,1.0,21,30,1,29,15.0,9.0,15.0,1.0,28.0,0.0,2,0.0,0.0,15,9,15,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.HiveMetaStore.HiveMetastoreCli.parse,4.0,26,3,18,2,13,5,9.0,6.0,1.0,7,11,2,9,4.0,4.0,4.0,1.0,1.0,0.0,2,0.0,0.28,4,4,4,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.persistence.MapJoinDoubleKeys.hashCode,3.0,14,0,14,2,10,0,2.0,4.0,1.0,6,9,2,7,3.0,3.0,3.0,1.0,2.0,0.0,1,0.0,0.0,3,3,3,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.create_database_args.isSet,2.0,12,1,10,1,6,1,2.0,4.0,1.0,3,6,1,5,3.0,3.0,3.0,1.0,1.0,0.0,1,0.0,0.1,3,3,3,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_table_names_by_filter_result.unsetO3,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.lazy.objectinspector.LazyMapObjectInspector.getMapSize,1.0,6,0,6,1,3,0,2.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_index_args.getNew_idx,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_delegation_token_result._Fields.getFieldName,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.HiveMetaStore.HMSHandler.createDefaultDB_core,4.0,10,0,10,1,7,0,6.0,2.0,0.0,3,5,1,4,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_all_tables_args.readObject,2.0,7,0,7,1,4,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.TestSerDe.getSerDeStats,0.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
-hive,Public Constructor,org.apache.hadoop.hive.serde2.objectinspector.TestFullMapEqualComparer.IntegerIntegerMapHolder.IntegerIntegerMapHolder,2.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client.send_get_all_databases,1.0,5,0,5,2,2,0,2.0,1.0,0.0,2,3,2,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.shims.HadoopShimsSecure.getShortUserName,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_with_auth_args.writeObject,2.0,7,0,7,1,4,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Partition.setCreateTimeIsSet,7.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.optimizer.GenMRProcContext.getSeenOps,7.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.columnar.BytesRefArrayWritable.set,11.0,21,0,10,1,6,11,3.0,4.0,1.0,4,7,1,6,3.0,3.0,3.0,1.0,0.0,0.0,1,0.0,1.1,3,3,3,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_indexes_result.setFieldValue,5.0,28,3,25,1,19,0,6.0,7.0,1.0,9,14,1,13,7.0,5.0,7.0,1.0,6.0,0.0,2,0.0,0.0,7,5,7,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_privilege_set_args.writeObject,2.0,7,0,7,1,4,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.objectinspector.primitive.JavaDoubleObjectInspector.get,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_by_name_args._Fields.valueOf,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.shims.HadoopShimsSecure.NullOutputCommitter.setupTask,0.0,1,0,1,1,0,0,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client.get_config_value,2.0,5,0,5,1,2,0,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.persistence.MapJoinRowContainer.add,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.set_ugi_args.hashCode,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_indexes_args.setDb_nameIsSet,1.0,5,0,5,1,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.MapRedStats.setCpuMSec,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.fetchN_result.getSuccessIterator,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,2.0,2.0,2.0,1.0,0.0,0.0,0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.io.rcfile.merge.RCFileValueBufferWrapper.readFields,0.0,3,0,3,1,1,0,0.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.ql.parse.FunctionSemanticAnalyzer.analyzeDropFunction,7.0,14,1,11,6,7,2,11.0,2.0,0.0,6,8,5,3,2.0,2.0,4.0,1.0,0.0,0.0,1,0.0,0.18,2,2,4,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.ForwardOperator.getType,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.ql.io.RCFile.Writer.flushRecords,17.0,69,8,59,8,53,7,26.0,12.0,1.0,45,50,9,41,5.0,5.0,5.0,1.0,2.0,0.0,2,0.0,0.12,5,5,5,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_args.deepCopy,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.rename_partition_args.setDb_nameIsSet,1.0,5,0,5,1,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_table_args.isSetDbname,5.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
-hive,Public Static Method,org.apache.hadoop.hive.ql.optimizer.GenMapRedUtils.getMapRedWork,7.0,10,0,5,2,3,5,5.0,1.0,0.0,3,4,2,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Database._Fields.getThriftFieldId,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.hooks.HookContext.setHookType,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Static Method,org.apache.hadoop.hive.serde2.lazybinary.LazyBinaryUtils.writeVInt,3.0,11,0,3,1,1,8,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,2.67,1,1,1,1,False
-hive,Public Static Method,org.apache.hadoop.hive.ql.parse.BaseSemanticAnalyzer.unescapeSQLString,23.0,87,6,76,11,66,5,6.0,235.0,2.0,46,55,12,43,19.0,9.0,27.0,6.0,71.0,8.0,3,4.0,0.07,19,9,27,6,False
-hive,Private Method,org.apache.hadoop.hive.serde2.binarysortable.TestBinarySortableSerDe.sort,4.0,11,0,11,2,6,0,2.0,4.0,1.0,7,11,4,7,4.0,4.0,4.0,1.0,0.0,0.0,3,0.0,0.0,4,4,4,1,False
-hive,Abstract Method,org.apache.hadoop.hive.shims.JettyShims.Server.addWar,2.0,1,0,1,1,0,0,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
-hive,Public Method,org.apache.hadoop.hive.contrib.metastore.hooks.TestURLHook.getJdoConnectionUrl,4.0,9,1,8,1,5,0,3.0,2.0,0.0,3,5,1,4,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.NoSuchObjectException.fieldForId,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.jdbc.HiveBaseResultSet.setFetchDirection,0.0,3,0,3,1,1,0,0.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.objectinspector.primitive.JavaShortObjectInspector.get,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.model.MRoleMap.getGrantorType,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Partition.setValuesIsSet,1.0,5,0,5,1,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.fetchN_args.hashCode,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.ObjectStore.fullCopyMSD,3.0,10,0,5,1,3,5,5.0,1.0,0.0,3,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.proto.test.Complexpb.IntString.getMyint,1.0,1,0,1,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.dynamic_type.thrift_grammar.Start,15.0,75,0,74,3,52,1,11.0,87.0,2.0,24,35,3,32,24.0,15.0,24.0,5.0,10.0,5.0,3,4.0,0.01,24,15,24,5,False
-hive,Public Method,org.apache.hadoop.hive.ql.optimizer.physical.SkewJoinProcFactory.SkewJoinJoinProcessor.process,2.0,9,0,9,6,6,0,4.0,1.0,0.0,6,7,5,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.lazy.objectinspector.LazyMapObjectInspector.getCategory,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Static Method,org.apache.hadoop.hive.ql.optimizer.ppr.ExprProcFactory.getFieldProcessor,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Private Static Method,org.apache.hadoop.hive.contrib.mr.GenericMR.OutputStreamOutput._join,4.0,13,0,13,2,8,0,3.0,4.0,1.0,7,11,3,8,4.0,4.0,5.0,1.0,1.0,0.0,2,0.0,0.0,4,4,5,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_with_auth_args.getDb_name,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Abstract Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Iface.get_databases,2.0,1,0,1,1,0,0,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
-hive,Private Static Method,org.apache.hadoop.hive.ql.metadata.formatting.MetaDataFormatUtils.formatDate,3.0,7,0,7,2,4,0,2.0,2.0,0.0,3,5,2,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.optimizer.unionproc.UnionProcContext.isMapOnlySubq,2.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_table_result.readObject,2.0,7,0,7,1,4,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_databases_result.read,7.0,43,0,43,4,29,3,14.0,13.0,1.0,22,29,5,24,8.0,7.0,8.0,3.0,7.0,3.0,4,2.0,0.07,8,7,8,3,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Index.putToParameters,5.0,6,0,6,1,3,0,2.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.jdbc.HiveDatabaseMetaData.getSQLKeywords,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Table._Fields.valueOf,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.TableDesc.setJobProperties,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDFMap.evaluate,4.0,8,0,8,1,5,0,5.0,2.0,0.0,5,7,2,5,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.cli.CliSessionState.getHost,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.parse.SplitSample.getPercent,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_index_args.unsetBase_tbl_name,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ant.QTestGenTask.setClusterMode,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_delegation_token_result.setSuccess,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.model.MRoleMap.getGrantor,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.AlterTableDesc.getSortColumns,2.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.ql.optimizer.MapJoinProcessor.CurrentMapJoin.nonSubqueryMapJoin,4.0,9,0,9,4,5,0,5.0,2.0,0.0,4,6,3,3,2.0,2.0,3.0,1.0,1.0,0.0,1,0.0,0.0,2,2,3,1,False
-hive,Public Method,org.apache.hadoop.hive.hwi.HWISessionManager.findAllSessionItems,2.0,14,0,7,2,4,7,4.0,2.0,0.0,3,6,3,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,1.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_ps_with_auth_args.getPart_vals,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.parse.JoinCond.setLeft,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.security.DummyAuthenticator.getGroupNames,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Constructor,org.apache.hadoop.hive.ql.udf.generic.GenericUDFOPLessThan.GenericUDFOPLessThan,0.0,4,0,4,1,2,0,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.create_role_result.unsetO1,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_partition_args.toString,4.0,34,1,33,3,28,0,3.0,64.0,2.0,22,29,3,26,7.0,7.0,7.0,1.0,3.0,0.0,1,0.0,0.0,7,7,7,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Table.getCreateTime,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.AsyncClient.create_database_call.write_args,2.0,7,0,7,2,5,0,5.0,1.0,0.0,5,6,2,4,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.Operator.ProgressCounter.valueOf,1.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.FileSinkOperator.getName,0.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.shims.Hadoop20SShims.newJobContext,1.0,3,0,3,1,1,0,3.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.ql.exec.persistence.RowContainer.removeKeys,6.0,9,0,9,3,5,0,2.0,3.0,0.0,5,8,4,4,3.0,3.0,4.0,1.0,0.0,0.0,2,0.0,0.0,3,3,4,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Task.isSet,9.0,26,1,24,1,20,1,9.0,18.0,1.0,10,13,1,12,10.0,3.0,10.0,1.0,36.0,0.0,1,0.0,0.04,10,3,10,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_type_result.getFieldValue,4.0,14,3,11,1,8,0,4.0,4.0,1.0,4,6,1,5,4.0,2.0,4.0,1.0,6.0,0.0,1,0.0,0.0,4,2,4,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Index.setFieldValue,12.0,84,10,74,1,61,0,20.0,21.0,1.0,30,42,1,41,21.0,12.0,21.0,1.0,55.0,0.0,2,0.0,0.0,21,12,21,1,False
-hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.getThriftSchema_result._Fields.getFieldName,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.Operator.assignCounterNameToEnum,5.0,27,1,17,3,12,9,6.0,4.0,1.0,8,13,4,9,4.0,4.0,4.0,4.0,3.0,3.0,2,3.0,0.53,4,4,4,4,False
-hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDAFCovariance.GenericUDAFCovarianceEvaluator.getNewAggregationBuffer,0.0,5,0,5,2,3,0,2.0,1.0,0.0,3,4,2,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Constructor,org.apache.hadoop.hive.ql.plan.ConditionalResolverCommonJoin.AliasFileSizePair.AliasFileSizePair,3.0,5,0,5,1,3,0,3.0,1.0,0.0,3,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_table_args.setDbname,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.fetchN_args.isSetNumRows,4.0,4,0,3,1,1,1,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.persistence.MRU.put,1.0,7,0,4,1,2,3,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.75,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.TableDesc.getDeserializerClass,15.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.revoke_role_args._Fields.getFieldName,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.Operator.getDone,7.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,2.0,1.0,0.0,0.0,0,0.0,0.0,1,1,2,1,False
-hive,Public Method,org.apache.hadoop.hive.jdbc.JdbcColumn.getOrdinalPos,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.optimizer.unionproc.UnionProcContext.UnionParseContext.getMapJoinSubq,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.AlterTableDesc.getNumberBuckets,2.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.list_privileges_args.isSetPrincipal_name,5.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_database_result.readObject,2.0,7,0,7,1,4,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_by_name_result.getSuccess,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Abstract Method,org.apache.hadoop.hive.serde2.objectinspector.primitive.SettableShortObjectInspector.set,1.0,7,0,1,1,0,6,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,6.0,0,0,0,0,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.ConditionalResolverMergeFiles.ConditionalResolverMergeFilesCtx.setDir,1.0,7,0,3,1,1,4,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.optimizer.physical.PhysicalContext.getContext,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_table_objects_by_name_args.getTbl_names,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Operator.setOperatorAttributes,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.io.IgnoreKeyTextOutputFormat.getRecordWriter,4.0,6,1,5,2,2,0,3.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.ExecMapperContext.setCurrentInputFile,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.lazy.objectinspector.LazySimpleStructObjectInspector.getTypeName,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_partition_result._Fields.values,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.model.MStorageDescriptor.setBucketCols,2.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_by_names_result.read,8.0,52,0,52,4,37,4,18.0,17.0,1.0,27,35,5,30,10.0,8.0,10.0,3.0,11.0,3.0,4,2.0,0.08,10,8,10,3,False
-hive,Public Method,org.apache.hadoop.hive.serde2.objectinspector.primitive.WritableByteObjectInspector.copyObject,1.0,3,0,3,1,1,0,3.0,1.0,0.0,1,2,1,1,2.0,2.0,2.0,1.0,0.0,0.0,0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.SerDeInfo.getParametersSize,2.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,2.0,2.0,2.0,1.0,0.0,0.0,0,0.0,0.0,2,2,2,1,False
-hive,Public Static Method,org.apache.hadoop.hive.ql.exec.FunctionRegistry.implicitConvertable,10.0,35,2,25,3,17,8,4.0,7.0,1.0,9,16,3,13,7.0,7.0,10.0,7.0,6.0,6.0,1,6.0,0.32,7,7,10,7,False
-hive,Public Method,org.apache.hadoop.hive.jdbc.HiveCallableStatement.getResultSetType,0.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.ExprNodeDesc.getName,0.0,3,0,3,1,1,0,3.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.cancel_delegation_token_result.unsetO1,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Abstract Method,org.apache.hadoop.hive.shims.JettyShims.Server.start,2.0,1,0,1,1,0,0,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
-hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDFSentences.initialize,3.0,16,2,14,1,10,0,5.0,4.0,1.0,6,9,2,7,3.0,3.0,4.0,1.0,0.0,0.0,1,0.0,0.0,3,3,4,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_schema_args._Fields.getThriftFieldId,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.shims.Hadoop20Shims.CombineFileInputFormatShim.getInputPathsShim,2.0,7,0,7,1,4,0,2.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Abstract Method,org.apache.hadoop.hive.metastore.RawStore.getPartitions,2.0,2,0,2,2,0,0,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.AlterIndexDesc.getOp,2.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.parse.QBParseInfo.setHavingExprForClause,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.parse.ParseContext.setUCtx,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesOutput.writeShort,5.0,11,0,4,1,2,7,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.75,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.thrift.HadoopThriftAuthBridge20S.Server.createTransportFactory,3.0,28,2,18,4,14,9,7.0,2.0,0.0,7,9,4,5,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.5,2,2,2,1,False
-hive,Public Abstract Method,org.apache.hadoop.hive.serde2.typeinfo.TypeInfo.hashCode,2.0,1,0,1,1,0,0,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
-hive,Public Method,org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat.getHiveRecordWriter,5.0,53,2,32,12,24,19,7.0,2.0,0.0,15,20,10,10,2.0,2.0,2.0,1.0,1.0,0.0,0,0.0,0.59,2,2,2,1,False
-hive,Private Method,org.apache.hadoop.hive.ql.parse.SemanticAnalyzer.genJoinPlan,3.0,6,0,6,4,3,0,3.0,1.0,0.0,3,4,3,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Protected Method,org.apache.hadoop.hive.ql.exec.Utilities.MapDelegate.mutatesTo,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Constructor,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_partition_result._Fields._Fields,2.0,4,0,4,1,2,0,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.markPartitionForEvent_args._Fields.getFieldName,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_type_result.isSetSuccess,6.0,4,0,3,1,1,1,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.parser.ExpressionTree.generateJDOFilter,3.0,16,1,7,2,3,8,2.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,1.14,2,2,2,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.rename_partition_args.writeObject,2.0,7,0,7,1,4,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.objectinspector.UnionStructObjectInspector.MyField.getFieldComment,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.contrib.fileformat.base64.Base64TextOutputFormat.Base64RecordWriter.configure,3.0,12,0,12,2,8,0,4.0,3.0,0.0,4,7,2,5,3.0,3.0,3.0,1.0,2.0,0.0,2,0.0,0.0,3,3,3,1,False
-hive,Constructor,org.apache.hadoop.hive.metastore.api.FieldSchema._Fields._Fields,2.0,4,0,4,1,2,0,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.jdbc.HivePreparedStatement.setQueryTimeout,0.0,4,0,2,1,0,2,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_config_value_args.clear,0.0,4,0,4,1,2,0,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.UnlockTableDesc.setPartSpec,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.DDLWork.setRenamePartitionDesc,1.0,7,0,3,1,1,4,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.MetaException._Fields.valueOf,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Order.unsetCol,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.io.CombineHiveInputFormat.CombineHiveInputSplit.getPath,3.0,4,0,3,1,1,1,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.parse.ParseContext.setOpToSamplePruner,1.0,8,0,4,2,1,4,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Protected Method,org.apache.hadoop.hive.ql.exec.FetchTask.localizeMRTmpFilesImpl,2.0,11,1,10,3,6,0,6.0,4.0,1.0,4,7,3,4,3.0,3.0,4.0,1.0,0.0,0.0,1,0.0,0.0,3,3,4,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.HashTableSinkDesc.setDumpFilePrefix,1.0,7,0,3,1,1,4,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDFHash.getDisplayString,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.PrivilegeBag.validate,2.0,3,0,2,1,0,1,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.5,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_with_auth_args.isSetPart_vals,5.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client.recv_set_ugi,4.0,12,0,12,2,7,0,4.0,3.0,0.0,5,8,2,6,3.0,3.0,3.0,1.0,1.0,0.0,1,0.0,0.0,3,3,3,1,False
-hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.getQueryPlan_args._Fields.valueOf,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.api.Role.writeObject,2.0,7,0,7,1,4,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_config_value_result.isSet,3.0,14,1,12,1,8,1,3.0,6.0,1.0,4,7,1,6,4.0,3.0,4.0,1.0,3.0,0.0,1,0.0,0.08,4,3,4,1,False
-hive,Constructor,org.apache.hadoop.hive.metastore.api.UnknownDBException._Fields._Fields,2.0,4,0,4,1,2,0,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.contrib.udaf.example.UDAFExampleAvg.UDAFExampleAvgEvaluator.terminate,3.0,8,0,4,1,2,4,2.0,1.0,0.0,1,2,1,1,2.0,2.0,2.0,1.0,0.0,0.0,0,0.0,1.0,2,2,2,1,False
+hive,Public Static Method,org.apache.hadoop.hive.ql.exec.JoinUtil.populateJoinKeyValue,7.0,32,7,25,12,17,0,12.0,4.0,1.0,14,18,9,9,4.0,4.0,4.0,1.0,1.0,0.0,3,0.0,0.0,4,4,4,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Operator.setOperatorIdIsSet,1.0,5,0,5,1,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.create_table_args.unsetTbl,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_by_filter_result.setO1IsSet,1.0,5,0,5,1,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.io.TestHiveBinarySearchRecordReader.testNonLinearGreaterThan,4.0,12,2,9,1,7,1,9.0,1.0,0.0,7,8,1,7,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.11,1,1,1,1,False
+hive,Private Method,org.apache.hadoop.hive.ql.parse.SemanticAnalyzer.parseJoinCondPopulateAlias,18.0,93,6,75,8,61,13,20.0,17.0,1.0,27,40,6,34,21.0,13.0,23.0,1.0,15.0,0.0,4,0.0,0.17,21,13,23,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.columnar.ColumnarSerDe.serialize,13.0,81,6,56,9,49,19,32.0,12.0,1.0,22,28,9,19,8.0,8.0,12.0,1.0,2.0,0.0,3,0.0,0.34,8,8,12,1,False
+hive,Protected Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Processor.get_schema.getResult,7.0,13,0,13,2,10,0,7.0,4.0,1.0,6,8,2,6,4.0,4.0,4.0,1.0,6.0,0.0,1,0.0,0.0,4,4,4,1,False
+hive,Private Method,org.apache.hadoop.hive.metastore.TUGIBasedProcessor.handleSetUGI,15.0,41,2,36,11,29,3,20.0,4.0,1.0,23,26,7,19,3.0,3.0,3.0,1.0,2.0,0.0,1,0.0,0.08,3,3,3,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.Driver.run,26.0,94,11,76,10,59,7,32.0,201.0,2.0,41,58,12,46,15.0,15.0,16.0,11.0,11.0,11.0,4,10.0,0.09,15,15,16,11,False
+hive,Protected Method,org.apache.hadoop.hive.ql.exec.LimitOperator.initializeOp,2.0,7,0,7,1,5,0,8.0,1.0,0.0,5,6,1,5,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Constructor,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Processor.get_table_objects_by_name.get_table_objects_by_name,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.fetchOne_result.setExIsSet,1.0,5,0,5,1,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Private Method,org.apache.hadoop.hive.ql.exec.DDLTask.getHiveObject,5.0,21,2,19,5,12,0,6.0,6.0,1.0,8,12,4,8,4.0,4.0,4.0,1.0,1.0,0.0,2,0.0,0.0,4,4,4,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_names_result.setSuccess,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.DropTableDesc.setTableName,1.0,7,0,3,1,1,4,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.33,1,1,1,1,False
+hive,Public Abstract Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Iface.get_config_value,2.0,1,0,1,1,0,0,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
+hive,Public Method,org.apache.hadoop.hive.serde2.dynamic_type.DynamicSerDe.serialize,16.0,12,0,12,1,9,0,9.0,2.0,0.0,7,9,1,8,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.NGramEstimator.isInitialized,3.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.Partition.compareTo,9.0,90,2,88,3,61,0,14.0,767.0,3.0,36,62,3,59,26.0,26.0,26.0,26.0,25.0,25.0,2,25.0,0.0,26,26,26,26,False
+hive,Public Method,org.apache.hadoop.hive.ql.parse.RowResolver.putExpression,15.0,12,0,5,2,3,7,3.0,1.0,0.0,3,4,2,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.4,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_result.write,9.0,19,1,18,1,15,0,11.0,4.0,1.0,12,16,1,15,4.0,4.0,4.0,1.0,2.0,0.0,1,0.0,0.0,4,4,4,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_table_names_by_filter_result.toString,4.0,38,1,37,3,31,0,3.0,128.0,2.0,23,31,3,28,8.0,8.0,8.0,1.0,4.0,0.0,1,0.0,0.0,8,8,8,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.create_database_args.hashCode,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Constructor,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.AsyncClient.alter_table_call.alter_table_call,8.0,6,0,6,1,4,0,4.0,1.0,0.0,4,5,1,4,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.HiveMetaStoreClient.createType,7.0,13,0,4,2,1,9,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,2.25,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.grant_role_result.setSuccess,2.0,4,0,4,1,2,0,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_by_name_args.clear,0.0,5,0,5,1,3,0,3.0,1.0,0.0,3,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_table_objects_by_name_args.validate,2.0,3,0,2,1,0,1,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.5,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_ps_with_auth_result.validate,1.0,3,0,2,1,0,1,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.5,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.Schema.setFieldValue,4.0,20,2,18,1,13,0,4.0,5.0,1.0,6,10,1,9,5.0,4.0,5.0,1.0,3.0,0.0,2,0.0,0.0,5,4,5,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.revoke_role_args.hashCode,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde.test.ThriftTestObj.setField3,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.dynamic_type.SimpleNode.jjtClose,0.0,2,0,2,1,0,0,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.session.SessionState.LogHelper.getErrStream,3.0,4,0,4,2,2,0,2.0,1.0,0.0,2,3,2,1,2.0,2.0,3.0,1.0,0.0,0.0,0,0.0,0.0,2,2,3,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.session.SessionState.getStackTraces,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.create_role_args.setRole,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client.get_type_all,1.0,5,0,5,1,2,0,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.thrift.ZooKeeperTokenStore.updateMasterKey,7.0,11,0,11,2,8,0,5.0,3.0,0.0,4,6,2,4,3.0,3.0,3.0,1.0,3.0,0.0,1,0.0,0.0,3,3,3,1,False
+hive,Public Static Method,org.apache.hadoop.hive.serde2.lazy.TestLazyPrimitive.initLazyObject,15.0,10,0,6,3,3,4,2.0,1.0,0.0,3,4,2,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.67,1,1,1,1,False
+hive,Public Constructor,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.AsyncClient.get_table_names_by_filter_call.get_table_names_by_filter_call,8.0,6,0,6,1,4,0,4.0,1.0,0.0,4,5,1,4,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.thrift.TBinarySortableProtocol.readI16,1.0,7,0,7,1,4,0,3.0,2.0,0.0,3,5,1,4,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_schema_result.writeObject,2.0,7,0,7,1,4,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.io.TestHiveBinarySearchRecordReader.testGreaterThanOpClass,3.0,13,0,13,1,11,0,8.0,1.0,0.0,11,12,1,11,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client.recv_get_partition_names_ps,5.0,15,0,15,2,9,0,4.0,5.0,1.0,6,10,2,8,4.0,4.0,4.0,1.0,1.0,0.0,1,0.0,0.0,4,4,4,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.TableScanDesc.getPartColumns,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.Index._Fields.values,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.list_privileges_args.getFieldValue,4.0,14,3,11,1,8,0,4.0,4.0,1.0,4,6,1,5,4.0,2.0,4.0,1.0,6.0,0.0,1,0.0,0.0,4,2,4,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_with_auth_args.setFieldValue,7.0,44,5,39,1,31,0,10.0,11.0,1.0,15,22,1,21,11.0,7.0,11.0,1.0,15.0,0.0,2,0.0,0.0,11,7,11,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.MapredWork.setTmpHDFSFileURI,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.exec.Operator.setColumnExprMap,23.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.rename_partition_result.compareTo,3.0,30,2,28,3,19,0,8.0,11.0,1.0,12,20,3,17,8.0,8.0,8.0,8.0,7.0,7.0,2,7.0,0.0,8,8,8,8,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_args.setMax_parts,4.0,4,0,4,1,2,0,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Static Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.set_ugi_args._Fields.findByThriftId,5.0,13,0,10,1,7,5,1.0,3.0,0.0,3,5,1,4,3.0,2.0,3.0,1.0,3.0,0.0,1,0.0,0.5,3,2,3,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.HiveOperation.PrivilegeAgreement.getInputUserLevelRequiredPriv,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.PartitionDesc.getPartSpec,8.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.service.JobTrackerState.valueOf,1.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_all_tables_result.clear,0.0,4,0,4,1,2,0,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.create_table_result.writeObject,2.0,7,0,7,1,4,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.MapredWork.getOpParseCtxMap,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.model.MPartitionEvent.setEventTime,1.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_database_result.isSetO2,6.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.rename_partition_args.getTbl_name,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.StatsWork.getAggKey,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.udf.UDFLTrim.evaluate,2.0,7,0,7,1,4,0,4.0,2.0,0.0,3,5,1,4,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.MetaException._Fields.values,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Abstract Method,org.apache.hadoop.hive.metastore.HiveMetaHookLoader.getHook,1.0,8,0,1,1,0,7,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,7.0,0,0,0,0,False
+hive,Protected Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Processor.markPartitionForEvent.getEmptyArgsInstance,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.HiveMetaStore.HMSHandler.revoke_role,5.0,16,1,15,5,11,0,5.0,3.0,0.0,8,10,4,6,3.0,3.0,3.0,1.0,3.0,0.0,1,0.0,0.0,3,3,3,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.AsyncClient.grant_privileges,5.0,6,0,6,2,4,0,3.0,1.0,0.0,4,5,2,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.optimizer.index.RewriteCanApplyCtx.getSelectColumnsList,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Static Method,org.apache.hadoop.hive.ql.ppd.OpProcFactory.getTSProc,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Private Method,org.apache.hadoop.hive.ql.index.compact.CompactIndexHandler.findIndexColumnExprNodeDesc,3.0,31,3,26,2,18,2,7.0,16.0,1.0,9,18,3,15,8.0,8.0,9.0,6.0,7.0,7.0,2,6.0,0.08,8,8,9,6,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_with_auth_args.setPart_valsIsSet,1.0,5,0,5,1,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.MetaException._Fields.getThriftFieldId,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_delegation_token_result.setSuccessIsSet,1.0,5,0,5,1,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDFBridge.isOperator,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDFOPAnd.evaluate,4.0,27,3,24,4,17,0,4.0,11.0,1.0,12,18,4,14,6.0,6.0,9.0,6.0,5.0,5.0,2,5.0,0.0,6,6,9,6,False
+hive,Public Method,org.apache.hadoop.hive.metastore.HiveMetaStore.HMSHandler.add_index,2.0,12,0,12,3,8,0,8.0,1.0,0.0,5,7,2,5,1.0,1.0,1.0,1.0,0.0,0.0,1,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.isPartitionMarkedForEvent_args.setPart_vals,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_schema_args.hashCode,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_table_args.getFieldValue,4.0,14,3,11,1,8,0,5.0,4.0,1.0,4,6,1,5,4.0,2.0,4.0,1.0,6.0,0.0,1,0.0,0.0,4,2,4,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.HiveObjectRef.compareTo,6.0,60,2,58,3,40,0,11.0,95.0,2.0,24,41,3,38,17.0,17.0,17.0,17.0,16.0,16.0,2,16.0,0.0,17,17,17,17,False
+hive,Private Method,org.apache.hadoop.hive.ql.exec.Operator.getAdditionalCounters,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.create_role_args.isSet,2.0,12,1,10,1,6,1,2.0,4.0,1.0,3,6,1,5,3.0,3.0,3.0,1.0,1.0,0.0,1,0.0,0.1,3,3,3,1,False
+hive,Protected Constructor,org.apache.hadoop.hive.serde2.lazy.objectinspector.primitive.LazyTimestampObjectInspector.LazyTimestampObjectInspector,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Static Method,org.apache.hadoop.hive.metastore.MetaStoreUtils.getDDLFromFieldSchema,6.0,25,1,21,4,16,3,7.0,3.0,0.0,13,17,4,13,3.0,3.0,3.0,1.0,1.0,0.0,2,0.0,0.14,3,3,3,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.StatsWork.getLoadTableDesc,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.proto.test.Complexpb.IntString.getUnderscoreInt,1.0,1,0,1,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_type_all_result._Fields.values,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.FetchWork.getPartDir,3.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.jdbc.HiveDataSource.setLogWriter,0.0,4,0,3,1,1,1,0.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.objectinspector.StandardListObjectInspector.set,3.0,5,0,5,2,3,0,2.0,1.0,0.0,3,4,2,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.ppd.ExprWalkerInfo.getAlias,7.0,13,0,7,2,4,6,2.0,2.0,0.0,3,5,2,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.86,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_index_result.unsetO2,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client.recv_revoke_privileges,4.0,12,0,12,2,7,0,4.0,3.0,0.0,5,8,2,6,3.0,3.0,3.0,1.0,1.0,0.0,1,0.0,0.0,3,3,3,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.exec.ScriptOperator.getType,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.history.HiveHistory.RecordTypes.values,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Adjacency.setNodeIsSet,1.0,5,0,5,1,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_schema_result.getSuccessIterator,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,2.0,2.0,2.0,1.0,0.0,0.0,0,0.0,0.0,2,2,2,1,False
+hive,Public Static Method,org.apache.hadoop.hive.metastore.api.Order._Fields.findByThriftIdOrThrow,1.0,9,0,5,2,3,4,2.0,2.0,0.0,3,5,2,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.8,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.optimizer.MapJoinFactory.MapJoin.process,3.0,85,18,55,25,50,12,37.0,3.0,0.0,38,41,17,24,3.0,3.0,3.0,1.0,1.0,0.0,1,0.0,0.22,3,3,3,1,False
+hive,Private Constructor,org.apache.hadoop.hive.ql.optimizer.physical.LocalMapJoinProcFactory.LocalMapJoinProcFactory,0.0,3,0,2,1,0,1,1.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.5,1,1,1,1,False
+hive,Constructor,org.apache.hadoop.hive.metastore.api.PrincipalPrivilegeSet._Fields._Fields,2.0,4,0,4,1,2,0,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Static Method,org.apache.hadoop.hive.ql.optimizer.IndexUtils.checkPartitionsCoveredByIndex,5.0,37,3,25,8,16,10,10.0,12.0,1.0,9,16,6,10,6.0,6.0,8.0,4.0,5.0,5.0,2,4.0,0.4,6,6,8,4,False
+hive,Public Method,org.apache.hadoop.hive.ql.io.OneNullRowInputFormat.OneNullRowRecordReader.next,1.0,8,0,8,1,5,0,2.0,2.0,0.0,3,5,1,4,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.hooks.CheckQueryPropertiesHook.run,1.0,20,3,17,3,13,0,12.0,3.0,0.0,11,14,3,11,3.0,3.0,3.0,1.0,1.0,0.0,1,0.0,0.0,3,3,3,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.optimizer.GenMRProcContext.setMapJoinCtx,6.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.AsyncClient.create_database_call.getResult,0.0,8,0,8,3,5,0,7.0,2.0,0.0,4,6,3,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.exec.persistence.MRU.clear,1.0,11,0,7,1,4,4,3.0,2.0,0.0,3,5,1,4,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.57,2,2,2,1,False
+hive,Public Abstract Method,org.apache.hadoop.hive.metastore.MetaStoreEventListener.onLoadPartitionDone,1.0,5,0,1,1,0,4,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,4.0,0,0,0,0,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_index_by_name_result.compareTo,4.0,40,2,38,3,26,0,9.0,23.0,1.0,16,27,3,24,11.0,11.0,11.0,11.0,10.0,10.0,2,10.0,0.0,11,11,11,11,False
+hive,Public Method,org.apache.hadoop.hive.serde2.MetadataTypedColumnsetSerDe.toString,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_databases_result.compareTo,3.0,30,2,28,3,19,0,8.0,11.0,1.0,12,20,3,17,8.0,8.0,8.0,8.0,7.0,7.0,2,7.0,0.0,8,8,8,8,False
+hive,Protected Method,org.apache.hadoop.hive.ql.exec.Utilities.MapDelegate.initialize,3.0,11,1,10,3,6,0,5.0,4.0,1.0,6,8,4,4,3.0,3.0,3.0,1.0,0.0,0.0,1,0.0,0.0,3,3,3,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_index_names_args.isSetMax_indexes,4.0,4,0,3,1,1,1,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.getQueryPlan_result.setSuccess,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Abstract Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.AsyncIface.get_partition_names_ps,0.0,1,0,1,1,0,0,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_with_auth_result.deepCopy,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.exec.HashTableSinkOperator.HashTableSinkObjectCtx.getTblDesc,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Static Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_with_auth_result._Fields.findByName,2.0,6,0,3,1,1,3,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde.test.ThriftTestObj.setFieldValue,5.0,28,3,25,1,19,0,6.0,7.0,1.0,9,14,1,13,7.0,5.0,7.0,1.0,6.0,0.0,2,0.0,0.0,7,5,7,1,False
+hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.create_role_result.writeObject,2.0,7,0,7,1,4,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.add_partition_args.toString,1.0,14,1,13,3,10,0,3.0,2.0,0.0,8,10,3,7,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Static Method,org.apache.hadoop.hive.metastore.api.StorageDescriptor._Fields.findByName,2.0,6,0,3,1,1,3,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.shims.Hadoop20Shims.usesJobShell,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Private Static Method,org.apache.hadoop.hive.hbase.HBaseTestSetup.findFreePort,1.0,6,0,6,3,4,0,3.0,1.0,0.0,4,5,3,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Static Method,org.apache.hadoop.hive.ql.plan.api.NodeType.findByValue,4.0,14,0,10,1,7,4,1.0,3.0,0.0,3,5,1,4,3.0,2.0,3.0,1.0,3.0,0.0,1,0.0,0.4,3,2,3,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.index.IndexPredicateAnalyzer.translateSearchConditions,5.0,27,1,18,4,13,8,5.0,3.0,0.0,8,12,4,8,3.0,3.0,3.0,3.0,1.0,1.0,2,1.0,0.44,3,3,3,3,False
+hive,Public Abstract Method,org.apache.hadoop.hive.metastore.RawStore.alterIndex,1.0,2,0,2,2,0,0,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
+hive,Public Method,org.apache.hadoop.hive.serde2.lazy.objectinspector.LazyUnionObjectInspector.getTag,1.0,6,0,6,1,3,0,2.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_table_names_by_filter_result.isSetO3,6.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.optimizer.index.RewriteCanApplyCtx.getDefaultProc.(Anon_1).process,0.0,4,0,4,0,3,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_indexes_result.deepCopy,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.parse.QB.getNumJoins,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.MetaStoreEventListener.setConf,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_index_result.validate,1.0,3,0,2,1,0,1,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.5,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.GrantRevokeRoleDDL.setRoles,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.rename_partition_result.setFieldValue,4.0,20,2,18,1,13,0,4.0,5.0,1.0,6,10,1,9,5.0,4.0,5.0,1.0,3.0,0.0,2,0.0,0.0,5,4,5,1,False
+hive,Public Static Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_indexes_args._Fields.findByThriftIdOrThrow,1.0,9,0,5,2,3,4,2.0,2.0,0.0,3,5,2,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.8,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.append_partition_by_name_args._Fields.valueOf,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_fields_args.setTable_name,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.HiveObjectPrivilege.unsetPrincipalName,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.io.BucketizedHiveRecordReader.getPos,1.0,7,0,7,1,4,0,2.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_names_result.toString,2.0,22,1,21,3,17,0,3.0,8.0,1.0,13,17,3,14,4.0,4.0,4.0,1.0,2.0,0.0,1,0.0,0.0,4,4,4,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Operator.hashCode,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDTFStack.initialize,6.0,50,6,43,5,32,1,12.0,128.0,2.0,23,32,8,24,9.0,9.0,11.0,1.0,0.0,0.0,3,0.0,0.02,9,9,11,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_config_value_result.isSetSuccess,7.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_index_by_name_result.getFieldValue,4.0,14,3,11,1,8,0,4.0,4.0,1.0,4,6,1,5,4.0,2.0,4.0,1.0,6.0,0.0,1,0.0,0.0,4,2,4,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.exec.TaskResult.setExitVal,2.0,4,0,4,1,2,0,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.QueryPlan.setQuery,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.jdbc.JdbcColumn.getNumPrecRadix,2.0,17,0,17,1,14,1,2.0,7.0,1.0,7,14,1,13,7.0,7.0,7.0,7.0,6.0,6.0,1,6.0,0.06,7,7,7,7,False
+hive,Public Method,org.apache.hadoop.hive.ql.optimizer.MapJoinProcessor.Default.process,0.0,7,0,4,2,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.75,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.MetadataTypedColumnsetSerDe.serialize,7.0,28,2,24,5,18,2,15.0,10.0,1.0,12,17,6,11,6.0,6.0,6.0,1.0,1.0,0.0,2,0.0,0.08,6,6,6,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.partition_name_to_spec_result.getFieldValue,3.0,11,2,9,1,6,0,3.0,3.0,0.0,3,5,1,4,3.0,2.0,3.0,1.0,3.0,0.0,1,0.0,0.0,3,2,3,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.dynamic_type.DynamicSerDeFieldList.deserialize,13.0,101,10,72,8,54,19,18.0,2628.0,3.0,37,54,10,44,16.0,16.0,19.0,7.0,12.0,12.0,4,9.0,0.26,16,16,19,7,False
+hive,Private Method,org.apache.hadoop.hive.ql.index.bitmap.BitmapOuterQuery.constructQueryStr,4.0,30,0,27,2,25,3,5.0,1.0,0.0,25,26,2,24,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.11,1,1,1,1,False
+hive,Private Method,org.apache.hadoop.hive.ql.optimizer.MapJoinProcessor.putOpInsertMap,4.0,6,0,6,3,3,0,4.0,1.0,0.0,3,4,2,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Abstract Method,org.apache.hadoop.hive.ql.exec.RecordWriter.write,1.0,1,0,1,1,0,0,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
+hive,Protected Method,org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesWritableInput.(Anon_1).initialValue,0.0,3,0,3,0,2,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.partition_name_to_vals_result.getO1,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
 hive,Public Abstract Method,org.apache.hadoop.hive.ql.stats.StatsPublisher.init,6.0,10,0,1,1,0,9,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,9.0,0,0,0,0,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.AddPartitionDesc.getBucketCols,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.markPartitionForEvent_args.setPart_valsIsSet,1.0,5,0,5,1,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.parse.RowResolver.setExprResolver,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.UnknownTableException.getMessage,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.HashTableSinkDesc.setFilters,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.lockmgr.HiveLockObj.setMode,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.ql.optimizer.physical.index.IndexWhereProcessor.rewriteForIndexes,9.0,43,3,25,8,16,15,13.0,6.0,1.0,12,16,5,11,4.0,4.0,4.0,3.0,4.0,3.0,2,3.0,0.6,4,4,4,3,False
-hive,Public Method,org.apache.hadoop.hive.conf.HiveConf.ConfVars.valueOf,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDAFSum.GenericUDAFSumDouble.merge,4.0,7,0,7,2,4,0,3.0,2.0,0.0,3,5,2,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.TestHiveMetaStore.testDatabase,5.0,43,9,33,4,30,1,16.0,2.0,0.0,24,26,4,22,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.03,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.metadata.Table.getPartitionKeys,8.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Graph.fieldForId,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.metastore.ObjectStore.getMType,2.0,10,0,10,2,6,0,11.0,3.0,0.0,3,7,3,4,3.0,3.0,3.0,1.0,0.0,0.0,2,0.0,0.0,3,3,3,1,False
-hive,Public Method,org.apache.hadoop.hive.jdbc.TestJdbcDriver.testMetaDataGetColumns,1.0,42,3,38,8,33,1,12.0,5.0,1.0,26,31,8,23,5.0,4.0,5.0,1.0,3.0,0.0,3,0.0,0.03,5,4,5,1,False
-hive,Private Static Method,org.apache.hadoop.hive.ql.lockmgr.zookeeper.ZooKeeperHiveLockManager.getLastObjectName,4.0,8,0,3,1,1,5,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.67,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.append_partition_by_name_args.validate,2.0,3,0,2,1,0,1,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.5,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.thrift.test.IntString.setMyintIsSet,7.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.api.QueryPlan._Fields.getThriftFieldId,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_by_names_args.unsetNames,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.model.MPartitionEvent.setDbName,1.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_index_by_name_result._Fields.valueOf,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Constructor,org.apache.hadoop.hive.hbase.LazyHBaseCellMap.LazyHBaseCellMap,5.0,7,0,3,1,1,4,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.list_privileges_args.write,10.0,22,1,21,1,16,0,10.0,8.0,1.0,13,17,1,16,4.0,4.0,4.0,1.0,0.0,0.0,1,0.0,0.0,4,4,4,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_by_names_args.fieldForId,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Constructor,org.apache.hadoop.hive.serde2.lazy.objectinspector.primitive.LazyVoidObjectInspector.LazyVoidObjectInspector,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.optimizer.ppr.ExprProcCtx.getHasNonPartCols,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.optimizer.GenMRProcContext.GenMapRedCtx.getCurrTopOp,5.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Constructor,org.apache.hadoop.hive.ql.exec.StatsTask.TableStatistics.TableStatistics,1.0,4,0,4,1,2,0,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Private Method,org.apache.hadoop.hive.jdbc.HivePreparedStatement.getCharIndexFromSqlByParamLocation,4.0,28,0,19,5,13,11,3.0,5.0,1.0,11,16,6,10,5.0,5.0,7.0,5.0,5.0,5.0,3,5.0,0.58,5,5,7,5,False
-hive,Public Static Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.grant_privileges_args._Fields.findByName,2.0,6,0,3,1,1,3,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_databases_result.clear,0.0,4,0,4,1,2,0,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Constructor,org.apache.hadoop.hive.metastore.api.InvalidObjectException._Fields._Fields,2.0,4,0,4,1,2,0,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.PrivilegeGrantInfo.isSetCreateTime,4.0,4,0,3,1,1,1,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_by_names_result.clear,0.0,5,0,5,1,3,0,3.0,1.0,0.0,3,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.DummyRawStoreForJdoConnection.getIndexes,0.0,5,1,4,2,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.proto.test.Complexpb.Complex.getAString,1.0,1,0,1,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.create_database_args.clear,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.typeinfo.MapTypeInfo.setMapValueTypeInfo,1.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.FetchTask.fetch,12.0,52,4,48,5,36,0,10.0,17.0,1.0,25,36,6,30,13.0,13.0,14.0,10.0,32.0,32.0,4,32.0,0.0,13,13,14,10,False
-hive,Public Method,org.apache.hadoop.hive.ql.metadata.DummySemanticAnalyzerHook.postAnalyze,3.0,7,1,6,2,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.NoSuchObjectException.toString,1.0,14,1,13,3,10,0,3.0,2.0,0.0,8,10,3,7,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Abstract Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Iface.get_partition_with_auth,2.0,1,0,1,1,0,0,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
-hive,Public Method,org.apache.hadoop.hive.serde2.thrift.TCTLSeparatedProtocol.Factory.getProtocol,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_args.compareTo,4.0,40,2,38,3,26,0,9.0,23.0,1.0,16,27,3,24,11.0,11.0,11.0,11.0,10.0,10.0,2,10.0,0.0,11,11,11,11,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.create_database_result.getO2,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.getThriftSchema_result.setEx,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Role.toString,3.0,26,1,25,3,21,0,3.0,16.0,1.0,17,22,3,19,5.0,5.0,5.0,1.0,2.0,0.0,1,0.0,0.0,5,5,5,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_databases_args.fieldForId,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDFToBinary.initialize,4.0,23,1,22,1,17,0,6.0,8.0,1.0,6,10,1,9,4.0,4.0,6.0,1.0,1.0,0.0,1,0.0,0.0,4,4,6,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.UnknownTableException.fieldForId,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Static Method,org.apache.hadoop.hive.metastore.api.HiveObjectPrivilege._Fields.findByThriftId,7.0,17,0,14,1,11,7,1.0,5.0,1.0,5,7,1,6,5.0,2.0,5.0,1.0,10.0,0.0,1,0.0,0.5,5,2,5,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.HiveObjectPrivilege.deepCopy,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_partition_result.unsetO2,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_ps_result.deepCopy,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.exec.persistence.RowContainer.setSerDe,4.0,4,0,4,1,2,0,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.partition_name_to_vals_result._Fields.getFieldName,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Table.toString,15.0,100,1,99,3,86,0,4.0,5242880.0,7.0,65,89,3,86,24.0,24.0,24.0,1.0,10.0,0.0,2,0.0,0.0,24,24,24,1,False
-hive,Public Constructor,org.apache.hadoop.hive.ql.udf.UDFPosMod.UDFPosMod,0.0,2,0,2,1,0,0,1.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.renew_delegation_token_args.write,6.0,12,1,11,1,8,0,7.0,2.0,0.0,7,9,1,8,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.AlterTableDesc.ProtectModeType.valueOf,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.thrift.HadoopThriftAuthBridge20S.Server.cancelDelegationToken,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Graph.isSet,4.0,16,1,14,1,10,1,4.0,8.0,1.0,5,8,1,7,5.0,3.0,5.0,1.0,6.0,0.0,1,0.0,0.07,5,3,5,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_privilege_set_args.setHiveObjectIsSet,1.0,5,0,5,1,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.AsyncClient.get_privilege_set_call.getResult,0.0,8,0,8,3,5,0,8.0,2.0,0.0,4,6,3,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Abstract Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Iface.get_partitions_ps_with_auth,2.0,1,0,1,1,0,0,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
-hive,Public Method,org.apache.hadoop.hive.ql.io.OneNullRowInputFormat.OneNullRowRecordReader.createKey,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Static Method,org.apache.hadoop.hive.ql.metadata.formatting.MapBuilder.create,11.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.serde2.columnar.ColumnarSerDeBase.getObjectInspector,10.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Constructor,org.apache.hadoop.hive.metastore.api.PrivilegeBag._Fields._Fields,2.0,4,0,4,1,2,0,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_partition_result.deepCopy,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client.send_get_all_tables,2.0,6,0,6,2,3,0,3.0,1.0,0.0,3,4,2,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.plan.AlterTableDesc.setNewColName,1.0,7,0,3,1,1,4,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.33,1,1,1,1,False
-hive,Public Constructor,org.apache.hadoop.hive.ql.exec.NoMatchingMethodException.NoMatchingMethodException,5.0,16,0,6,2,3,10,4.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.67,1,1,1,1,False
 hive,Public Method,org.apache.hadoop.hive.ql.plan.api.Task.setFieldValue,10.0,68,8,60,1,49,0,16.0,17.0,1.0,24,34,1,33,17.0,10.0,17.0,1.0,36.0,0.0,2,0.0,0.0,17,10,17,1,False
-hive,Public Method,org.apache.hadoop.hive.serde.test.InnerStruct.read,5.0,26,0,26,2,18,1,9.0,7.0,1.0,12,17,2,15,5.0,5.0,5.0,3.0,4.0,3.0,3,2.0,0.04,5,5,5,3,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.append_partition_args.getPart_valsIterator,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,2.0,2.0,2.0,1.0,0.0,0.0,0,0.0,0.0,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client.recv_create_database,5.0,15,0,15,2,9,0,2.0,8.0,1.0,6,10,2,8,4.0,4.0,4.0,1.0,0.0,0.0,1,0.0,0.0,4,4,4,1,False
-hive,Public Method,org.apache.hadoop.hive.cli.RCFileCat.setConf,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Abstract Method,org.apache.hadoop.hive.serde2.Deserializer.getObjectInspector,36.0,5,0,1,1,0,4,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,4.0,0,0,0,0,False
-hive,Public Static Method,org.apache.hadoop.hive.ql.exec.DDLTask.writeGrantInfo,9.0,31,3,28,8,18,0,4.0,32.0,2.0,13,19,5,14,6.0,6.0,6.0,1.0,0.0,0.0,1,0.0,0.0,6,6,6,1,False
-hive,Public Abstract Method,org.apache.hadoop.hive.ql.udf.generic.GenericUDF.evaluate,2.0,11,0,2,2,0,9,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,4.5,0,0,0,0,False
-hive,Public Static Method,org.apache.hadoop.hive.ql.stats.StatsFactory.setImplementation,15.0,55,4,41,4,34,10,10.0,7.0,1.0,18,25,4,21,7.0,7.0,8.0,7.0,16.0,16.0,2,16.0,0.24,7,7,8,7,False
-hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_database_result.readObject,2.0,7,0,7,1,4,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Public Constructor,org.apache.hadoop.hive.ql.exec.TaskRunner.TaskRunner,3.0,5,0,5,1,3,0,5.0,1.0,0.0,3,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.Database.putToParameters,3.0,6,0,6,1,3,0,2.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hive,Protected Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Processor.revoke_privileges.getEmptyArgsInstance,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Abstract Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.AsyncIface.get_partitions_with_auth,0.0,1,0,1,1,0,0,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partition_by_name_args.read,4.0,39,0,39,2,29,3,10.0,15.0,1.0,17,24,2,22,9.0,7.0,9.0,3.0,11.0,3.0,3,2.0,0.08,9,7,9,3,False
-hive,Public Static Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.cancel_delegation_token_args._Fields.findByThriftIdOrThrow,1.0,9,0,5,2,3,4,2.0,2.0,0.0,3,5,2,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.8,2,2,2,1,False
-hive,Public Method,org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesOutput.writeVectorHeader,7.0,11,0,4,1,2,7,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.75,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.udf.UDFLn.evaluate,2.0,11,0,8,1,5,3,4.0,2.0,0.0,3,5,1,4,2.0,2.0,3.0,1.0,1.0,0.0,1,0.0,0.38,2,2,3,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.list_privileges_args._Fields.values,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client.send_alter_partition,4.0,8,0,8,2,5,0,5.0,1.0,0.0,5,6,2,4,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.service.ThriftHive.fetchOne_result.unsetSuccess,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.ql.io.IOContext.setComparison,19.0,16,0,15,1,11,1,3.0,5.0,1.0,5,10,1,9,5.0,5.0,6.0,1.0,4.0,0.0,2,0.0,0.07,5,5,6,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.rename_partition_args.read,7.0,57,0,57,4,41,5,16.0,21.0,1.0,28,37,5,32,12.0,9.0,12.0,3.0,16.0,3.0,4,2.0,0.09,12,9,12,3,False
-hive,Public Static Method,org.apache.hadoop.hive.metastore.api.Database._Fields.findByName,2.0,6,0,3,1,1,3,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hive,Public Method,org.apache.hadoop.hive.metastore.HiveMetaStore.HMSHandler.list_column_privileges,10.0,69,4,65,24,53,0,32.0,14.0,1.0,29,37,17,20,10.0,10.0,11.0,1.0,4.0,0.0,4,0.0,0.0,10,10,11,1,False
-hive,Public Constructor,org.apache.hadoop.hive.ql.udf.UDFMonth.UDFMonth,0.0,2,0,2,1,0,0,1.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.isPartitionMarkedForEvent_args.isSetDb_name,5.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.ppd.ExprWalkerInfo.getFinalCandidates,8.0,10,0,3,1,1,7,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,2.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.exec.FetchOperator.setSplitNum,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.io.PerformTestRCFileAndSeqFile.isLocalFileSystem,2.0,3,0,3,1,1,1,4.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hive,Public Static Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_index_names_args._Fields.findByName,2.0,6,0,3,1,1,3,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.model.MPartitionColumnPrivilege.setGrantor,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Static Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.partition_name_to_spec_args._Fields.findByName,2.0,6,0,3,1,1,3,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_index_by_name_result.isSetSuccess,7.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hive,Private Method,org.apache.hadoop.hive.cli.CliDriver.tokenizeCmd,3.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Private Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_tables_args.readObject,2.0,7,0,7,1,4,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.io.RCFileRecordReader.createKey,1.0,3,0,3,1,1,0,3.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.objectinspector.ReflectionStructObjectInspector.MyField.toString,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_table_objects_by_name_result.validate,1.0,3,0,2,1,0,1,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.5,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.partition_name_to_spec_result.unsetO1,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Private Method,org.apache.hadoop.hive.metastore.RetryingRawStore.init,4.0,10,0,7,1,5,3,5.0,1.0,0.0,3,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.43,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_delegation_token_args.setFieldValue,4.0,20,2,18,1,13,0,4.0,5.0,1.0,6,10,1,9,5.0,4.0,5.0,1.0,3.0,0.0,2,0.0,0.0,5,4,5,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_with_auth_args.setDb_name,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.plan.ExprNodeDesc.getChildren,7.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Client.recv_alter_index,4.0,12,0,12,2,7,0,2.0,4.0,1.0,5,8,2,6,3.0,3.0,3.0,1.0,0.0,0.0,1,0.0,0.0,3,3,3,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.grant_role_result.isSetO1,6.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_role_names_args.compareTo,1.0,10,2,8,3,5,0,5.0,2.0,0.0,4,6,3,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.security.DummyAuthenticator.getGroupNames,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.DummyRawStoreForJdoConnection.getAllTables,0.0,4,1,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.exec.StatsTask.execute,6.0,34,7,26,3,22,1,14.0,32.0,2.0,14,21,3,18,7.0,7.0,7.0,1.0,3.0,0.0,2,0.0,0.04,7,7,7,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ConfigValSecurityException.setFieldValue,3.0,12,1,11,1,7,0,2.0,3.0,0.0,3,6,1,5,3.0,3.0,3.0,1.0,1.0,0.0,2,0.0,0.0,3,3,3,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.optimizer.physical.MapJoinResolver.LocalMapJoinProcCtx.addDummyParentOp,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Private Method,org.apache.hadoop.hive.ql.exec.ExecMapperContext.setUpFetchOpContext,5.0,18,1,17,13,14,0,10.0,1.0,0.0,8,9,7,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_partitions_ps_with_auth_args.isSetUser_name,5.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.shims.HadoopShimsSecure.compareText,2.0,12,0,3,1,1,9,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,3.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.InvalidPartitionException._Fields.values,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Protected Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.Processor.list_privileges.getEmptyArgsInstance,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.Table.isSetViewOriginalText,5.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_role_names_result._Fields.valueOf,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Static Method,org.apache.hadoop.hive.ql.optimizer.IndexUtils.getIndexes,5.0,22,2,17,5,11,4,6.0,6.0,1.0,7,12,5,7,4.0,4.0,4.0,1.0,1.0,0.0,2,0.0,0.24,4,4,4,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.Partition._Fields.getThriftFieldId,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.io.TestRCFile.testSynAndSplit,0.0,7,0,7,1,5,0,5.0,1.0,0.0,5,6,1,5,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.jdbc.JdbcTable.getSqlTableType,2.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.session.SessionState.ResourceType.(Anon_1).postHook,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.model.MIndex.getIndexName,2.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.alter_database_args.toString,2.0,22,1,21,3,17,0,3.0,8.0,1.0,13,17,3,14,4.0,4.0,4.0,1.0,2.0,0.0,1,0.0,0.0,4,4,4,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.optimizer.index.RewriteCanApplyCtx.getAggFunction,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.parser.ExpressionTree.Operator.getJdoOp,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.hooks.Entity.getLocation,8.0,18,3,12,1,7,3,3.0,4.0,1.0,4,8,1,7,4.0,4.0,5.0,4.0,3.0,3.0,1,3.0,0.25,4,4,5,4,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.get_index_names_args.read,4.0,40,0,40,2,30,3,12.0,15.0,1.0,18,25,2,23,9.0,7.0,9.0,3.0,11.0,3.0,3,2.0,0.07,9,7,9,3,False
+hive,Protected Method,org.apache.hadoop.hive.metastore.TUGIBasedProcessor.setIpAddress,2.0,7,0,7,3,4,0,3.0,2.0,0.0,3,5,3,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
+hive,Public Method,org.apache.hadoop.hive.serde2.objectinspector.TestSimpleMapEqualComparer.testIncompatibleType,5.0,28,4,22,12,20,2,15.0,1.0,0.0,18,19,10,9,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.09,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.index.HiveIndexQueryContext.getIndexIntermediateFile,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.ql.exec.JoinOperator.SkewkeyTableCounter.values,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hive,Public Method,org.apache.hadoop.hive.metastore.api.ThriftHiveMetastore.drop_table_args.setDbname,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
 hive,Public Method,org.apache.hadoop.hive.ant.QTestGenTask.execute,21.0,145,23,117,12,91,5,26.0,1034880.0,6.0,54,83,14,69,31.0,31.0,36.0,1.0,21.0,0.0,4,0.0,0.04,31,31,36,1,True
 hive,Public Method,org.apache.hadoop.hive.cli.CliDriver.processCmd,13.0,124,12,107,22,88,8,50.0,34.0,2.0,57,78,23,55,22.0,22.0,25.0,1.0,13.0,0.0,4,0.0,0.07,22,22,25,1,True
 hive,Public Static Method,org.apache.hadoop.hive.cli.CliDriver.run,16.0,144,20,114,20,91,10,61.0,1949.0,3.0,65,86,21,65,21.0,21.0,23.0,9.0,15.0,12.0,2,10.0,0.09,21,21,23,9,True

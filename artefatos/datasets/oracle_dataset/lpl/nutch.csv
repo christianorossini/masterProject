@@ -1,60 +1,46 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lpl
-nutch,Public Method,org.apache.nutch.metadata.TestMetadata.testWritable,1.0,21,0,20,3,18,1,7.0,1.0,0.0,18,19,3,16,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.05,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.feed.FeedParser.setConf,3.0,25,0,8,1,6,17,9.0,1.0,0.0,5,6,1,5,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,2.13,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.util.domain.DomainStatistics.setConf,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.plugin.PluginDescriptor.addExtensionPoint,3.0,8,0,3,1,1,5,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.67,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.tika.DOMBuilder.startEntity,0.0,20,1,3,1,0,16,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,5.33,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.indexer.solr.SolrWriter.open,2.0,5,0,5,1,3,0,6.0,1.0,0.0,3,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Constructor,org.apache.nutch.metadata.TestSpellCheckedMetadata.TestSpellCheckedMetadata,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.crawl.Generator.SelectorInverseMapper.map,3.0,5,0,5,3,2,0,1.0,1.0,0.0,2,3,2,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.tools.CrawlDBScanner.reduce,3.0,7,0,7,3,3,0,3.0,2.0,0.0,2,4,2,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-nutch,Public Method,org.apache.nutch.protocol.ftp.Client.disconnect,2.0,13,0,5,1,2,8,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.6,1,1,1,1,False
-nutch,Private Constructor,org.creativecommons.nutch.CCParseFilter.Walker.Walker,2.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.protocol.ftp.PrintCommandListener.protocolReplyReceived,3.0,9,0,9,1,5,0,3.0,3.0,0.0,2,5,1,4,3.0,3.0,3.0,1.0,1.0,0.0,2,0.0,0.0,3,3,3,1,False
-nutch,Public Method,org.apache.nutch.parse.tika.DOMBuilder.entityReference,2.0,9,0,4,1,1,5,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.25,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.protocol.httpclient.HttpAuthenticationFactory.findAuthentication,5.0,49,5,43,7,32,1,13.0,46.0,2.0,20,32,7,25,12.0,12.0,13.0,6.0,10.0,9.0,3,8.0,0.02,12,12,13,6,False
-nutch,Public Method,org.apache.nutch.util.NodeWalker.skipChildren,5.0,22,2,9,3,5,11,5.0,3.0,0.0,5,8,4,4,4.0,4.0,4.0,1.0,0.0,0.0,2,0.0,1.22,4,4,4,1,False
-nutch,Public Method,org.apache.nutch.fetcher.Fetcher.fetch,11.0,46,11,31,7,26,4,23.0,4.0,1.0,24,27,6,21,3.0,3.0,3.0,1.0,0.0,0.0,1,0.0,0.13,3,3,3,1,False
-nutch,Public Method,org.apache.nutch.scoring.webgraph.LinkDumper.run,3.0,33,3,26,11,20,4,13.0,3.0,0.0,15,18,8,10,3.0,3.0,4.0,3.0,3.0,3.0,2,3.0,0.15,3,3,4,3,False
-nutch,Public Static Method,org.apache.nutch.parse.ParseText.main,3.0,32,6,26,13,21,0,8.0,2.0,0.0,18,21,12,9,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-nutch,Public Method,org.apache.nutch.urlfilter.api.RegexURLFilterBase.getConf,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Abstract Method,org.apache.nutch.indexer.NutchIndexWriter.close,1.0,1,0,1,1,0,0,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
-nutch,Public Method,org.apache.nutch.parse.zip.ZipTextExtractor.extractText,11.0,53,7,45,19,33,1,26.0,17.0,1.0,30,39,21,18,9.0,9.0,9.0,1.0,1.0,0.0,5,0.0,0.02,9,9,9,1,False
-nutch,Public Method,org.apache.nutch.tools.CrawlDBScanner.close,0.0,1,0,1,1,0,0,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.segment.SegmentReader.list,9.0,25,0,25,3,22,0,7.0,33.0,2.0,23,30,4,26,7.0,7.0,7.0,1.0,5.0,0.0,2,0.0,0.0,7,7,7,1,False
-nutch,Public Method,org.apache.nutch.crawl.CrawlDatum.compareTo,7.0,16,0,15,1,13,1,2.0,7.0,1.0,7,14,1,13,11.0,11.0,11.0,7.0,6.0,6.0,1,6.0,0.07,11,11,11,7,False
-nutch,Public Method,org.apache.nutch.tools.arc.ArcSegmentCreator.close,0.0,2,0,2,1,0,0,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Private Method,org.apache.nutch.plugin.PluginRepository.displayStatus,5.0,21,2,19,1,13,0,7.0,9.0,1.0,7,14,3,11,5.0,5.0,7.0,1.0,2.0,0.0,2,0.0,0.0,5,5,7,1,False
-nutch,Public Static Method,org.apache.nutch.util.EncodingDetector.resolveEncodingAlias,6.0,12,0,12,2,9,0,7.0,3.0,0.0,5,8,2,6,4.0,4.0,5.0,3.0,3.0,3.0,2,3.0,0.0,4,4,5,3,False
-nutch,Public Method,org.apache.nutch.scoring.webgraph.Loops.LoopSet.setLoopSet,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.ParseData.getVersion,1.0,1,0,1,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.indexer.solr.SolrClean.DBFilter.map,5.0,8,1,7,3,2,0,2.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-nutch,Private Method,org.apache.nutch.protocol.httpclient.TestProtocolHttpClient.getURL,2.0,10,0,3,1,1,7,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,2.33,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.scoring.webgraph.Loops.Route.readFields,1.0,7,1,6,2,3,0,5.0,1.0,0.0,3,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.protocol.ftp.Client.setRemoteVerificationEnabled,1.0,13,0,4,1,1,9,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,2.25,1,1,1,1,False
+nutch,Private Static Method,org.apache.nutch.protocol.http.HttpResponse.readLine,6.0,28,0,26,3,17,4,6.0,12.0,1.0,9,16,2,14,9.0,7.0,9.0,4.0,3.0,3.0,5,3.0,0.15,9,7,9,4,False
+nutch,Public Method,org.apache.nutch.indexer.anchor.AnchorIndexingFilter.getConf,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+nutch,Public Constructor,org.apache.nutch.util.NodeWalker.NodeWalker,12.0,10,1,4,1,2,5,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.25,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.protocol.ProtocolFactory.getProtocol,19.0,39,5,25,7,20,9,10.0,8.0,1.0,13,18,7,11,6.0,6.0,6.0,4.0,6.0,6.0,3,6.0,0.36,6,6,6,4,False
+nutch,Protected Method,org.apache.nutch.urlfilter.regex.TestRegexURLFilter.getURLFilter,2.0,8,0,8,1,5,0,4.0,2.0,0.0,3,5,1,4,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
+nutch,Public Method,org.apache.nutch.scoring.webgraph.LinkDatum.getAnchor,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.protocol.httpclient.HttpBasicAuthentication.setConf,2.0,8,0,3,1,1,5,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.67,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.parse.HTMLMetaTags.getNoFollow,4.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
 nutch,Public Method,org.apache.nutch.protocol.http.api.HttpBase.getProxyHost,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Static Method,org.apache.nutch.crawl.CrawlDBTestUtil.generateSeedList,5.0,18,0,14,5,10,4,8.0,2.0,0.0,10,12,5,7,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.29,2,2,2,1,False
-nutch,Public Method,org.apache.nutch.tika.TestMSWordParser.testOpeningDocs,2.0,7,0,7,2,4,0,5.0,3.0,0.0,5,8,3,5,3.0,3.0,3.0,3.0,1.0,1.0,2,1.0,0.0,3,3,3,3,False
-nutch,Public Method,org.apache.nutch.indexer.basic.BasicIndexingFilter.getConf,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.indexer.solr.SolrClean.DBFilter.close,0.0,1,0,1,1,0,0,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.urlfilter.suffix.TestSuffixURLFilter.testModeAcceptIgnoreCase,4.0,7,0,7,1,4,0,4.0,2.0,0.0,5,7,2,5,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-nutch,Method,org.apache.nutch.util.TrieStringMatcher.TrieNode.getChildAddIfNotPresent,8.0,36,5,25,5,20,6,13.0,14.0,1.0,15,21,5,16,6.0,6.0,7.0,3.0,2.0,2.0,1,2.0,0.24,6,6,7,3,False
-nutch,Protected Constructor,org.apache.nutch.indexer.solr.SolrMappingReader.SolrMappingReader,2.0,4,0,4,1,2,0,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.ParseStatus.setMessage,3.0,6,0,6,1,3,0,1.0,2.0,0.0,2,4,1,3,2.0,2.0,3.0,1.0,0.0,0.0,1,0.0,0.0,2,2,3,1,False
-nutch,Public Method,org.apache.nutch.indexer.solr.SolrMappingReader.mapKey,3.0,6,0,6,1,3,0,3.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-nutch,Private Method,org.apache.nutch.plugin.PluginManifestParser.parseManifestFile,2.0,14,0,7,5,3,7,5.0,1.0,0.0,3,4,3,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.tika.DOMBuilder.setIDAttribute,1.0,11,1,3,1,0,7,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,2.33,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.swf.ExtractText.TextDumper.setY,2.0,5,0,5,1,3,1,2.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.2,2,2,2,1,False
-nutch,Public Method,org.apache.nutch.scoring.webgraph.LinkDumper.dumpLinks,10.0,76,7,63,16,55,6,25.0,8.0,1.0,49,53,14,39,4.0,4.0,4.0,1.0,2.0,0.0,1,0.0,0.1,4,4,4,1,False
-nutch,Public Method,org.apache.nutch.parse.TestOutlinkExtractor.testGetOutlinksFtp,2.0,9,1,8,3,6,4,4.0,1.0,0.0,4,5,2,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.5,1,1,1,1,False
-nutch,Public Constructor,org.apache.nutch.parse.swf.NutchSWFActions.NutchSWFActions,4.0,5,0,5,1,3,0,5.0,1.0,0.0,3,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.swf.ExtractText.tagDefineText,2.0,8,0,5,1,3,3,3.0,1.0,0.0,3,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.6,1,1,1,1,False
-nutch,Public Static Method,org.apache.nutch.crawl.SignatureFactory.getSignature,8.0,20,0,19,5,14,1,11.0,4.0,1.0,10,14,5,9,4.0,4.0,4.0,1.0,1.0,0.0,3,0.0,0.05,4,4,4,1,False
+nutch,Public Abstract Method,org.apache.nutch.protocol.RobotRules.isAllowed,1.0,6,0,1,1,0,5,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,5.0,0,0,0,0,False
+nutch,Public Method,org.apache.nutch.protocol.ftp.Client.retrieveList,8.0,64,8,38,14,26,18,14.0,30.0,1.0,18,25,8,17,8.0,8.0,9.0,4.0,4.0,4.0,2,3.0,0.47,8,8,9,4,False
+nutch,Public Method,org.apache.nutch.parse.ext.ExtParser.getParse,10.0,72,20,51,16,46,2,24.0,15.0,1.0,29,37,15,22,8.0,8.0,9.0,5.0,7.0,6.0,2,6.0,0.04,8,8,9,5,False
+nutch,Public Method,org.apache.nutch.crawl.TestLinkDbMerger.tearDown,3.0,9,0,9,1,7,0,3.0,6.0,1.0,2,6,1,5,4.0,4.0,4.0,1.0,2.0,0.0,2,0.0,0.0,4,4,4,1,False
+nutch,Public Method,org.apache.nutch.parse.js.JSParseFilter.getParse,4.0,22,0,21,8,17,1,19.0,7.0,1.0,13,18,7,11,5.0,5.0,7.0,1.0,2.0,0.0,2,0.0,0.05,5,5,7,1,False
+nutch,Public Method,org.apache.nutch.crawl.Inlink.getAnchor,3.0,1,0,1,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+nutch,Public Constructor,org.apache.nutch.util.TestEncodingDetector.TestEncodingDetector,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.urlfilter.validator.UrlValidator.filter,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,2.0,2.0,2.0,1.0,0.0,0.0,0,0.0,0.0,2,2,2,1,False
+nutch,Public Constructor,org.apache.nutch.parse.ParsePluginsReader.ParsePluginsReader,2.0,4,0,1,1,0,3,1.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,3.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.util.NodeWalker.skipChildren,5.0,22,2,9,3,5,11,5.0,3.0,0.0,5,8,4,4,4.0,4.0,4.0,1.0,0.0,0.0,2,0.0,1.22,4,4,4,1,False
+nutch,Public Method,org.apache.nutch.parse.html.DOMBuilder.startCDATA,1.0,10,0,5,1,2,5,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
 nutch,Public Method,org.apache.nutch.protocol.http.api.HttpBase.getTimeout,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.TestParseData.testMaxOutlinks,2.0,12,0,12,5,9,1,6.0,2.0,0.0,7,9,5,4,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.08,2,2,2,1,False
-nutch,Public Method,org.apache.nutch.protocol.httpclient.TestProtocolHttpClient.testNtlmAuth,0.0,9,0,4,1,2,5,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.25,1,1,1,1,False
-nutch,Public Method,org.apache.nutch.parse.ParseStatus.readFields,3.0,17,0,17,2,14,0,7.0,3.0,0.0,10,12,2,10,3.0,2.0,3.0,1.0,3.0,0.0,1,0.0,0.0,3,2,3,1,False
-nutch,Public Method,org.apache.nutch.crawl.URLPartitioner.getPartition,10.0,29,3,24,5,19,2,11.0,8.0,1.0,13,18,5,13,5.0,5.0,6.0,1.0,3.0,0.0,2,0.0,0.08,5,5,6,1,False
+nutch,Public Method,org.apache.nutch.plugin.PluginDescriptor.addNotExportedLibRelative,4.0,10,0,5,3,2,5,3.0,1.0,0.0,2,3,2,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.tools.arc.ArcRecordReader.createValue,2.0,6,0,3,1,1,3,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.fetcher.Fetcher.InputFormat.getSplits,2.0,12,0,11,5,7,1,4.0,2.0,0.0,7,9,5,4,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.09,2,2,2,1,False
+nutch,Public Method,org.apache.nutch.segment.SegmentMerger.configure,2.0,6,0,6,1,3,0,3.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
+nutch,Public Method,org.apache.nutch.protocol.EmptyRobotRules.getExpireTime,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+nutch,Method,org.apache.nutch.util.domain.DomainSuffixesReader.readCCTLDs,3.0,6,0,6,2,3,0,5.0,2.0,0.0,4,6,3,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
+nutch,Public Static Method,org.apache.nutch.collection.CollectionManager.getCollectionManager,4.0,17,0,17,4,12,0,7.0,4.0,1.0,8,12,4,8,4.0,4.0,4.0,1.0,1.0,0.0,3,0.0,0.0,4,4,4,1,False
+nutch,Public Method,org.apache.nutch.util.EncodingDetector.EncodingClue.toString,4.0,4,0,4,1,2,0,1.0,1.0,0.0,1,2,1,1,2.0,2.0,2.0,1.0,0.0,0.0,0,0.0,0.0,2,2,2,1,False
+nutch,Protected Method,org.apache.nutch.protocol.file.TestProtocolFile.setUp,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.metadata.Metadata.equals,6.0,28,4,24,5,17,0,5.0,8.0,1.0,15,23,7,16,8.0,8.0,8.0,8.0,12.0,12.0,3,12.0,0.0,8,8,8,8,False
+nutch,Public Constructor,org.apache.nutch.metadata.TestMetadata.TestMetadata,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.protocol.ftp.PrintCommandListener.protocolReplyReceived,3.0,9,0,9,1,5,0,3.0,3.0,0.0,2,5,1,4,3.0,3.0,3.0,1.0,1.0,0.0,2,0.0,0.0,3,3,3,1,False
+nutch,Public Method,org.apache.nutch.scoring.webgraph.Loops.Initializer.map,3.0,11,1,7,4,3,3,2.0,1.0,0.0,3,4,2,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.43,1,1,1,1,False
+nutch,Private Method,org.apache.nutch.net.urlnormalizer.regex.TestRegexURLNormalizer.bench,6.0,14,0,14,3,10,0,6.0,4.0,1.0,8,12,4,8,4.0,4.0,4.0,3.0,3.0,3.0,2,3.0,0.0,4,4,4,3,False
+nutch,Public Method,org.apache.nutch.tools.proxy.LogDebugHandler.init,0.0,4,1,2,1,0,1,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.5,1,1,1,1,False
+nutch,Public Method,org.apache.nutch.parse.swf.NutchSWFActions.lookupTable,3.0,8,0,7,1,4,1,4.0,3.0,0.0,5,8,2,6,3.0,3.0,3.0,1.0,0.0,0.0,2,0.0,0.14,3,3,3,1,False
+nutch,Public Method,org.apache.nutch.tika.TestFeedParser.testIt,4.0,61,11,32,9,21,20,16.0,11.0,1.0,20,26,11,15,6.0,6.0,7.0,1.0,0.0,0.0,3,0.0,0.63,6,6,7,1,False
+nutch,Public Method,org.apache.nutch.util.TestSuffixStringMatcher.testSuffixMatcher,6.0,66,16,48,11,40,2,12.0,51.0,2.0,30,40,15,25,11.0,11.0,13.0,1.0,0.0,0.0,5,0.0,0.04,11,11,13,1,False
+nutch,Public Method,org.apache.nutch.urlfilter.domain.DomainURLFilter.setConf,7.0,61,4,51,8,36,7,20.0,432.0,3.0,21,33,8,25,12.0,12.0,13.0,3.0,6.0,3.0,2,2.0,0.14,12,12,13,3,False
+nutch,Public Method,org.apache.nutch.parse.tika.DOMBuilder.cdata,5.0,38,2,12,3,9,25,4.0,4.0,1.0,5,9,3,6,4.0,4.0,5.0,1.0,2.0,0.0,1,0.0,2.08,4,4,5,1,False
+nutch,Private Method,org.apache.nutch.crawl.TestGenerator.createCrawlDB,10.0,17,1,8,2,5,8,4.0,1.0,0.0,5,6,1,5,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
 nutch,Public Method,org.apache.nutch.crawl.AbstractFetchSchedule.setFetchSchedule,3.0,12,0,6,3,2,6,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,True
 nutch,Public Method,org.apache.nutch.crawl.AdaptiveFetchSchedule.setFetchSchedule,16.0,34,0,33,6,26,1,7.0,72.0,2.0,18,25,4,21,9.0,7.0,9.0,1.0,4.0,0.0,2,0.0,0.03,9,7,9,1,True
 nutch,Public Method,org.apache.nutch.crawl.DefaultFetchSchedule.setFetchSchedule,8.0,12,0,12,3,7,0,6.0,2.0,0.0,5,7,1,6,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,True

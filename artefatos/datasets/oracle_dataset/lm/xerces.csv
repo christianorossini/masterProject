@@ -1,388 +1,292 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lm
-xerces,Static Method,org.apache.xerces.impl.xpath.regex.REUtil.parseOptions,3.0,11.0,0.0,11.0,3.0,8.0,0.0,6.0,4.0,1.0,8.0,12.0,4.0,8.0,4.0,4.0,4.0,1.0,1.0,0.0,2.0,0.0,0.0,4,4,4,1,False
-xerces,Public Method,org.apache.xerces.dom.CoreDocumentImpl.setStandalone,1.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XSGrammarBucket.getGrammar,15.0,11.0,0.0,5.0,1.0,3.0,6.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.2,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultXMLDocumentHandler.endParameterEntity,0.0,27.0,0.0,3.0,2.0,0.0,24.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,8.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dtd.DTDGrammar.endDTD,7.0,24.0,0.0,15.0,4.0,11.0,10.0,4.0,3.0,0.0,11.0,14.0,5.0,9.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.67,3,3,3,1,False
-xerces,Protected Method,org.apache.xml.serialize.XML11Serializer.printCDATAText,11.0,57.0,6.0,44.0,6.0,32.0,8.0,15.0,21.0,1.0,22.0,31.0,7.0,24.0,9.0,9.0,14.0,4.0,5.0,5.0,5.0,2.0,0.18,9,9,14,4,False
-xerces,Private Method,org.xml.sax.helpers.ParserAdapter.setupParser,6.0,19.0,1.0,15.0,1.0,9.0,3.0,6.0,8.0,1.0,6.0,10.0,1.0,9.0,4.0,4.0,4.0,1.0,0.0,0.0,1.0,0.0,0.2,4,4,4,1,False
-xerces,Private Static Method,org.apache.xerces.impl.xs.XSConstraints.checkRecurse,9.0,42.0,6.0,34.0,11.0,21.0,2.0,6.0,30.0,1.0,19.0,27.0,10.0,17.0,8.0,8.0,8.0,4.0,3.0,3.0,4.0,3.0,0.06,8,8,8,4,False
-xerces,Public Method,org.apache.xerces.dom.NodeImpl.getNextSibling,1.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Public Abstract Method,org.xml.sax.AttributeList.getName,7.0,17.0,0.0,1.0,1.0,0.0,16.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0,0,0,0,False
-xerces,Public Method,org.apache.html.dom.HTMLHRElementImpl.setSize,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLElementImpl.getAttributeNodeNS,3.0,8.0,0.0,8.0,2.0,4.0,0.0,5.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,3,1,False
-xerces,Public Method,org.apache.xerces.impl.XML11EntityScanner.scanChar,4.0,39.0,4.0,24.0,3.0,17.0,12.0,8.0,14.0,1.0,11.0,17.0,3.0,14.0,6.0,6.0,12.0,1.0,0.0,0.0,3.0,0.0,0.5,6,6,12,1,False
-xerces,Public Method,org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity,2.0,19.0,3.0,6.0,1.0,3.0,11.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,1.83,2,2,3,1,False
-xerces,Public Method,org.apache.xerces.impl.dv.xs.IDREFDV.getActualValue,1.0,6.0,0.0,6.0,1.0,3.0,0.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-xerces,Protected Method,org.apache.xerces.impl.xs.SubstitutionGroupHandler.substitutionGroupOK,11.0,46.0,7.0,29.0,4.0,25.0,10.0,2.0,37.0,2.0,16.0,24.0,4.0,20.0,8.0,8.0,9.0,4.0,5.0,3.0,2.0,3.0,0.34,8,8,9,4,False
-xerces,Public Abstract Method,org.apache.wml.WMLMetaElement.getHttpEquiv,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.xs.XSModelGroupImpl.reset,2.0,6.0,0.0,6.0,1.0,4.0,0.0,4.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.xml.sax.helpers.AttributesImpl.setURI,4.0,18.0,0.0,8.0,1.0,4.0,10.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,1.0,0.0,1.0,0.0,1.25,2,2,3,1,False
-xerces,Public Method,org.apache.wml.dom.WMLInputElementImpl.setClassName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.events.EventImpl.getTimeStamp,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Protected Method,org.apache.xerces.impl.xs.opti.SchemaParsingConfig.createErrorReporter,1.0,4.0,0.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Public Method,org.xml.sax.helpers.XMLReaderAdapter.setDocumentLocator,2.0,10.0,0.0,4.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.5,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.dom.DocumentImpl.createAttributeNS,4.0,19.0,0.0,9.0,3.0,5.0,10.0,4.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.11,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.dom.EntityReferenceImpl.cloneNode,1.0,6.0,0.0,5.0,2.0,3.0,1.0,3.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.2,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.parsers.AbstractXMLDocumentParser.endContentModel,0.0,10.0,0.0,2.0,1.0,0.0,9.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.5,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLDocumentImpl.getLinks,2.0,7.0,0.0,6.0,1.0,3.0,1.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.17,2,2,2,1,False
-xerces,Public Abstract Method,org.apache.wml.WMLInputElement.setValue,0.0,5.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Method,org.apache.html.dom.HTMLImageElementImpl.setAlt,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xpath.regex.ParseException.getLocation,2.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.setDocumentHandler,3.0,8.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLButtonElement.setName,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableCellElement.getScope,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.RegexParser.processBacksolidus_C,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,thread.Test.ThreadParser.warning,1.0,3.0,0.0,3.0,1.0,2.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.parsers.AbstractSAXParser.startGeneralEntity,4.0,31.0,2.0,5.0,3.0,1.0,25.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,5.0,1,1,1,1,False
-xerces,Public Method,org.apache.wml.dom.WMLTableElementImpl.setXmlLang,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.util.URI.equals,8.0,35.0,0.0,27.0,2.0,23.0,8.0,2.0,3.0,0.0,3.0,6.0,2.0,4.0,3.0,3.0,33.0,3.0,2.0,2.0,2.0,2.0,0.3,3,3,33,3,False
-xerces,Public Method,org.apache.wml.dom.WMLEmElementImpl.getXmlLang,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLBRElement.getClear,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSModelGroup.getAnnotation,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.xs.XSAttributeGroupDecl.getType,1.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-xerces,Public Method,org.apache.wml.dom.WMLPostfieldElementImpl.getId,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.ChildNode.getParentNode,14.0,8.0,0.0,3.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,1.67,2,2,2,1,False
-xerces,Public Method,org.apache.wml.dom.WMLSetvarElementImpl.setValue,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,xni.PSVIWriter.getDocumentSource,1.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.wml.WMLBElement.getXmlLang,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.Token.size,7.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultNode.isSupported,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLAnchorElementImpl.getShape,0.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,javax.xml.parsers.SAXParser.setProperty,3.0,19.0,0.0,2.0,2.0,0.0,17.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.5,0,0,0,0,False
-xerces,Public Method,org.apache.html.dom.HTMLAppletElementImpl.getAlign,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.RegexParser.processBacksolidus_B,2.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XSDDescription.reset,5.0,11.0,0.0,8.0,1.0,6.0,3.0,6.0,1.0,0.0,6.0,7.0,1.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.38,1,1,1,1,False
-xerces,Public Constructor,org.apache.html.dom.HTMLUListElementImpl.HTMLUListElementImpl,2.0,9.0,0.0,4.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.wml.WMLInputElement.setEmptyOk,0.0,6.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Public Method,dom.traversal.IteratorView.Errors.error,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.util.ErrorHandlerWrapper.getErrorHandler,3.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.xerces.xni.XMLLocator.getColumnNumber,8.0,2.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0,0,0,0,False
-xerces,Public Constructor,org.apache.xerces.impl.xs.XMLSchemaValidator.KeyValueStore.KeyValueStore,2.0,4.0,0.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XSElementDecl.getConstraintType,7.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.opti.AttrImpl.getName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.validation.ValidationState.getSymbol,4.0,9.0,0.0,5.0,1.0,3.0,4.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.8,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.dom.ElementImpl.setReadOnly,3.0,10.0,0.0,6.0,1.0,3.0,4.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.67,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.(Anon_2).addId,0.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.xni.parser.XMLInputSource.setEncoding,5.0,8.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-xerces,Static Method,org.apache.xerces.impl.xpath.regex.REUtil.composeFromSurrogates,10.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dtd.XMLDTDProcessor.setFeature,0.0,18.0,0.0,3.0,2.0,0.0,16.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,5.33,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLInputElement.getName,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Method,xni.Counter.emptyElement,3.0,23.0,2.0,20.0,3.0,15.0,9.0,8.0,3.0,0.0,15.0,18.0,3.0,15.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.45,3,3,3,1,False
-xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSAttributeDeclaration.getTypeDefinition,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLBaseFontElement.getFace,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultNode.getTextContent,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Protected Method,org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanEndElement,12.0,63.0,12.0,25.0,1.0,18.0,27.0,10.0,48.0,2.0,11.0,18.0,1.0,17.0,7.0,7.0,7.0,1.0,0.0,0.0,2.0,0.0,1.08,7,7,7,1,False
-xerces,Constructor,org.apache.xerces.impl.xpath.regex.Token.UnionToken.UnionToken,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.parsers.AbstractXMLDocumentParser.endConditional,0.0,10.0,0.0,2.0,1.0,0.0,9.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.5,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.ls.DocumentLS.setAsync,0.0,15.0,0.0,2.0,2.0,0.0,13.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.5,0,0,0,0,False
-xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSObject.getNamespaceItem,0.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.XMLDTDScannerImpl.getRecognizedFeatures,1.0,8.0,0.0,3.0,1.0,1.0,6.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-xerces,Public Method,org.apache.wml.dom.WMLAnchorElementImpl.setClassName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.traversers.XSDocumentInfo.addAllowedNS,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.dom.TextImpl.isIgnorableWhitespace,2.0,11.0,2.0,6.0,1.0,3.0,4.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.67,2,2,2,1,False
-xerces,Public Abstract Method,org.w3c.dom.ls.DOMInputSource.getEncoding,2.0,11.0,0.0,1.0,1.0,0.0,10.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.dtd.DTDGrammarBucket.putGrammar,3.0,10.0,0.0,4.0,2.0,2.0,7.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.75,1,1,1,1,False
-xerces,Public Method,DesignDoc.printCopyright,3.0,59.0,0.0,59.0,1.0,57.0,4.0,2.0,1.0,0.0,57.0,58.0,1.0,57.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.07,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.DOMInputSourceImpl.setSystemId,1.0,17.0,0.0,3.0,1.0,1.0,14.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.67,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.identity.IdentityConstraint.getElementName,6.0,3.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.wml.WMLUElement.getXmlLang,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Method,dom.mem.Test.main.MyHandler.handle,0.0,8.0,0.0,8.0,2.0,5.0,0.0,0.0,1.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dtd.XMLDTDValidator.startElement,4.0,20.0,3.0,7.0,2.0,3.0,11.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,1.57,2,2,2,1,False
-xerces,Protected Method,xni.DocumentTracer.printInScopeNamespaces,4.0,17.0,0.0,17.0,3.0,13.0,0.0,8.0,3.0,0.0,13.0,16.0,4.0,12.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-xerces,Public Method,org.apache.xerces.parsers.AbstractXMLDocumentParser.ignorableWhitespace,0.0,15.0,0.0,2.0,1.0,0.0,14.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,7.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xpath.XPath.NodeTest.clone,1.0,4.0,0.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Public Static Method,org.apache.xerces.util.XMLChar.isValid,7.0,14.0,0.0,4.0,1.0,2.0,11.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,4.0,1.0,0.0,0.0,0.0,0.0,2.75,1,1,4,1,False
-xerces,Method,org.apache.html.dom.HTMLTableElementImpl.insertRowX,4.0,31.0,1.0,30.0,3.0,18.0,0.0,6.0,10.0,1.0,11.0,18.0,3.0,15.0,7.0,7.0,7.0,6.0,11.0,11.0,3.0,10.0,0.0,7,7,7,6,False
-xerces,Public Method,org.apache.xerces.impl.xs.ElementPSVImpl.getSchemaDefault,1.0,9.0,0.0,3.0,1.0,1.0,6.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,2.0,2,2,2,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLFrameElement.getName,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.parsers.AbstractSAXParser.unparsedEntityDecl,5.0,31.0,2.0,15.0,5.0,8.0,15.0,3.0,3.0,0.0,4.0,7.0,3.0,4.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,1.0,3,3,3,1,False
-xerces,Private Method,org.apache.xerces.impl.xs.XSModelGroupImpl.maxEffectiveTotalRangeAllSeq,4.0,10.0,0.0,10.0,2.0,7.0,0.0,2.0,3.0,0.0,7.0,10.0,3.0,7.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,0.0,3,3,3,3,False
-xerces,Public Method,org.apache.xerces.impl.dtd.models.CMStateSet.hashCode,5.0,13.0,0.0,13.0,2.0,7.0,0.0,1.0,3.0,0.0,6.0,9.0,3.0,6.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-xerces,Public Method,org.apache.html.dom.HTMLTableCellElementImpl.getBgColor,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.xerces.dom3.as.ASElementDeclaration.setAsCM,0.0,4.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-xerces,Public Abstract Method,org.w3c.dom.ls.DocumentLS.getAsync,0.0,14.0,0.0,1.0,1.0,0.0,13.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.dom.ASModelImpl.getInternalASModels,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,sax.DocumentTracer.ignorableWhitespace,4.0,12.0,2.0,9.0,2.0,6.0,2.0,5.0,1.0,0.0,6.0,7.0,1.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.22,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.events.EventImpl.getBubbles,1.0,7.0,0.0,4.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.75,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLOptionElementImpl.setSelected,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Static Method,org.apache.xerces.util.DOMUtil.setVisible,2.0,6.0,0.0,6.0,1.0,4.0,1.0,2.0,3.0,0.0,2.0,5.0,1.0,4.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.17,3,3,3,1,False
-xerces,Private Static Method,org.apache.xml.serialize.HTMLdtd.initialize,5.0,59.0,1.0,51.0,8.0,37.0,7.0,12.0,58.0,2.0,28.0,39.0,8.0,31.0,11.0,11.0,12.0,5.0,4.0,4.0,5.0,3.0,0.14,11,11,12,5,False
-xerces,Public Method,org.apache.xerces.impl.xs.XSParticleDecl.emptiable,4.0,7.0,0.0,3.0,1.0,1.0,4.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.DeferredDocumentImpl.getDeferredEntityBaseURI,2.0,8.0,0.0,8.0,2.0,5.0,0.0,3.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-xerces,Public Abstract Method,org.apache.xerces.dom3.as.CharacterDataEditAS.canSetData,0.0,9.0,0.0,2.0,2.0,0.0,7.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.5,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.xs.util.XSNamedMapImpl.itemByName,7.0,32.0,0.0,18.0,2.0,12.0,14.0,5.0,12.0,1.0,11.0,18.0,4.0,14.0,7.0,7.0,7.0,6.0,13.0,13.0,4.0,13.0,0.78,7,7,7,6,False
-xerces,Public Abstract Method,org.apache.xerces.dom3.DOMLocator.getErrorNode,2.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.Op.size,3.0,3.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Method,org.xml.sax.helpers.AttributesImpl.setAttribute,7.0,34.0,0.0,13.0,2.0,8.0,21.0,2.0,2.0,0.0,6.0,8.0,1.0,7.0,2.0,2.0,3.0,1.0,1.0,0.0,1.0,0.0,1.62,2,2,3,1,False
-xerces,Public Method,org.apache.xerces.dom.DOMNormalizer.XMLAttributesProxy.setName,0.0,3.0,0.0,2.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.xerces.impl.dtd.XMLDTDValidatorFilter.validate,1.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Public Static Method,org.apache.xerces.util.ObjectFactory.findClassLoader,13.0,20.0,2.0,10.0,4.0,5.0,9.0,4.0,2.0,0.0,4.0,6.0,3.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.9,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.impl.io.UTF8Reader.skip,3.0,29.0,3.0,16.0,6.0,12.0,11.0,2.0,2.0,0.0,9.0,11.0,6.0,5.0,4.0,4.0,4.0,3.0,3.0,3.0,2.0,3.0,0.69,4,4,4,3,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLButtonElement.setDisabled,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableCellElement.getCellIndex,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.ParserForXMLSchema.processCondition,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,jaxp.JAXP12Tests.testDomParseSchemaSource,4.0,13.0,0.0,10.0,2.0,8.0,3.0,7.0,1.0,0.0,8.0,9.0,2.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.3,1,1,1,1,False
-xerces,Public Constructor,org.apache.wml.dom.WMLAccessElementImpl.WMLAccessElementImpl,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.parsers.AbstractSAXParser.getContentHandler,1.0,11.0,0.0,3.0,1.0,1.0,9.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLFontElementImpl.getSize,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultXMLDocumentHandler.unparsedEntityDecl,0.0,17.0,0.0,5.0,4.0,0.0,12.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.4,1,1,1,1,False
-xerces,Private Static Method,dom.DOM3.printUsage,1.0,7.0,2.0,5.0,1.0,3.0,1.0,1.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.2,1,1,1,1,False
-xerces,Method,org.apache.xerces.impl.dtd.DTDGrammarBucket.getActiveGrammar,6.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Private Method,org.apache.xerces.dom.ParentNode.writeObject,1.0,11.0,2.0,6.0,1.0,3.0,4.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.67,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.dom.CommentImpl.getNodeName,0.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.wml.WMLPostfieldElement.getName,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.dom.NodeImpl.lookupNamespaceURI,10.0,84.0,6.0,62.0,11.0,46.0,17.0,16.0,28.0,1.0,25.0,38.0,12.0,26.0,19.0,13.0,25.0,16.0,48.0,48.0,5.0,48.0,0.27,19,13,25,16,False
-xerces,Public Method,org.apache.xerces.impl.xpath.regex.Match.getNumberOfGroups,2.0,9.0,0.0,5.0,1.0,3.0,4.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.8,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.dom.ASModelImpl.setLocalName,2.0,8.0,0.0,4.0,2.0,2.0,4.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.parsers.AbstractDOMParser.ignoredCharacters,0.0,11.0,0.0,2.0,1.0,0.0,10.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,5.0,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.wml.WMLImgElement.setXmlLang,0.0,6.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.Op.getString,5.0,3.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLButtonElement.getDisabled,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.dtd.models.CMStateSet.union,14.0,13.0,0.0,13.0,1.0,6.0,0.0,3.0,3.0,0.0,5.0,8.0,2.0,6.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLBodyElement.getALink,0.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Public Constructor,org.apache.html.dom.HTMLFormElementImpl.HTMLFormElementImpl,2.0,9.0,0.0,4.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
-xerces,Public Method,org.apache.wml.dom.WMLSelectElementImpl.getId,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.wml.dom.WMLDoElementImpl.getOptional,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.DeferredDocumentImpl.IntVector.removeAllElements,1.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.Token.getMin,2.0,3.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dtd.DTDGrammar.getSymbolTable,1.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.(Anon_1).needFacetChecking,0.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.CoreDocumentImpl.load,0.0,23.0,0.0,3.0,1.0,1.0,20.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,6.67,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.XMLEntityManager.addUnparsedEntity,12.0,32.0,0.0,16.0,4.0,9.0,17.0,5.0,3.0,0.0,3.0,6.0,2.0,4.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,1.06,3,3,3,1,False
-xerces,Method,org.apache.xerces.dom.AttributeMap.moveSpecifiedAttributes,3.0,18.0,0.0,15.0,3.0,9.0,4.0,7.0,4.0,1.0,7.0,11.0,4.0,7.0,5.0,5.0,5.0,1.0,1.0,0.0,3.0,0.0,0.27,5,5,5,1,False
-xerces,Public Constructor,org.apache.xerces.dom.CommentImpl.CommentImpl,4.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Abstract Method,javax.xml.parsers.SAXParser.getProperty,0.0,19.0,0.0,2.0,2.0,0.0,17.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.5,0,0,0,0,False
-xerces,Public Method,org.apache.html.dom.HTMLHeadingElementImpl.setAlign,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultElement.removeAttributeNode,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xml.serialize.XMLSerializer.setNamespaces,1.0,14.0,0.0,6.0,1.0,4.0,8.0,6.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.RangeImpl.cloneContents,1.0,5.0,0.0,5.0,2.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,DesignDoc.printFieldComment,3.0,6.0,0.0,6.0,1.0,4.0,1.0,3.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.17,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.XMLEntityScanner.scanChar,29.0,49.0,4.0,34.0,3.0,25.0,12.0,11.0,56.0,2.0,17.0,25.0,3.0,22.0,8.0,8.0,11.0,1.0,0.0,0.0,3.0,0.0,0.35,8,8,11,1,False
-xerces,Public Static Method,org.apache.xerces.util.XMLChar.isValidJavaEncoding,2.0,25.0,0.0,17.0,3.0,11.0,9.0,3.0,5.0,1.0,7.0,12.0,4.0,8.0,5.0,5.0,13.0,5.0,7.0,7.0,4.0,7.0,0.53,5,5,13,5,False
-xerces,Public Method,org.apache.xerces.impl.dv.xs.SchemaDVFactoryImpl.createTypeUnion,6.0,22.0,1.0,11.0,5.0,7.0,10.0,5.0,2.0,0.0,6.0,8.0,4.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.91,2,2,2,1,False
-xerces,Public Method,org.apache.xml.serialize.IndentPrinter.unindent,5.0,13.0,0.0,8.0,1.0,5.0,5.0,4.0,4.0,1.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.63,3,3,3,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XSDDescription.setEnclosingElementName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.xerces.xni.parser.XMLParserConfiguration.setProperty,18.0,12.0,0.0,2.0,2.0,0.0,10.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.dom.NodeImpl.cloneNode,7.0,53.0,7.0,18.0,2.0,12.0,29.0,9.0,4.0,1.0,9.0,12.0,2.0,10.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,1.61,3,3,3,1,False
-xerces,Public Method,org.apache.xerces.util.EntityResolverWrapper.resolveEntity,3.0,57.0,5.0,34.0,14.0,25.0,19.0,16.0,6.0,1.0,19.0,25.0,12.0,13.0,6.0,6.0,8.0,5.0,5.0,5.0,3.0,5.0,0.56,6,6,8,5,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableElement.deleteTFoot,0.0,4.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.(Anon_2).isEntityUnparsed,0.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Protected Method,org.apache.xerces.dom.DeferredElementDefinitionImpl.synchronizeChildren,3.0,28.0,6.0,15.0,5.0,11.0,8.0,10.0,2.0,0.0,10.0,12.0,5.0,7.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.53,2,2,2,1,False
-xerces,Public Method,org.apache.wml.dom.WMLImgElementImpl.getHeight,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLCollection.namedItem,0.0,13.0,0.0,1.0,1.0,0.0,12.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0,0,0,0,False
-xerces,Protected Method,org.apache.xml.serialize.BaseMarkupSerializer.prepare,14.0,48.0,7.0,38.0,5.0,30.0,3.0,28.0,9.0,1.0,25.0,30.0,3.0,27.0,5.0,5.0,6.0,1.0,2.0,0.0,1.0,0.0,0.08,5,5,6,1,False
-xerces,Public Method,org.apache.html.dom.HTMLDListElementImpl.getCompact,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Protected Method,org.apache.xerces.parsers.XMLGrammarCachingConfiguration.checkFeature,1.0,18.0,2.0,4.0,2.0,1.0,13.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.25,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.ElementNSImpl.setType,2.0,7.0,0.0,3.0,1.0,1.0,4.0,0.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.ls.DOMBuilder.getConfig,2.0,85.0,0.0,1.0,1.0,0.0,84.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,84.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.parsers.DTDParser.unparsedEntityDecl,0.0,17.0,0.0,5.0,4.0,0.0,13.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.6,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dtd.XMLDTDProcessor.startExternalSubset,4.0,16.0,0.0,8.0,2.0,4.0,8.0,2.0,4.0,1.0,2.0,5.0,1.0,4.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,1.0,3,3,3,1,False
-xerces,Method,org.apache.xerces.impl.xs.XMLSchemaValidator.getEmptyAugs,7.0,10.0,1.0,9.0,1.0,6.0,0.0,4.0,2.0,0.0,5.0,7.0,1.0,6.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-xerces,Public Method,dom.DOMAddLines.print,10.0,88.0,10.0,70.0,8.0,55.0,9.0,14.0,27.0,1.0,46.0,54.0,10.0,44.0,13.0,8.0,14.0,1.0,16.0,0.0,3.0,0.0,0.13,13,8,14,1,False
-xerces,Public Method,sax.DocumentTracer.unparsedEntityDecl,5.0,21.0,1.0,19.0,3.0,15.0,2.0,5.0,1.0,0.0,15.0,16.0,1.0,15.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.11,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.XMLDTDScannerImpl.getRecognizedProperties,1.0,8.0,0.0,3.0,1.0,1.0,6.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.XML11EntityScanner.skipString,5.0,42.0,3.0,22.0,3.0,15.0,18.0,8.0,10.0,1.0,12.0,18.0,4.0,14.0,6.0,6.0,7.0,5.0,7.0,7.0,3.0,7.0,0.82,6,6,7,5,False
-xerces,Private Static Method,dom.Writer.printUsage,7.0,33.0,4.0,28.0,1.0,26.0,2.0,2.0,1.0,0.0,26.0,27.0,1.0,26.0,6.0,6.0,6.0,1.0,0.0,0.0,0.0,0.0,0.07,6,6,6,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLDocument.getTitle,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.xs.util.XSNamedMap4Types.item,3.0,18.0,0.0,8.0,1.0,5.0,10.0,2.0,4.0,1.0,3.0,6.0,1.0,5.0,3.0,3.0,4.0,1.0,1.0,0.0,1.0,0.0,1.25,3,3,4,1,False
-xerces,Public Method,socket.KeepSocketOpen.Client.characters,1.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaValidator.OrderedHashtable.keyAt,3.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.xerces.dom3.as.ASAttributeDeclaration.setDataValue,0.0,4.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-xerces,Public Method,org.apache.html.dom.HTMLLabelElementImpl.getHtmlFor,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Static Method,org.apache.xerces.impl.xs.XMLSchemaLoader.tokenizeSchemaLocationStr,3.0,20.0,0.0,20.0,4.0,13.0,2.0,6.0,5.0,1.0,10.0,15.0,4.0,11.0,5.0,5.0,5.0,4.0,4.0,4.0,3.0,4.0,0.1,5,5,5,4,False
-xerces,Public Method,org.apache.xerces.impl.xs.XSAttributeDecl.getTypeDefinition,6.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.parsers.AbstractXMLDocumentParser.startExternalSubset,0.0,11.0,0.0,3.0,2.0,0.0,9.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,1,1,1,1,False
-xerces,Constructor,org.apache.xerces.impl.xs.util.XInt.XInt,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.DOMInputSourceImpl.getByteStream,1.0,13.0,0.0,3.0,1.0,1.0,10.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.33,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.xerces.dom3.as.ASEntityDeclaration.getEntityValue,0.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaValidator.ValueStoreBase.clear,3.0,5.0,0.0,5.0,1.0,3.0,1.0,3.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.2,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.PSVIAttrNSImpl.setPSVI,3.0,16.0,0.0,11.0,1.0,9.0,5.0,18.0,1.0,0.0,9.0,10.0,1.0,9.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.45,1,1,1,1,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.RegexParser.processQuestion,3.0,14.0,0.0,13.0,2.0,10.0,1.0,6.0,2.0,0.0,8.0,10.0,2.0,8.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.08,2,2,2,1,False
-xerces,Public Method,org.apache.html.dom.HTMLTableColElementImpl.getVAlign,0.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.xerces.xni.XMLDocumentHandler.characters,16.0,10.0,0.0,1.0,1.0,0.0,9.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,0,0,0,0,False
-xerces,Public Abstract Method,org.apache.xerces.dom3.as.DOMASBuilder.parseASInputSource,0.0,26.0,0.0,2.0,2.0,0.0,24.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.dom.DOMImplementationImpl.createDocument,5.0,34.0,0.0,14.0,7.0,7.0,20.0,7.0,2.0,0.0,6.0,8.0,4.0,4.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,1.43,2,2,3,1,False
-xerces,Public Method,org.apache.xerces.parsers.AbstractSAXParser.endExternalSubset,1.0,11.0,0.0,3.0,1.0,1.0,8.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.67,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLHtmlElementImpl.setVersion,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Constructor,org.apache.wml.dom.WMLBigElementImpl.WMLBigElementImpl,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dv.xs.AnySimpleDV.getAllowedFacets,0.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Method,org.xml.sax.HandlerBase.ignorableWhitespace,0.0,21.0,0.0,4.0,2.0,0.0,17.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.25,1,1,1,1,False
-xerces,Public Constructor,org.apache.wml.dom.WMLHeadElementImpl.WMLHeadElementImpl,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLImageElement.setLowSrc,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Private Method,org.apache.xerces.impl.dtd.models.DFAContentModel.calcFollowList,9.0,102.0,7.0,35.0,5.0,21.0,60.0,8.0,9.0,1.0,16.0,25.0,7.0,18.0,9.0,9.0,10.0,1.0,3.0,0.0,3.0,0.0,1.71,9,9,10,1,False
-xerces,Public Method,org.apache.html.dom.HTMLInputElementImpl.getSrc,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XSDeclarationPool.getSimpleTypeDecl,7.0,13.0,1.0,12.0,3.0,9.0,0.0,6.0,2.0,0.0,7.0,9.0,3.0,6.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaException.getKey,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.parsers.AbstractSAXParser.setFeature,10.0,91.0,9.0,36.0,4.0,24.0,47.0,11.0,8.0,1.0,13.0,21.0,3.0,18.0,8.0,8.0,8.0,6.0,11.0,10.0,4.0,10.0,1.31,8,8,8,6,False
-xerces,Public Method,org.apache.xml.serialize.BaseMarkupSerializer.processingInstructionIO,8.0,41.0,4.0,33.0,4.0,25.0,4.0,13.0,24.0,1.0,18.0,25.0,3.0,22.0,7.0,7.0,7.0,1.0,3.0,0.0,2.0,0.0,0.12,7,7,7,1,False
-xerces,Public Abstract Method,org.apache.wml.WMLSelectElement.setTabIndex,0.0,5.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Private Method,ui.DOMTree.Model.insertElementNode,7.0,48.0,6.0,38.0,9.0,30.0,6.0,16.0,10.0,1.0,28.0,32.0,11.0,21.0,8.0,6.0,8.0,1.0,3.0,0.0,2.0,0.0,0.16,8,6,8,1,False
-xerces,Public Method,org.apache.wml.dom.WMLAElementImpl.getId,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultDocument.createComment,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultNode.insertBefore,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLTextAreaElement.getTabIndex,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Static Method,org.apache.xerces.util.XMLChar.isHighSurrogate,10.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,2,1,False
-xerces,Public Method,org.apache.html.dom.HTMLAnchorElementImpl.focus,0.0,4.0,0.0,3.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLAreaElement.setHref,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaLoader.LocationArray.addLocation,7.0,6.0,0.0,6.0,1.0,3.0,1.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.17,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.dom.PSVIElementNSImpl.getMemberTypeDefinition,1.0,12.0,0.0,3.0,1.0,1.0,9.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,1,1,1,1,False
-xerces,Private Method,xni.PSVIWriter.printNamespaceAttributes,4.0,36.0,4.0,21.0,4.0,18.0,12.0,12.0,3.0,0.0,18.0,21.0,5.0,16.0,3.0,3.0,4.0,3.0,1.0,1.0,2.0,1.0,0.57,3,3,4,3,False
-xerces,Public Method,org.apache.html.dom.HTMLHeadElementImpl.setProfile,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XSNotationDecl.getSystemId,1.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-xerces,Private Method,org.apache.xerces.impl.xs.identity.XPathMatcher.normalize,2.0,18.0,0.0,17.0,4.0,11.0,2.0,5.0,3.0,0.0,9.0,12.0,5.0,7.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.12,3,3,3,1,False
-xerces,Public Abstract Method,org.apache.xerces.xni.grammars.XMLDTDDescription.getRootName,0.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.xs.SchemaGrammar.addComplexTypeDecl,9.0,11.0,0.0,8.0,1.0,5.0,3.0,5.0,2.0,0.0,4.0,6.0,1.0,5.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.38,2,2,2,1,False
-xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSElementDeclaration.getIdentityConstraints,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-xerces,Public Method,org.apache.wml.dom.WMLPrevElementImpl.setClassName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.wml.WMLSelectElement.setXmlLang,0.0,6.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Public Abstract Method,org.w3c.dom.ranges.Range.selectNode,1.0,16.0,0.0,2.0,2.0,0.0,14.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.endEntity,10.0,33.0,5.0,16.0,1.0,10.0,14.0,7.0,12.0,1.0,5.0,10.0,1.0,9.0,5.0,5.0,8.0,1.0,0.0,0.0,2.0,0.0,0.88,5,5,8,1,False
-xerces,Public Constructor,org.apache.xerces.impl.xs.identity.Field.Field,3.0,6.0,0.0,5.0,2.0,2.0,2.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.4,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.xerces.xni.XMLDocumentHandler.startCDATA,7.0,9.0,0.0,1.0,1.0,0.0,8.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,0,0,0,0,False
-xerces,Public Method,org.apache.html.dom.HTMLAnchorElementImpl.getHref,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dtd.XMLDTDProcessor.internalEntityDecl,7.0,42.0,5.0,13.0,5.0,7.0,25.0,4.0,5.0,1.0,4.0,8.0,3.0,5.0,5.0,5.0,5.0,1.0,0.0,0.0,2.0,0.0,1.92,5,5,5,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.traversers.XSDocumentInfo.toString,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
-xerces,Public Abstract Method,org.xml.sax.DocumentHandler.endDocument,2.0,14.0,0.0,2.0,2.0,0.0,12.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0,0,0,0,False
-xerces,Private Method,org.apache.xerces.dom.RangeImpl.traverseFullySelected,13.0,48.0,0.0,20.0,1.0,13.0,28.0,7.0,5.0,1.0,6.0,9.0,1.0,8.0,5.0,3.0,5.0,1.0,6.0,0.0,2.0,0.0,1.4,5,3,5,1,False
-xerces,Public Abstract Method,org.w3c.dom.ls.LSProgressEvent.getTotalSize,0.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Private Method,org.apache.xml.serialize.DOMWriterImpl.checkAllFeatures,6.0,6.0,0.0,6.0,1.0,4.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-xerces,Public Abstract Method,org.w3c.dom.Node.isDefaultNamespace,0.0,9.0,0.0,1.0,1.0,0.0,8.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,0,0,0,0,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLAnchorElement.getType,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-xerces,Public Method,xni.PSVIWriter.printPSVIStartElement,4.0,7.0,1.0,5.0,2.0,2.0,1.0,1.0,2.0,0.0,1.0,3.0,2.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.2,2,2,2,1,False
-xerces,Public Method,org.xml.sax.helpers.SecuritySupport12.getResourceAsStream.(Anon_4).run,2.0,9.0,0.0,9.0,1.0,6.0,0.0,3.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-xerces,Private Method,org.xml.sax.helpers.XMLReaderAdapter.setupXMLReader,2.0,15.0,0.0,11.0,2.0,6.0,6.0,2.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.55,2,2,2,1,False
-xerces,Public Abstract Method,org.w3c.dom.ls.DOMWriter.setNewLine,0.0,27.0,0.0,1.0,1.0,0.0,26.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,0,0,0,0,False
-xerces,Protected Method,org.apache.xerces.impl.xs.dom.ElementNSImpl.setValues,7.0,8.0,1.0,7.0,3.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLTextAreaElement.blur,0.0,4.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-xerces,Public Method,org.apache.html.dom.HTMLHeadingElementImpl.getAlign,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.getFeatureDefault,5.0,17.0,0.0,8.0,1.0,4.0,10.0,2.0,3.0,0.0,4.0,7.0,2.0,5.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,1.25,3,3,3,3,False
-xerces,Private Method,org.apache.xerces.impl.xs.XSDeclarationPool.ensureElementDeclCapacity,5.0,10.0,1.0,9.0,1.0,6.0,0.0,3.0,3.0,0.0,4.0,7.0,1.0,6.0,3.0,3.0,3.0,3.0,3.0,3.0,1.0,3.0,0.0,3,3,3,3,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLInputElement.select,0.0,6.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Public Abstract Method,org.apache.xerces.dom3.as.ASElementDeclaration.addASAttributeDecl,0.0,8.0,0.0,1.0,1.0,0.0,7.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.util.XMLResourceIdentifierImpl.getBaseSystemId,3.0,6.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-xerces,Public Constructor,org.apache.html.dom.HTMLQuoteElementImpl.HTMLQuoteElementImpl,2.0,9.0,0.0,4.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.PSVIAttrNSImpl.getValidationContext,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSAnnotation.writeAnnotation,0.0,16.0,0.0,2.0,2.0,0.0,14.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.XMLVersionDetector.reset,6.0,22.0,2.0,9.0,2.0,6.0,12.0,6.0,2.0,0.0,7.0,9.0,2.0,7.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,1.33,2,2,2,1,False
-xerces,Public Abstract Method,org.apache.xerces.dom3.DOMError.getRelatedException,0.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Protected Method,org.apache.xerces.dom.CoreDocumentImpl.changes,2.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.AttributePSVImpl.getValidationAttempted,1.0,9.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-xerces,Public Constructor,org.apache.xerces.parsers.AbstractSAXParser.LocatorProxy.LocatorProxy,2.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaValidator.XPathMatcherStack.size,2.0,4.0,0.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Protected Method,org.apache.xml.serialize.BaseMarkupSerializer.isDocumentState,10.0,11.0,0.0,4.0,1.0,1.0,7.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.75,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.getFinite,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLMenuElement.getCompact,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.XMLEntityManager.InternalEntity.isUnparsed,0.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Public Method,org.xml.sax.helpers.ParserAdapter.startDocument,1.0,14.0,0.0,7.0,2.0,2.0,7.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,1.0,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.models.CMBuilder.getContentModel,11.0,45.0,7.0,22.0,4.0,17.0,16.0,6.0,6.0,1.0,10.0,15.0,4.0,11.0,5.0,5.0,7.0,3.0,3.0,2.0,1.0,2.0,0.73,5,5,7,3,False
-xerces,Public Method,org.apache.xerces.dom.DOMErrorImpl.getSeverity,1.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-xerces,Public Static Method,org.apache.xerces.util.XML11Char.isXML11Name,10.0,11.0,0.0,4.0,1.0,2.0,8.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,4.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,4,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableElement.getTHead,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableCellElement.setScope,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Abstract Method,org.w3c.dom.Entity.setEncoding,0.0,7.0,0.0,1.0,1.0,0.0,6.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0,0,0,0,False
-xerces,Protected Method,org.apache.xerces.impl.XMLScanner.scanExternalID,6.0,67.0,4.0,50.0,8.0,36.0,13.0,14.0,135.0,2.0,25.0,36.0,6.0,30.0,12.0,12.0,18.0,4.0,3.0,3.0,4.0,3.0,0.26,12,12,18,4,False
-xerces,Public Method,org.apache.xerces.dom.CoreDocumentImpl.createDocumentFragment,5.0,7.0,0.0,3.0,1.0,1.0,4.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.XMLEntityScanner.setExpandedSystemId,0.0,6.0,0.0,2.0,1.0,0.0,4.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.validation.ValidationState.setFacetChecking,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.parsers.AbstractDOMParser.xmlDecl,6.0,31.0,0.0,16.0,3.0,9.0,16.0,4.0,3.0,0.0,6.0,9.0,1.0,8.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,1.0,3,3,3,1,False
-xerces,Public Method,org.apache.xerces.util.ObjectFactory.ConfigurationError.getException,1.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Protected Method,org.apache.xml.serialize.XML11Serializer.surrogates,6.0,30.0,1.0,27.0,2.0,18.0,2.0,9.0,5.0,1.0,10.0,15.0,2.0,13.0,5.0,5.0,5.0,1.0,4.0,0.0,4.0,0.0,0.07,5,5,5,1,False
-xerces,Method,org.apache.xerces.dom.DocumentImpl.replacedText,2.0,13.0,0.0,8.0,2.0,4.0,5.0,3.0,3.0,0.0,4.0,7.0,3.0,4.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.63,3,3,3,1,False
-xerces,Public Method,org.apache.xerces.impl.XMLVersionDetector.scanDTDInternalSubset,0.0,26.0,0.0,5.0,3.0,1.0,21.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.2,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLInputElement.getChecked,0.0,8.0,0.0,1.0,1.0,0.0,7.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0,0,0,0,False
-xerces,Protected Method,org.apache.xerces.dom.DeepNodeListImpl.nextMatchingElementAfter,7.0,85.0,8.0,64.0,4.0,44.0,15.0,10.0,51.0,2.0,17.0,31.0,4.0,27.0,15.0,15.0,28.0,15.0,37.0,37.0,7.0,37.0,0.23,15,15,28,15,False
-xerces,Static Method,org.apache.xerces.impl.xpath.regex.REUtil.isLowSurrogate,7.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Constructor,org.apache.html.dom.HTMLTableElementImpl.HTMLTableElementImpl,2.0,9.0,0.0,4.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
-xerces,Protected Constructor,org.apache.xerces.parsers.AbstractXMLDocumentParser.AbstractXMLDocumentParser,7.0,13.0,2.0,6.0,1.0,4.0,6.0,5.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLElement.getLang,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Method,org.apache.html.dom.HTMLTableSectionElementImpl.insertRow,1.0,10.0,1.0,9.0,2.0,5.0,0.0,6.0,2.0,0.0,5.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-xerces,Public Method,dom.wrappers.Xerces.parse,2.0,5.0,0.0,4.0,1.0,2.0,2.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.wml.WMLSelectElement.setIValue,0.0,4.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.dv.dtd.NMTOKENDatatypeValidator.validate,1.0,15.0,0.0,5.0,1.0,2.0,10.0,2.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,2.0,2,2,2,1,False
-xerces,Static Method,org.apache.xerces.impl.xpath.regex.Op.createDot,3.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-xerces,Protected Method,org.apache.xerces.impl.dv.xs.MonthDayDV.parse,9.0,47.0,7.0,29.0,6.0,21.0,11.0,9.0,24.0,1.0,15.0,21.0,6.0,15.0,6.0,6.0,8.0,1.0,1.0,0.0,2.0,0.0,0.38,6,6,8,1,False
-xerces,Public Method,org.apache.xerces.dom.ASModelImpl.removeAS,2.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLAreaElementImpl.setHref,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.xpath.XPathResult.snapshotItem,0.0,17.0,0.0,2.0,2.0,0.0,15.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.5,0,0,0,0,False
-xerces,Public Method,xni.DocumentTracer.element,3.0,16.0,2.0,13.0,2.0,9.0,2.0,6.0,2.0,0.0,8.0,10.0,1.0,9.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.15,2,2,2,1,False
-xerces,Public Abstract Method,org.apache.wml.WMLOptgroupElement.setXmlLang,0.0,6.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-xerces,Public Method,xni.Counter.processingInstruction,3.0,11.0,0.0,10.0,2.0,6.0,5.0,3.0,2.0,0.0,5.0,7.0,1.0,6.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.5,2,2,2,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultXMLDocumentHandler.endAttlist,0.0,10.0,0.0,2.0,1.0,0.0,8.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.0,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLBaseElementImpl.getTarget,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Constructor,org.apache.xerces.impl.xs.opti.SchemaDOM.SchemaDOM,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.validation.ValidationState.needFacetChecking,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.getPropertyDefault,5.0,17.0,0.0,8.0,1.0,4.0,10.0,2.0,3.0,0.0,4.0,7.0,2.0,5.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,1.25,3,3,3,3,False
-xerces,Public Method,org.apache.xerces.util.XMLGrammarPoolImpl.getGrammar,9.0,19.0,0.0,12.0,3.0,7.0,8.0,3.0,3.0,0.0,6.0,10.0,4.0,6.0,3.0,3.0,4.0,3.0,3.0,3.0,2.0,3.0,0.67,3,3,4,3,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableColElement.setSpan,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Method,xni.parser.AbstractConfiguration.setDocumentHandler,1.0,8.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.parsers.AbstractXMLDocumentParser.endParameterEntity,0.0,15.0,0.0,3.0,2.0,0.0,13.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.33,1,1,1,1,False
-xerces,Public Constructor,org.apache.xerces.impl.xs.models.XSAllCM.XSAllCM,3.0,5.0,0.0,5.0,1.0,3.0,0.0,4.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Private Method,org.apache.xerces.impl.io.UTF8Reader.invalidSurrogate,5.0,11.0,3.0,7.0,4.0,5.0,2.0,3.0,1.0,0.0,4.0,5.0,3.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.29,1,1,1,1,False
-xerces,Public Method,org.xml.sax.InputSource.getSystemId,5.0,16.0,0.0,4.0,1.0,1.0,12.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,1,1,1,1,False
-xerces,Public Abstract Method,org.xml.sax.XMLReader.setContentHandler,7.0,17.0,0.0,1.0,1.0,0.0,16.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0,0,0,0,False
-xerces,Public Method,org.apache.xml.serialize.Printer.flush,11.0,19.0,0.0,13.0,2.0,8.0,6.0,4.0,3.0,0.0,5.0,8.0,1.0,7.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.46,3,3,3,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaValidator.startGeneralEntity,5.0,30.0,2.0,9.0,4.0,3.0,20.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,2.22,2,2,2,1,False
-xerces,Public Abstract Method,org.xml.sax.ContentHandler.skippedEntity,1.0,22.0,0.0,2.0,2.0,0.0,20.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.dom.ElementImpl.setIdAttributeNS,8.0,30.0,1.0,26.0,5.0,17.0,3.0,11.0,20.0,1.0,9.0,15.0,4.0,11.0,6.0,6.0,6.0,1.0,1.0,0.0,2.0,0.0,0.12,6,6,6,1,False
-xerces,Public Method,org.apache.xerces.impl.dv.xs.ListDV.getActualValue,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLOptGroupElementImpl.setLabel,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Protected Method,xni.Writer.printError,5.0,23.0,2.0,20.0,3.0,17.0,2.0,9.0,3.0,0.0,15.0,18.0,3.0,15.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.1,3,3,3,1,False
-xerces,Public Method,org.apache.xerces.impl.dtd.DTDGrammarBucket.getGrammar,3.0,3.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.ParserForXMLSchema.processCIinCharacterClass,3.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLInputElementImpl.setAccept,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLButtonElement.getType,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.parsers.DTDParser.textDecl,0.0,14.0,0.0,2.0,1.0,0.0,12.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,6.0,1,1,1,1,False
-xerces,Public Method,org.apache.xml.serialize.XML11Serializer.reset,0.0,5.0,1.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLFontElementImpl.getColor,0.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xpath.XPath.Step.clone,1.0,4.0,0.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLSelectElement.setSelectedIndex,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Protected Method,org.apache.xerces.dom.NodeImpl.synchronizeData,72.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLAnchorElement.setType,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Method,sax.Writer.startElement,3.0,22.0,2.0,19.0,3.0,14.0,2.0,8.0,3.0,0.0,14.0,17.0,3.0,14.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.11,3,3,3,1,False
-xerces,Public Method,org.apache.xerces.parsers.BasicParserConfiguration.getDTDHandler,1.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.validation.ValidationState.setEntityState,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.util.ErrorHandlerWrapper.error,4.0,31.0,2.0,13.0,3.0,7.0,17.0,4.0,3.0,0.0,4.0,6.0,2.0,4.0,3.0,3.0,3.0,1.0,3.0,0.0,1.0,0.0,1.31,3,3,3,1,False
+xerces,Public Abstract Method,javax.xml.parsers.DocumentBuilder.setEntityResolver,0.0,11.0,0.0,1.0,1.0,0.0,10.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0,0,0,0,False
+xerces,Public Method,ui.DOMTree.Model.setDocument,4.0,13.0,3.0,7.0,1.0,5.0,4.0,6.0,1.0,0.0,5.0,6.0,1.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.57,1,1,1,1,False
+xerces,Public Static Method,dom.treewalker.TestFirstChild.main,2.0,25.0,4.0,21.0,11.0,16.0,0.0,6.0,1.0,0.0,12.0,13.0,8.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.html.dom.HTMLIsIndexElementImpl.getPrompt,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.dom.AttrImpl.hasChildNodes,1.0,10.0,0.0,6.0,1.0,3.0,4.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.67,2,2,2,1,False
 xerces,Public Method,org.apache.xerces.impl.XMLNSDocumentScannerImpl.reset,1.0,7.0,1.0,6.0,2.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.wml.dom.WMLImgElementImpl.setXmlLang,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSIDCDefinition.getSelectorStr,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.dom3.DOMImplementationRegistry.addSource,2.0,18.0,8.0,7.0,4.0,2.0,3.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.43,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.traversers.XSAttributeChecker.reset,3.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaValidator.textDecl,4.0,25.0,2.0,5.0,1.0,2.0,19.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,3.8,2,2,2,1,False
-xerces,Protected Method,org.apache.xerces.impl.XMLScanner.isValidNameStartChar,4.0,3.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.dom.ASModelImpl.getContentModelDeclarations,2.0,11.0,0.0,4.0,2.0,2.0,7.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.75,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dv.xs.DecimalDV.compare,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.util.XMLAttributesImpl.getLocalName,6.0,18.0,0.0,9.0,1.0,5.0,10.0,1.0,3.0,0.0,3.0,6.0,1.0,5.0,3.0,3.0,4.0,3.0,2.0,2.0,1.0,2.0,1.11,3,3,4,3,False
-xerces,Public Method,org.apache.html.dom.HTMLSelectElementImpl.getMultiple,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.wml.dom.WMLImgElementImpl.setSrc,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLInputElement.setName,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Protected Method,org.apache.xerces.dom.ElementImpl.setXercesAttributeNode,3.0,15.0,3.0,9.0,1.0,5.0,3.0,6.0,4.0,1.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.33,3,3,3,1,False
-xerces,Public Method,org.xml.sax.helpers.LocatorImpl.setLineNumber,6.0,10.0,0.0,4.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.5,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableSectionElement.setCh,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.impl.dv.xs.DoubleDV.getActualValue,1.0,7.0,0.0,7.0,1.0,4.0,1.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.14,2,2,2,1,False
-xerces,Method,org.apache.xerces.impl.xpath.regex.Token.getMax,2.0,3.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-xerces,Protected Method,org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanEndElement,11.0,57.0,10.0,22.0,1.0,16.0,26.0,9.0,32.0,2.0,10.0,16.0,1.0,15.0,6.0,6.0,6.0,1.0,0.0,0.0,1.0,0.0,1.18,6,6,6,1,False
-xerces,Public Method,org.apache.html.dom.HTMLImageElementImpl.setVspace,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.xs.XSParticleDecl.getMaxOccursUnbounded,2.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLScriptElement.setSrc,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Method,javax.xml.parsers.DocumentBuilderFactory.isExpandEntityReferences,2.0,10.0,0.0,3.0,1.0,1.0,7.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.33,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.dv.xs.AbstractDateTimeDV.compare,3.0,4.0,0.0,4.0,1.0,2.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-xerces,Public Method,org.apache.wml.dom.WMLDoElementImpl.setClassName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.w3c.dom.html.HTMLInputElement.setAlign,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-xerces,Public Method,org.apache.html.dom.HTMLButtonElementImpl.getType,0.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Constructor,org.apache.xerces.impl.xpath.regex.Token.ConcatToken.ConcatToken,3.0,5.0,0.0,5.0,1.0,3.0,0.0,4.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.html.dom.HTMLBodyElementImpl.getVLink,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.impl.XMLErrorReporter.getRecognizedProperties,1.0,8.0,0.0,3.0,1.0,1.0,6.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-xerces,Public Method,org.apache.xerces.parsers.DOMParser.getEntityResolver,2.0,24.0,2.0,14.0,4.0,8.0,9.0,3.0,3.0,0.0,4.0,7.0,3.0,4.0,3.0,3.0,4.0,1.0,1.0,0.0,2.0,0.0,0.64,3,3,4,1,False
-xerces,Protected Method,org.apache.xerces.impl.dv.xs.AbstractDateTimeDV.normalize,20.0,58.0,5.0,42.0,4.0,32.0,11.0,7.0,64.0,2.0,24.0,32.0,4.0,28.0,8.0,8.0,8.0,4.0,5.0,5.0,2.0,5.0,0.26,8,8,8,4,False
-xerces,Public Method,org.apache.xerces.impl.XMLErrorReporter.getRecognizedFeatures,1.0,8.0,0.0,3.0,1.0,1.0,6.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-xerces,Public Method,sax.DocumentTracer.processingInstruction,3.0,15.0,2.0,12.0,2.0,9.0,2.0,5.0,1.0,0.0,9.0,10.0,1.0,9.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.17,1,1,1,1,False
-xerces,Public Constructor,org.apache.xerces.impl.xs.traversers.XSAttributeChecker.XSAttributeChecker,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,org.apache.wml.dom.WMLRefreshElementImpl.getClassName,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Abstract Method,org.apache.wml.WMLSelectElement.setValue,0.0,5.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Method,org.apache.xerces.util.SecuritySupport.getFileInputStream,2.0,5.0,0.0,5.0,2.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-xerces,Public Method,sax.helpers.AttributesImpl.getURI,2.0,7.0,2.0,4.0,2.0,2.0,2.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.5,2,2,2,1,False
-xerces,Public Abstract Method,org.apache.xerces.xni.XMLAttributes.removeAllAttributes,0.0,5.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-xerces,Public Method,org.apache.xml.serialize.OutputFormat.getLastPrintable,0.0,13.0,0.0,8.0,1.0,5.0,5.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,1.0,0.0,1.0,0.0,0.63,2,2,3,1,False
+xerces,Public Method,org.apache.xerces.dom.ASModelImpl.createASNotationDeclaration,2.0,22.0,0.0,6.0,4.0,2.0,16.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.67,1,1,1,1,False
+xerces,Public Method,org.apache.html.dom.HTMLDirectoryElementImpl.setCompact,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.dom3.as.ElementEditAS.canRemoveAttributeNode,0.0,8.0,0.0,1.0,1.0,0.0,7.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0,0,0,0,False
+xerces,Method,org.apache.xerces.impl.xs.traversers.XSDWildcardTraverser.traverseAnyAttribute,5.0,19.0,2.0,8.0,5.0,4.0,9.0,4.0,1.0,0.0,4.0,5.0,3.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.13,1,1,1,1,False
+xerces,Public Constructor,dom.range.TestCompare.TestCompare,1.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xpath.XPath.LocationPath.clone,2.0,4.0,0.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSIDCDefinition.getCategory,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.dom.PSVIDOMImplementationImpl.createDocument,4.0,34.0,0.0,14.0,6.0,7.0,20.0,6.0,2.0,0.0,5.0,7.0,3.0,4.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,1.43,2,2,3,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.models.CMNodeFactory.reset,6.0,14.0,1.0,12.0,1.0,7.0,2.0,5.0,3.0,0.0,4.0,7.0,1.0,6.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.17,3,3,3,1,False
+xerces,Public Method,org.apache.xerces.parsers.DTDParser.endEntity,0.0,15.0,0.0,2.0,1.0,0.0,13.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,6.5,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLIFrameElement.getWidth,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Method,org.apache.html.dom.HTMLOptionElementImpl.getSelected,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Protected Constructor,org.apache.xerces.dom.AttributeMap.AttributeMap,12.0,11.0,0.0,9.0,1.0,5.0,2.0,4.0,3.0,0.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.22,3,3,3,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaValidator.XPathMatcherStack.pushContext,3.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.ls.DOMImplementationLS.createDOMBuilder,1.0,42.0,0.0,3.0,3.0,0.0,39.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.xs.util.SimpleLocator.getColumnNumber,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.parsers.AbstractXMLDocumentParser.endAttlist,0.0,10.0,0.0,2.0,1.0,0.0,9.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.5,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.dom3.as.DocumentEditAS.getContinuousValidityChecking,0.0,11.0,0.0,1.0,1.0,0.0,10.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.Entity.getEncoding,0.0,7.0,0.0,1.0,1.0,0.0,6.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0,0,0,0,False
+xerces,Public Constructor,org.apache.html.dom.HTMLLegendElementImpl.HTMLLegendElementImpl,2.0,9.0,0.0,4.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
+xerces,Public Method,org.apache.xml.serialize.OutputFormat.getDoctypePublic,2.0,8.0,0.0,4.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLScriptElement.getHtmlFor,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Static Method,org.apache.xerces.impl.xpath.XPath.main,3.0,17.0,2.0,14.0,4.0,9.0,2.0,5.0,3.0,0.0,8.0,11.0,5.0,6.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.14,3,3,3,1,False
+xerces,Public Abstract Method,org.apache.wml.WMLPElement.setAlign,0.0,6.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.startEntity,12.0,43.0,5.0,20.0,4.0,12.0,19.0,7.0,12.0,1.0,7.0,12.0,2.0,10.0,5.0,5.0,7.0,1.0,0.0,0.0,2.0,0.0,0.95,5,5,7,1,False
+xerces,Public Method,org.apache.html.dom.HTMLLinkElementImpl.setHref,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.wml.dom.WMLOptionElementImpl.setXmlLang,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.ls.DOMBuilder.parseURI,2.0,13.0,0.0,1.0,1.0,0.0,12.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0,0,0,0,False
+xerces,Method,org.apache.xerces.impl.xpath.regex.ParserForXMLSchema.processModifiers,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.dv.xs.Base64BinaryDV.XBase64.length,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.getAnonymous,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.wml.dom.WMLHeadElementImpl.setId,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,dom.DOM3.handleError,3.0,12.0,2.0,10.0,2.0,6.0,0.0,4.0,4.0,1.0,4.0,7.0,2.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLDivElement.setAlign,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.dom.DOMNormalizer.comment,0.0,11.0,0.0,2.0,1.0,0.0,9.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.5,1,1,1,1,False
+xerces,Method,org.apache.xerces.dom.TreeWalkerImpl.getLastChild,8.0,38.0,7.0,25.0,4.0,18.0,6.0,6.0,7.0,1.0,10.0,17.0,4.0,13.0,7.0,7.0,9.0,7.0,7.0,7.0,2.0,7.0,0.24,7,7,9,7,False
+xerces,Public Method,org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement,3.0,16.0,2.0,5.0,2.0,2.0,10.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.parsers.AbstractSAXParser.LocatorProxy.getPublicId,1.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Constructor,org.apache.xerces.impl.dv.xs.ListDV.ListData.ListData,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.html.dom.HTMLLinkElementImpl.setHreflang,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xpath.regex.Token.ConcatToken.toString,6.0,10.0,0.0,10.0,2.0,7.0,0.0,3.0,3.0,0.0,5.0,8.0,2.0,6.0,3.0,3.0,5.0,1.0,2.0,0.0,1.0,0.0,0.0,3,3,5,1,False
+xerces,Public Method,xni.PSVIWriter.startElement,9.0,36.0,3.0,18.0,3.0,12.0,16.0,8.0,4.0,1.0,10.0,13.0,1.0,12.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.89,3,3,3,1,False
+xerces,Public Method,org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.ValidationContextImpl.needToNormalize,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Private Static Method,sax.DocumentTracer.printUsage,6.0,29.0,4.0,24.0,1.0,22.0,2.0,2.0,1.0,0.0,22.0,23.0,1.0,22.0,5.0,5.0,5.0,1.0,0.0,0.0,0.0,0.0,0.08,5,5,5,1,False
+xerces,Private Static Method,org.xml.sax.helpers.XMLReaderFactory.loadClass,8.0,20.0,0.0,20.0,2.0,15.0,0.0,3.0,5.0,1.0,5.0,7.0,1.0,6.0,5.0,5.0,5.0,5.0,10.0,10.0,1.0,10.0,0.0,5,5,5,5,False
+xerces,Public Method,org.apache.html.dom.HTMLAppletElementImpl.getArchive,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Protected Method,org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.createContentDispatcher,0.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.io.UCSReader.close,1.0,10.0,0.0,3.0,1.0,1.0,8.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.67,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.parsers.AbstractXMLDocumentParser.setDTDContentModelSource,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Protected Static Method,org.apache.xerces.impl.dv.util.Base64.removeWhiteSpace,3.0,19.0,1.0,11.0,3.0,8.0,7.0,3.0,4.0,1.0,7.0,11.0,4.0,7.0,4.0,4.0,4.0,1.0,1.0,0.0,2.0,0.0,0.64,4,4,4,1,False
+xerces,Public Method,dom.DTest.testEntity,2.0,56.0,2.0,41.0,5.0,27.0,17.0,14.0,32.0,2.0,22.0,28.0,5.0,23.0,7.0,7.0,10.0,1.0,0.0,0.0,1.0,0.0,0.41,7,7,10,1,False
+xerces,Public Method,org.apache.xerces.impl.xpath.XPath.Step.clone,1.0,4.0,0.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
+xerces,Public Method,org.apache.xml.serialize.OutputFormat.isCDataElement,4.0,18.0,1.0,10.0,2.0,6.0,7.0,2.0,4.0,1.0,6.0,10.0,2.0,8.0,4.0,4.0,4.0,4.0,4.0,4.0,2.0,4.0,0.7,4,4,4,4,False
+xerces,Protected Method,org.apache.xerces.parsers.DTDConfiguration.createValidationManager,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.dom3.DOMLocator.getUri,3.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.io.UCSReader.mark,2.0,16.0,0.0,3.0,1.0,1.0,14.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.67,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.dom.NodeIteratorImpl.getFilter,1.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Method,sax.DocumentTracer.endDTD,1.0,9.0,2.0,6.0,1.0,4.0,2.0,4.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Static Method,org.apache.xerces.util.XML11Char.isXML11NameStart,8.0,11.0,0.0,4.0,1.0,2.0,8.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,4.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,4,1,False
+xerces,Public Abstract Method,org.apache.xerces.xni.grammars.XMLGrammarPool.retrieveGrammar,5.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableColElement.setSpan,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSAttributeGroupDefinition.getAttributeWildcard,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableElement.getTBodies,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLObjectElement.setData,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.dtd.XMLDTDProcessor.setDTDContentModelSource,3.0,3.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.XSModelImpl.getAnnotations,0.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.(Anon_1).isIdDeclared,0.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.dom.DOMConfigurationImpl.parse,0.0,28.0,0.0,3.0,2.0,0.0,25.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,8.33,1,1,1,1,False
+xerces,Static Method,org.apache.xerces.impl.xpath.regex.Token.getCombiningCharacterSequence,2.0,9.0,1.0,8.0,2.0,6.0,2.0,5.0,2.0,0.0,5.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.25,2,2,2,1,False
+xerces,Protected Method,org.apache.xerces.dom.DocumentImpl.saveEnclosingAttr,12.0,35.0,0.0,23.0,5.0,18.0,13.0,7.0,6.0,1.0,12.0,18.0,5.0,13.0,6.0,6.0,6.0,6.0,13.0,12.0,3.0,11.0,0.57,6,6,6,6,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLOptionElement.setLabel,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Abstract Method,org.xml.sax.DocumentHandler.setDocumentLocator,2.0,26.0,0.0,1.0,1.0,0.0,25.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.0,0,0,0,0,False
+xerces,Public Method,org.apache.wml.dom.WMLElementImpl.getXmlLang,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.html.dom.HTMLAnchorElementImpl.focus,0.0,4.0,0.0,3.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.parsers.AbstractXMLDocumentParser.endElement,1.0,10.0,0.0,2.0,1.0,0.0,9.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.5,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.NodeImpl.setReadOnly,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xml.serialize.BaseMarkupSerializer.asDocumentHandler,0.0,6.0,0.0,6.0,2.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Private Method,simpletype.SimpleTypeUsage.getValidationContext,1.0,34.0,9.0,5.0,2.0,3.0,20.0,1.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultDocument.renameNode,1.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Method,org.apache.xerces.impl.dtd.DTDGrammar.isImmutable,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.XMLVersionDetector.setDTDContentModelHandler,1.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Method,org.apache.xml.serialize.XML11Serializer.characters,10.0,76.0,7.0,57.0,6.0,39.0,12.0,14.0,21.0,1.0,29.0,39.0,6.0,33.0,10.0,10.0,15.0,6.0,7.0,7.0,5.0,4.0,0.21,10,10,15,6,False
+xerces,Private Static Method,org.apache.xerces.impl.xs.XSConstraints.removePointlessChildren,10.0,16.0,5.0,11.0,3.0,9.0,0.0,2.0,3.0,0.0,7.0,10.0,4.0,6.0,3.0,3.0,5.0,1.0,1.0,0.0,1.0,0.0,0.0,3,3,5,1,False
+xerces,Public Abstract Method,org.apache.xerces.xni.grammars.XMLGrammarLoader.getLocale,0.0,2.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.(Anon_2).getURI,0.0,3.0,0.0,3.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Protected Method,org.apache.xerces.dom.DOMNormalizer.updateQName,4.0,12.0,1.0,9.0,4.0,7.0,2.0,10.0,1.0,0.0,7.0,8.0,4.0,4.0,4.0,4.0,5.0,1.0,0.0,0.0,0.0,0.0,0.22,4,4,5,1,False
+xerces,Public Method,org.apache.xerces.dom.ASModelImpl.createASEntityDeclaration,2.0,14.0,0.0,5.0,3.0,2.0,9.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.8,1,1,1,1,False
+xerces,Public Method,org.apache.xml.serialize.IndentPrinter.unindent,5.0,13.0,0.0,8.0,1.0,5.0,5.0,4.0,4.0,1.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.63,3,3,3,1,False
+xerces,Protected Method,org.apache.xerces.impl.dtd.models.CMBinOp.calcLastPos,5.0,24.0,0.0,18.0,1.0,9.0,6.0,5.0,4.0,1.0,5.0,9.0,1.0,8.0,4.0,4.0,4.0,1.0,2.0,0.0,2.0,0.0,0.33,4,4,4,1,False
+xerces,Protected Method,org.apache.xerces.impl.xs.opti.SchemaParsingConfig.createSchemaDOMParser,1.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.dv.xs.TypeValidator.checkExtraRules,1.0,2.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Private Method,ui.DOMTree.Model.buildTree,4.0,30.0,7.0,20.0,5.0,14.0,7.0,7.0,5.0,1.0,11.0,15.0,6.0,9.0,6.0,5.0,6.0,1.0,4.0,0.0,2.0,0.0,0.35,6,5,6,1,False
+xerces,Public Method,org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.(Anon_1).addId,0.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,xni.parser.AbstractConfiguration.setLocale,1.0,11.0,0.0,3.0,1.0,1.0,9.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultXMLDocumentHandler.endCDATA,0.0,10.0,0.0,2.0,1.0,0.0,8.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.dtd.XMLDTDValidator.endElement,2.0,13.0,2.0,3.0,1.0,1.0,9.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.dom.CoreDocumentImpl.getNodeName,0.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Abstract Method,org.xml.sax.ext.LexicalHandler.comment,1.0,16.0,0.0,2.0,2.0,0.0,14.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultXMLDocumentHandler.endConditional,0.0,10.0,0.0,2.0,1.0,0.0,8.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.XSWildcardDecl.toString,9.0,34.0,1.0,33.0,2.0,28.0,0.0,4.0,11.0,1.0,21.0,28.0,3.0,25.0,9.0,7.0,9.0,1.0,3.0,0.0,4.0,0.0,0.0,9,7,9,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLScriptElement.getText,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultElement.setIdAttributeNode,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Protected Method,org.apache.xerces.dom.CoreDocumentImpl.changed,1.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.parsers.AbstractSAXParser.LocatorProxy.getColumnNumber,1.0,4.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultNode.getNodeValue,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLButtonElement.getDisabled,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+xerces,Public Method,xni.Counter.startElement,3.0,22.0,2.0,19.0,3.0,14.0,8.0,8.0,3.0,0.0,14.0,17.0,3.0,14.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.42,3,3,3,1,False
+xerces,Public Method,org.apache.html.dom.HTMLTableRowElementImpl.getAlign,0.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,sax.Counter.error,1.0,4.0,0.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.wml.WMLPostfieldElement.getValue,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.dom.CoreDocumentImpl.getImplementation,1.0,11.0,0.0,3.0,1.0,1.0,8.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.67,1,1,1,1,False
+xerces,Private Method,org.apache.xerces.impl.dtd.DTDGrammar.ensureNotationDeclCapacity,8.0,17.0,1.0,16.0,1.0,12.0,0.0,5.0,3.0,0.0,10.0,13.0,1.0,12.0,3.0,3.0,3.0,3.0,3.0,3.0,1.0,3.0,0.0,3,3,3,3,False
+xerces,Public Method,org.apache.xerces.util.XMLGrammarPoolImpl.hashCode,5.0,9.0,0.0,3.0,1.0,1.0,6.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaValidator.OrderedHashtable.put,7.0,10.0,0.0,9.0,2.0,6.0,2.0,5.0,2.0,0.0,5.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.22,2,2,2,1,False
+xerces,Public Abstract Method,org.apache.xerces.xni.grammars.XMLGrammarPool.lockPool,2.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.Document.getEncoding,0.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+xerces,Public Abstract Method,org.apache.xerces.dom3.as.ASObject.getNamespaceURI,0.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.xpath.XPathResult.getSnapshotLength,0.0,11.0,0.0,2.0,2.0,0.0,9.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.5,0,0,0,0,False
+xerces,Public Abstract Method,org.apache.xerces.dom3.as.CharacterDataEditAS.getIsWhitespaceOnly,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+xerces,Public Method,org.xml.sax.helpers.DefaultHandler.resolveEntity,0.0,24.0,0.0,5.0,2.0,1.0,19.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.8,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.parsers.AbstractDOMParser.reset,11.0,53.0,13.0,30.0,1.0,28.0,11.0,26.0,1.0,0.0,24.0,25.0,1.0,24.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.37,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.XMLEntityManager.Entity.setValues,7.0,5.0,0.0,4.0,1.0,2.0,2.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSAttributeUse.getRequired,0.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+xerces,Public Method,org.apache.html.dom.HTMLObjectElementImpl.getName,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,xni.PSVIWriter.endGeneralEntity,3.0,17.0,0.0,5.0,1.0,2.0,13.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,2.6,2,2,2,1,False
+xerces,Public Constructor,org.apache.xerces.impl.dv.dtd.XML11IDDatatypeValidator.XML11IDDatatypeValidator,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.xml.sax.helpers.NamespaceSupport.getDeclaredPrefixes,2.0,16.0,0.0,4.0,1.0,1.0,12.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.XMLDTDScannerImpl.getDTDHandler,1.0,8.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.models.XSAllCM.addElement,4.0,5.0,0.0,5.0,1.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.util.XMLGrammarPoolImpl.retrieveInitialGrammarSet,8.0,17.0,0.0,17.0,5.0,11.0,1.0,4.0,4.0,1.0,11.0,16.0,7.0,9.0,4.0,4.0,4.0,1.0,0.0,0.0,3.0,0.0,0.06,4,4,4,1,False
+xerces,Public Method,org.apache.wml.dom.WMLTrElementImpl.getClassName,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xml.serialize.IndentPrinter.printSpace,8.0,56.0,2.0,22.0,1.0,15.0,32.0,9.0,9.0,1.0,8.0,14.0,1.0,13.0,6.0,6.0,7.0,1.0,1.0,0.0,4.0,0.0,1.45,6,6,7,1,False
+xerces,Public Method,org.apache.xerces.dom.EntityImpl.getEncoding,1.0,12.0,2.0,6.0,1.0,3.0,5.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.83,2,2,2,1,False
+xerces,Public Method,xni.DocumentTracer.endParameterEntity,3.0,16.0,2.0,13.0,1.0,10.0,2.0,7.0,2.0,0.0,9.0,11.0,1.0,10.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.15,2,2,2,1,False
+xerces,Public Abstract Method,org.apache.xerces.xni.psvi.ItemPSVI.getTypeDefinition,6.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultNode.normalize,0.0,2.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.xni.grammars.XMLGrammarPool.retrieveInitialGrammarSet,4.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Method,org.apache.xerces.dom.AttributeMap.safeRemoveNamedItem,2.0,7.0,0.0,3.0,1.0,1.0,4.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+xerces,Method,org.apache.xerces.impl.xpath.regex.RegexParser.processLookahead,4.0,7.0,0.0,7.0,2.0,5.0,1.0,6.0,2.0,0.0,5.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.14,2,2,2,1,False
+xerces,Public Method,org.apache.wml.dom.WMLPostfieldElementImpl.setName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.wml.dom.WMLNoopElementImpl.getId,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaLoader.loadGrammar,9.0,30.0,0.0,16.0,5.0,12.0,15.0,11.0,2.0,0.0,10.0,12.0,4.0,8.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,0.94,2,2,3,1,False
+xerces,Public Method,org.apache.xerces.impl.dv.xs.IDDV.checkExtraRules,2.0,6.0,0.0,6.0,2.0,4.0,0.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+xerces,Public Method,org.apache.xerces.dom.NodeImpl.getPrefix,5.0,18.0,0.0,4.0,1.0,1.0,14.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.5,1,1,1,1,False
+xerces,Public Static Method,org.apache.xml.serialize.SerializerFactory.registerSerializerFactory,2.0,13.0,1.0,8.0,2.0,3.0,4.0,2.0,1.0,0.0,3.0,5.0,2.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.Node.lookupNamespaceURI,0.0,16.0,0.0,1.0,1.0,0.0,15.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.Attr.getIsId,0.0,8.0,0.0,1.0,1.0,0.0,7.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0,0,0,0,False
+xerces,Public Method,org.apache.html.dom.HTMLHRElementImpl.setAlign,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.dom3.as.NodeEditAS.canReplaceChild,0.0,9.0,0.0,2.0,2.0,0.0,7.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.5,0,0,0,0,False
+xerces,Method,org.apache.xerces.dom.ParentNode.checkNormalizationAfterRemove,4.0,25.0,1.0,9.0,2.0,5.0,16.0,2.0,3.0,0.0,2.0,5.0,2.0,3.0,3.0,3.0,5.0,1.0,0.0,0.0,2.0,0.0,1.78,3,3,5,1,False
+xerces,Public Static Method,org.apache.xml.serialize.HTMLdtd.isOnlyOpening,2.0,11.0,0.0,4.0,1.0,1.0,7.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.75,1,1,1,1,False
+xerces,Private Method,org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.handleCharacter,7.0,22.0,2.0,13.0,1.0,8.0,8.0,5.0,5.0,1.0,5.0,9.0,1.0,8.0,4.0,4.0,4.0,1.0,0.0,0.0,2.0,0.0,0.62,4,4,4,1,False
+xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSSimpleTypeDefinition.isFixedFacet,0.0,7.0,0.0,1.0,1.0,0.0,6.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0,0,0,0,False
+xerces,Public Constructor,org.apache.html.dom.HTMLObjectElementImpl.HTMLObjectElementImpl,2.0,9.0,0.0,4.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.25,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultNode.getLastChild,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,javax.xml.parsers.DocumentBuilderFactory.getAttribute,0.0,10.0,0.0,2.0,2.0,0.0,8.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+xerces,Public Abstract Method,org.apache.wml.WMLEmElement.setXmlLang,0.0,6.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+xerces,Protected Method,org.apache.xerces.parsers.XML11Configuration.createDatatypeValidatorFactory,1.0,4.0,0.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.XMLEntityManager.Entity.clear,3.0,5.0,0.0,4.0,1.0,2.0,2.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
+xerces,Protected Method,org.apache.xerces.impl.dtd.DTDGrammar.setNotationDecl,10.0,11.0,2.0,9.0,3.0,7.0,0.0,5.0,1.0,0.0,7.0,8.0,3.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Private Method,org.apache.xerces.dom.AttrNSImpl.setName,9.0,39.0,2.0,35.0,6.0,26.0,2.0,13.0,8.0,1.0,14.0,19.0,5.0,14.0,6.0,6.0,11.0,1.0,1.0,0.0,3.0,0.0,0.06,6,6,11,1,False
+xerces,Public Method,org.apache.xerces.dom.RangeImpl.setStartBefore,5.0,22.0,0.0,22.0,3.0,14.0,0.0,9.0,8.0,1.0,8.0,12.0,3.0,9.0,4.0,4.0,5.0,1.0,0.0,0.0,1.0,0.0,0.0,4,4,5,1,False
+xerces,Public Method,org.apache.html.dom.HTMLFrameElementImpl.setMarginHeight,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.html.dom.HTMLImageElementImpl.setIsMap,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Method,org.apache.xerces.impl.dtd.models.CMAny.getURI,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLAreaElement.setHref,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.ls.DOMImplementationLS.createDOMInputSource,1.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.dom.AttrImpl.getSchemaTypeInfo,0.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+xerces,Public Method,org.apache.wml.dom.WMLOptgroupElementImpl.setClassName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.dom.DocumentImpl.createTextNode,2.0,14.0,0.0,8.0,2.0,5.0,6.0,4.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.75,2,2,2,1,False
+xerces,Public Method,org.apache.wml.dom.WMLDocumentImpl.createElement,4.0,26.0,4.0,22.0,4.0,14.0,0.0,10.0,4.0,1.0,12.0,16.0,4.0,12.0,4.0,4.0,4.0,3.0,3.0,2.0,3.0,2.0,0.0,4,4,4,3,False
+xerces,Public Method,org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.getFixedFacets,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.xml.sax.Attributes.getURI,3.0,10.0,0.0,1.0,1.0,0.0,9.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,0,0,0,0,False
+xerces,Private Method,org.apache.xerces.impl.xs.XMLSchemaValidator.XPathMatcherStack.ensureMatcherCapacity,4.0,8.0,0.0,7.0,2.0,4.0,2.0,2.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.29,2,2,2,1,False
+xerces,Public Abstract Method,org.w3c.dom.ls.DOMInputSource.setByteStream,0.0,12.0,0.0,1.0,1.0,0.0,11.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,0,0,0,0,False
+xerces,Private Method,socket.DelayedInput.DelayedInputStream.printBuffer,4.0,29.0,3.0,23.0,1.0,15.0,4.0,1.0,5.0,1.0,11.0,15.0,2.0,13.0,5.0,4.0,5.0,1.0,4.0,0.0,2.0,0.0,0.17,5,4,5,1,False
+xerces,Public Method,org.apache.xerces.dom.TreeWalkerImpl.getCurrentNode,1.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Method,org.apache.html.dom.HTMLAreaElementImpl.setTabIndex,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLFrameElement.setScrolling,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.xpath.regex.Token.StringToken.toString,4.0,6.0,0.0,6.0,1.0,4.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultNode.getAttributes,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.wml.WMLSelectElement.setIValue,0.0,4.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.dom.DOMInputSourceImpl.getPublicId,1.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.dom.ElementImpl.setAttributeNode,7.0,42.0,5.0,23.0,4.0,14.0,15.0,10.0,20.0,1.0,7.0,13.0,3.0,10.0,6.0,6.0,6.0,1.0,0.0,0.0,2.0,0.0,0.65,6,6,6,1,False
+xerces,Public Constructor,org.apache.xerces.impl.xs.traversers.XSDAbstractIDConstraintTraverser.XSDAbstractIDConstraintTraverser,4.0,4.0,0.0,4.0,2.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.html.dom.HTMLTableRowElementImpl.setCh,1.0,7.0,0.0,6.0,1.0,3.0,1.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,0.17,2,2,3,1,False
+xerces,Protected Abstract Method,org.apache.xerces.impl.dtd.models.CMNode.calcFirstPos,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Method,org.apache.xml.serialize.Printer.getException,4.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultNode.setNodeValue,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Protected Method,org.apache.xerces.dom.DeferredCDATASectionImpl.synchronizeData,1.0,12.0,3.0,6.0,3.0,3.0,4.0,4.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
+xerces,Method,org.apache.xerces.impl.xs.SchemaGrammar.setUncheckedTypeNum,5.0,9.0,0.0,5.0,1.0,3.0,4.0,5.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.8,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.parsers.AbstractXMLDocumentParser.startCDATA,0.0,8.0,0.0,2.0,1.0,0.0,7.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.5,1,1,1,1,False
+xerces,Public Method,org.xml.sax.helpers.ParserAdapter.setFeature,9.0,37.0,0.0,23.0,2.0,16.0,14.0,6.0,6.0,1.0,8.0,14.0,1.0,13.0,6.0,6.0,10.0,1.0,3.0,0.0,2.0,0.0,0.61,6,6,10,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.XMLSchemaValidator.getFeatureDefault,4.0,17.0,0.0,8.0,1.0,4.0,10.0,2.0,3.0,0.0,4.0,7.0,2.0,5.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,1.25,3,3,3,3,False
+xerces,Public Method,ui.TreeView.createUI.(Anon_2).getPreferredSize,2.0,4.0,0.0,4.0,1.0,3.0,0.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.html.dom.HTMLOListElementImpl.getCompact,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.io.UTF8Reader.reset,0.0,17.0,0.0,4.0,1.0,2.0,14.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.5,1,1,1,1,False
+xerces,Public Method,socket.KeepSocketOpen.Client.startDocument,0.0,8.0,0.0,7.0,1.0,5.0,2.0,6.0,1.0,0.0,5.0,6.0,1.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.29,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.jaxp.SAXParserImpl.getProperty,4.0,14.0,0.0,9.0,2.0,4.0,5.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.56,2,2,2,1,False
+xerces,Public Method,sax.Writer.endDTD,0.0,3.0,0.0,2.0,1.0,0.0,2.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+xerces,Protected Method,org.apache.xerces.impl.dtd.DTDGrammar.createAttributeDecl,5.0,15.0,1.0,14.0,3.0,12.0,0.0,12.0,1.0,0.0,12.0,13.0,3.0,10.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.html.dom.HTMLTableCellElementImpl.setScope,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.XSAttributeUseImpl.getNamespace,0.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLBRElement.getClear,0.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLOListElement.setType,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLAnchorElement.getType,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.dv.xs.AbstractDateTimeDV.DateTimeData.toString,3.0,6.0,0.0,6.0,1.0,3.0,0.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+xerces,Public Method,org.apache.html.dom.HTMLStyleElementImpl.setMedia,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Constructor,org.apache.xerces.dom.NodeIteratorImpl.NodeIteratorImpl,6.0,13.0,0.0,12.0,5.0,6.0,1.0,7.0,1.0,0.0,6.0,7.0,1.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.08,1,1,1,1,False
+xerces,Public Method,org.apache.xml.serialize.EncodingInfo.getIANAName,2.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+xerces,Protected Method,org.apache.xerces.impl.xs.opti.SchemaParsingConfig.createDTDScanner,1.0,4.0,0.0,3.0,1.0,1.0,2.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.67,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.dom.EntityReferenceImpl.getBaseURI,2.0,23.0,1.0,18.0,4.0,9.0,4.0,9.0,8.0,1.0,7.0,12.0,4.0,8.0,5.0,5.0,6.0,4.0,3.0,3.0,3.0,3.0,0.22,5,5,6,4,False
+xerces,Public Method,org.apache.html.dom.HTMLInputElementImpl.setValue,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Method,org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser.traverseLocal,6.0,27.0,3.0,15.0,8.0,11.0,9.0,10.0,1.0,0.0,9.0,10.0,4.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.6,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.impl.dv.SchemaDVFactory.createTypeUnion,2.0,12.0,0.0,2.0,2.0,0.0,10.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLFormElement.getElements,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.XMLEntityScanner.setExpandedSystemId,0.0,6.0,0.0,2.0,1.0,0.0,4.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.xni.parser.XMLDTDContentModelSource.setDTDContentModelHandler,5.0,2.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0,0,0,0,False
+xerces,Private Method,org.apache.xerces.dom.ParentNode.nodeListItem,9.0,60.0,3.0,42.0,4.0,29.0,16.0,8.0,29.0,1.0,20.0,30.0,4.0,26.0,11.0,11.0,17.0,3.0,5.0,2.0,3.0,2.0,0.38,11,11,17,3,False
+xerces,Public Static Method,org.apache.xerces.util.EncodingMap.getIANA2JavaMapping,7.0,8.0,0.0,3.0,1.0,1.0,6.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.dom.ElementImpl.setIdAttributeNode,9.0,28.0,1.0,24.0,3.0,16.0,3.0,10.0,20.0,1.0,8.0,14.0,3.0,11.0,6.0,6.0,6.0,1.0,1.0,0.0,2.0,0.0,0.13,6,6,6,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.SchemaDOM.characters,1.0,3.0,0.0,2.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.dom3.as.ASNamedObjectMap.getNamedItemNS,0.0,13.0,0.0,2.0,2.0,0.0,11.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.5,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.dom.PSVIElementNSImpl.getValidationAttempted,1.0,9.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
+xerces,Public Method,org.apache.wml.dom.WMLSmallElementImpl.setXmlLang,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Constructor,org.apache.xerces.dom.DeferredElementNSImpl.DeferredElementNSImpl,3.0,11.0,2.0,5.0,1.0,3.0,5.0,4.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+xerces,Protected Method,org.apache.xerces.impl.dv.xs.AbstractDateTimeDV.maxDayInMonthFor,5.0,25.0,0.0,16.0,1.0,9.0,9.0,2.0,4.0,1.0,4.0,8.0,1.0,7.0,4.0,4.0,7.0,4.0,4.0,4.0,2.0,4.0,0.56,4,4,7,4,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLTitleElement.getText,1.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Method,thread.Test.ThreadParser.warning,1.0,3.0,0.0,3.0,1.0,2.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Static Method,org.apache.xerces.util.XML11Char.isXML11ValidLiteral,11.0,12.0,0.0,4.0,1.0,2.0,9.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,5.0,1.0,0.0,0.0,0.0,0.0,2.25,1,1,5,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLIFrameElement.getAlign,0.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+xerces,Public Abstract Method,org.apache.wml.WMLAccessElement.setDomain,0.0,8.0,0.0,1.0,1.0,0.0,7.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0,0,0,0,False
+xerces,Public Method,xni.PSVIWriter.endDocument,5.0,32.0,2.0,20.0,1.0,14.0,11.0,6.0,6.0,1.0,10.0,14.0,1.0,13.0,4.0,4.0,4.0,1.0,1.0,0.0,2.0,0.0,0.55,4,4,4,1,False
+xerces,Public Method,org.apache.html.dom.HTMLBuilder.startDocument,1.0,8.0,0.0,8.0,2.0,4.0,0.0,3.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+xerces,Public Constructor,org.apache.html.dom.HTMLDocumentImpl.HTMLDocumentImpl,3.0,7.0,0.0,5.0,1.0,2.0,2.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.4,1,1,1,1,False
+xerces,Public Method,org.apache.xml.serialize.IndentPrinter.getNextIndent,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Constructor,org.apache.wml.dom.WMLUElementImpl.WMLUElementImpl,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Method,org.apache.xerces.impl.dtd.DTDGrammarBucket.getStandalone,5.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.parsers.AbstractXMLDocumentParser.endExternalSubset,0.0,11.0,0.0,3.0,2.0,0.0,9.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.ranges.Range.extractContents,1.0,15.0,0.0,2.0,2.0,0.0,13.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.5,0,0,0,0,False
+xerces,Public Method,org.apache.wml.dom.WMLWmlElementImpl.setClassName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Constructor,org.apache.xerces.impl.xs.XMLSchemaValidator.ValueStoreCache.ValueStoreCache,0.0,3.0,0.0,2.0,1.0,0.0,2.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+xerces,Public Method,socket.DelayedInput.startElement,2.0,11.0,2.0,8.0,3.0,4.0,2.0,4.0,2.0,0.0,5.0,7.0,3.0,4.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.25,3,3,3,1,False
+xerces,Method,org.apache.xerces.impl.xpath.regex.RegexParser.parseFactor,18.0,98.0,2.0,80.0,5.0,67.0,19.0,28.0,1784.0,3.0,47.0,64.0,5.0,59.0,33.0,17.0,42.0,30.0,97.0,96.0,5.0,96.0,0.24,33,17,42,30,False
+xerces,Public Method,org.apache.xerces.util.URI.setHost,3.0,20.0,0.0,11.0,1.0,7.0,9.0,7.0,3.0,0.0,5.0,8.0,1.0,7.0,3.0,3.0,4.0,1.0,1.0,0.0,1.0,0.0,0.82,3,3,4,1,False
+xerces,Method,org.apache.xerces.impl.xpath.regex.ParserForXMLSchema.processBacksolidus_Z,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.wml.WMLStrongElement.setXmlLang,0.0,6.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.dom.ASModelImpl.validate,2.0,10.0,0.0,4.0,2.0,2.0,6.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.5,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.xni.NamespaceContext.reset,4.0,10.0,0.0,1.0,1.0,0.0,9.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,0,0,0,0,False
+xerces,Private Method,org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl.whiteSpaceValue,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.dtd.DTDGrammar.setDTDSource,1.0,3.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.xni.XMLDTDContentModelHandler.occurrence,4.0,17.0,0.0,2.0,2.0,0.0,15.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.5,0,0,0,0,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLAnchorElement.setName,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Method,org.apache.xml.serialize.TextSerializer.setOutputFormat,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+xerces,Public Method,org.apache.xml.serialize.BaseMarkupSerializer.reset,11.0,12.0,0.0,12.0,3.0,8.0,0.0,5.0,2.0,0.0,6.0,8.0,2.0,6.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+xerces,Public Abstract Method,org.apache.xerces.impl.xs.psvi.XSNamespaceItem.getTypeDefinition,0.0,8.0,0.0,1.0,1.0,0.0,7.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0,0,0,0,False
+xerces,Public Method,org.apache.html.dom.HTMLHRElementImpl.getWidth,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.parsers.XMLGrammarPreparser.getLoader,2.0,3.0,0.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Method,org.apache.html.dom.HTMLElementImpl.getInteger,15.0,19.0,0.0,11.0,1.0,4.0,8.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.73,2,2,2,1,False
+xerces,Public Method,org.apache.xerces.dom.DocumentTypeImpl.getEntities,3.0,28.0,0.0,6.0,1.0,3.0,22.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,3.67,2,2,2,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLInputElement.focus,0.0,4.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.xs.opti.DefaultXMLDocumentHandler.any,0.0,13.0,0.0,2.0,1.0,0.0,11.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,5.5,1,1,1,1,False
+xerces,Public Method,sax.helpers.AttributesImpl.getLocalName,2.0,7.0,2.0,4.0,2.0,2.0,2.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.5,2,2,2,1,False
+xerces,Public Constructor,org.apache.xerces.impl.XMLEntityManager.ScannedEntity.ScannedEntity,12.0,15.0,0.0,14.0,4.0,9.0,2.0,10.0,1.0,0.0,9.0,10.0,1.0,9.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.14,2,2,2,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLFormElement.setTarget,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+xerces,Public Method,org.xml.sax.helpers.SecuritySupport.getResourceAsStream,3.0,9.0,0.0,9.0,2.0,5.0,0.0,3.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+xerces,Public Method,org.apache.wml.dom.WMLAElementImpl.getClassName,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.util.AugmentationsImpl.removeItem,2.0,8.0,0.0,3.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.xni.XMLDocumentHandler.startDocument,8.0,31.0,0.0,4.0,4.0,0.0,27.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.75,0,0,0,0,False
+xerces,Public Method,org.apache.wml.dom.WMLAccessElementImpl.getPath,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.parsers.AbstractXMLDocumentParser.xmlDecl,0.0,16.0,0.0,3.0,2.0,0.0,14.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.67,1,1,1,1,False
+xerces,Public Method,dom.traversal.TreeWalkerView.Errors.fatalError,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.dom3.as.DocumentAS.setBoundASModels,0.0,6.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+xerces,Public Method,org.apache.html.dom.HTMLSelectElementImpl.getOptions,3.0,6.0,0.0,6.0,1.0,3.0,0.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+xerces,Public Method,org.apache.xerces.dom.DeferredDocumentTypeImpl.getNodeIndex,1.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+xerces,Public Method,org.apache.xerces.impl.xs.ElementPSVImpl.getValidity,1.0,10.0,0.0,3.0,1.0,1.0,7.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.33,1,1,1,1,False
+xerces,Public Abstract Method,org.apache.xerces.dom3.as.ASModel.createASNotationDeclaration,0.0,21.0,0.0,5.0,5.0,0.0,16.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.2,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.dom.events.EventImpl.getTimeStamp,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+xerces,Public Abstract Method,org.w3c.dom.html.HTMLTableColElement.getWidth,0.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+xerces,Public Abstract Method,org.apache.xerces.xni.psvi.ItemPSVI.getValidationAttempted,4.0,7.0,0.0,1.0,1.0,0.0,6.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0,0,0,0,False
+xerces,Public Method,org.apache.xerces.impl.xs.XSParticleDecl.makeClone,5.0,9.0,0.0,9.0,2.0,7.0,0.0,6.0,1.0,0.0,7.0,8.0,2.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
 xerces,Method,org.apache.xerces.dom.AttrImpl.internalInsertBefore,15.0,160.0,22.0,101.0,17.0,76.0,42.0,30.0,1049.0,3.0,58.0,77.0,18.0,59.0,19.0,19.0,21.0,3.0,5.0,2.0,4.0,2.0,0.42,19,19,21,3,True
 xerces,Public Method,org.apache.xerces.dom.CoreDocumentImpl.renameNode,9.0,136.0,16.0,95.0,19.0,67.0,25.0,31.0,54.0,2.0,44.0,59.0,14.0,45.0,16.0,15.0,16.0,1.0,7.0,0.0,4.0,0.0,0.26,16,15,16,1,True
 xerces,Public Method,org.apache.xerces.dom.DOMConfigurationImpl.setParameter,42.0,234.0,15.0,196.0,30.0,139.0,27.0,12.0,34.0,2.0,44.0,78.0,16.0,62.0,43.0,43.0,48.0,1.0,29.0,0.0,5.0,0.0,0.14,43,43,48,1,True

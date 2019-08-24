@@ -109,7 +109,7 @@ for index, row in projects.iterrows():
                         df_class_0 = dfMetrics[dfMetrics[targetName] == 0]
                         df_class_1 = dfMetrics[dfMetrics[targetName] == 1]
 
-                        df_class_0_under = df_class_0.sample(count_class_1*4) # proporção True/False será 1/4
+                        df_class_0_under = df_class_0.sample(count_class_1*3) # proporção True/False será 1/3
                         dfMetrics = pd.concat([df_class_0_under, df_class_1], axis=0)
 
                         print('Random under-sampling:')

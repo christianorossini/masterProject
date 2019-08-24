@@ -1,11 +1,9 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lpl
-karaf,Public Constructor,org.apache.karaf.tooling.exam.options.KarafDistributionConfigurationFileReplacementOption.KarafDistributionConfigurationFileReplacementOption,3.0,4,0,4,1,2,0,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-karaf,Public Method,org.apache.karaf.management.MBeanServerFactory.destroy,2.0,5,0,5,1,2,0,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-karaf,Public Method,org.apache.karaf.shell.console.commands.AnnotatedSubShell.getName,0.0,3,0,3,1,1,0,3.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-karaf,Private Method,org.apache.karaf.features.internal.FeaturesServiceImpl.createConfigurationKey,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,2.0,2.0,2.0,1.0,0.0,0.0,0,0.0,0.0,2,2,2,1,False
-karaf,Public Method,org.apache.karaf.management.ConnectorServerFactory.getKeyStore,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-karaf,Public Constructor,org.apache.karaf.shell.dev.watch.BundleWatcher.BundleWatcher,0.0,5,0,2,1,0,3,1.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.5,1,1,1,1,False
-karaf,Protected Method,org.apache.karaf.features.internal.FeaturesServiceImplTest.testGetFeatureStripVersion.(Anon_2).getFeatures,1.0,2,0,2,0,2,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-karaf,Public Method,org.apache.karaf.webconsole.gogo.GogoPlugin.SessionTerminal.handle,7.0,19,0,19,2,13,0,9.0,8.0,1.0,7,13,3,10,5.0,5.0,6.0,1.0,2.0,0.0,3,0.0,0.0,5,5,6,1,False
+karaf,Public Method,org.apache.karaf.management.RmiRegistryFactory.getObject,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+karaf,Private Method,org.apache.karaf.webconsole.gogo.Terminal.esc_PM,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+karaf,Public Method,org.apache.karaf.features.internal.FeatureImpl.getVersion,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+karaf,Public Method,org.apache.karaf.shell.dev.util.TreeTest.writeTreeWithOneChildAndNodeConverter.(Anon_1).toString,1.0,3,0,3,0,2,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+karaf,Public Method,org.apache.karaf.main.BaseJDBCLockTest.releaseShouldSucceedForANullConnectionReference,6.0,12,4,8,1,6,0,7.0,1.0,0.0,6,7,1,6,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+karaf,Public Method,org.apache.karaf.shell.osgi.BlueprintListener.getName,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
 karaf,Abstract Method,org.apache.karaf.admin.management.AdminServiceMBean.createInstance,0.0,1,0,1,1,0,0,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,True
 karaf,Public Method,org.apache.karaf.admin.management.internal.AdminServiceMBeanImpl.createInstance,11.0,19,2,17,5,11,0,6.0,8.0,1.0,6,10,3,7,4.0,4.0,4.0,1.0,1.0,0.0,1,0.0,0.0,4,4,4,1,True
