@@ -13,7 +13,9 @@ import numpy as np
 from sklearn.metrics import confusion_matrix, precision_recall_fscore_support
 from matplotlib import pyplot as plt
 
-cSmell = "cdsbp"
+from GA import gaPreProcessing as ga
+
+cSmell = "lpl"
 
 # load dataset
 dfCs = pd.read_csv("../datasets/oracle_dataset/{0}.csv".format(cSmell));
@@ -28,51 +30,65 @@ else:
 X = dfCs[feature_cols] # Features
 y = dfCs["is_{0}".format(cSmell)] # Target variable
 
-# Split dataset into training set and test set
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=1) # 70% training and 30% test
 
-# Create Decision Tree classifer object
-#clf = DecisionTreeClassifier()
-#clf = DecisionTreeClassifier(criterion="entropy", max_depth=3)
-clf = DecisionTreeClassifier(criterion="entropy")
+for applyPreProcessingWGA in [False, True]:
 
-# Train Decision Tree Classifer
-clf = clf.fit(X_train,y_train)
+    if applyPreProcessingWGA:
+        columns = ga.doGAPreProcessing(X,y)
+        X = X.iloc[:,columns] # filtra as colunas do dataframe de features com a seleção do pré processamento
+        feature_cols = X.columns
+    
+    # Split dataset into training set and test set
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=1) # 70% training and 30% test
 
-#Predict the response for test dataset
-y_pred = clf.predict(X_test)
+    # Create Decision Tree classifer object
+    #clf = DecisionTreeClassifier()
+    clf = DecisionTreeClassifier(criterion="entropy", max_depth=5)
+    #clf = DecisionTreeClassifier(criterion="entropy")
 
-dot_data = StringIO()
-export_graphviz(clf, out_file=dot_data,  
-                filled=True, rounded=True,
-                special_characters=True,feature_names = feature_cols,class_names=['0','1'])
-graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
-graph.write_png('{0}.png'.format(cSmell))
-Image(graph.create_png())
+    # Train Decision Tree Classifer
+    clf = clf.fit(X_train,y_train)
 
-""" labels = ['Class 0', 'Class 1']
-fig = plt.figure()
-ax = fig.add_subplot(111)
-cax = ax.matshow(conf_mat, cmap=plt.cm.Blues)
-fig.colorbar(cax)
-ax.set_xticklabels([''] + labels)
-ax.set_yticklabels([''] + labels)
-plt.xlabel('Predicted')
-plt.ylabel('Expected')
-plt.show()
+    #Predict the response for test dataset
+    y_pred = clf.predict(X_test)
 
-dfCs["is_{0}".format(cSmell)].value_counts().plot(kind='bar', title='Count (target)')
- """
-# Model Accuracy, how often is the classifier correct?
-accuracy = metrics.accuracy_score(y_test, y_pred)
-precision, recall, fmeasure, support = precision_recall_fscore_support(y_test, y_pred)
+    dot_data = StringIO()
+    export_graphviz(clf, out_file=dot_data,  
+                    filled=True, rounded=True,
+                    special_characters=True,feature_names = feature_cols,class_names=['0','1'])
+    graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
+    decision_tree_file = ('{0}_ga.png' if applyPreProcessingWGA else "{0}.png")
+    graph.write_png(decision_tree_file.format(cSmell))
+    Image(graph.create_png())
 
-recall = metrics.recall_score(y_test, y_pred)
-precision = metrics.precision_score(y_test, y_pred)
-fmeasure = metrics.f1_score(y_test, y_pred)
+    """ labels = ['Class 0', 'Class 1']
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    cax = ax.matshow(conf_mat, cmap=plt.cm.Blues)
+    fig.colorbar(cax)
+    ax.set_xticklabels([''] + labels)
+    ax.set_yticklabels([''] + labels)
+    plt.xlabel('Predicted')
+    plt.ylabel('Expected')
+    plt.show()
 
-conf_mat = confusion_matrix(y_true=y_test, y_pred=y_pred)
-print('Confusion matrix:\n', conf_mat)
+    dfCs["is_{0}".format(cSmell)].value_counts().plot(kind='bar', title='Count (target)')
+    """
+    if applyPreProcessingWGA:
+        print("### Decision tree com pré processamento com Algoritmo Genético")
+    
+    # Model Accuracy, how often is the classifier correct?
+    accuracy = metrics.accuracy_score(y_test, y_pred)
 
-print("Precision: {} \nRecall: {}\nF-Measure: {}\n".format(precision, recall, fmeasure))
+    # Recall, precision, F-measure
+    recall = metrics.recall_score(y_test, y_pred)
+    precision = metrics.precision_score(y_test, y_pred)
+    fmeasure = metrics.f1_score(y_test, y_pred)
+
+    conf_mat = confusion_matrix(y_true=y_test, y_pred=y_pred)
+    dfConfMat = pd.DataFrame(conf_mat, columns=["F","T"], index=["F","T"])
+    print('Confusion matrix:\n', dfConfMat)
+    print('TP: {}, TN: {}, FN: {}, FP: {} \n'.format(dfConfMat.loc["T","T"], dfConfMat.loc["F","F"], dfConfMat.loc["T","F"], dfConfMat.loc["F","T"]))
+    #print('Accuracy: {0}'.format(accuracy))
+    print("Precision: {} \nRecall: {}\nF-Measure: {}\n".format(precision, recall, fmeasure))
 
