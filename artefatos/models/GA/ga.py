@@ -25,11 +25,15 @@ def cal_pop_fitness(pop, features, labels, train_indices, test_indices):
         train_labels = labels[train_indices]
         test_labels = labels[test_indices]
 
-        SV_classifier = sklearn.svm.SVC(gamma='scale')
-        SV_classifier.fit(X=train_data, y=train_labels)
+        #SV_classifier = sklearn.svm.SVC(gamma='scale')
+        #SV_classifier.fit(X=train_data, y=train_labels)
+        dt_classifier = sklearn.tree.DecisionTreeClassifier(criterion="entropy")
+        dt_classifier = dt_classifier.fit(X=train_data,y=train_labels)
 
-        predictions = SV_classifier.predict(test_data)
+        #predictions = SV_classifier.predict(test_data)
+        predictions = dt_classifier.predict(test_data)
         accuracies[idx] = classification_accuracy(test_labels, predictions)
+        #accuracies[idx] = sklearn.metrics.precision_score(test_labels, predictions)
         idx = idx + 1
     return accuracies
 
