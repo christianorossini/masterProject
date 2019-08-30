@@ -114,25 +114,7 @@ for index, row in projects.iterrows():
 
                         print('Random under-sampling:')
                         print(dfMetrics[targetName].value_counts())
-                                                                        
-                        """ #### Datasets gerados estão desbalanceados. Resolvendo o desbalanceamento dos datasets
-
-                        # Separate majority and minority classes
-                        df_majority = dfMetrics[dfMetrics[targetName]==False]
-                        df_minority = dfMetrics[dfMetrics[targetName]==True]                        
-                        
-                        # Downsample majority class
-                        df_majority_downsampled = resample(df_majority, 
-                                                        replace=False,    # sample without replacement
-                                                        n_samples=3*df_minority.size,     # 3 times minority class
-                                                        random_state=123) # reproducible results
-                        
-                        # Combine minority class with downsampled majority class
-                        dfMetrics = pd.concat([df_majority_downsampled, df_minority])
-                        
-                        # Display new class counts
-                        #df_downsampled.balance.value_counts() """
-
+                                                            
                         #escreve o novo CSV se no projeto houver alguma ocorrência do tipo de codesmell                        
                         print("--> Escrevendo em " + "oracle_dataset/" + rowCs["cs"] + "/" + row["name"] + ".csv")
                         dfMetrics.to_csv("oracle_dataset/" + rowCs["cs"] + "/" + row["name"] + ".csv", index=False) 
