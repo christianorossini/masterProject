@@ -1,49 +1,49 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lm
-hadoop,Public Method,org.apache.hadoop.mapred.JobTracker.emitHeartbeat,7.0,35,3,26,4,18,6,11.0,7.0,1.0,10,17,3,14,5.0,5.0,5.0,3.0,3.0,3.0,2,3.0,0.23,5,5,5,3,False
-hadoop,Public Abstract Method,org.apache.hadoop.io.compress.Decompressor.reset,1.0,4,0,1,1,0,3,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,3.0,0,0,0,0,False
-hadoop,Static Method,org.apache.hadoop.io.WritableComparator.readVLong,4.0,23,0,16,3,12,7,1.0,5.0,1.0,10,14,4,10,5.0,5.0,5.0,1.0,1.0,0.0,1,0.0,0.44,5,5,5,1,False
-hadoop,Public Method,org.apache.hadoop.ipc.Server.join,3.0,9,0,5,1,2,4,1.0,2.0,0.0,1,3,1,2,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.8,2,2,2,1,False
-hadoop,Public Method,org.apache.hadoop.dfs.FSNamesystem.isDir,3.0,6,0,3,1,1,3,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hadoop,Public Constructor,org.apache.hadoop.mapred.LocalJobRunner.LocalJobRunner,2.0,5,0,5,1,3,0,6.0,1.0,0.0,3,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Public Static Method,org.apache.hadoop.util.VersionInfo.getVersion,2.0,7,0,3,1,1,4,2.0,1.0,0.0,1,2,1,1,2.0,2.0,2.0,1.0,0.0,0.0,0,0.0,1.33,2,2,2,1,False
-hadoop,Protected Method,org.apache.hadoop.streaming.StreamJob.listJobConfProperties,2.0,20,0,16,5,11,4,9.0,4.0,1.0,9,12,5,7,3.0,3.0,3.0,1.0,0.0,0.0,1,0.0,0.25,3,3,3,1,False
-hadoop,Public Method,org.apache.hadoop.dfs.FSNamesystem.Lease.obtained,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Abstract Method,org.apache.hadoop.io.SequenceFile.Sorter.RawKeyValueIterator.getKey,2.0,5,0,1,1,0,4,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,4.0,0,0,0,0,False
-hadoop,Method,org.apache.hadoop.mapred.JobStatus.setStartTime,2.0,4,0,0,0,0,4,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Method,org.apache.hadoop.io.SequenceFile.RecordCompressWriter.isCompressed,0.0,1,0,1,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Public Method,org.apache.hadoop.mapred.TaskTracker.TaskInProgress.reportProgress,10.0,20,0,16,3,11,4,10.0,4.0,1.0,8,12,2,10,4.0,4.0,4.0,1.0,1.0,0.0,2,0.0,0.25,4,4,4,1,False
-hadoop,Public Method,org.apache.hadoop.dfs.JspHelper.addTableHeader,1.0,5,0,5,1,3,0,1.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Public Method,org.apache.hadoop.conf.Configuration.getLong,16.0,14,0,10,2,7,4,3.0,3.0,0.0,4,7,2,5,3.0,3.0,3.0,3.0,2.0,2.0,1,2.0,0.4,3,3,3,3,False
-hadoop,Private Static Method,org.apache.hadoop.record.compiler.generated.Rcc.jj_la1_1,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Method,org.apache.hadoop.record.compiler.JType.genJavaEquals,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Private Method,org.apache.hadoop.mapred.ReduceTaskRunner.MapOutputCopier.finish,6.0,10,0,10,1,6,0,7.0,2.0,0.0,4,7,1,6,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hadoop,Public Static Method,org.apache.hadoop.io.Text.bytesToCodePoint,4.0,25,2,18,4,15,8,4.0,8.0,1.0,19,22,4,18,8.0,3.0,8.0,8.0,1.0,1.0,1,1.0,0.44,8,3,8,8,False
-hadoop,Public Method,org.apache.hadoop.io.compress.zlib.ZlibDecompressor.setDictionary,5.0,10,0,10,1,6,0,2.0,4.0,1.0,4,7,1,6,3.0,3.0,6.0,1.0,0.0,0.0,1,0.0,0.0,3,3,6,1,False
-hadoop,Public Method,org.apache.hadoop.benchmarks.mapred.MultiJobRunner.setJarFile,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Public Method,org.apache.hadoop.io.ObjectWritable.set,2.0,5,0,4,1,2,1,3.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.25,1,1,1,1,False
-hadoop,Public Method,org.apache.hadoop.io.Text.equals,3.0,13,0,12,2,10,1,2.0,4.0,1.0,5,9,2,7,4.0,4.0,4.0,4.0,3.0,3.0,1,3.0,0.08,4,4,4,4,False
-hadoop,Public Method,org.apache.hadoop.mapred.StatusHttpServer.stop,6.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
-hadoop,Method,org.apache.hadoop.mapred.JobTracker.JobTrackerMetrics.completeMap,4.0,4,0,4,1,2,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Public Static Method,org.apache.hadoop.io.WritableFactories.setFactory,3.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
-hadoop,Protected Method,org.apache.hadoop.metrics.spi.NullContext.remove,0.0,5,0,2,1,0,3,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.5,1,1,1,1,False
-hadoop,Public Abstract Method,org.apache.hadoop.io.compress.Compressor.setInput,1.0,10,0,1,1,0,9,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,9.0,0,0,0,0,False
-hadoop,Method,org.apache.hadoop.dfs.FSNamesystem.SafeModeInfo.incrementSafeBlockCount,3.0,10,0,5,1,3,5,2.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,1.0,2,2,2,1,False
-hadoop,Public Method,org.apache.hadoop.record.XmlInputArchive.startVector,2.0,7,0,7,2,4,0,4.0,2.0,0.0,3,5,2,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hadoop,Public Method,org.apache.hadoop.mapred.PhasedFileSystem.getWorkingDirectory,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Public Method,org.apache.hadoop.record.compiler.JVector.genJavaReadWrapper,5.0,18,0,18,2,15,0,7.0,2.0,0.0,14,16,2,14,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
-hadoop,Public Method,org.apache.hadoop.mapred.ClusterStatus.readFields,1.0,6,0,6,1,4,0,5.0,1.0,0.0,4,5,1,4,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Method,org.apache.hadoop.streaming.PipeMapRed.logStackTrace,5.0,7,0,7,1,4,0,1.0,3.0,0.0,3,6,1,5,3.0,3.0,3.0,1.0,1.0,0.0,1,0.0,0.0,3,3,3,1,False
-hadoop,Private Method,org.apache.hadoop.fs.DF.parseExecResult,2.0,17,2,15,3,11,2,13.0,2.0,0.0,10,12,2,10,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.13,2,2,2,1,False
-hadoop,Private Static Method,org.apache.hadoop.streaming.PathFinder.printEnvVariables,0.0,14,0,11,6,8,3,7.0,2.0,0.0,7,9,6,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.27,2,2,2,1,False
-hadoop,Public Method,org.apache.hadoop.mapred.TaskStatus.getStateString,2.0,1,0,1,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Public Method,org.apache.hadoop.mapred.TaskLog.Reader.fetchAll,6.0,45,5,32,8,25,8,7.0,24.0,1.0,21,27,9,18,6.0,6.0,6.0,1.0,0.0,0.0,2,0.0,0.25,6,6,6,1,False
-hadoop,Public Method,org.apache.hadoop.io.GenericWritable.set,3.0,18,0,13,3,9,5,5.0,3.0,0.0,8,11,4,7,3.0,3.0,3.0,3.0,3.0,3.0,2,3.0,0.38,3,3,3,3,False
-hadoop,Public Method,org.apache.hadoop.util.CopyFiles.DFSCopyFilesMapper.setup,12.0,131,15,99,32,82,17,45.0,6160.0,4.0,73,89,30,59,16.0,16.0,16.0,1.0,4.0,0.0,3,0.0,0.17,16,16,16,1,False
-hadoop,Private Method,org.apache.hadoop.benchmarks.mapred.MultiJobRunner.diff,0.0,8,1,4,2,2,3,1.0,1.0,0.0,2,3,2,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.75,1,1,1,1,False
-hadoop,Public Method,org.apache.hadoop.io.MapFile.Reader.reset,3.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
-hadoop,Public Static Method,org.apache.hadoop.mapred.OutputFormatBase.getCompressOutput,3.0,7,0,3,1,1,4,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.33,1,1,1,1,False
-hadoop,Public Abstract Method,org.apache.hadoop.record.InputArchive.startMap,0.0,1,0,1,1,0,0,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
-hadoop,Public Method,org.apache.hadoop.io.SequenceFile.Writer.close,15.0,7,0,6,1,3,1,2.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.17,2,2,2,1,False
+hadoop,Private Method,org.apache.hadoop.dfs.DFSClient.DFSOutputStream.locateFollowingBlock,6.0,30,0,30,4,21,0,11.0,8.0,1.0,7,14,3,11,7.0,7.0,8.0,4.0,6.0,6.0,5,4.0,0.0,7,7,8,4,False
+hadoop,Method,org.apache.hadoop.record.compiler.JType.genJavaConstructorParam,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.dfs.DFSClient.rename,4.0,8,0,4,1,2,4,4.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hadoop,Method,org.apache.hadoop.streaming.PipeMapRed.getURIOutputStream,4.0,20,0,18,5,12,2,9.0,3.0,0.0,8,12,5,7,3.0,3.0,3.0,1.0,1.0,0.0,1,0.0,0.11,3,3,3,1,False
+hadoop,Public Method,org.apache.hadoop.mapred.jobcontrol.Job.getJobConf,1.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.benchmarks.mapred.BenchmarkMapper.process,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.record.compiler.JMap.genJavaWriteWrapper,5.0,17,0,17,2,15,0,8.0,1.0,0.0,15,16,2,14,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.streaming.TestStreamedMerge.SideEffectConsumer.run,3.0,16,0,16,2,11,0,5.0,4.0,1.0,7,11,2,9,4.0,4.0,4.0,4.0,3.0,3.0,3,3.0,0.0,4,4,4,4,False
+hadoop,Public Method,org.apache.hadoop.record.BinaryInputArchive.BinaryIndex.incr,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.mapred.ReduceTaskRunner.kill,1.0,10,0,6,1,3,4,2.0,1.0,0.0,2,4,1,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.67,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.dfs.DFSFileInfo.getPath,4.0,5,0,3,1,1,2,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.67,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.ipc.RPC.Invocation.readFields,4.0,10,0,10,2,7,0,8.0,2.0,0.0,8,10,3,7,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,False
+hadoop,Public Method,org.apache.hadoop.dfs.FSNamesystem.exists,3.0,10,0,7,1,4,3,3.0,2.0,0.0,2,4,1,3,2.0,2.0,3.0,1.0,1.0,0.0,1,0.0,0.43,2,2,3,1,False
+hadoop,Protected Constructor,org.apache.hadoop.io.SetFile.SetFile,0.0,1,0,1,1,0,1,1.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.mapred.SequenceFileInputFilter.FilterBase.getConf,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Method,org.apache.hadoop.dfs.FSEditLog.logAddDatanode,3.0,7,0,3,1,1,4,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.33,1,1,1,1,False
+hadoop,Public Static Method,org.apache.hadoop.streaming.StreamUtil.formatBytes2,5.0,26,0,26,3,20,1,3.0,16.0,1.0,16,21,3,18,5.0,5.0,5.0,1.0,0.0,0.0,1,0.0,0.04,5,5,5,1,False
+hadoop,Public Method,org.apache.hadoop.mapred.JobProfile.getJobName,1.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.fs.LocalFileSystem.toString,0.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.fs.DF.toString,7.0,10,0,10,1,8,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.dfs.JspHelper.bestNode,4.0,38,3,34,8,28,1,11.0,18.0,1.0,21,27,8,19,7.0,7.0,8.0,1.0,1.0,0.0,3,0.0,0.03,7,7,8,1,False
+hadoop,Public Abstract Method,org.apache.hadoop.record.OutputArchive.writeRecord,0.0,1,0,1,1,0,0,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
+hadoop,Public Method,org.apache.hadoop.streaming.TupleInputFormat.MultiRecordReader.createKey,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.dfs.DFSClient.listPaths,6.0,6,0,4,1,2,2,4.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.5,1,1,1,1,False
+hadoop,Public Abstract Method,org.apache.hadoop.io.compress.Decompressor.finished,1.0,7,0,1,1,0,6,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,6.0,0,0,0,0,False
+hadoop,Public Method,org.apache.hadoop.benchmarks.mapred.BenchmarkMapper.map,2.0,6,1,5,3,2,0,4.0,1.0,0.0,2,3,2,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.streaming.MuxOutputFormat.MuxRecordWriter.close,6.0,21,1,20,4,14,0,5.0,8.0,1.0,11,16,5,11,5.0,5.0,5.0,1.0,1.0,0.0,3,0.0,0.0,5,5,5,1,False
+hadoop,Public Method,org.apache.hadoop.record.compiler.JField.genJavaWriteMethodName,2.0,3,0,3,1,1,0,4.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Method,org.apache.hadoop.streaming.TestStreamedMerge.startSideEffectConsumer.(Anon_1).connectInputStream,4.0,6,0,6,0,5,0,6.0,1.0,0.0,4,5,1,4,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Constructor,org.apache.hadoop.dfs.DfsPath.DfsPath,2.0,4,0,4,1,2,0,4.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.util.Progress.set,4.0,4,0,3,1,1,1,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.mapred.TaskLog.Writer.init,8.0,35,3,23,5,17,9,10.0,7.0,1.0,10,15,4,11,5.0,5.0,5.0,1.0,0.0,0.0,3,0.0,0.39,5,5,5,1,False
+hadoop,Public Method,org.apache.hadoop.ipc.Client.Call.touch,3.0,4,0,3,1,1,1,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.33,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.record.BinaryOutputArchive.endVector,0.0,1,0,1,1,0,0,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Static Method,org.apache.hadoop.record.Utils.fromXMLBuffer,2.0,20,0,14,7,10,6,5.0,3.0,0.0,11,14,7,7,3.0,3.0,3.0,1.0,1.0,0.0,1,0.0,0.43,3,3,3,1,False
+hadoop,Static Method,org.apache.hadoop.record.BinaryOutputArchive.getArchive,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.fs.LocalFileSystem.LocalFSFileInputStream.available,1.0,1,0,1,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.record.compiler.generated.Rcc.disable_tracing,0.0,2,0,2,1,0,0,0.0,1.0,0.0,0,1,1,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.fs.FileSystem.rename,7.0,26,4,18,3,13,5,5.0,5.0,1.0,7,12,3,9,5.0,5.0,5.0,3.0,3.0,2.0,3,2.0,0.28,5,5,5,3,False
+hadoop,Public Method,org.apache.hadoop.io.SetFile.Reader.get,1.0,10,0,8,2,5,2,3.0,2.0,0.0,3,5,1,4,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.25,2,2,2,1,False
+hadoop,Public Method,org.apache.hadoop.mapred.ClusterStatus.getMaxTasks,2.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.io.BytesWritable.Comparator.compare,4.0,9,0,6,4,3,3,3.0,1.0,0.0,3,4,3,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.5,1,1,1,1,False
+hadoop,Public Constructor,org.apache.hadoop.util.ProgramDriver.ProgramDriver,2.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.io.IntWritable.equals,2.0,7,0,6,2,4,1,1.0,2.0,0.0,3,5,2,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.17,2,2,2,1,False
+hadoop,Public Abstract Method,org.apache.hadoop.record.OutputArchive.writeByte,0.0,1,0,1,1,0,0,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
 hadoop,Public Method,org.apache.hadoop.dfs.DFSShell.run,7.0,127,5,109,5,94,13,23.0,104.0,2.0,48,78,5,73,32.0,32.0,43.0,10.0,40.0,15.0,3,15.0,0.12,32,32,43,10,True
 hadoop,Public Method,org.apache.hadoop.dfs.DataNode.offerService,21.0,134,9,83,11,66,45,27.0,257.0,2.0,36,53,10,43,18.0,15.0,19.0,7.0,27.0,18.0,5,16.0,0.54,18,15,19,7,True
 hadoop,Method,org.apache.hadoop.dfs.FSEditLog.loadFSEdits,14.0,170,4,150,28,126,22,33.0,5238.0,4.0,85,104,29,75,25.0,19.0,25.0,4.0,34.0,2.0,6,1.0,0.15,25,19,25,4,True
