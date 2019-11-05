@@ -35,19 +35,20 @@ for cSmell in ["lpl","lm","gc","cdsbp"]:
     y = dfCs["is_{0}".format(cSmell)] # Target variable
 
 
-    for applyPreProcessingWGA in [False, True]:
+    #for applyPreProcessingWGA in [False, True]:
+    for depth in [2,3,4,5]:
 
-        if applyPreProcessingWGA:
-            columns = ga.doGAPreProcessing(X,y)
-            X = X.iloc[:,columns] # filtra as colunas do dataframe de features com a seleção do pré processamento
-            feature_cols = X.columns
+       # if applyPreProcessingWGA:
+       #     columns = ga.doGAPreProcessing(X,y)
+       #     X = X.iloc[:,columns] # filtra as colunas do dataframe de features com a selecao do pre processamento
+       #     feature_cols = X.columns
         
         # Split dataset into training set and test set
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=1) # 70% training and 30% test
 
         # Create Decision Tree classifer object
         #clf = DecisionTreeClassifier()
-        clf = DecisionTreeClassifier(criterion="entropy", max_depth=5)
+        clf = DecisionTreeClassifier(criterion="entropy", min_samples_leaf=5, max_depth=depth)
         #clf = DecisionTreeClassifier(criterion="entropy")
 
         # Train Decision Tree Classifer
@@ -61,8 +62,9 @@ for cSmell in ["lpl","lm","gc","cdsbp"]:
                         filled=True, rounded=True,
                         special_characters=True,feature_names = feature_cols,class_names=['0','1'])
         graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
-        decision_tree_file = ('{0}_ga.png' if applyPreProcessingWGA else "{0}.png")
-        graph.write_png(decision_tree_file.format(cSmell))
+        #decision_tree_file = ('{0}_ga.png' if applyPreProcessingWGA else "{0}.png")
+        decision_tree_file = ('{0}_{1}.png')
+        graph.write_png(decision_tree_file.format(cSmell, depth))
         Image(graph.create_png())
 
         """ labels = ['Class 0', 'Class 1']
@@ -78,8 +80,8 @@ for cSmell in ["lpl","lm","gc","cdsbp"]:
 
         dfCs["is_{0}".format(cSmell)].value_counts().plot(kind='bar', title='Count (target)')
         """
-        if applyPreProcessingWGA:
-            print("### Decision tree com pré processamento com Algoritmo Genético")
+        #if applyPreProcessingWGA:
+        #    print("### Decision tree com pre processamento com Algoritmo Genetico")
         
         # Model Accuracy, how often is the classifier correct?
         accuracy = metrics.accuracy_score(y_test, y_pred)
