@@ -14,15 +14,17 @@ from sklearn.metrics import confusion_matrix, precision_recall_fscore_support
 from matplotlib import pyplot as plt
 
 from GA import gaPreProcessing as ga
+import os
 
 
 #df = pd.DataFrame(columns=['TN', 'TP', 'FN', 'FP'], index=["longParameterList","longParameterList*","longMethod","longMethod*","godClass","godClass*","classDataShul"])
 dfExportEffectiveness = pd.DataFrame(columns=['TN', 'TP', 'FN', 'FP', "Precision", "Recall", "F-measure"])
 
+xlsIdx = list()
 for cSmell in ["lpl","lm","gc","cdsbp"]:
 
     # load dataset
-    dfCs = pd.read_csv("../datasets/oracle_dataset/{0}.csv".format(cSmell));
+    dfCs = pd.read_csv(os.path.dirname(os.path.abspath(__file__))+"/../datasets/oracle_dataset/{0}.csv".format(cSmell))
 
     #split dataset in features and target variable
     if(cSmell in ["gc","cdsbp"]):
@@ -33,10 +35,9 @@ for cSmell in ["lpl","lm","gc","cdsbp"]:
     #feature_cols = dfCs.iloc[:,3:30].columns
     X = dfCs[feature_cols] # Features
     y = dfCs["is_{0}".format(cSmell)] # Target variable
-
-
+    
     #for applyPreProcessingWGA in [False, True]:
-    for depth in [2,3,4,5]:
+    for idx, depth in enumerate([2,3,4,5]):
 
        # if applyPreProcessingWGA:
        #     columns = ga.doGAPreProcessing(X,y)
@@ -63,8 +64,8 @@ for cSmell in ["lpl","lm","gc","cdsbp"]:
                         special_characters=True,feature_names = feature_cols,class_names=['0','1'])
         graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
         #decision_tree_file = ('{0}_ga.png' if applyPreProcessingWGA else "{0}.png")
-        decision_tree_file = ('{0}_{1}.png')
-        graph.write_png(decision_tree_file.format(cSmell, depth))
+        decision_tree_file = ('{0}/{1}_{2}.png')
+        graph.write_png(decision_tree_file.format(os.path.dirname(os.path.abspath(__file__)), cSmell, depth))
         Image(graph.create_png())
 
         """ labels = ['Class 0', 'Class 1']
@@ -103,7 +104,10 @@ for cSmell in ["lpl","lm","gc","cdsbp"]:
         print("Precision: {} \nRecall: {}\nF-Measure: {}\n".format(precision, recall, fmeasure))
 
         dfExportEffectiveness = dfExportEffectiveness.append({'TN':tn, 'TP':tp, 'FN':fn, 'FP':fp, "Precision":precision, "Recall":recall, "F-measure":fmeasure}, ignore_index=True)
+        
+        xlsIdx.append('{0}_{1}'.format(cSmell,depth))
 
-dfExportEffectiveness.index = ["longParameterList","longParameterList*","longMethod","longMethod*","godClass","godClass*","classDataShouldBePrivate","classDataShouldBePrivate*"]
-dfExportEffectiveness.to_excel("modelEffectiveness.xls")
+#dfExportEffectiveness.index = ["longParameterList","longParameterList*","longMethod","longMethod*","godClass","godClass*","classDataShouldBePrivate","classDataShouldBePrivate*"]
+dfExportEffectiveness.index = xlsIdx
+dfExportEffectiveness.to_excel(os.path.dirname(os.path.abspath(__file__))+"/modelEffectiveness.xls")
 
