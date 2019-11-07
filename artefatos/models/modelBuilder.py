@@ -60,11 +60,12 @@ for cSmell in ["lpl","lm","gc","cdsbp"]:
 
         dot_data = StringIO()
         export_graphviz(clf, out_file=dot_data,  
-                        filled=True, rounded=True,
+                        rounded=True,
                         special_characters=True,feature_names = feature_cols,class_names=['0','1'])
         graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
         #decision_tree_file = ('{0}_ga.png' if applyPreProcessingWGA else "{0}.png")
         decision_tree_file = ('{0}/{1}_{2}.png')
+        graph.set_size('"10!"')
         graph.write_png(decision_tree_file.format(os.path.dirname(os.path.abspath(__file__)), cSmell, depth))
         Image(graph.create_png())
 
