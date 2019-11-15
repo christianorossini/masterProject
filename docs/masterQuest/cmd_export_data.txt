@@ -1,0 +1,1 @@
+mysqldump -u masterquestuser masterquestdb ms_dtModel ms_dtModel_tasks ms_question ms_task ms_task_questions > /mnt/d/Christiano/Documentos/dissertation/projeto/docs/masterQuest/inserts.sql --no-create-info

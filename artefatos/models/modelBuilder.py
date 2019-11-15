@@ -37,7 +37,7 @@ for cSmell in ["lpl","lm","gc","cdsbp"]:
     y = dfCs["is_{0}".format(cSmell)] # Target variable
     
     #for applyPreProcessingWGA in [False, True]:
-    for idx, depth in enumerate([2,3,4,5]):
+    for idx, depth in enumerate([4,7,10,13]):
 
        # if applyPreProcessingWGA:
        #     columns = ga.doGAPreProcessing(X,y)
@@ -49,7 +49,8 @@ for cSmell in ["lpl","lm","gc","cdsbp"]:
 
         # Create Decision Tree classifer object
         #clf = DecisionTreeClassifier()
-        clf = DecisionTreeClassifier(criterion="entropy", min_samples_leaf=5, max_depth=depth)
+        #clf = DecisionTreeClassifier(criterion="entropy", min_samples_leaf=5, max_depth=depth)
+        clf = DecisionTreeClassifier(criterion="entropy", max_leaf_nodes=depth)
         #clf = DecisionTreeClassifier(criterion="entropy")
 
         # Train Decision Tree Classifer
