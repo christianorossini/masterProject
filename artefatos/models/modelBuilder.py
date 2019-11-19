@@ -21,7 +21,8 @@ import os
 dfExportEffectiveness = pd.DataFrame(columns=['TN', 'TP', 'FN', 'FP', "Precision", "Recall", "F-measure"])
 
 xlsIdx = list()
-for cSmell in ["lpl","lm","gc","cdsbp"]:
+#for cSmell in ["lpl","lm","gc","cdsbp"]:
+for cSmell in ["lpl"]:
 
     # load dataset
     dfCs = pd.read_csv(os.path.dirname(os.path.abspath(__file__))+"/../datasets/oracle_dataset/{0}.csv".format(cSmell))
@@ -62,13 +63,22 @@ for cSmell in ["lpl","lm","gc","cdsbp"]:
         dot_data = StringIO()
         export_graphviz(clf, out_file=dot_data,  
                         rounded=True,
-                        special_characters=True,feature_names = feature_cols,class_names=['0','1'])
-        graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
-        #decision_tree_file = ('{0}_ga.png' if applyPreProcessingWGA else "{0}.png")
-        decision_tree_file = ('{0}/{1}_{2}.png')
-        graph.set_size('"10!"')
-        graph.write_png(decision_tree_file.format(os.path.dirname(os.path.abspath(__file__)), cSmell, depth))
-        Image(graph.create_png())
+                        special_characters=True,feature_names = feature_cols,class_names=['0','1'], impurity=False)
+        graph = pydotplus.graph_from_dot_data(dot_data.getvalue()).to_string()  
+        #decision_tree_file = ('{0}_ga.png' if applyPreProcessingWGA else "{0}.png")        
+        import re        
+        graph = re.sub('(\\\\nsamples = [0-9]+)(\\\\nvalue = \[[0-9]+, [0-9]+, [0-9]+\])', '', graph)
+        graph = re.sub('(samples = [0-9]+)(\\\\nvalue = \[[0-9]+, [0-9]+, [0-9]+\])\\\\n', '', graph)
+        
+        with open('tree_modified.dot', 'w') as file:
+            file.write(graph)
+
+        graph_modified = pydotplus.graph_from_dot_file("tree_modified.dot")           
+        
+        decision_tree_file = ('{0}/dt/{1}_{2}.png')
+        graph_modified.set_size('"10!"')
+        graph_modified.write_png(decision_tree_file.format(os.path.dirname(os.path.abspath(__file__)), cSmell, depth))
+        Image(graph_modified.create_png())
 
         """ labels = ['Class 0', 'Class 1']
         fig = plt.figure()
