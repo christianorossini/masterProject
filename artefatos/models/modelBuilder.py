@@ -17,7 +17,7 @@ from GA import gaPreProcessing as ga
 import os
 
 
-#df = pd.DataFrame(columns=['TN', 'TP', 'FN', 'FP'], index=["longParameterList","longParameterList*","longMethod","longMethod*","godClass","godClass*","classDataShul"])
+pyPath = os.path.dirname(os.path.abspath(__file__))
 dfExportEffectiveness = pd.DataFrame(columns=['TN', 'TP', 'FN', 'FP', "Precision", "Recall", "F-measure"])
 
 xlsIdx = list()
@@ -38,7 +38,7 @@ for cSmell in ["lpl"]:
     y = dfCs["is_{0}".format(cSmell)] # Target variable
     
     #for applyPreProcessingWGA in [False, True]:
-    for idx, depth in enumerate([4,7,10,13]):
+    for idx, depth in enumerate([4,7,10,13]): #itera sobre o número de folhas que a árvore terá
 
        # if applyPreProcessingWGA:
        #     columns = ga.doGAPreProcessing(X,y)
@@ -48,11 +48,9 @@ for cSmell in ["lpl"]:
         # Split dataset into training set and test set
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=1) # 70% training and 30% test
 
-        # Create Decision Tree classifer object
-        #clf = DecisionTreeClassifier()
+        # Create Decision Tree classifer object        
         #clf = DecisionTreeClassifier(criterion="entropy", min_samples_leaf=5, max_depth=depth)
-        clf = DecisionTreeClassifier(criterion="entropy", max_leaf_nodes=depth)
-        #clf = DecisionTreeClassifier(criterion="entropy")
+        clf = DecisionTreeClassifier(criterion="entropy", max_leaf_nodes=depth)        
 
         # Train Decision Tree Classifer
         clf = clf.fit(X_train,y_train)
@@ -61,24 +59,39 @@ for cSmell in ["lpl"]:
         y_pred = clf.predict(X_test)
 
         dot_data = StringIO()
-        export_graphviz(clf, out_file=dot_data,  
+        export_graphviz(clf, 
+                        out_file=dot_data,                          
                         rounded=True,
-                        special_characters=True,feature_names = feature_cols,class_names=['0','1'], impurity=False)
-        graph = pydotplus.graph_from_dot_data(dot_data.getvalue()).to_string()  
-        #decision_tree_file = ('{0}_ga.png' if applyPreProcessingWGA else "{0}.png")        
-        import re        
-        graph = re.sub('(\\\\nsamples = [0-9]+)(\\\\nvalue = \[[0-9]+, [0-9]+, [0-9]+\])', '', graph)
-        graph = re.sub('(samples = [0-9]+)(\\\\nvalue = \[[0-9]+, [0-9]+, [0-9]+\])\\\\n', '', graph)
-        
-        with open('tree_modified.dot', 'w') as file:
-            file.write(graph)
+                        special_characters=True,
+                        feature_names = feature_cols,
+                        class_names=['0','1'], 
+                        impurity=False)
 
-        graph_modified = pydotplus.graph_from_dot_file("tree_modified.dot")           
+        csRoot = "{0}/dt/{1}".format(pyPath, cSmell)
+        dotPath = "{0}/dot/{1}.dot".format(csRoot, depth)
+        graphPath = "{0}/img/{1}.png".format(csRoot, depth)
         
-        decision_tree_file = ('{0}/dt/{1}_{2}.png')
-        graph_modified.set_size('"10!"')
-        graph_modified.write_png(decision_tree_file.format(os.path.dirname(os.path.abspath(__file__)), cSmell, depth))
-        Image(graph_modified.create_png())
+        dotFile = pydotplus.graph_from_dot_data(dot_data.getvalue()).to_string()
+        #graphPath = ('{0}_ga.png' if applyPreProcessingWGA else "{0}.png")        
+        
+        ## inserir expressão regular para excluir elementos indesejados da decision tree
+        import re                        
+        #dotFile = re.sub('(\\\\nsamples = [0-9]+)(\\\\nvalue = \[[0-9]+, [0-9]+, [0-9]+\])', '', graph)
+        #dotFile = re.sub('(samples = [0-9]+)(\\\\nvalue = \[[0-9]+, [0-9]+, [0-9]+\])\\\\n', '', graph)
+        dotFile = re.sub('(samples = [0-9]+<br\/>)', '', dotFile)
+        dotFile = re.sub('(value = \[[0-9]+, [0-9]+\]<br\/>)', '', dotFile)
+        dotFile = re.sub('(<br\/>class = [0-9])', '', dotFile)
+        dotFile = re.sub('(class = 1)', '<u><b>smelly code</b></u>', dotFile)
+        dotFile = re.sub('(class = 0)', 'not smelly code', dotFile)
+        
+        with open(dotPath, 'w') as file:
+            file.write(dotFile)
+
+        graph = pydotplus.graph_from_dot_file(dotPath)                   
+                
+        #graph.set_size('"10!"')
+        graph.write_png(graphPath)
+        Image(graph.create_png())
 
         """ labels = ['Class 0', 'Class 1']
         fig = plt.figure()
