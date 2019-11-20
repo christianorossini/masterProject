@@ -15,10 +15,12 @@ from matplotlib import pyplot as plt
 
 from GA import gaPreProcessing as ga
 import os
+import csv
 
 
 pyPath = os.path.dirname(os.path.abspath(__file__))
 dfExportEffectiveness = pd.DataFrame(columns=['TN', 'TP', 'FN', 'FP', "Precision", "Recall", "F-measure"])
+number_of_leaves = [4,7,10,13]
 
 xlsIdx = list()
 #for cSmell in ["lpl","lm","gc","cdsbp"]:
@@ -28,17 +30,20 @@ for cSmell in ["lpl"]:
     dfCs = pd.read_csv(os.path.dirname(os.path.abspath(__file__))+"/../datasets/oracle_dataset/{0}.csv".format(cSmell))
 
     #split dataset in features and target variable
-    if(cSmell in ["gc","cdsbp"]):
+    if(cSmell in ["gc","cdsbp"]):                       #code smells de classe
         feature_cols = dfCs.iloc[:,3:46].columns
+        csvSoftMetricsList = pd.read_csv(pyPath + "/../software_metrics/software_class_level_metrics.csv", delimiter=";")
+  
     else:
         feature_cols = dfCs.iloc[:,3:30].columns
+        csvSoftMetricsList = pd.read_csv(pyPath + "/../software_metrics/software_method_level_metrics.csv", delimiter=";")
 
     #feature_cols = dfCs.iloc[:,3:30].columns
     X = dfCs[feature_cols] # Features
     y = dfCs["is_{0}".format(cSmell)] # Target variable
     
     #for applyPreProcessingWGA in [False, True]:
-    for idx, depth in enumerate([4,7,10,13]): #itera sobre o número de folhas que a árvore terá
+    for idx, depth in enumerate(number_of_leaves): #itera sobre o número de folhas que a árvore terá
 
        # if applyPreProcessingWGA:
        #     columns = ga.doGAPreProcessing(X,y)
@@ -63,7 +68,7 @@ for cSmell in ["lpl"]:
                         out_file=dot_data,                          
                         rounded=True,
                         special_characters=True,
-                        feature_names = feature_cols,
+                        feature_names = csvSoftMetricsList["name"],
                         class_names=['0','1'], 
                         impurity=False)
 
@@ -74,15 +79,16 @@ for cSmell in ["lpl"]:
         dotFile = pydotplus.graph_from_dot_data(dot_data.getvalue()).to_string()
         #graphPath = ('{0}_ga.png' if applyPreProcessingWGA else "{0}.png")        
         
-        ## inserir expressão regular para excluir elementos indesejados da decision tree
-        import re                        
-        #dotFile = re.sub('(\\\\nsamples = [0-9]+)(\\\\nvalue = \[[0-9]+, [0-9]+, [0-9]+\])', '', graph)
-        #dotFile = re.sub('(samples = [0-9]+)(\\\\nvalue = \[[0-9]+, [0-9]+, [0-9]+\])\\\\n', '', graph)
+        ## expressões regulares que excluem elementos indesejados da decision tree
+        import re                                        
         dotFile = re.sub('(samples = [0-9]+<br\/>)', '', dotFile)
         dotFile = re.sub('(value = \[[0-9]+, [0-9]+\]<br\/>)', '', dotFile)
         dotFile = re.sub('(<br\/>class = [0-9])', '', dotFile)
         dotFile = re.sub('(class = 1)', '<u><b>smelly code</b></u>', dotFile)
         dotFile = re.sub('(class = 0)', 'not smelly code', dotFile)
+        ## RE para modificar o tamanho do nó
+        dotFile = re.sub('(style="rounded")', 'style="rounded", width=0.5, fontsize=10', dotFile)
+
         
         with open(dotPath, 'w') as file:
             file.write(dotFile)
