@@ -2,3 +2,4 @@
 .vscode
 *~lock*
 artefatos/datasets/oracle_dataset/*
+*pycache*
