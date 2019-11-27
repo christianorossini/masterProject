@@ -6,7 +6,7 @@ edge [fontname=helvetica];
 0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
 3 [label=<not smelly code>];
 1 -> 3;
-4 [label=<Avg Strict Cyclomatic Complexity &le; 2.5>];
+4 [label=<Average Modified <br/>Cyclomatic Complexity &le; 2.5>];
 1 -> 4;
 7 [label=<not smelly code>];
 4 -> 7;

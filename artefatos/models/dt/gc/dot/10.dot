@@ -1,5 +1,5 @@
 digraph Tree {
-node [color="black", fontname=helvetica, shape=box, style="rounded"];
+node [color="black", fontname=helvetica, shape=box, style="rounded", width=0.5, fontsize=10];
 edge [fontname=helvetica];
 0 [label=<Number of physical lines &le; 1433.0>];
 1 [label=<Maximum nesting level &le; 5.5>];
