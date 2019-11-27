@@ -22,7 +22,7 @@ pyPath = os.path.dirname(os.path.abspath(__file__))
 dfExportEffectiveness = pd.DataFrame(columns=['splitting_criterion', 'num_of_leaves', 'depth', 'TN', 'TP', 'FN', 'FP', "Precision", "Recall", "F-measure"])
 
 # treina o modelo com um número de folhas
-number_of_leaves = [4,7,10]
+number_of_leaves = [3,7,9]
 # Gini index e Information Gain ("entropy")
 splitting_critera = ['gini','entropy']
 
