@@ -28,11 +28,14 @@ projects.columns = columns=["name","validatedPjDir","validatedPjVersion"]
 #TIPOS DE CODE SMELLS ESTUDADOS
 gc = pd.Series(["godClass","candidate_Large_Class.csv","gc", "class"])
 cdsbp = pd.Series(["classDataShouldBePrivate","candidate_Class_Data_Should_Be_Private.csv","cdsbp","class"])
+mm = pd.Series(["middleMan","candidate_Middle_Man.csv","mm","class"])
+rb = pd.Series(["refusedBequest","candidate_Refused_Bequest.csv","rb","class"]) ### ATENÇÃO: envolve mais de uma classe. Ver o resultado com mais cuidado.
 lm = pd.Series(["longMethod","candidate_Long_Methods.csv","lm","method"])
 lpl = pd.Series(["longParameterList","candidate_Long_Parameter_List.csv","lpl","method"])
+fe = pd.Series(["featureEnvy","candidate_Feature_Envy.csv","fe","method"]) ### ATENÇÃO: envolve mais de uma classe. Ver o resultado com mais cuidado.
 
 # ADICIONAR OS CODE SMELLS NA LINHA ABAIXO
-csType = pd.DataFrame([gc, cdsbp, lm, lpl])
+csType = pd.DataFrame([gc, cdsbp, lm, lpl, mm, rb, fe])
 csType.columns=["csName", "csCSV", "cs", "granularity"]
 
 # FILTRO DE MÉTRICAS CLASS LEVEL
@@ -56,8 +59,9 @@ for index, row in projects.iterrows():
         for indexCs, rowCs in csType.iterrows():
                                 
                 try:
+                        pyPath = os.path.dirname(os.path.abspath(__file__))
                         # LEITURA DOS CODE SMELLS VALIDADOS
-                        path = "validated_code_smells/dataset/"+  row["validatedPjDir"] +"/" + row["validatedPjVersion"] + "/Validated/" + rowCs["csCSV"]
+                        path = pyPath + "/validated_code_smells/dataset/"+  row["validatedPjDir"] +"/" + row["validatedPjVersion"] + "/Validated/" + rowCs["csCSV"]
                         print("## Lendo de " + path)
                         csmells = pd.read_csv(path, sep=';', header=None)
                         
@@ -73,7 +77,7 @@ for index, row in projects.iterrows():
                         csmells["id"] = csmells["id"].str.strip() #retira os espaços em branco
 
                         ### LEITURA DOS DATASET DE MÉTRICAS E FAZ UM MATCH COM OS CODE SMELLS VALIDADOS
-                        dfMetrics = pd.read_csv("metrics_extracted/" + row["name"] + "/" + row["name"] + ".csv")
+                        dfMetrics = pd.read_csv(pyPath+"/metrics_extracted/" + row["name"] + "/" + row["name"] + ".csv")
 
                         arrInitialDsLayout = ["project", "Kind" ,"Name"]
                         if rowCs["granularity"]=="class":
@@ -117,7 +121,7 @@ for index, row in projects.iterrows():
                                                             
                         #escreve o novo CSV se no projeto houver alguma ocorrência do tipo de codesmell                        
                         print("--> Escrevendo em " + "oracle_dataset/" + rowCs["cs"] + "/" + row["name"] + ".csv")
-                        dfMetrics.to_csv("oracle_dataset/" + rowCs["cs"] + "/" + row["name"] + ".csv", index=False) 
+                        dfMetrics.to_csv(pyPath+"/oracle_dataset/" + rowCs["cs"] + "/" + row["name"] + ".csv", index=False) 
 
                 except (EmptyDataError, ValueError) as err:
                         print("*** VAZIO: " + path)
@@ -126,7 +130,7 @@ for index, row in projects.iterrows():
 print("####### JUNTANDO OS DATASETS DOS PROJETOS, AGRUPADOS POR TIPO DE CODE SMELL")        
 for indexCs, rowCs in csType.iterrows():        
             
-        destdir = 'oracle_dataset/' + rowCs["cs"]
+        destdir = pyPath+'/oracle_dataset/' + rowCs["cs"]
         files = [ f for f in os.listdir(destdir) if os.path.isfile(os.path.join(destdir,f)) ]
 
         csDataset = pd.DataFrame()
@@ -134,6 +138,6 @@ for indexCs, rowCs in csType.iterrows():
                 csvFile = pd.read_csv(destdir + "/" + file)
                 csDataset = csDataset.append(csvFile)
 
-        mergedPath = "oracle_dataset/" + rowCs["cs"] + ".csv"
+        mergedPath = pyPath+"/oracle_dataset/" + rowCs["cs"] + ".csv"
         print("--> Escrevendo em " + mergedPath)            
         csDataset.to_csv(mergedPath, index=False)        

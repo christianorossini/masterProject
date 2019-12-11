@@ -1,19 +1,19 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lpl
-ant,Public Method,org.apache.tools.ant.types.Resource.hashCode,6.0,12.0,0.0,7.0,2.0,4.0,5.0,5.0,2.0,0.0,3.0,5.0,2.0,3.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.71,3,3,3,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.optional.extension.JarLibAvailableTask.setFile,1.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.MacroDef.addConfiguredElement,3.0,23.0,0.0,18.0,1.0,13.0,5.0,7.0,8.0,1.0,5.0,9.0,1.0,8.0,4.0,4.0,6.0,1.0,0.0,0.0,1.0,0.0,0.28,4,4,6,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.KeySubst.setDest,1.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-ant,Private Method,org.apache.tools.ant.taskdefs.Java.log,3.0,12.0,0.0,7.0,3.0,5.0,5.0,4.0,1.0,0.0,5.0,6.0,3.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.71,1,1,1,1,False
-ant,Public Method,org.apache.tools.ant.types.selectors.DateSelector.setParameters,8.0,39.0,0.0,33.0,2.0,26.0,6.0,15.0,11.0,1.0,13.0,24.0,3.0,21.0,11.0,11.0,11.0,1.0,8.0,0.0,4.0,0.0,0.18,11,11,11,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.optional.jsp.JspC.isMapped,2.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-ant,Public Method,org.apache.tools.ant.ProjectHelperRepository.ConstructingIterator.remove,0.0,3.0,0.0,3.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-ant,Constructor,org.apache.tools.ant.taskdefs.Replace.FileOutput.FileOutput,3.0,13.0,0.0,8.0,1.0,5.0,5.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.63,2,2,2,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.condition.Contains.eval,3.0,15.0,1.0,9.0,1.0,6.0,5.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,3.0,3.0,4.0,1.0,0.0,0.0,1.0,0.0,0.56,3,3,4,1,False
-ant,Private Method,org.apache.tools.ant.filters.ReplaceTokens.getBeginToken,2.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-ant,Public Method,org.apache.tools.ant.Task.setRuntimeConfigurableWrapper,6.0,15.0,0.0,3.0,1.0,1.0,12.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.0,1,1,1,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.optional.vss.MSVSS.execute,0.0,16.0,0.0,10.0,5.0,7.0,6.0,7.0,2.0,0.0,5.0,7.0,4.0,3.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,0.6,2,2,3,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.Sleep.doSleep,2.0,12.0,0.0,6.0,1.0,3.0,6.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.0,2,2,2,1,False
-ant,Public Method,org.apache.tools.ant.taskdefs.condition.IsLastModified.setPattern,0.0,15.0,0.0,10.0,1.0,6.0,5.0,1.0,1.0,0.0,3.0,6.0,3.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.types.Permissions.MySM.checkExit,2.0,16.0,0.0,8.0,2.0,5.0,8.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.0,2,2,2,1,False
+ant,Private Method,org.apache.tools.ant.DirectoryScanner.isDeeper,4.0,12.0,0.0,4.0,1.0,2.0,8.0,4.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,2,1,False
+ant,Method,org.apache.tools.mail.MailMessage.sendDot,2.0,4.0,0.0,4.0,2.0,2.0,1.0,1.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.AntClassLoader.setIsolated,2.0,12.0,0.0,3.0,1.0,1.0,9.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.types.CommandlineJava.restoreSystemProperties,1.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+ant,Private Method,org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter.getDefaultSource,1.0,16.0,0.0,12.0,1.0,7.0,4.0,5.0,4.0,1.0,4.0,8.0,1.0,7.0,4.0,4.0,5.0,4.0,3.0,3.0,1.0,3.0,0.33,4,4,5,4,False
+ant,Public Method,org.apache.tools.ant.filters.TokenFilter.addStringTokenizer,1.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.taskdefs.optional.pvcs.Pvcs.setIgnoreReturnCode,1.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.types.selectors.AbstractSelectorContainer.addMajority,1.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+ant,Public Constructor,org.apache.tools.ant.taskdefs.WaitFor.Unit.Unit,12.0,9.0,0.0,8.0,1.0,6.0,1.0,2.0,1.0,0.0,6.0,7.0,1.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.13,1,1,1,1,False
+ant,Public Abstract Method,org.apache.tools.ant.taskdefs.optional.net.FTPTaskMirror.doFTP,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+ant,Public Method,org.apache.tools.ant.taskdefs.optional.pvcs.Pvcs.getLabel,2.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+ant,Private Constructor,org.apache.tools.ant.taskdefs.optional.EchoProperties.Tuple.Tuple,3.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+ant,Public Method,org.apache.tools.ant.types.resources.FileResource.isFilesystemOnly,0.0,11.0,0.0,7.0,1.0,4.0,4.0,4.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.57,2,2,2,1,False
+ant,Public Method,org.apache.tools.ant.PropertyHelper.getProject,5.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
 ant,Protected Method,org.apache.tools.ant.taskdefs.Expand.extractFile,20.0,136.0,14.0,107.0,26.0,82.0,15.0,29.0,3432.0,4.0,52.0,70.0,24.0,46.0,19.0,19.0,30.0,5.0,6.0,5.0,5.0,5.0,0.14,19,19,30,5,True
 ant,Private Method,org.apache.tools.ant.taskdefs.Zip.addDirectoryResource,9.0,23.0,2.0,16.0,5.0,9.0,5.0,7.0,4.0,1.0,4.0,7.0,2.0,5.0,4.0,4.0,4.0,1.0,0.0,0.0,1.0,0.0,0.31,4,4,4,1,True
 ant,Private Method,org.apache.tools.ant.taskdefs.Zip.addResource,12.0,38.0,2.0,33.0,8.0,23.0,3.0,12.0,4.0,1.0,12.0,18.0,5.0,13.0,5.0,5.0,5.0,1.0,1.0,0.0,3.0,0.0,0.09,5,5,5,1,True

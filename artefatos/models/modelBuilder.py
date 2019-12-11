@@ -27,24 +27,23 @@ number_of_leaves = [3,7,9]
 splitting_critera = ['gini','entropy']
 
 xlsIdx = list()
-for cSmell in ["lpl","lm","gc","cdsbp"]:
+for cSmell in ["lpl","lm",'fe',"gc",'mm',"cdsbp"]:
 #for cSmell in ["gc","cdsbp"]:
 
     # load dataset
     dfCs = pd.read_csv(os.path.dirname(os.path.abspath(__file__))+"/../datasets/oracle_dataset/{0}.csv".format(cSmell))
 
     #split dataset in features and target variable
-    if(cSmell in ["gc","cdsbp"]):                       #code smells de classe
-        csvSoftMetricsList = pd.read_csv(pyPath + "/../software_metrics/software_class_level_metrics.csv", delimiter=";")
-        # filtra apenas as colunas das métricas que escolhi
-        csvSoftMetricsList = csvSoftMetricsList[csvSoftMetricsList['apply']==1]
-        # filtra o dataset a ser treinado apenas com as métricas filtradas
-        feature_cols = dfCs.loc[:,csvSoftMetricsList["apiname"]].columns
+    if(cSmell in ["gc",'mm',"cdsbp"]):                       #code smells de classe
+        csvSoftMetricsList = pd.read_csv(pyPath + "/../software_metrics/software_class_level_metrics.csv", delimiter=";")        
           
     else:                                               #code smells de método        
         csvSoftMetricsList = pd.read_csv(pyPath + "/../software_metrics/software_method_level_metrics.csv", delimiter=";")
-        csvSoftMetricsList = csvSoftMetricsList[csvSoftMetricsList['apply']==1]
-        feature_cols = dfCs.loc[:,csvSoftMetricsList["apiname"]].columns
+    
+    # filtra apenas as colunas das métricas que escolhi 
+    csvSoftMetricsList = csvSoftMetricsList[csvSoftMetricsList['apply']==1]
+    # filtra o dataset a ser treinado apenas com as métricas filtradas/;
+    feature_cols = dfCs.loc[:,csvSoftMetricsList["apiname"]].columns
 
     #feature_cols = dfCs.iloc[:,3:30].columns
     X = dfCs[feature_cols] # Features
@@ -73,7 +72,7 @@ for cSmell in ["lpl","lm","gc","cdsbp"]:
                             out_file=dot_data,                          
                             rounded=True,
                             special_characters=True,
-                            feature_names = csvSoftMetricsList['name'],
+                            feature_names = feature_cols,
                             class_names=['0','1'], 
                             impurity=False)
 

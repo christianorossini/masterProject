@@ -1,106 +1,106 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lm
-pig,Method,org.apache.hadoop.zebra.types.Partition.CGEntry.insert,4.0,6.0,0.0,6.0,2.0,3.0,0.0,4.0,2.0,0.0,4.0,6.0,3.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-pig,Public Method,org.apache.pig.test.TestLogicalPlanBuilder.testQueryFail94,1.0,12.0,0.0,11.0,1.0,8.0,1.0,4.0,2.0,0.0,6.0,8.0,1.0,7.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.09,2,2,2,1,False
-pig,Public Static Method,org.apache.hadoop.zebra.pig.TestMergeJoinNegative.tearDown,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PhyPlanSetter.visitAdd,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.piggybank.evaluation.datetime.diff.ISOSecondsBetween.getArgToFuncMapping,1.0,8.0,0.0,8.0,3.0,6.0,0.0,6.0,1.0,0.0,6.0,7.0,3.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Static Method,org.apache.hadoop.zebra.mapred.TestMultipleOutputs4TypedApi.writeToFile,4.0,26.0,0.0,26.0,4.0,23.0,0.0,4.0,2.0,0.0,21.0,23.0,4.0,19.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-pig,Public Static Method,org.apache.pig.backend.hadoop.executionengine.physicalLayer.PhysicalOperator.getPigLogger,3.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Protected Method,org.apache.pig.tools.grunt.GruntParser.processMove,6.0,23.0,4.0,19.0,3.0,12.0,1.0,5.0,4.0,1.0,7.0,11.0,3.0,8.0,4.0,4.0,4.0,1.0,2.0,0.0,3.0,0.0,0.05,4,4,4,1,False
-pig,Public Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.SecondaryKeyOptimizer.SecondaryKeyDiscover.processSort,7.0,47.0,1.0,41.0,6.0,30.0,7.0,11.0,39.0,2.0,19.0,29.0,8.0,21.0,9.0,9.0,10.0,6.0,9.0,9.0,2.0,7.0,0.17,9,9,10,6,False
-pig,Public Method,org.apache.pig.impl.io.FileSpec.getFileName,48.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Static Method,org.apache.hadoop.zebra.io.TestNonDefaultWholeMapSplit.setUpOnce,5.0,74.0,6.0,60.0,14.0,58.0,8.0,21.0,1.0,0.0,55.0,56.0,13.0,43.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.13,1,1,1,1,False
-pig,Public Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler.visitLocalRearrange,5.0,14.0,0.0,14.0,4.0,11.0,0.0,6.0,4.0,1.0,7.0,12.0,5.0,7.0,4.0,4.0,4.0,1.0,1.0,0.0,3.0,0.0,0.0,4,4,4,1,False
-pig,Public Method,org.apache.pig.impl.util.IdentityHashSet.removeAll,2.0,4.0,0.0,4.0,1.0,2.0,0.0,2.0,2.0,0.0,2.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-pig,Public Method,org.apache.pig.test.TestSample.testSample_All,2.0,5.0,0.0,5.0,2.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Static Method,org.apache.hadoop.zebra.pig.TestTableMergeJoin.tearDown,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.hadoop.zebra.mapred.TableMRSampleSortedTable.ReduceClass.close,0.0,2.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.hadoop.zebra.mapreduce.TestTempDirRemoval.ReduceClass.reduce,4.0,10.0,0.0,10.0,2.0,5.0,0.0,4.0,3.0,0.0,4.0,5.0,1.0,4.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-pig,Method,org.apache.pig.PigServer.Graph.isBatchEmpty,3.0,1.0,0.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.test.TestStoreInstances.setUp,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Static Method,org.apache.pig.FuncSpec.getClassNameFromSpec,3.0,11.0,0.0,7.0,2.0,5.0,4.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.57,2,2,2,1,False
-pig,Private Method,org.apache.tools.bzip2r.CBZip2InputStream.hbCreateDecodeTables,8.0,40.0,5.0,35.0,4.0,21.0,0.0,3.0,256.0,2.0,29.0,39.0,2.0,37.0,10.0,10.0,10.0,1.0,0.0,0.0,3.0,0.0,0.0,10,10,10,1,False
-pig,Public Abstract Method,org.apache.hadoop.zebra.tfile.TestTFileSeqFileComparison.KVReadable.getKeyLength,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-pig,Public Method,org.apache.hadoop.zebra.tfile.TFile.Reader.createScannerByRecordNum,4.0,20.0,0.0,9.0,2.0,5.0,11.0,4.0,4.0,1.0,3.0,6.0,1.0,5.0,3.0,3.0,4.0,1.0,0.0,0.0,1.0,0.0,1.22,3,3,4,1,False
-pig,Public Method,org.apache.pig.impl.io.TFileRecordReader.getCurrentValue,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Static Method,org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil.getAllFileRecursively,7.0,27.0,0.0,17.0,7.0,12.0,10.0,9.0,3.0,0.0,11.0,14.0,7.0,7.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.59,3,3,3,1,False
-pig,Public Static Method,org.apache.hadoop.zebra.io.TestBasicTable.setUpOnce,7.0,10.0,0.0,10.0,1.0,8.0,0.0,9.0,1.0,0.0,7.0,8.0,1.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Static Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputFormat.setLocation,8.0,28.0,1.0,9.0,5.0,6.0,18.0,6.0,1.0,0.0,5.0,6.0,4.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.impl.io.TFileStorage.setStoreFuncUDFContextSignature,0.0,2.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.plans.UDFFinder.getUDFs,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.SampleOptimizer.ParallelConstantVisitor.isReplaced,2.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.test.TestPushDownForeachFlatten.testForeachCastInnerJoin,1.0,21.0,5.0,16.0,4.0,14.0,0.0,13.0,1.0,0.0,14.0,15.0,4.0,11.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.piggybank.evaluation.math.SIGNUM.exec,4.0,21.0,2.0,13.0,2.0,10.0,6.0,7.0,4.0,1.0,6.0,9.0,2.0,7.0,4.0,4.0,5.0,4.0,4.0,4.0,1.0,4.0,0.46,4,4,5,4,False
-pig,Public Method,org.apache.pig.test.TestUnionOnSchema.testUnionOnSchemaFilter,2.0,30.0,4.0,21.0,9.0,16.0,5.0,8.0,1.0,0.0,9.0,10.0,7.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.24,1,1,1,1,False
-pig,Public Method,org.apache.hadoop.zebra.mapred.TestMultipleOutputs4TypedApi.ReduceClass.reduce,4.0,11.0,0.0,11.0,3.0,5.0,0.0,4.0,3.0,0.0,4.0,5.0,1.0,4.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-pig,Public Method,org.apache.hadoop.zebra.io.TestColumnGroupInserters.testInsertNullValues,4.0,11.0,0.0,9.0,2.0,7.0,2.0,7.0,1.0,0.0,6.0,7.0,2.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.22,1,1,1,1,False
-pig,Public Abstract Method,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.ExpressionOperator.visit,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-pig,Public Method,org.apache.pig.test.TestImplicitSplit.testImplicitSplitInCoGroup,2.0,37.0,1.0,34.0,8.0,30.0,2.0,11.0,3.0,0.0,26.0,29.0,9.0,20.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.06,3,3,3,1,False
-pig,Private Method,org.apache.pig.newplan.logical.expression.ExpToPhyTranslationVisitor.attachBinaryExpressionOperator,12.0,29.0,4.0,23.0,7.0,17.0,2.0,12.0,4.0,1.0,13.0,18.0,7.0,11.0,4.0,4.0,4.0,1.0,2.0,0.0,2.0,0.0,0.09,4,4,4,1,False
-pig,Protected Constructor,org.apache.pig.newplan.logical.expression.LogicalExpressionVisitor.LogicalExpressionVisitor,14.0,10.0,1.0,9.0,2.0,5.0,0.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-pig,Public Method,org.apache.pig.Main.ExecMode.values,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.impl.util.IdentityHashSet.retainAll,2.0,12.0,3.0,9.0,3.0,6.0,0.0,5.0,3.0,0.0,5.0,9.0,4.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-pig,Protected Method,org.apache.pig.piggybank.test.TestPigStorageSchema.tearDown,2.0,7.0,0.0,7.0,2.0,4.0,0.0,5.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-pig,Public Method,org.apache.pig.test.TestSchema.testMergeDifferentSize2,4.0,32.0,7.0,23.0,7.0,19.0,2.0,5.0,2.0,0.0,13.0,15.0,6.0,9.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.09,2,2,2,1,False
-pig,Public Method,org.apache.pig.test.TestFinish.testFinishInReduceLoc,2.0,11.0,0.0,10.0,3.0,8.0,1.0,5.0,1.0,0.0,8.0,9.0,3.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.1,1,1,1,1,False
-pig,Public Method,org.apache.pig.impl.logicalLayer.LORegexp.supportsMultipleInputs,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Private Method,org.apache.hadoop.zebra.tfile.TestTFile.writeRecords,3.0,8.0,0.0,8.0,2.0,6.0,0.0,6.0,1.0,0.0,6.0,7.0,2.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStoreImpl.tearDown,1.0,7.0,0.0,2.0,1.0,0.0,5.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.5,1,1,1,1,False
-pig,Public Method,org.apache.pig.builtin.StringMax.getValue,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Constructor,org.apache.pig.impl.logicalLayer.LOFilter.LOFilter,8.0,14.0,0.0,5.0,2.0,2.0,9.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.8,1,1,1,1,False
-pig,Public Method,org.apache.pig.test.TestRelevantFields.testQueryGroupByStarNoSchema,1.0,23.0,4.0,19.0,8.0,17.0,0.0,13.0,1.0,0.0,17.0,18.0,8.0,10.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.newplan.logical.expression.ConstantExpression.isEqual,5.0,9.0,0.0,9.0,2.0,6.0,0.0,4.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,7.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,7,1,False
-pig,Public Method,org.apache.pig.piggybank.evaluation.string.LASTINDEXOF.outputSchema,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.test.TestMultiQueryLocal.testMultiQueryWithIllustrate,2.0,23.0,4.0,19.0,4.0,16.0,0.0,7.0,2.0,0.0,9.0,11.0,3.0,8.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-pig,Public Method,org.apache.pig.test.TestFuncSpec.testSpecCtorClassNameWithArgs,1.0,7.0,0.0,7.0,4.0,5.0,0.0,4.0,1.0,0.0,5.0,6.0,4.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.test.TestFuncSpec.testSpecCtorClassNameNoArgs,0.0,6.0,0.0,6.0,4.0,4.0,0.0,4.0,1.0,0.0,4.0,5.0,4.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Constructor,org.apache.pig.test.TestNewPlanOperatorPlan.SillyPlan.SillyPlan,28.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.test.TestLogicalPlanMigrationVisitor.testSimplePlan,2.0,32.0,7.0,21.0,7.0,19.0,4.0,15.0,1.0,0.0,19.0,20.0,7.0,13.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.19,1,1,1,1,False
-pig,Public Method,org.apache.pig.test.TestSecondarySort.testDistinctOptimization1,1.0,19.0,3.0,15.0,6.0,13.0,1.0,10.0,1.0,0.0,13.0,14.0,6.0,8.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.07,1,1,1,1,False
-pig,Public Method,org.apache.pig.test.TestGreaterThan.testIntegerAndNullValues,1.0,5.0,2.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.hadoop.zebra.io.BasicTable.Reader.BTScanner.seekToEnd,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,3.0,0.0,4.0,7.0,2.0,5.0,3.0,3.0,3.0,3.0,1.0,1.0,2.0,1.0,0.0,3,3,3,3,False
-pig,Public Method,org.apache.pig.impl.logicalLayer.LODistinct.getInput,1.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.impl.io.NullablePartitionWritable.compareTo,2.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Private Method,org.apache.pig.newplan.logical.optimizer.LogicalPlanPrinter.shiftStringByTabs,8.0,14.0,2.0,12.0,4.0,9.0,0.0,4.0,2.0,0.0,10.0,12.0,5.0,7.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
-pig,Protected Method,org.apache.hadoop.zebra.mapred.TestBasicTableIOFormatLocalFS.setUp,15.0,38.0,4.0,34.0,5.0,28.0,2.0,20.0,16.0,1.0,20.0,25.0,4.0,21.0,5.0,5.0,5.0,1.0,1.0,0.0,1.0,0.0,0.06,5,5,5,1,False
-pig,Public Method,org.apache.hadoop.zebra.mapreduce.TableInputFormat.DummyFileInputFormat.createRecordReader,0.0,6.0,0.0,5.0,3.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.2,1,1,1,1,False
-pig,Public Method,org.apache.hadoop.zebra.types.Partition.generateDefaultCGSchema,9.0,6.0,0.0,6.0,3.0,2.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Method,org.apache.pig.piggybank.evaluation.math.IEEEremainder.compute,2.0,4.0,1.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Constructor,org.apache.pig.newplan.logical.rules.MapKeysPruneHelper.MapKeysPruneHelper,2.0,9.0,1.0,8.0,1.0,5.0,0.0,5.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-pig,Public Static Method,org.apache.hadoop.zebra.pig.TestOrderPreserveSimple.tearDown,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.hadoop.zebra.pig.TestOrderPreserveProjectionNegative.test_pig_foreach_error,5.0,46.0,8.0,30.0,10.0,27.0,8.0,12.0,2.0,0.0,19.0,21.0,9.0,12.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.27,2,2,2,1,False
-pig,Public Method,org.apache.pig.test.TestEqualTo.testTupleEq,4.0,15.0,0.0,15.0,7.0,13.0,0.0,11.0,1.0,0.0,13.0,14.0,7.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.Launcher.getExceptionFromString,8.0,30.0,1.0,22.0,9.0,18.0,7.0,8.0,3.0,0.0,15.0,18.0,9.0,9.0,3.0,3.0,3.0,3.0,2.0,2.0,2.0,2.0,0.32,3,3,3,3,False
-pig,Public Method,org.apache.pig.test.TestAccumulator.tearDown,5.0,10.0,0.0,10.0,1.0,8.0,0.0,2.0,1.0,0.0,8.0,9.0,1.0,8.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.hadoop.zebra.io.BasicTable.Reader.setProjection,110.0,35.0,0.0,17.0,2.0,12.0,18.0,9.0,2.0,0.0,5.0,7.0,1.0,6.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.06,2,2,2,1,False
-pig,Private Method,org.apache.pig.test.TestOptimizeLimit.migratePlan,2.0,6.0,0.0,6.0,3.0,4.0,0.0,4.0,1.0,0.0,4.0,5.0,3.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.test.TestImplicitSplit.testImplicitSplitInCoGroup2,0.0,32.0,5.0,22.0,7.0,19.0,5.0,17.0,2.0,0.0,18.0,20.0,7.0,13.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.23,2,2,2,1,False
-pig,Public Method,org.apache.pig.test.TestCmdLineParser.testParseUnknownShort,2.0,15.0,0.0,15.0,3.0,11.0,0.0,7.0,2.0,0.0,8.0,10.0,3.0,7.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-pig,Public Method,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLoad.tearDown,1.0,8.0,0.0,3.0,1.0,1.0,5.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
-pig,Public Method,org.apache.pig.data.TargetedTuple.readFields,3.0,16.0,0.0,14.0,5.0,11.0,2.0,9.0,2.0,0.0,12.0,14.0,6.0,8.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.14,2,2,2,1,False
-pig,Public Method,org.apache.hadoop.zebra.mapred.TestMultipleOutputs.MapClass.close,0.0,3.0,0.0,2.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
-pig,Public Method,org.apache.hadoop.zebra.mapred.CompositeTableExpr.RowMappingEntry.getRowIndex,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Private Method,org.apache.pig.PigServer.executeCompiledLogicalPlan,5.0,25.0,0.0,23.0,5.0,17.0,2.0,18.0,8.0,1.0,10.0,16.0,6.0,10.0,5.0,5.0,5.0,1.0,2.0,0.0,3.0,0.0,0.09,5,5,5,1,False
-pig,Public Static Method,org.apache.pig.test.TestFRJoinNullValue.tearDownAfterClass,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Static Method,org.apache.pig.piggybank.storage.hiverc.HiveRCSchemaUtil.listToString,2.0,16.0,1.0,9.0,3.0,6.0,6.0,6.0,2.0,0.0,5.0,8.0,4.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.67,2,2,2,1,False
-pig,Public Method,org.apache.pig.impl.plan.OperatorPlan.connect,123.0,40.0,3.0,23.0,5.0,19.0,14.0,11.0,4.0,1.0,11.0,14.0,3.0,11.0,3.0,3.0,5.0,1.0,0.0,0.0,1.0,0.0,0.61,3,3,5,1,False
-pig,Public Method,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeCogroup.getLRInnerPlansOf,3.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.test.TestAccumulator.testAccumWithMap,2.0,17.0,3.0,14.0,4.0,11.0,3.0,8.0,2.0,0.0,10.0,12.0,4.0,8.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.21,2,2,2,1,False
-pig,Public Method,org.apache.pig.test.TestMultiQueryBasic.DummyOutputFormat.checkOutputSpecs,1.0,7.0,0.0,6.0,4.0,3.0,1.0,3.0,1.0,0.0,3.0,4.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.17,1,1,1,1,False
-pig,Public Method,org.apache.hadoop.zebra.pig.TableLoader.getSchema,11.0,61.0,9.0,37.0,8.0,30.0,15.0,20.0,24.0,1.0,19.0,27.0,7.0,20.0,7.0,7.0,7.0,1.0,3.0,0.0,3.0,0.0,0.41,7,7,7,1,False
-pig,Public Static Method,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputs2TypedApi.checkTable,8.0,152.0,15.0,133.0,9.0,99.0,12.0,9.0,28561156.0,7.0,62.0,95.0,9.0,86.0,33.0,33.0,39.0,1.0,0.0,0.0,4.0,0.0,0.09,33,33,39,1,False
-pig,Public Method,org.apache.pig.test.TestEvalPipeline.MapUDF.outputSchema,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.hadoop.zebra.io.TestColumnGroupOpen.testFailureMetaFileExists,4.0,15.0,0.0,14.0,2.0,11.0,1.0,8.0,2.0,0.0,7.0,9.0,2.0,7.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.07,2,2,2,1,False
-pig,Public Method,org.apache.hadoop.zebra.tfile.TestTFileStreams.testFailureCloseKeyStreamManyTimesInWriter,2.0,23.0,0.0,21.0,2.0,14.0,2.0,5.0,5.0,1.0,8.0,12.0,2.0,10.0,4.0,4.0,4.0,1.0,3.0,0.0,1.0,0.0,0.1,4,4,4,1,False
-pig,Private Method,org.apache.pig.impl.logicalLayer.optimizer.PartitionFilterOptimizer.getMappedKeys,4.0,16.0,0.0,7.0,2.0,4.0,9.0,3.0,2.0,0.0,5.0,7.0,3.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,1.29,2,2,2,1,False
-pig,Public Method,org.apache.hadoop.zebra.io.TestNegative.testWriteMap3,4.0,24.0,2.0,20.0,5.0,17.0,2.0,12.0,2.0,0.0,15.0,17.0,5.0,12.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.1,2,2,2,1,False
-pig,Abstract Method,org.apache.pig.data.DataBag.isSorted,5.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
-pig,Protected Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigFileInputFormat.listStatus,1.0,4.0,0.0,4.0,1.0,2.0,0.0,4.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Static Method,org.apache.pig.impl.util.UriUtil.isHDFSFile,2.0,8.0,0.0,8.0,1.0,5.0,0.0,2.0,3.0,0.0,3.0,6.0,1.0,5.0,3.0,3.0,4.0,3.0,2.0,2.0,1.0,2.0,0.0,3,3,4,3,False
+pig,Public Method,org.apache.pig.test.TestTypeCheckingValidatorNoSchema.testForEachGenerate1,3.0,77.0,18.0,51.0,19.0,48.0,8.0,23.0,2.0,0.0,45.0,47.0,17.0,30.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.16,2,2,2,1,False
+pig,Public Method,org.apache.pig.test.utils.AccumulatorBagCount.accumulate,1.0,11.0,1.0,10.0,3.0,7.0,0.0,5.0,3.0,0.0,5.0,8.0,3.0,5.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.0,3,3,3,1,False
+pig,Public Method,org.apache.hadoop.zebra.types.SortInfo.getSortColumnNames,11.0,10.0,0.0,3.0,1.0,1.0,7.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.33,1,1,1,1,False
+pig,Public Method,org.apache.hadoop.zebra.mapreduce.TableMRSortedTableZebraKeyGenerator.MapClass.setup,3.0,18.0,2.0,12.0,2.0,9.0,4.0,6.0,3.0,0.0,6.0,8.0,2.0,6.0,3.0,3.0,3.0,1.0,3.0,0.0,1.0,0.0,0.33,3,3,3,1,False
+pig,Public Method,org.apache.pig.builtin.SUM.Intermediate.exec,5.0,11.0,0.0,11.0,3.0,8.0,0.0,5.0,3.0,0.0,5.0,7.0,3.0,4.0,3.0,3.0,3.0,3.0,3.0,3.0,1.0,3.0,0.0,3,3,3,3,False
+pig,Public Static Method,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputs2TypedApi.writeToFile,4.0,28.0,1.0,27.0,4.0,23.0,0.0,4.0,4.0,1.0,21.0,24.0,4.0,20.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
+pig,Public Method,org.apache.pig.test.TestTypeCheckingValidator.testExpressionTypeChecking4,4.0,46.0,9.0,35.0,10.0,32.0,2.0,19.0,2.0,0.0,31.0,33.0,10.0,23.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.06,2,2,2,1,False
+pig,Public Method,org.apache.pig.test.TestTypeCheckingValidator.testArithmeticOpCastInsert1,2.0,31.0,7.0,22.0,7.0,20.0,2.0,16.0,1.0,0.0,20.0,21.0,7.0,14.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.09,1,1,1,1,False
+pig,Private Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.NoopStoreRemover.removeStore,7.0,17.0,1.0,14.0,3.0,10.0,2.0,11.0,3.0,0.0,7.0,10.0,3.0,7.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.14,3,3,3,1,False
+pig,Private Method,org.apache.pig.newplan.logical.rules.ColumnPruneHelper.clearAnnotation,5.0,9.0,0.0,9.0,3.0,6.0,0.0,4.0,2.0,0.0,5.0,7.0,3.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+pig,Public Method,org.apache.hadoop.zebra.io.TestRecord.testReadNegative2,2.0,16.0,1.0,15.0,7.0,13.0,0.0,12.0,1.0,0.0,13.0,14.0,7.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Protected Method,org.apache.hadoop.zebra.mapreduce.BasicTableExpr.dumpInfo,4.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POCollectedGroup.attachInput,1.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
+pig,Public Method,org.apache.tools.bzip2r.CBZip2InputStream.getPos,4.0,16.0,0.0,3.0,1.0,1.0,13.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,4.33,1,1,1,1,False
+pig,Public Method,org.apache.pig.impl.io.BinStorageRecordReader.close,1.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+pig,Public Method,org.apache.pig.test.TestBoolean.testNotFalse,6.0,7.0,0.0,7.0,2.0,5.0,0.0,5.0,1.0,0.0,5.0,6.0,2.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestJoin.testDefaultJoin,2.0,41.0,3.0,36.0,15.0,29.0,2.0,10.0,2.0,0.0,20.0,23.0,9.0,14.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.06,2,2,2,1,False
+pig,Public Abstract Method,org.apache.pig.newplan.OperatorPlan.add,25.0,6.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+pig,Public Constructor,org.apache.pig.impl.logicalLayer.LONegative.LONegative,3.0,10.0,0.0,3.0,1.0,1.0,7.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.33,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestDataBag.TestMemoryManager.register,5.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
 pig,Public Method,org.apache.hadoop.zebra.mapreduce.TableInputFormat.SplitMode.values,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Method,org.apache.hadoop.zebra.mapreduce.TestBasicTableIOFormatLocalFS.InvIndex.reduce,4.0,7.0,0.0,7.0,2.0,4.0,0.0,7.0,2.0,0.0,4.0,5.0,3.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-pig,Public Method,org.apache.pig.impl.logicalLayer.LogicalOperator.getRequestedParallelism,59.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Method,org.apache.pig.impl.logicalLayer.LOCogroup.getInner,5.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.newplan.logical.relational.LOStream.getStreamingCommand,3.0,9.0,0.0,3.0,1.0,1.0,6.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.piggybank.evaluation.datetime.convert.ISOToUnix.getArgToFuncMapping,1.0,6.0,1.0,5.0,2.0,3.0,0.0,5.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Private Method,org.apache.pig.builtin.Utf8StorageConverter.consumeMap,5.0,59.0,2.0,55.0,7.0,41.0,5.0,14.0,1878.0,3.0,25.0,42.0,7.0,35.0,17.0,17.0,23.0,8.0,12.0,12.0,4.0,11.0,0.09,17,17,23,8,False
+pig,Public Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.partitioners.CountingMap.getTotalCount,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Constructor,org.apache.pig.data.DefaultDataBag.DefaultDataBagIterator.DefaultDataBagIterator,1.0,2.0,0.0,2.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.impl.plan.OperatorPlan.IndexHelper.getIndex,5.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,3,1,False
+pig,Method,org.apache.pig.piggybank.evaluation.math.COS.compute,1.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Private Method,org.apache.pig.test.TestFindQuantiles.getProbVecSum,6.0,25.0,3.0,22.0,10.0,18.0,0.0,14.0,4.0,1.0,18.0,22.0,12.0,10.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
+pig,Public Static Method,org.apache.hadoop.zebra.types.SortInfo.parse,13.0,37.0,0.0,23.0,7.0,14.0,14.0,8.0,4.0,1.0,13.0,17.0,7.0,10.0,6.0,6.0,8.0,1.0,1.0,0.0,2.0,0.0,0.61,6,6,8,1,False
+pig,Public Method,org.apache.pig.test.TestLessThan.testDoubleGt,4.0,13.0,0.0,13.0,5.0,11.0,0.0,9.0,1.0,0.0,11.0,12.0,5.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil.Node.getLength,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.hadoop.zebra.tfile.CompareUtils.ScalarComparator.compare,2.0,6.0,0.0,6.0,2.0,4.0,0.0,2.0,3.0,0.0,4.0,7.0,2.0,5.0,3.0,3.0,3.0,3.0,2.0,2.0,1.0,2.0,0.0,3,3,3,3,False
+pig,Public Constructor,org.apache.pig.data.ReadOnceBag.ReadOnceBag,4.0,13.0,0.0,5.0,1.0,3.0,8.0,4.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.6,1,1,1,1,False
+pig,Private Static Method,org.apache.pig.impl.io.FileLocalizer.relativeRoot,5.0,20.0,2.0,9.0,3.0,5.0,9.0,10.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,1.0,2,2,2,1,False
+pig,Constructor,org.apache.pig.test.TestNewPlanRule.SillyPlan.SillyPlan,4.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Private Static Method,org.apache.pig.backend.hadoop.hbase.HBaseStorage.populateValidOptions,2.0,12.0,0.0,12.0,1.0,10.0,0.0,1.0,1.0,0.0,8.0,9.0,1.0,8.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Constructor,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POStream.POStream,7.0,15.0,1.0,13.0,2.0,9.0,1.0,11.0,2.0,0.0,6.0,8.0,1.0,7.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.08,2,2,2,1,False
+pig,Public Method,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputs4TypedApi.OutputPartitionerClass.getOutputPartition,0.0,5.0,1.0,4.0,2.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Constructor,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.AccumulatorOptimizer.AccumulatorOptimizer,2.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestPartitionFilterPushDown.testMixed5,1.0,16.0,0.0,9.0,3.0,6.0,7.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.78,1,1,1,1,False
+pig,Public Static Method,org.apache.pig.test.TestMergeJoinOuter.oneTimeTearDown,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestNewPlanOperatorPlan.testPlanEdgeInsertFirstIndexBad,0.0,23.0,1.0,22.0,7.0,18.0,0.0,6.0,4.0,1.0,14.0,17.0,7.0,10.0,3.0,3.0,3.0,1.0,2.0,0.0,1.0,0.0,0.0,3,3,3,1,False
+pig,Public Method,org.apache.hadoop.zebra.tfile.TFile.Reader.getEntryComparator.(Anon_1).compare,3.0,10.0,0.0,4.0,0.0,3.0,6.0,4.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.5,1,1,1,1,False
+pig,Public Abstract Method,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.AccumulativeTupleBuffer.getTuples,1.0,5.0,0.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,0,0,0,False
+pig,Public Method,org.apache.pig.test.TestMRCompiler.testSpl1,0.0,38.0,7.0,31.0,11.0,29.0,0.0,11.0,1.0,0.0,29.0,30.0,11.0,19.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.piggybank.test.evaluation.TestMathUDF.testgetExponent,0.0,8.0,0.0,8.0,5.0,6.0,0.0,6.0,2.0,0.0,6.0,8.0,5.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+pig,Public Method,org.apache.pig.test.TestPigContext.setUp,1.0,4.0,0.0,4.0,1.0,2.0,0.0,5.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMultiQueryPackage.getNext,10.0,69.0,11.0,39.0,13.0,31.0,19.0,16.0,12.0,1.0,24.0,29.0,12.0,17.0,5.0,5.0,8.0,1.0,2.0,0.0,2.0,0.0,0.49,5,5,8,1,False
+pig,Public Method,org.apache.pig.piggybank.test.evaluation.TestMathUDF.testASIN,1.0,8.0,0.0,8.0,5.0,6.0,0.0,6.0,2.0,0.0,6.0,8.0,5.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+pig,Public Method,org.apache.hadoop.zebra.tfile.TFile.TFileIndexEntry.write,5.0,5.0,0.0,5.0,1.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Constructor,org.apache.pig.impl.plan.OperatorPlan.OperatorPlan,3.0,10.0,0.0,10.0,1.0,8.0,0.0,10.0,1.0,0.0,8.0,9.0,1.0,8.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Static Method,org.apache.pig.piggybank.storage.hiverc.HiveRCSchemaUtil.compileSet,2.0,19.0,4.0,9.0,4.0,6.0,6.0,4.0,2.0,0.0,7.0,9.0,5.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.67,2,2,2,1,False
+pig,Public Method,org.apache.pig.piggybank.evaluation.stats.COV.getInitial,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestNewPlanRule.setUp,1.0,37.0,2.0,33.0,11.0,31.0,2.0,10.0,1.0,0.0,31.0,32.0,11.0,21.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.06,1,1,1,1,False
+pig,Public Abstract Method,org.apache.pig.tools.pigstats.PigProgressNotificationListener.launchStartedNotification,1.0,6.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
+pig,Protected Method,org.apache.pig.tools.grunt.GruntParser.processFsCommand,5.0,14.0,2.0,12.0,1.0,8.0,1.0,3.0,3.0,0.0,4.0,7.0,1.0,6.0,3.0,3.0,3.0,1.0,2.0,0.0,2.0,0.0,0.08,3,3,3,1,False
+pig,Public Method,org.apache.pig.newplan.logical.expression.MultiplyExpression.accept,1.0,9.0,0.0,6.0,1.0,3.0,3.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.5,2,2,2,1,False
+pig,Public Method,org.apache.pig.test.TestParamSubPreproc.testMultipleDeclareScope,7.0,42.0,6.0,36.0,10.0,29.0,0.0,11.0,9.0,1.0,24.0,29.0,10.0,19.0,7.0,7.0,9.0,6.0,8.0,8.0,3.0,8.0,0.0,7,7,9,6,False
+pig,Private Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer.mergeOneMapPart,9.0,38.0,5.0,31.0,14.0,24.0,2.0,8.0,8.0,1.0,17.0,24.0,14.0,10.0,6.0,6.0,6.0,1.0,2.0,0.0,3.0,0.0,0.06,6,6,6,1,False
+pig,Public Method,org.apache.pig.piggybank.evaluation.datetime.diff.ISODaysBetween.outputSchema,2.0,3.0,0.0,3.0,1.0,1.0,0.0,6.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestPartitionFilterPushDown.testColNameMapping3,2.0,31.0,3.0,21.0,5.0,19.0,7.0,11.0,1.0,0.0,8.0,9.0,4.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestUnionOnSchema.testUnionOnSchemaScopedColumnNameBothInp1,2.0,34.0,2.0,26.0,10.0,21.0,6.0,8.0,1.0,0.0,9.0,10.0,7.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.23,1,1,1,1,False
+pig,Public Method,org.apache.pig.piggybank.test.storage.TestCSVStorage.testQuotedQuotes,1.0,11.0,0.0,11.0,5.0,9.0,0.0,6.0,1.0,0.0,7.0,8.0,4.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.utils.SimpleCustomPartitioner.getPartition,2.0,9.0,0.0,9.0,2.0,5.0,0.0,4.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+pig,Public Method,org.apache.pig.test.TestBuiltin.testLFText,1.0,28.0,0.0,21.0,11.0,19.0,7.0,11.0,1.0,0.0,14.0,15.0,9.0,6.0,1.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,2,1,False
+pig,Public Method,org.apache.hadoop.zebra.mapreduce.TestMultipleOutputsTypedApiNeg.MapClass.setup,3.0,13.0,0.0,13.0,2.0,10.0,0.0,9.0,3.0,0.0,7.0,9.0,2.0,7.0,3.0,3.0,3.0,1.0,3.0,0.0,1.0,0.0,0.0,3,3,3,1,False
+pig,Public Static Method,org.apache.hadoop.zebra.mapred.BasicTableOutputFormat.getSchema,25.0,16.0,0.0,7.0,2.0,4.0,9.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.29,2,2,2,1,False
+pig,Public Method,org.apache.pig.test.TestOperatorPlan.MultiOperator.supportsMultipleOutputs,0.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.hadoop.zebra.tfile.TestTFileComparators.setUp,5.0,6.0,0.0,6.0,1.0,4.0,0.0,6.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Private Static Method,org.apache.hadoop.zebra.io.TestColumnGroupOpen.close,10.0,7.0,0.0,7.0,1.0,4.0,0.0,3.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+pig,Public Method,org.apache.pig.impl.builtin.DefaultIndexableLoader.initialize,0.0,4.0,1.0,2.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
+pig,Private Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer.mergeAllMapReduceSplittees,13.0,87.0,19.0,56.0,17.0,46.0,12.0,24.0,48.0,2.0,31.0,40.0,16.0,24.0,10.0,10.0,10.0,1.0,2.0,0.0,3.0,0.0,0.21,10,10,10,1,False
+pig,Public Method,org.apache.pig.test.TestEvalPipeline2.testBinStorageCommaSeperatedPath,2.0,38.0,10.0,28.0,7.0,24.0,0.0,11.0,1.0,0.0,22.0,23.0,4.0,19.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestCmdLineParser.testParseNoDash,2.0,9.0,0.0,9.0,4.0,6.0,0.0,5.0,1.0,0.0,6.0,7.0,4.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.hadoop.zebra.pig.TestSimpleType.testStorer4,2.0,47.0,4.0,34.0,10.0,30.0,9.0,11.0,3.0,0.0,22.0,25.0,8.0,17.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.26,3,3,3,1,False
+pig,Public Method,org.apache.pig.test.TestEvalPipeline.TupComp.compare,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.newplan.logical.relational.LODistinct.isEqual,1.0,7.0,0.0,7.0,1.0,4.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,3.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,3,1,False
+pig,Public Constructor,org.apache.pig.Expression.Const.Const,2.0,7.0,0.0,4.0,1.0,2.0,3.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.75,1,1,1,1,False
+pig,Public Method,org.apache.pig.impl.logicalLayer.LOForEach.setForEachPlans,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestSecondarySort.testNestedSortEndToEnd2,2.0,22.0,0.0,22.0,4.0,20.0,0.0,14.0,1.0,0.0,20.0,21.0,4.0,17.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.impl.io.ReadToEndLoader.prepareToRead,0.0,3.0,0.0,3.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Private Method,org.apache.pig.test.utils.dotGraph.LogicalPlanLoader.createLOCogroup,4.0,6.0,0.0,6.0,3.0,4.0,0.0,4.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceOper.setMapDone,9.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.piggybank.evaluation.math.FloatUlp.outputSchema,2.0,3.0,0.0,3.0,1.0,1.0,0.0,6.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestPruneColumn.testMapKey1,2.0,22.0,5.0,17.0,3.0,15.0,0.0,13.0,1.0,0.0,15.0,16.0,3.0,13.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.tools.pigstats.ScriptState.AliasVisitor.visitLimit,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler.visitDistinct,12.0,59.0,5.0,54.0,16.0,49.0,0.0,30.0,4.0,1.0,43.0,47.0,15.0,32.0,4.0,4.0,5.0,1.0,2.0,0.0,2.0,0.0,0.0,4,4,5,1,False
+pig,Public Method,org.apache.pig.test.TestLessThan.testFloatLt,4.0,13.0,0.0,13.0,5.0,11.0,0.0,9.0,1.0,0.0,11.0,12.0,5.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.builtin.PigStorage.relToAbsPathForStoreLocation,2.0,4.0,0.0,4.0,2.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestNewPlanPushDownForeachFlatten.testForeachUDFCross,1.0,35.0,3.0,29.0,5.0,27.0,3.0,11.0,2.0,0.0,25.0,27.0,5.0,22.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.1,2,2,2,1,False
+pig,Private Static Method,org.apache.hadoop.zebra.mapreduce.TableInputFormat.getSorted,5.0,8.0,0.0,3.0,1.0,1.0,5.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.67,1,1,1,1,False
+pig,Public Constructor,org.apache.pig.piggybank.storage.XMLLoaderBufferedPositionedInputStream.XMLLoaderBufferedPositionedInputStream,2.0,13.0,0.0,5.0,1.0,3.0,8.0,4.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.6,1,1,1,1,False
+pig,Public Method,org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler.connectSoftLink,4.0,15.0,0.0,15.0,3.0,9.0,0.0,5.0,7.0,1.0,4.0,12.0,5.0,7.0,6.0,6.0,7.0,5.0,1.0,1.0,4.0,1.0,0.0,6,6,7,5,False
+pig,Public Method,org.apache.pig.piggybank.evaluation.datetime.truncate.ISOToDay.getArgToFuncMapping,1.0,6.0,1.0,5.0,2.0,3.0,0.0,5.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.hadoop.zebra.io.ColumnGroup.Reader.close,31.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+pig,Method,org.apache.hadoop.zebra.tfile.TFile.Reader.Scanner.compareCursorKeyTo,6.0,14.0,0.0,5.0,1.0,3.0,9.0,6.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.8,1,1,1,1,False
+pig,Public Method,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POProject.setOverloaded,32.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestLogicalPlanBuilder.testQuery15,0.0,4.0,0.0,4.0,2.0,2.0,0.0,1.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestNotEqualTo.testDataByteArrayEq,4.0,13.0,0.0,13.0,5.0,11.0,0.0,10.0,1.0,0.0,11.0,12.0,5.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc.outputSchema,2.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.newplan.logical.relational.LOSort.isLimited,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
 pig,Private Static Method,org.apache.hadoop.zebra.mapred.TableInputFormat.getRowSplits,7.0,150.0,13.0,126.0,47.0,104.0,14.0,34.0,12552.0,4.0,99.0,118.0,52.0,66.0,26.0,26.0,26.0,1.0,3.0,0.0,5.0,0.0,0.11,26,26,26,1,True
 pig,Public Static Method,org.apache.hadoop.zebra.tfile.TFileDumper.dumpInfo,20.0,211.0,5.0,194.0,73.0,156.0,12.0,46.0,58800.0,5.0,117.0,136.0,69.0,67.0,23.0,23.0,25.0,1.0,1.0,0.0,5.0,0.0,0.06,23,23,25,1,True
 pig,Static Method,org.apache.pig.Main.run,35.0,444.0,68.0,349.0,50.0,302.0,27.0,67.0,1548488.0,6.0,217.0,259.0,51.0,208.0,67.0,48.0,74.0,32.0,386.0,267.0,5.0,266.0,0.08,67,48,74,32,True

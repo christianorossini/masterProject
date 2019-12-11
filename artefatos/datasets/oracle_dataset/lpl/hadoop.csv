@@ -1,5 +1,5 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lpl
-hadoop,Public Method,org.apache.hadoop.dfs.FSConstants.SafeModeAction.values,0.0,0,0,0,0,0,0,1.0,0.0,0.0,0,0,0,0,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-hadoop,Public Constructor,org.apache.hadoop.ipc.Server.Connection.Connection,5.0,19,0,19,3,15,0,17.0,2.0,0.0,11,13,2,11,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-hadoop,Public Method,org.apache.hadoop.record.compiler.generated.SimpleCharStream.getLine,2.0,7,0,3,1,1,4,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.33,1,1,1,1,False
+hadoop,Public Method,org.apache.hadoop.mapred.JobTracker.pollForTaskWithClosedJob,3.0,24,0,15,5,10,9,9.0,4.0,1.0,9,12,6,6,4.0,4.0,4.0,1.0,1.0,0.0,3,0.0,0.6,4,4,4,1,False
+hadoop,Static Method,org.apache.hadoop.examples.PiBenchmark.launch,7.0,72,12,54,18,48,6,33.0,16.0,1.0,43,49,16,33,5.0,5.0,5.0,1.0,0.0,0.0,1,0.0,0.11,5,5,5,1,False
+hadoop,Public Method,org.apache.hadoop.mapred.TaskTrackerStatus.countMapTasks,5.0,16,0,13,4,9,3,6.0,3.0,0.0,7,9,5,4,3.0,3.0,5.0,1.0,0.0,0.0,2,0.0,0.23,3,3,5,1,False
 hadoop,Public Static Method,org.apache.hadoop.fs.FileUtil.copyMerge,9.0,38,6,31,7,21,1,13.0,9.0,1.0,13,21,5,16,6.0,6.0,6.0,3.0,2.0,2.0,5,2.0,0.03,6,6,6,3,True

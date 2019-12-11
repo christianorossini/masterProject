@@ -2,7 +2,7 @@ digraph Tree {
 node [color="black", fontname=helvetica, shape=box, style="rounded", width=0.5, fontsize=10];
 edge [fontname=helvetica];
 0 [label=<Number of physical<br/> lines &le; 85.5>];
-1 [label=<Sum Cyclomatic Complexity &le; 10.5>];
+1 [label=<Cyclomatic Complexity &le; 10.5>];
 0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
 3 [label=<not smelly code>];
 1 -> 3;
