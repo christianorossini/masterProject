@@ -1,0 +1,25 @@
+digraph Tree {
+node [color="black", fontname=helvetica, shape=box,  style="filled, rounded", fillcolor="#FFFFFF"];
+edge [fontname=helvetica];
+0 [label=<Number of Local<br/> Methods (WMC) &le; 8.5>];
+1 [label=<not smelly code>];
+0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
+2 [label=<Lines with Comments &le; 217.5>];
+0 -> 2  [headlabel="False", labelangle="-45", labeldistance="2.5"];
+3 [label=<Class Methods &le; 0.5>];
+2 -> 3;
+5 [label=<not smelly code>];
+3 -> 5;
+6 [label=<Public Methods &le; 15.0>];
+3 -> 6;
+7 [label=<Percent Lack of <br/>Cohesion in Methods &le; 59.0>];
+6 -> 7;
+9 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+7 -> 9;
+10 [label=<not smelly code>];
+7 -> 10;
+8 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+6 -> 8;
+4 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+2 -> 4;
+}

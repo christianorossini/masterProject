@@ -1,0 +1,17 @@
+digraph Tree {
+node [color="black", fontname=helvetica, shape=box,  style="filled, rounded", fillcolor="#FFFFFF"];
+edge [fontname=helvetica];
+0 [label=<Coupling Between Objects &le; 2>, fillcolor="#e68743"];
+1 [label=<Instance methods &le; 5>, fillcolor="#e68743"];
+0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
+3 [label=<not smelly code>];
+1 -> 3;
+4 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+1 -> 4;
+2 [label=<Public Methods &le; 22>];
+0 -> 2  [headlabel="False", labelangle="-45", labeldistance="2.5"];
+5 [label=<not smelly code>];
+2 -> 5;
+6 [label=<<b>smelly code</b>>];
+2 -> 6;
+}

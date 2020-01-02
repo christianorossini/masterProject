@@ -1,0 +1,33 @@
+digraph Tree {
+node [color="black", fontname=helvetica, shape=box,  style="filled, rounded", fillcolor="#FFFFFF"];
+edge [fontname=helvetica];
+0 [label=<Number of declarative<br/> Lines of Code &le; 2.5>];
+1 [label=<Number of<br/> outputs (FANOUT) &le; 8.5>];
+0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
+13 [label=<not smelly code>];
+1 -> 13;
+14 [label=<not smelly code>];
+1 -> 14;
+2 [label=<Number of<br/> inputs (FANIN) &le; 7.5>];
+0 -> 2  [headlabel="False", labelangle="-45", labeldistance="2.5"];
+3 [label=<Declarative Statements &le; 1.5>];
+2 -> 3;
+5 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+3 -> 5;
+6 [label=<not smelly code>];
+3 -> 6;
+4 [label=<Declarative Statements &le; 2.5>];
+2 -> 4;
+7 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+4 -> 7;
+8 [label=<Number of declarative<br/> Lines of Code &le; 3.5>];
+4 -> 8;
+9 [label=<not smelly code>];
+8 -> 9;
+10 [label=<Paths &le; 5.0>];
+8 -> 10;
+11 [label=<not smelly code>];
+10 -> 11;
+12 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+10 -> 12;
+}

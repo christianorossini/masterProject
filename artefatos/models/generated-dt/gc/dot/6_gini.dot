@@ -1,0 +1,25 @@
+digraph Tree {
+node [color="black", fontname=helvetica, shape=box,  style="filled, rounded", fillcolor="#FFFFFF"];
+edge [fontname=helvetica];
+0 [label=<Number of physical lines &le; 1347.5>];
+1 [label=<Instance Variables &le; 17.5>];
+0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
+3 [label=<not smelly code>];
+1 -> 3;
+4 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+1 -> 4;
+2 [label=<Avg Number of Blank Lines &le; 6.0>];
+0 -> 2  [headlabel="False", labelangle="-45", labeldistance="2.5"];
+5 [label=<Number of physical lines &le; 1455.5>];
+2 -> 5;
+7 [label=<Class Variables &le; 3.0>];
+5 -> 7;
+9 [label=<not smelly code>];
+7 -> 9;
+10 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+7 -> 10;
+8 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+5 -> 8;
+6 [label=<not smelly code>];
+2 -> 6;
+}

@@ -1,0 +1,37 @@
+digraph Tree {
+node [color="black", fontname=helvetica, shape=box,  style="filled, rounded", fillcolor="#FFFFFF"];
+edge [fontname=helvetica];
+0 [label=<Class Variables &le; 3.5>];
+1 [label=<Comment to Code Ratio &le; 0.965>];
+0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
+5 [label=<Average Cyclomatic Complexity &le; 15.0>];
+1 -> 5;
+13 [label=<not smelly code>];
+5 -> 13;
+14 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+5 -> 14;
+6 [label=<Instance Variables &le; 3.5>];
+1 -> 6;
+7 [label=<Class Variables &le; 1.5>];
+6 -> 7;
+11 [label=<not smelly code>];
+7 -> 11;
+12 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+7 -> 12;
+8 [label=<Number of blank lines &le; 27.0>];
+6 -> 8;
+9 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+8 -> 9;
+10 [label=<not smelly code>];
+8 -> 10;
+2 [label=<Percent Lack of <br/>Cohesion in Methods &le; 53.5>];
+0 -> 2  [headlabel="False", labelangle="-45", labeldistance="2.5"];
+3 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+2 -> 3;
+4 [label=<Class Variables &le; 22.5>];
+2 -> 4;
+15 [label=<not smelly code>];
+4 -> 15;
+16 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+4 -> 16;
+}

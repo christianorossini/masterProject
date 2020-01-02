@@ -1,0 +1,17 @@
+digraph Tree {
+node [color="black", fontname=helvetica, shape=box,  style="filled, rounded", fillcolor="#FFFFFF"];
+edge [fontname=helvetica];
+0 [label=<Number of declarative<br/> Lines of Code &lt; 3>, fillcolor="#e68743"];
+1 [label=<not smelly code>];
+0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
+2 [label=<Number of<br/> inputs &lt; 8>, fillcolor="#e68743"];
+0 -> 2  [headlabel="False", labelangle="-45", labeldistance="2.5"];
+3 [label=<Declarative Statements &lt; 2>];
+2 -> 3;
+5 [label=<<b>smelly code</b>>];
+3 -> 5;
+6 [label=<not smelly code>];
+3 -> 6;
+4 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+2 -> 4;
+}
