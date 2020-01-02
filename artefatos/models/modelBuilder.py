@@ -17,24 +17,23 @@ from GA import gaPreProcessing as ga
 import os
 import csv
 
-
 pyPath = os.path.dirname(os.path.abspath(__file__))
-dfExportEffectiveness = pd.DataFrame(columns=['splitting_criterion', 'num_of_leaves', 'depth', 'TN', 'TP', 'FN', 'FP', "Precision", "Recall", "F-measure"])
+dfExportEffectiveness = pd.DataFrame(columns=['splitting_criterion', 'num_of_leaves', 'depth', 'metrics','TN', 'TP', 'FN', 'FP', "Precision", "Recall", "F-measure"])
 
 # treina o modelo com um número de folhas
-number_of_leaves = [3,7,9]
+number_of_leaves = [4,6]
 # Gini index e Information Gain ("entropy")
 splitting_critera = ['gini','entropy']
 
 xlsIdx = list()
-for cSmell in ["lpl","lm",'fe',"gc",'mm',"cdsbp"]:
-#for cSmell in ["gc","cdsbp"]:
+#for cSmell in ["lpl","lm","gc",'mm',"cdsbp"]:
+for cSmell in ["ii"]:
 
     # load dataset
     dfCs = pd.read_csv(os.path.dirname(os.path.abspath(__file__))+"/../datasets/oracle_dataset/{0}.csv".format(cSmell))
 
     #split dataset in features and target variable
-    if(cSmell in ["gc",'mm',"cdsbp"]):                       #code smells de classe
+    if(cSmell in ["gc",'mm',"cdsbp",'ii']):                       #code smells de classe
         csvSoftMetricsList = pd.read_csv(pyPath + "/../software_metrics/software_class_level_metrics.csv", delimiter=";")        
           
     else:                                               #code smells de método        
@@ -74,6 +73,8 @@ for cSmell in ["lpl","lm",'fe',"gc",'mm',"cdsbp"]:
                             special_characters=True,
                             feature_names = feature_cols,
                             class_names=['0','1'], 
+                            filled=False,
+                            leaves_parallel=False,
                             impurity=False)
 
             csRoot = "{0}/dt/{1}".format(pyPath, cSmell)
@@ -96,15 +97,25 @@ for cSmell in ["lpl","lm",'fe',"gc",'mm',"cdsbp"]:
             dotFile = pydotplus.graph_from_dot_data(dot_data.getvalue()).to_string()
             #graphPath = ('{0}_ga.png' if applyPreProcessingWGA else "{0}.png")        
             
-            ## expressões regulares que excluem elementos indesejados da decision tree
+            ## expressões regulares que excluem elementos indesejados da decision tree e faz aprimoramentos na visualização
             import re                                        
+            dotFile = re.sub('(style="rounded")', ' style="filled, rounded", fillcolor="#FFFFFF"', dotFile)
             dotFile = re.sub('(samples = [0-9]+<br\/>)', '', dotFile)
             dotFile = re.sub('(value = \[[0-9]+, [0-9]+\]<br\/>)', '', dotFile)
             dotFile = re.sub('(<br\/>class = [0-9])', '', dotFile)
-            dotFile = re.sub('(class = 1)', '<u><b>smelly code</b></u>', dotFile)
+            dotFile = re.sub('(<class = 1>)', '<<b>smelly code</b>>, fillcolor="#e68743"', dotFile)
             dotFile = re.sub('(class = 0)', 'not smelly code', dotFile)
             ## RE para modificar o tamanho do nó
             dotFile = re.sub('(style="rounded")', 'style="rounded", width=0.5, fontsize=10', dotFile)
+            
+            ## monta uma lista de métricas para gerar os metadados da árvore de decisão / troca o nome dos nós para um nome mais amigável
+            metricsList = list()
+            for apiname, name in zip(csvSoftMetricsList['apiname'],csvSoftMetricsList['name']):
+                pattern = '<' + apiname + ' '
+                if(dotFile.count(pattern)>=1):
+                    metricsList.append(apiname)
+                    dotFile = dotFile.replace(pattern, '<' + name + ' ') # conversão do apiname para um nome mais amigável                
+            metricsList = ",".join(str(x) for x in metricsList) # converte a lista de metricas em string, separado por vírgula
             
             with open(dotPath, 'w') as file:
                 file.write(dotFile)
@@ -150,7 +161,7 @@ for cSmell in ["lpl","lm",'fe',"gc",'mm',"cdsbp"]:
             #print('Accuracy: {0}'.format(accuracy))
             print("Precision: {} \nRecall: {}\nF-Measure: {}\n".format(precision, recall, fmeasure))
 
-            dfExportEffectiveness = dfExportEffectiveness.append({'splitting_criterion':criteria, 'num_of_leaves':clf.get_n_leaves(), 'depth': clf.get_depth(),  'TN':tn, 'TP':tp, 'FN':fn, 'FP':fp, "Precision":precision, "Recall":recall, "F-measure":fmeasure}, ignore_index=True)
+            dfExportEffectiveness = dfExportEffectiveness.append({'splitting_criterion':criteria, 'num_of_leaves':clf.get_n_leaves(), 'depth': clf.get_depth(), 'metrics': metricsList, 'TN':tn, 'TP':tp, 'FN':fn, 'FP':fp, "Precision":precision, "Recall":recall, "F-measure":fmeasure}, ignore_index=True)
             
             xlsIdx.append('{0}'.format(cSmell))
 

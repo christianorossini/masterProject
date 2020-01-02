@@ -1,5 +1,5 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lpl
-pig,Constructor,org.apache.hadoop.zebra.tfile.BCFile.Reader.BlockReader.BlockReader,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-pig,Public Static Method,org.apache.pig.data.DataReaderWriter.bytesToInternalMap,2.0,9.0,0.0,9.0,4.0,6.0,0.0,5.0,2.0,0.0,7.0,9.0,5.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-pig,Private Method,org.apache.hadoop.zebra.types.SubColumnExtraction.SubColumn.dispatch,3.0,9.0,0.0,6.0,1.0,3.0,3.0,3.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
+pig,Public Method,org.apache.pig.test.TestUTF8.setUp,2.0,3.0,0.0,3.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+pig,Public Method,org.apache.pig.builtin.AVG.Final.exec,4.0,24.0,2.0,22.0,8.0,17.0,0.0,5.0,5.0,1.0,12.0,16.0,8.0,8.0,5.0,5.0,5.0,4.0,6.0,6.0,2.0,6.0,0.0,5,5,5,4,False
+pig,Public Method,org.apache.pig.data.NonSpillableDataBag.toString,0.0,15.0,0.0,13.0,5.0,10.0,2.0,6.0,3.0,0.0,9.0,12.0,5.0,7.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.15,3,3,3,1,False
 pig,Public Constructor,org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POFRJoin.POFRJoin,11.0,22.0,1.0,21.0,6.0,15.0,0.0,18.0,1.0,0.0,15.0,16.0,2.0,14.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,True

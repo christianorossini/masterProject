@@ -1,61 +1,61 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lm
-cassandra,Private Method,org.apache.cassandra.io.sstable.SSTableLoader.LoaderFuture.setPendings,4.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.get_paged_slice_args.getFieldValue,5.0,17.0,4.0,13.0,1.0,10.0,0.0,5.0,5.0,1.0,5.0,7.0,1.0,6.0,5.0,2.0,5.0,1.0,10.0,0.0,1.0,0.0,0.0,5,2,5,1,False
-cassandra,Public Method,org.apache.cassandra.db.marshal.CompositeType.Builder.copy,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Abstract Method,org.apache.cassandra.db.index.SecondaryIndex.init,1.0,4.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.describe_ring_args.setFieldValue,3.0,12.0,1.0,11.0,1.0,7.0,0.0,2.0,3.0,0.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-cassandra,Public Method,org.apache.cassandra.utils.BloomFilter.serializedSize,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Abstract Method,org.apache.cassandra.io.util.FileDataInput.reset,3.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-cassandra,Public Method,org.apache.cassandra.db.EchoedRow.update,0.0,5.0,0.0,4.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.streaming.StreamReply.getMessage,8.0,7.0,0.0,7.0,3.0,4.0,0.0,6.0,1.0,0.0,4.0,5.0,3.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Private Static Method,org.apache.cassandra.io.compress.CompressionParameters.parseCompressorClass,3.0,15.0,1.0,14.0,1.0,7.0,0.0,5.0,3.0,0.0,4.0,7.0,1.0,6.0,4.0,4.0,5.0,3.0,2.0,2.0,1.0,2.0,0.0,4,4,5,3,False
-cassandra,Public Method,org.apache.cassandra.service.StorageService.setStreamThroughputMbPerSec,2.0,5.0,0.0,5.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Constructor,org.apache.cassandra.thrift.Cassandra.describe_cluster_name_args._Fields._Fields,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Constructor,org.apache.cassandra.cql.jdbc.JdbcDecimal.JdbcDecimal,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.get_slice_result.isSetTe,7.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.AuthenticationRequest.unsetCredentials,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.locator.TokenMetadata.getEndpoint,18.0,12.0,0.0,12.0,1.0,5.0,0.0,5.0,1.0,0.0,3.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.SliceRange.setReversed,5.0,5.0,0.0,5.0,1.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.NotFoundException.deepCopy,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.db.DataTracker.getUncompactingSSTables,2.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Constructor,org.apache.cassandra.thrift.Cassandra.get_result._Fields._Fields,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.CfDef.isSetComment,9.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.service.RowRepairResolver.resolve,8.0,46.0,7.0,36.0,9.0,26.0,3.0,23.0,52.0,2.0,19.0,28.0,10.0,18.0,9.0,9.0,9.0,1.0,1.0,0.0,3.0,0.0,0.08,9,9,9,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.SliceRange.setStartIsSet,1.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-cassandra,Protected Method,org.apache.cassandra.thrift.Cassandra.Processor.describe_partitioner.getEmptyArgsInstance,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Static Method,org.apache.cassandra.config.DatabaseDescriptor.getClusterName,6.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.remove_args.getConsistency_level,2.0,7.0,0.0,3.0,1.0,1.0,4.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.33,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.CqlResult.clear,0.0,7.0,0.0,7.0,1.0,5.0,0.0,5.0,1.0,0.0,5.0,6.0,1.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.AsyncClient.prepare_cql_query_call.getResult,0.0,8.0,0.0,8.0,3.0,5.0,0.0,8.0,2.0,0.0,4.0,6.0,3.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-cassandra,Public Method,org.apache.cassandra.db.ColumnFamily.getColumnSerializer,13.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Abstract Method,org.apache.cassandra.thrift.Cassandra.Iface.system_drop_column_family,1.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-cassandra,Private Method,org.apache.cassandra.utils.UUIDGen.makeNode,4.0,16.0,3.0,12.0,3.0,9.0,1.0,7.0,3.0,0.0,9.0,12.0,4.0,8.0,3.0,3.0,3.0,1.0,1.0,0.0,1.0,0.0,0.08,3,3,3,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.ThriftValidationTest.testValidateCommutativeWithStandard,0.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.system_drop_column_family_result.getIre,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.CqlMetadata.isSetName_types,6.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.CfDef.isSet,33.0,74.0,1.0,72.0,1.0,68.0,1.0,33.0,66.0,2.0,34.0,37.0,1.0,36.0,34.0,3.0,34.0,1.0,528.0,0.0,1.0,0.0,0.01,34,3,34,1,False
-cassandra,Public Method,org.apache.cassandra.tools.NodeProbe.getKeyspaces,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Static Method,org.apache.cassandra.thrift.Cassandra.system_add_keyspace_result._Fields.findByName,2.0,6.0,0.0,3.0,1.0,1.0,3.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.get_count_result._Fields.getFieldName,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Private Static Method,org.apache.cassandra.config.CFMetaData.validateAlias,4.0,16.0,0.0,16.0,1.0,7.0,0.0,3.0,5.0,1.0,3.0,7.0,1.0,6.0,4.0,4.0,4.0,1.0,1.0,0.0,2.0,0.0,0.0,4,4,4,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.TokenRange.getFieldValue,6.0,20.0,5.0,15.0,1.0,12.0,0.0,6.0,6.0,1.0,6.0,8.0,1.0,7.0,6.0,2.0,6.0,1.0,15.0,0.0,1.0,0.0,0.0,6,2,6,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.IndexType.getValue,4.0,6.0,0.0,3.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.auth.AllowAllAuthenticator.defaultUser,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.utils.BloomFilter.isPresent,4.0,11.0,0.0,11.0,1.0,4.0,0.0,3.0,3.0,0.0,2.0,6.0,2.0,4.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,0.0,3,3,3,3,False
-cassandra,Private Constructor,org.apache.cassandra.db.marshal.DynamicCompositeType.DynamicCompositeType,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.get_range_slices_result._Fields.values,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Private Method,org.apache.cassandra.thrift.Cassandra.get_indexed_slices_args.readObject,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-cassandra,Public Method,org.apache.cassandra.scheduler.WeightedQueue.getRecentLatencyHistogramMicros,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.batch_mutate_args.read,6.0,69.0,1.0,67.0,10.0,41.0,8.0,20.0,17.0,1.0,40.0,49.0,13.0,36.0,10.0,9.0,10.0,3.0,7.0,3.0,6.0,2.0,0.12,10,9,10,3,False
-cassandra,Public Method,org.apache.cassandra.thrift.TCustomServerSocket.close,4.0,15.0,0.0,15.0,1.0,6.0,0.0,3.0,3.0,0.0,3.0,6.0,1.0,5.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.0,3,3,3,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.describe_schema_versions_result.hashCode,2.0,15.0,3.0,12.0,4.0,10.0,0.0,5.0,4.0,1.0,8.0,11.0,4.0,7.0,3.0,3.0,5.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,5,1,False
-cassandra,Private Method,org.apache.cassandra.io.util.MmappedSegmentedFile.floor,4.0,14.0,0.0,10.0,3.0,7.0,4.0,4.0,2.0,0.0,6.0,8.0,3.0,5.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,0.0,0.4,2,2,3,1,False
-cassandra,Public Method,org.apache.cassandra.db.filter.ExtendedFilter.EmptyClauseFilter.isSatisfiedBy,0.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.db.CounterColumn.total,8.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Static Method,org.apache.cassandra.gms.FailureDetector.main,0.0,3.0,0.0,3.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.system_drop_keyspace_result.setFieldValue,5.0,28.0,3.0,25.0,1.0,19.0,0.0,6.0,7.0,1.0,9.0,14.0,1.0,13.0,7.0,5.0,7.0,1.0,6.0,0.0,2.0,0.0,0.0,7,5,7,1,False
-cassandra,Public Abstract Method,org.apache.cassandra.cql3.CQLStatement.getBoundsTerms,3.0,4.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
-cassandra,Public Method,org.apache.cassandra.service.AntiEntropyServiceTestAbstract.testGetNeighborsTimesTwo,2.0,21.0,1.0,19.0,6.0,12.0,1.0,14.0,4.0,1.0,10.0,15.0,8.0,7.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.05,3,3,3,1,False
+cassandra,Public Abstract Method,org.apache.cassandra.dht.Token.TokenFactory.toByteArray,10.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.get_count_args.deepCopy,0.0,3.0,0.0,3.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.get_count_result.getIre,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.describe_keyspace_result.getFieldValue,4.0,14.0,3.0,11.0,1.0,8.0,0.0,4.0,4.0,1.0,4.0,6.0,1.0,5.0,4.0,2.0,4.0,1.0,6.0,0.0,1.0,0.0,0.0,4,2,4,1,False
+cassandra,Public Method,org.apache.cassandra.cql.SelectExpression.setColumnsReversed,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.utils.BloomFilterTest.testFalsePositivesInt,1.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.io.compress.CompressionMetadata.chunkLength,3.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.Client.recv_batch_mutate,5.0,15.0,0.0,15.0,2.0,9.0,0.0,2.0,8.0,1.0,6.0,10.0,2.0,8.0,4.0,4.0,4.0,1.0,0.0,0.0,1.0,0.0,0.0,4,4,4,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.execute_prepared_cql_query_result.isSetSde,7.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.multiget_slice_result.getUe,2.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.EndpointDetails.compareTo,4.0,40.0,2.0,38.0,3.0,26.0,0.0,9.0,23.0,1.0,16.0,27.0,3.0,24.0,11.0,11.0,11.0,11.0,10.0,10.0,2.0,10.0,0.0,11,11,11,11,False
+cassandra,Method,org.apache.cassandra.utils.MerkleTreeTest.hashed,5.0,30.0,0.0,25.0,6.0,16.0,5.0,10.0,6.0,1.0,13.0,17.0,6.0,11.0,4.0,4.0,4.0,1.0,0.0,0.0,2.0,0.0,0.2,4,4,4,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.describe_ring_result.hashCode,2.0,15.0,3.0,12.0,4.0,10.0,0.0,5.0,4.0,1.0,8.0,11.0,4.0,7.0,3.0,3.0,5.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,5,1,False
+cassandra,Public Method,org.apache.cassandra.cache.ConcurrentLinkedHashCacheProvider.create,2.0,6.0,0.0,6.0,1.0,3.0,0.0,4.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+cassandra,Public Constructor,org.apache.cassandra.db.compaction.CompactionTask.CompactionTask,12.0,7.0,0.0,7.0,1.0,4.0,0.0,5.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.utils.IntervalTree.IntervalNode.findMinMedianMax,4.0,18.0,1.0,17.0,2.0,10.0,0.0,8.0,3.0,0.0,8.0,12.0,3.0,9.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.0,3,3,3,1,False
+cassandra,Public Method,org.apache.cassandra.db.ColumnFamilyStore.isEmpty,5.0,5.0,0.0,5.0,2.0,2.0,0.0,4.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,3,1,False
+cassandra,Public Method,org.apache.cassandra.io.sstable.IndexHelper.IndexInfo.serializedSize,3.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.service.StorageService.getLoadString,1.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.system_update_column_family_args._Fields.values,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.service.AntiEntropyService.RepairSession.onChange,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.SlicePredicate.hashCode,2.0,15.0,3.0,12.0,4.0,10.0,0.0,5.0,4.0,1.0,8.0,11.0,4.0,7.0,3.0,3.0,5.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,5,1,False
+cassandra,Public Static Method,org.apache.cassandra.cli.CliUtils.maybeEscapeName,3.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+cassandra,Constructor,org.apache.cassandra.thrift.Cassandra.describe_version_args._Fields._Fields,2.0,4.0,0.0,4.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Constructor,org.apache.cassandra.concurrent.CreationTimeAwareFuture.CreationTimeAwareFuture,1.0,5.0,0.0,5.0,1.0,2.0,0.0,4.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.db.index.keys.KeysIndex.createSecondaryIndexSearcher,3.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Private Method,org.apache.cassandra.service.MoveTest.generateRange,4.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.locator.AbstractEndpointSnitch.gossiperStarting,0.0,4.0,0.0,3.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.io.compress.CompressedSequentialWriter.sync,0.0,4.0,0.0,4.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Static Method,org.apache.cassandra.thrift.CqlResult._Fields.findByThriftId,7.0,17.0,0.0,14.0,1.0,11.0,7.0,1.0,5.0,1.0,5.0,7.0,1.0,6.0,5.0,2.0,5.0,1.0,10.0,0.0,1.0,0.0,0.5,5,2,5,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.insert_result.write,9.0,19.0,1.0,18.0,1.0,15.0,0.0,11.0,4.0,1.0,12.0,16.0,1.0,15.0,4.0,4.0,4.0,1.0,2.0,0.0,1.0,0.0,0.0,4,4,4,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.system_update_keyspace_args._Fields.getThriftFieldId,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.db.ColumnFamilyStore.getRecentBloomFilterFalseRatio,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.KeyCount.isSet,3.0,14.0,1.0,12.0,1.0,8.0,1.0,3.0,6.0,1.0,4.0,7.0,1.0,6.0,4.0,3.0,4.0,1.0,3.0,0.0,1.0,0.0,0.08,4,3,4,1,False
+cassandra,Public Method,org.apache.cassandra.service.CacheService.getRowCacheHits,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.net.MessagingService.getRegisteredCallbackAge,3.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.utils.MergeIteratorTest.testManyToOne.(Anon_1).reduce,1.0,4.0,0.0,4.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.set_keyspace_result.isSetIre,7.0,4.0,0.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.db.WriteResponse.WriteResponseSerializer.serialize,2.0,6.0,0.0,6.0,1.0,3.0,0.0,6.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.prepare_cql_query_args.unsetCompression,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.multiget_slice_args.setConsistency_level,4.0,8.0,0.0,4.0,1.0,2.0,4.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.describe_partitioner_result._Fields.values,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Abstract Method,org.apache.cassandra.service.CassandraDaemon.stop,0.0,4.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+cassandra,Public Method,org.apache.cassandra.service.StorageService.rebuild,6.0,14.0,3.0,11.0,2.0,8.0,0.0,9.0,4.0,1.0,6.0,10.0,3.0,7.0,4.0,4.0,4.0,1.0,0.0,0.0,1.0,0.0,0.0,4,4,4,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.AsyncClient.describe_splits_call.write_args,5.0,10.0,0.0,10.0,2.0,8.0,0.0,8.0,1.0,0.0,8.0,9.0,2.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.db.ColumnFamilyStore.setMinimumCompactionThreshold,3.0,5.0,0.0,5.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.CqlRow.addToColumns,2.0,6.0,0.0,6.0,1.0,3.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+cassandra,Public Method,org.apache.cassandra.db.commitlog.BatchCommitLogExecutorService.CheaterFutureTask.set,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Static Method,org.apache.cassandra.thrift.CqlMetadata._Fields.findByThriftIdOrThrow,1.0,9.0,0.0,5.0,2.0,3.0,4.0,2.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.8,2,2,2,1,False
+cassandra,Protected Method,org.apache.cassandra.streaming.FileStreamTask.write,8.0,21.0,2.0,8.0,2.0,5.0,11.0,5.0,1.0,0.0,5.0,6.0,2.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.38,1,1,1,1,False
+cassandra,Public Static Method,org.apache.cassandra.config.DatabaseDescriptor.getPhiConvictThreshold,5.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Method,org.apache.cassandra.service.AntiEntropyServiceTestAbstract.flushAES,2.0,16.0,1.0,13.0,4.0,6.0,2.0,3.0,1.0,0.0,5.0,7.0,4.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.15,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.cql3.UntypedResultSet.iterator,0.0,14.0,1.0,13.0,1.0,7.0,0.0,1.0,1.0,0.0,4.0,7.0,3.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.KeyRange.unsetRow_filter,1.0,3.0,0.0,3.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.streaming.StreamingService.getStreamDestinations,1.0,5.0,0.0,4.0,1.0,1.0,1.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
+cassandra,Public Method,org.apache.cassandra.thrift.Cassandra.truncate_result.setTeIsSet,1.0,5.0,0.0,5.0,1.0,2.0,0.0,1.0,2.0,0.0,1.0,3.0,1.0,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+cassandra,Public Method,org.apache.cassandra.service.StorageService.getLoadMap,1.0,11.0,0.0,10.0,2.0,5.0,1.0,10.0,2.0,0.0,4.0,7.0,3.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.1,2,2,2,1,False
 cassandra,Public Static Method,org.apache.cassandra.SchemaLoader.schemaDefinition,14.0,193.0,23.0,155.0,25.0,152.0,15.0,27.0,2.0,0.0,40.0,42.0,25.0,17.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.1,2,2,2,1,True
 cassandra,Private Method,org.apache.cassandra.cli.CliClient.executeGet,13.0,137.0,17.0,107.0,23.0,70.0,13.0,41.0,229.0,2.0,50.0,65.0,21.0,44.0,18.0,18.0,19.0,8.0,13.0,10.0,3.0,10.0,0.12,18,18,19,8,True
 cassandra,Static Method,org.apache.cassandra.config.DatabaseDescriptor.loadYaml,77.0,370.0,41.0,311.0,9.0,200.0,19.0,70.0,999999999.0,15.0,114.0,177.0,10.0,167.0,69.0,69.0,78.0,1.0,24.0,0.0,4.0,0.0,0.06,69,69,78,1,True

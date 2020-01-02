@@ -1,76 +1,76 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lpl
-qpid,Public Method,org.apache.qpid.client.protocol.AMQProtocolSession.toString,4.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Constructor,org.apache.qpid.transport.network.security.SecurityLayerFactory.SASLSecurityLayer.SASLSecurityLayer,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.qmf.QMFMethod.Argument.encode,3.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.amqp_1_0.type.messaging.Target.setTimeout,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.logging.messages.ManagementConsoleMessagesTest.testManagementListening,0.0,12.0,3.0,9.0,5.0,6.0,0.0,5.0,1.0,0.0,6.0,7.0,5.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.amqp_1_0.type.transport.Begin.getProperties,3.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.client.util.ClassLoadingAwareObjectInputStreamTest.testResolveProxyClass,1.0,13.0,1.0,7.0,3.0,4.0,5.0,7.0,1.0,0.0,4.0,5.0,3.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.71,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.management.ui.views.type.QueueTypeTabControl.QueueLabelProviderImpl.getColumnImage,0.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.tools.TestConfiguration.MessageType.valueOf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.client.security.CallbackHandlerRegistryTest.testSelectMechanism,1.0,12.0,2.0,10.0,3.0,7.0,0.0,8.0,1.0,0.0,7.0,8.0,3.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Static Method,org.apache.qpid.gentools.Utils.findChild,3.0,14.0,0.0,14.0,3.0,7.0,0.0,7.0,3.0,0.0,6.0,9.0,4.0,5.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,0.0,3,3,3,3,False
-qpid,Abstract Method,org.apache.qpid.server.queue.QueueEntry.getSize,13.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-qpid,Public Static Method,org.apache.qpid.framing.EncodingUtils.readDouble,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Private Method,org.apache.qpid.client.security.UsernameHashedPasswordCallbackHandler.getHash,3.0,24.0,7.0,17.0,6.0,10.0,0.0,5.0,4.0,1.0,8.0,13.0,8.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
-qpid,Public Constructor,org.apache.qpid.management.ui.ApiVersion.ApiVersion,11.0,5.0,0.0,5.0,1.0,2.0,0.0,3.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.queue.QueueEntryImpl.getQueue,7.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.client.AMQConnectionDelegate_8_0.resubscribeSessions,2.0,22.0,2.0,12.0,3.0,7.0,9.0,15.0,2.0,0.0,8.0,9.0,4.0,5.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.75,2,2,2,1,False
-qpid,Public Method,org.apache.qpid.server.store.berkeleydb.jmx.BDBHAMessageStoreManagerMBean.updateAddress,7.0,12.0,0.0,12.0,1.0,5.0,0.0,3.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-qpid,Public Method,org.apache.qpid.qmf.ManagementExchange.getTicket,0.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.disttest.client.property.PropertyValueFactory.createPropertyValue,7.0,11.0,0.0,11.0,1.0,4.0,0.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-qpid,Public Method,org.apache.qpid.server.handler.ServerMethodDispatcherImpl.dispatchQueueBind,4.0,5.0,0.0,5.0,1.0,2.0,0.0,2.0,1.0,0.0,2.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.test.unit.client.destinationurl.DestinationURLTest.testDestinationWithOption,0.0,16.0,5.0,11.0,3.0,8.0,1.0,10.0,1.0,0.0,8.0,9.0,3.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.09,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.store.derby.DerbyMessageStore.createBridge,8.0,69.0,12.0,56.0,9.0,33.0,1.0,20.0,4.0,1.0,23.0,30.0,9.0,21.0,4.0,4.0,4.0,1.0,1.0,0.0,6.0,0.0,0.02,4,4,4,1,False
-qpid,Abstract Method,org.apache.qpid.management.common.mbeans.LoggingManagement.getRuntimeRootLoggerLevel,2.0,6.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,0,0,0,False
-qpid,Public Abstract Method,org.apache.qpid.server.configuration.ConfigProperty.getValue,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-qpid,Public Method,org.apache.qpid.server.queue.QueueEntry.NonSubscriptionAcquiredState.toString,0.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.client.AMQSession.Dispatcher.run,6.0,42.0,4.0,36.0,2.0,14.0,2.0,10.0,36.0,2.0,6.0,14.0,2.0,12.0,7.0,7.0,9.0,1.0,2.0,0.0,2.0,0.0,0.06,7,7,9,1,False
-qpid,Public Method,org.apache.qpid.server.security.access.plugins.AccessControlTest.testAuthoriseAccessMethodWhenMatchingAcessOperationsAllowedOnSpecifiedComponent,8.0,31.0,5.0,22.0,5.0,19.0,4.0,10.0,1.0,0.0,19.0,20.0,5.0,15.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.18,1,1,1,1,False
-qpid,Public Abstract Method,org.apache.qpid.amqp_1_0.jms.MapMessage.itemExists,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-qpid,Public Abstract Method,org.apache.qpid.disttest.jms.QueueCreator.deleteQueues,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-qpid,Public Method,org.apache.qpid.client.protocol.AMQProtocolHandler.propagateExceptionToFrameListeners,7.0,27.0,0.0,15.0,3.0,6.0,12.0,5.0,3.0,0.0,3.0,7.0,3.0,4.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.8,3,3,3,1,False
-qpid,Public Method,org.apache.qpid.management.ui.views.queue.QueueOperationsTabControl.LabelProviderImpl.getColumnImage,0.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.client.TopicSubscriberAdaptor.close,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.configuration.ServerConfigurationTest.testCombinedMultipleVirtualhosts,1.0,35.0,4.0,20.0,7.0,17.0,11.0,13.0,1.0,0.0,17.0,18.0,7.0,11.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.55,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.transport.network.security.sasl.SASLEncryptor.closed,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.model.adapter.ConnectionAdapter.setTimeToLive,0.0,5.0,0.0,5.0,2.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.2,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.protocol.MaxChannelsTest.testChannels,3.0,27.0,4.0,22.0,4.0,13.0,1.0,13.0,3.0,0.0,12.0,15.0,5.0,10.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.05,3,3,3,1,False
-qpid,Public Method,org.apache.qpid.server.security.access.config.FirewallRule.getAccess,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Protected Method,org.apache.qpid.amqp_1_0.type.transaction.codec.DeclareWriter.Writer.clear,0.0,3.0,0.0,3.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.configuration.ConfigStore.createId,19.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Private Method,org.apache.qpid.server.security.auth.database.Base64MD5PasswordFilePrincipalDatabaseTest.loadPasswordFile,8.0,11.0,0.0,11.0,1.0,4.0,0.0,4.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-qpid,Public Method,org.apache.qpid.gentools.CppGenerator.getGeneratedType,4.0,16.0,0.0,16.0,4.0,8.0,0.0,4.0,4.0,1.0,5.0,8.0,3.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,3,3,3,1,False
-qpid,Public Method,org.apache.qpid.disttest.ArgumentParserTest.testDefaultConfigValues,8.0,10.0,2.0,8.0,2.0,5.0,0.0,3.0,1.0,0.0,5.0,6.0,2.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Protected Method,org.apache.qpid.client.message.TypedBytesContentWriter.writeIntImpl,6.0,11.0,0.0,11.0,1.0,4.0,0.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-qpid,Public Method,org.apache.qpid.qmf.QMFService.BrokerDelegate.getReleases,0.0,5.0,0.0,4.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.store.berkeleydb.upgrade.UpgradeFrom5To6Test.assertContent.(Anon_6).processEntry,2.0,8.0,0.0,8.0,2.0,6.0,0.0,4.0,1.0,0.0,4.0,5.0,3.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Protected Method,org.apache.log4j.QpidCompositeRollingAppender.getCurSizeRollBackups,1.0,5.0,0.0,4.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.25,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.queue.IncomingMessage.getRoutingKeyShortString,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.amqp_1_0.jms.jndi.ReadOnlyContext.ListBindingEnumeration.next,0.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Static Method,org.apache.qpid.amqp_1_0.type.messaging.codec.MatchingSubjectFilterWriter.register,4.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Static Method,org.apache.qpid.framing.EncodingUtils.encodedFieldTableLength,4.0,13.0,0.0,11.0,1.0,4.0,2.0,2.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.18,2,2,2,1,False
-qpid,Public Method,org.apache.qpid.systest.management.jmx.StatisticsTest.testSendOnTwoVHosts,7.0,12.0,1.0,10.0,1.0,7.0,1.0,4.0,1.0,0.0,7.0,8.0,1.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.1,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.jndi.ReadOnlyContext.LocalNamingEnumeration.close,0.0,2.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Abstract Method,org.apache.qpid.management.ui.ServerRegistry.getExchangeNames,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-qpid,Private Method,org.apache.qpid.management.ui.views.OperationTabControl.setHeader,10.0,18.0,2.0,12.0,2.0,9.0,4.0,10.0,1.0,0.0,9.0,10.0,2.0,8.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.33,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.test.utils.QpidBrokerTestCase.getTestVirtualhosts,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.client.AMQSession_0_10Test.testSendExchangeDelete,2.0,16.0,0.0,16.0,4.0,9.0,0.0,8.0,2.0,0.0,7.0,9.0,4.0,5.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-qpid,Public Static Method,org.apache.qpid.transport.network.Transport.getOutgoingTransportInstance,10.0,17.0,2.0,15.0,4.0,6.0,0.0,4.0,2.0,0.0,5.0,7.0,3.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
-qpid,Public Method,org.apache.qpid.test.unit.client.message.MapMessageTest.testCharLookup,2.0,36.0,7.0,29.0,3.0,15.0,1.0,7.0,6.0,1.0,11.0,13.0,3.0,10.0,4.0,4.0,4.0,1.0,4.0,0.0,1.0,0.0,0.03,4,4,4,1,False
-qpid,Public Static Method,org.apache.qpid.framing.FieldTable.convertToMap,27.0,29.0,3.0,26.0,3.0,14.0,0.0,2.0,2.0,0.0,8.0,13.0,5.0,8.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
-qpid,Public Method,org.apache.qpid.messaging.util.Token.Type.getName,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Protected Method,org.apache.qpid.ra.QpidRAManagedConnection.getManagedConnectionFactory,3.0,13.0,1.0,8.0,1.0,3.0,4.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.5,2,2,2,1,False
-qpid,Public Constructor,org.apache.qpid.server.util.ByteBufferOutputStream.ByteBufferOutputStream,2.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Protected Method,org.apache.qpid.amqp_1_0.codec.MapWriter.hasMapNext,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Abstract Method,org.apache.qpid.transport.network.NetworkConnection.close,7.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
-qpid,Public Method,org.apache.qpid.disttest.controller.config.ConfigReader.readConfig,5.0,8.0,0.0,8.0,4.0,5.0,0.0,4.0,1.0,0.0,3.0,4.0,3.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.transport.network.security.ssl.QpidClientX509KeyManager.chooseEngineServerAlias,4.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.amqp_1_0.client.Util.getUsername,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.framing.AMQShortStringTest.testCreateAMQShortStringString,0.0,12.0,0.0,6.0,2.0,3.0,6.0,5.0,1.0,0.0,3.0,4.0,2.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1,1,1,1,False
-qpid,Protected Method,org.apache.qpid.amqp_1_0.type.transport.codec.EndWriter.Writer.clear,0.0,3.0,0.0,3.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Method,org.apache.qpid.server.protocol.v1_0.Subscription_1_0.setNoLocal,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
-qpid,Public Constructor,org.apache.qpid.server.model.adapter.BrokerAdapter.BrokerAdapter,2.0,14.0,1.0,13.0,1.0,10.0,0.0,14.0,1.0,0.0,10.0,11.0,1.0,10.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.store.StoreOverfullTest.tearDown,2.0,12.0,0.0,12.0,1.0,5.0,0.0,2.0,1.0,0.0,3.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1,1,1,1,False
+qpid,Public Constructor,org.apache.qpid.server.logging.subjects.BindingLogSubject.BindingLogSubject,6.0,19.0,0.0,10.0,2.0,6.0,9.0,7.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.9,1,1,1,1,False
+qpid,Public Abstract Method,org.apache.qpid.client.AMQSession.sendRollback,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Public Constructor,org.apache.qpid.server.management.plugin.servlet.rest.MapComparator.MapComparator,1.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.amqp_1_0.transport.ConnectionEndpoint.setConnectionEventListener,3.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.jmx.mbeans.ExchangeMBeanTest.testHeadersExchangeCreateNewBindingMalformed,5.0,15.0,1.0,14.0,2.0,7.0,0.0,6.0,2.0,0.0,5.0,7.0,2.0,5.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.management.ui.views.VHNotificationsTabControl.getControl,3.0,7.0,0.0,4.0,1.0,1.0,3.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.75,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.management.ui.ManagedBean.getInstanceName,1.0,16.0,0.0,11.0,1.0,4.0,5.0,3.0,2.0,0.0,2.0,4.0,1.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.45,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.server.configuration.VirtualHostConfiguration.getMaxDeliveryCount,3.0,4.0,0.0,4.0,1.0,1.0,0.0,5.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.logging.Log4jMessageLoggerTest.tearDown,2.0,14.0,3.0,9.0,2.0,6.0,2.0,5.0,1.0,0.0,6.0,7.0,2.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.22,1,1,1,1,False
+qpid,Public Static Method,org.apache.qpid.test.unit.xa.TopicTest.failure,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.transport.ServerSessionDelegate.closed,2.0,10.0,2.0,8.0,2.0,5.0,0.0,4.0,1.0,0.0,5.0,6.0,2.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Abstract Method,org.apache.qpid.server.exchange.Exchange.getNameShortString,12.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Public Method,org.apache.qpid.server.txn.LocalTransactionTest.testRollbackWork,8.0,25.0,8.0,13.0,1.0,10.0,4.0,11.0,1.0,0.0,10.0,11.0,1.0,10.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.31,1,1,1,1,False
+qpid,Protected Method,org.apache.qpid.server.store.berkeleydb.BDBMessageStoreQuotaEventsTest.applyStoreSpecificConfiguration,5.0,9.0,1.0,8.0,1.0,5.0,0.0,2.0,1.0,0.0,5.0,6.0,1.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.message.MessageTransferHeader.getEncoding,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.transport.ConnectionSettings.getSaslMechs,2.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Abstract Method,org.apache.qpid.server.protocol.MultiVersionProtocolEngine.DelegateCreator.getProtocolEngine,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Public Method,org.apache.qpid.amqp_1_0.client.Transaction.getTxnId,7.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.configuration.QueueConfiguration.isDeadLetterQueueEnabled,6.0,7.0,0.0,4.0,1.0,1.0,3.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.75,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.disttest.controller.config.TestInstance.toString,3.0,7.0,0.0,7.0,1.0,4.0,0.0,4.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Abstract Method,org.apache.qpid.framing.abstraction.MessagePublishInfo.setExchange,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Public Method,org.apache.qpid.amqp_1_0.type.transport.Open.setOfferedCapabilities,3.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.amqp_1_0.type.messaging.Properties.encode,1.0,6.0,0.0,6.0,1.0,3.0,0.0,4.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.amqp_1_0.type.transport.Flow.getIncomingWindow,4.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.amqp_1_0.type.transport.ReceiverSettleMode.getValue,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.virtualhost.plugins.SlowConsumerDetection.SlowConsumerFactory.newInstance,2.0,13.0,2.0,11.0,3.0,6.0,0.0,6.0,2.0,0.0,5.0,7.0,3.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.server.subscription.Subscription_0_10.set,3.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.security.acl.ExhaustiveACLTest.testAuthoriseCreateQueueBoth,0.0,15.0,0.0,10.0,1.0,7.0,5.0,2.0,1.0,0.0,7.0,8.0,1.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.5,1,1,1,1,False
+qpid,Method,org.apache.qpid.client.BasicMessageConsumer_0_8.sendCancel,2.0,13.0,3.0,10.0,3.0,5.0,0.0,12.0,2.0,0.0,4.0,6.0,3.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.server.store.berkeleydb.HAClusterManagementTest.testUpdateAddress,1.0,26.0,5.0,13.0,7.0,10.0,8.0,12.0,1.0,0.0,10.0,11.0,7.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.62,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.subscription.SubscriptionImpl.getAssignedState,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.AMQChannel.sync,20.0,9.0,0.0,9.0,2.0,3.0,0.0,3.0,2.0,0.0,3.0,5.0,2.0,3.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.server.txn.DtxRegistry.ComparableXid.equals,2.0,16.0,2.0,14.0,2.0,7.0,0.0,5.0,3.0,0.0,4.0,7.0,2.0,5.0,3.0,3.0,5.0,3.0,2.0,2.0,1.0,2.0,0.0,3,3,5,3,False
+qpid,Public Method,org.apache.qpid.server.security.acl.ExternalACLJMXTest.setUp,1.0,7.0,0.0,7.0,1.0,4.0,0.0,5.0,1.0,0.0,4.0,5.0,1.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Protected Abstract Method,org.apache.qpid.amqp_1_0.codec.AbstractMapWriter.nextValue,1.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Abstract Method,org.apache.qpid.transport.codec.Encoder.writeMagicNumber,0.0,4.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0,0,0,0,False
+qpid,Public Method,org.apache.qpid.client.protocol.HeartbeatDiagnostics.Off.sent,0.0,4.0,1.0,3.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.protocol.AMQProtocolEngine.getContextKey,3.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.client.AMQConnection.setTemporaryQueueExchangeName,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.qmf.QMFCommandCompletionCommand.toString,2.0,7.0,0.0,7.0,1.0,4.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.framing.BasicContentHeaderProperties.setPriority,7.0,6.0,0.0,6.0,1.0,3.0,0.0,3.0,1.0,0.0,3.0,4.0,1.0,3.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.management.ui.views.VHNotificationsTabControl.ContentProviderImpl.getElements,1.0,7.0,0.0,7.0,1.0,2.0,0.0,2.0,1.0,0.0,1.0,3.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Private Method,org.apache.qpid.server.federation.BrokerLink.addBridge,9.0,28.0,6.0,22.0,3.0,15.0,0.0,16.0,3.0,0.0,4.0,7.0,2.0,5.0,7.0,7.0,8.0,1.0,0.0,0.0,2.0,0.0,0.0,7,7,8,1,False
+qpid,Public Abstract Method,org.apache.qpid.tools.TestConfiguration.getWarmupCount,2.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,False
+qpid,Public Method,org.apache.qpid.client.handler.ClientMethodDispatcherImpl.dispatchExchangeDeclare,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.client.util.FlowControllingBlockingQueue.take,8.0,27.0,2.0,25.0,2.0,10.0,0.0,5.0,9.0,1.0,4.0,11.0,2.0,9.0,5.0,5.0,6.0,1.0,0.0,0.0,2.0,0.0,0.0,5,5,6,1,False
+qpid,Public Method,org.apache.qpid.transport.network.io.IoSender.run,10.0,71.0,8.0,62.0,7.0,32.0,1.0,10.0,57.0,2.0,20.0,31.0,7.0,24.0,9.0,9.0,10.0,5.0,10.0,8.0,4.0,6.0,0.02,9,9,10,5,False
+qpid,Public Method,org.apache.qpid.server.message.MessageMetaData.MessageHeaderAdapter.getType,0.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.amqp_1_0.codec.AbstractDescribedTypeWriter.writeToBuffer,9.0,64.0,8.0,56.0,3.0,31.0,0.0,10.0,26.0,1.0,17.0,25.0,3.0,22.0,10.0,8.0,10.0,10.0,12.0,12.0,4.0,12.0,0.0,10,8,10,10,False
+qpid,Private Method,org.apache.qpid.server.management.plugin.servlet.rest.ExchangeRestTest.assertExchange,5.0,10.0,0.0,10.0,2.0,5.0,0.0,5.0,2.0,0.0,4.0,6.0,2.0,4.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+qpid,Private Method,org.apache.qpid.framing.AMQShortString.occurences,5.0,13.0,0.0,13.0,3.0,6.0,0.0,1.0,3.0,0.0,6.0,9.0,4.0,5.0,3.0,3.0,3.0,1.0,0.0,0.0,2.0,0.0,0.0,3,3,3,1,False
+qpid,Public Method,org.apache.qpid.server.security.acl.ExternalACLTest.testClientPublishUsingTransactionSuccess,1.0,17.0,6.0,10.0,4.0,7.0,1.0,9.0,1.0,0.0,7.0,8.0,4.0,4.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.1,1,1,1,1,False
+qpid,Public Static Method,org.apache.qpid.server.model.Model.getChildTypes,7.0,6.0,0.0,6.0,2.0,3.0,0.0,3.0,1.0,0.0,2.0,3.0,2.0,1.0,2.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.server.subscription.Subscription_0_10.releaseSendLock,3.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.security.access.plugins.PlainConfigurationTest.testACLFileSyntaxContinuation,2.0,12.0,0.0,12.0,1.0,5.0,0.0,5.0,2.0,0.0,3.0,5.0,1.0,4.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+qpid,Public Method,org.apache.qpid.amqp_1_0.type.security.SaslInit.getMechanism,5.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.amqp_1_0.client.Demo.run,29.0,260.0,55.0,205.0,50.0,138.0,5.0,52.0,104.0,2.0,105.0,129.0,51.0,78.0,24.0,24.0,24.0,1.0,20.0,0.0,7.0,0.0,0.02,24,24,24,1,False
+qpid,Public Method,org.apache.qpid.client.AMQConnectionURL.setBrokerDetails,1.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Method,org.apache.qpid.amqp_1_0.codec.FloatWriter.convertValueToInt,1.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.handler.BasicGetMethodHandler.methodReceived,7.0,54.0,6.0,47.0,8.0,26.0,1.0,19.0,9.0,1.0,14.0,21.0,8.0,13.0,8.0,8.0,9.0,1.0,3.0,0.0,4.0,0.0,0.02,8,8,9,1,False
+qpid,Public Method,org.apache.qpid.server.txn.AsyncAutoCommitTransactionTest.testEnqueuePersistentMessagePostCommitNotCalledWhenFutureNotYetComplete,8.0,16.0,4.0,12.0,3.0,8.0,0.0,11.0,1.0,0.0,8.0,9.0,2.0,7.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.test.unit.client.message.BytesMessageTest.testEOFChar,1.0,21.0,0.0,19.0,2.0,10.0,2.0,5.0,3.0,0.0,7.0,9.0,2.0,7.0,3.0,3.0,3.0,1.0,3.0,0.0,1.0,0.0,0.11,3,3,3,1,False
+qpid,Private Method,org.apache.qpid.server.protocol.AMQProtocolEngine.markChannelAwaitingCloseOk,4.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.transport.Range.intersect,4.0,13.0,0.0,13.0,3.0,6.0,0.0,7.0,2.0,0.0,4.0,6.0,3.0,3.0,2.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,2,2,2,1,False
+qpid,Private Method,org.apache.qpid.test.unit.client.channelclose.ChannelCloseTest.checkSendingMessage,4.0,19.0,6.0,13.0,6.0,10.0,0.0,11.0,1.0,0.0,10.0,11.0,6.0,5.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Private Method,org.apache.qpid.test.unit.basic.MapMessageTest.testBytes,3.0,98.0,9.0,76.0,1.0,30.0,13.0,12.0,512.0,3.0,19.0,29.0,1.0,28.0,10.0,10.0,10.0,1.0,9.0,0.0,1.0,0.0,0.17,10,10,10,1,False
+qpid,Public Method,org.apache.qpid.test.unit.message.UTF8Test.testUTF8Jp,0.0,4.0,0.0,4.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.message.MessageMetaData.MessageHeaderAdapter.getTimestamp,0.0,4.0,0.0,4.0,1.0,1.0,0.0,3.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Static Method,org.apache.qpid.filter.UnaryExpression.createBooleanCast,1.0,4.0,0.0,4.0,1.0,1.0,0.0,2.0,1.0,0.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1,1,1,1,False
+qpid,Public Method,org.apache.qpid.server.store.berkeleydb.BDBHAMessageStore.removeNodeFromGroup,4.0,15.0,0.0,15.0,1.0,6.0,0.0,4.0,3.0,0.0,3.0,5.0,1.0,4.0,3.0,3.0,3.0,1.0,3.0,0.0,1.0,0.0,0.0,3,3,3,1,False
+qpid,Public Method,org.apache.qpid.transport.network.io.IoNetworkTransport.AcceptingThread.close,4.0,20.0,1.0,16.0,1.0,7.0,3.0,4.0,3.0,0.0,4.0,7.0,1.0,6.0,3.0,3.0,3.0,1.0,1.0,0.0,2.0,0.0,0.19,3,3,3,1,False
 qpid,Protected Method,org.apache.qpid.client.AMQSession.createConsumerImpl,15.0,93.0,9.0,84.0,9.0,46.0,0.0,6.0,6.0,1.0,29.0,38.0,8.0,30.0,4.0,4.0,7.0,1.0,2.0,0.0,0.0,0.0,0.0,4,4,7,1,True
 qpid,Public Abstract Method,org.apache.qpid.client.AMQSession.createMessageConsumer,1.0,3.0,0.0,3.0,3.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0,True
 qpid,Public Method,org.apache.qpid.client.AMQSession_0_10.createMessageConsumer,17.0,15.0,1.0,11.0,6.0,4.0,3.0,7.0,1.0,0.0,2.0,3.0,2.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.27,1,1,1,1,True

@@ -33,9 +33,10 @@ rb = pd.Series(["refusedBequest","candidate_Refused_Bequest.csv","rb","class"]) 
 lm = pd.Series(["longMethod","candidate_Long_Methods.csv","lm","method"])
 lpl = pd.Series(["longParameterList","candidate_Long_Parameter_List.csv","lpl","method"])
 fe = pd.Series(["featureEnvy","candidate_Feature_Envy.csv","fe","method"]) ### ATENÇÃO: envolve mais de uma classe. Ver o resultado com mais cuidado.
+ii = pd.Series(["inappropriateIntimacy","candidate_Inappropriate_Intimacy.csv","ii","class"]) ### ATENÇÃO: envolve mais de uma classe. Ver o resultado com mais cuidado.
 
 # ADICIONAR OS CODE SMELLS NA LINHA ABAIXO
-csType = pd.DataFrame([gc, cdsbp, lm, lpl, mm, rb, fe])
+csType = pd.DataFrame([gc, cdsbp, lm, lpl, mm, rb, fe, ii])
 csType.columns=["csName", "csCSV", "cs", "granularity"]
 
 # FILTRO DE MÉTRICAS CLASS LEVEL

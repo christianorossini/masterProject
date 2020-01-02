@@ -1,28 +1,28 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lm
-ivy,Public Method,org.apache.ivy.core.resolve.ResolveTest.testBranches4,0.0,12,2,10,4,8,0,11.0,1.0,0.0,6,7,3,4,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.plugins.namespace.NamespaceRule.getFromSystem,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.ant.IvyInstallTest.testDependencyNotFoundSuccess,2.0,14,1,13,1,10,0,8.0,2.0,0.0,8,10,1,9,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-ivy,Abstract Method,org.apache.ivy.core.module.descriptor.ModuleDescriptor.doesExclude,1.0,9,0,1,1,0,8,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,8.0,0,0,0,0,False
-ivy,Public Method,org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.Parser.startElement,20.0,75,0,72,4,65,3,33.0,27.0,1.0,33,60,2,58,28.0,28.0,43.0,3.0,24.0,3.0,3,3.0,0.04,28,28,43,3,False
-ivy,Private Method,org.apache.ivy.ant.IvyInstallTest.createCache,2.0,4,0,4,1,2,0,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.ant.IvyReport.setResolveId,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.util.url.URLHandlerDispatcher.getHandler,14.0,4,0,4,2,2,0,2.0,1.0,0.0,2,3,2,1,2.0,2.0,2.0,1.0,0.0,0.0,0,0.0,0.0,2,2,2,1,False
-ivy,Public Method,org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParserTest.testIVY424,1.0,9,1,7,3,5,1,8.0,1.0,0.0,3,4,2,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.14,1,1,1,1,False
-ivy,Protected Abstract Method,org.apache.ivy.plugins.repository.ssh.AbstractSshBasedRepository.getRepositoryScheme,1.0,1,0,1,1,0,0,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
-ivy,Private Method,org.apache.ivy.plugins.resolver.FileSystemResolver.initTransaction,4.0,9,0,9,1,7,0,6.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.core.cache.CacheMetadataOptions.setChangingMatcherName,2.0,4,0,4,1,2,0,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.util.ConfiguratorTest.Housing.setProprietary,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.plugins.repository.file.FileResource.toString,0.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.ant.IvyPublish.setWarnonmissing,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.ant.IvyPublish.getPubbranch,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Protected Method,org.apache.ivy.plugins.parser.AbstractModuleDescriptorParserTester.assertDependencyModulesExcludes,5.0,17,0,17,4,11,0,8.0,4.0,1.0,12,16,5,11,4.0,4.0,4.0,4.0,2.0,2.0,3,2.0,0.0,4,4,4,4,False
-ivy,Public Method,org.apache.ivy.util.ConfiguratorTest.FileTester.getFile,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Static Method,org.apache.ivy.util.Credentials.buildKey,5.0,7,0,7,1,4,0,3.0,2.0,0.0,2,4,1,3,2.0,2.0,3.0,1.0,1.0,0.0,1,0.0,0.0,2,2,3,1,False
-ivy,Public Method,org.apache.ivy.util.EncrytedProperties.setProperty,2.0,3,0,3,1,1,0,4.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Private Method,org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorUpdater.UpdaterHandler.startDependencies,6.0,30,0,27,5,19,3,9.0,24.0,1.0,10,17,5,12,7.0,7.0,9.0,1.0,1.0,0.0,3,0.0,0.11,7,7,9,1,False
-ivy,Public Method,org.apache.ivy.ant.AddPathTask.setTopath,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.ant.IvyPublish.PublishArtifact.getType,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.ant.IvyRetrieveBuildFileTest.testMultipleInlineRetrievesWithCacheCleaning,0.0,7,0,7,2,5,0,9.0,1.0,0.0,5,6,2,4,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Private Static Method,org.apache.ivy.Main.invoke,15.0,62,8,52,14,41,2,23.0,168.0,2.0,29,36,15,21,14.0,14.0,15.0,1.0,17.0,0.0,3,0.0,0.04,14,14,15,1,False
+ivy,Protected Abstract Method,org.apache.ivy.plugins.matcher.AbstractPatternMatcherTest.getExactExpressions,1.0,1,0,1,1,0,0,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
+ivy,Public Method,org.apache.ivy.util.url.HttpClientHandler.GETInputStream.mark,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.util.filter.NotFilter.getOp,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.core.report.ResolveReport.getModuleIds,1.0,17,0,12,5,8,5,8.0,3.0,0.0,8,10,6,4,3.0,3.0,3.0,1.0,0.0,0.0,2,0.0,0.42,3,3,3,1,False
+ivy,Public Method,org.apache.ivy.plugins.repository.vsftp.VsftpRepository.getUsername,4.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Protected Constructor,org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.AbstractParser.AbstractParser,2.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.plugins.parser.xml.UpdateOptions.getSettings,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.plugins.repository.vfs.VfsURI.getScheme,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.plugins.repository.sftp.SFTPResource.toString,1.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.ant.IvyBuildListTest.testWithTwoLeafs,1.0,37,8,29,7,27,2,15.0,1.0,0.0,23,24,7,17,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.07,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParser.getMetadataArtifact,2.0,3,0,3,1,1,0,3.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.core.retrieve.RetrieveTest.testRetrieveWithVariable,1.0,22,2,19,5,17,1,13.0,1.0,0.0,13,14,4,10,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.05,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.core.retrieve.RetrieveOptions.isUseOrigin,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.util.url.HttpClientHandler.HttpClientHelper3x.getHttpClientMajorVersion,1.0,6,0,3,1,1,3,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,1.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.plugins.latest.LatestRevisionStrategy.SpecialMeaning.validate,3.0,8,0,8,1,4,0,0.0,4.0,1.0,2,5,1,4,3.0,3.0,3.0,1.0,0.0,0.0,1,0.0,0.0,3,3,3,1,False
+ivy,Public Method,org.apache.ivy.ant.IvyRetrieveTest.testSyncWithIvyPattern,4.0,38,6,32,4,27,4,9.0,4.0,1.0,18,21,5,16,3.0,3.0,3.0,1.0,0.0,0.0,1,0.0,0.13,3,3,3,1,False
+ivy,Public Method,org.apache.ivy.core.install.InstallOptions.setValidate,4.0,4,0,4,1,2,0,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.util.ContextualSAXHandler.startElement,3.0,5,0,5,2,2,0,2.0,1.0,0.0,2,3,1,2,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.core.settings.IvySettings.logNotConvertedExclusionRule,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.plugins.parser.m2.PomModuleDescriptorParserTest.testLicense,2.0,10,1,9,4,7,1,9.0,1.0,0.0,6,7,3,4,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.11,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.plugins.resolver.DualResolver.setDescriptor,3.0,18,0,12,1,9,6,3.0,3.0,0.0,3,6,1,5,3.0,3.0,3.0,1.0,2.0,0.0,1,0.0,0.5,3,3,3,1,False
+ivy,Abstract Method,org.apache.ivy.plugins.resolver.util.URLLister.listAll,2.0,1,0,1,1,0,0,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
+ivy,Public Method,org.apache.ivy.plugins.repository.BasicResource.openStream,0.0,4,0,4,1,2,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
 ivy,Static Method,org.apache.ivy.Main.run,5.0,148,14,129,24,104,5,76.0,172802.0,5.0,58,82,21,61,25.0,25.0,26.0,3.0,6.0,2.0,2,2.0,0.04,25,25,26,3,True
 ivy,Public Method,org.apache.ivy.ant.IvyBuildList.doExecute,13.0,146,13,129,39,97,5,44.0,1119744.0,6.0,77,98,41,57,27.0,27.0,27.0,1.0,3.0,0.0,5,0.0,0.04,27,27,27,1,True
 ivy,Public Method,org.apache.ivy.ant.IvyResolve.doExecute,17.0,130,3,123,7,99,4,42.0,10924.0,4.0,55,77,8,69,25.0,25.0,25.0,1.0,11.0,0.0,4,0.0,0.03,25,25,25,1,True

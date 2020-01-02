@@ -1,13 +1,13 @@
 project,Kind,Name,CountInput,CountLine,CountLineBlank,CountLineCode,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountOutput,CountPath,CountPathLog,CountSemicolon,CountStmt,CountStmtDecl,CountStmtExe,Cyclomatic,CyclomaticModified,CyclomaticStrict,Essential,Knots,MaxEssentialKnots,MaxNesting,MinEssentialKnots,RatioCommentToCode,SumCyclomatic,SumCyclomaticModified,SumCyclomaticStrict,SumEssential,is_lpl
-ivy,Public Method,org.apache.ivy.plugins.version.VersionRangeMatcher.getLatestStrategy,3.0,19,0,19,1,13,0,4.0,9.0,1.0,5,10,1,9,5.0,5.0,5.0,1.0,0.0,0.0,2,0.0,0.0,5,5,5,1,False
-ivy,Public Method,org.apache.ivy.plugins.repository.url.URLResource.clone,1.0,8,0,8,1,5,0,2.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,1.0,0.0,1,0.0,0.0,2,2,2,1,False
-ivy,Public Static Method,org.apache.ivy.util.Message.sumupProblems,4.0,3,0,3,1,1,0,2.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Abstract Method,org.apache.ivy.util.MessageLogger.setShowProgress,2.0,1,0,1,1,0,0,0.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
-ivy,Public Method,org.apache.ivy.plugins.conflict.LatestConflictManagerTest.testLatestTime1,1.0,25,2,21,7,17,2,19.0,4.0,1.0,12,16,6,10,4.0,4.0,4.0,1.0,1.0,0.0,2,0.0,0.1,4,4,4,1,False
-ivy,Private Static Method,sizewhere.Main.getOptions,1.0,16,2,14,6,12,0,6.0,1.0,0.0,6,7,4,3,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.plugins.latest.ComparatorLatestStrategy.setComparator,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Public Method,org.apache.ivy.plugins.parser.m2.PomModuleDescriptorBuilder.PomPluginElement.getGroupId,1.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
-ivy,Private Method,org.apache.ivy.util.Configurator.ObjectDescriptor.getTypeMatchingMethod,4.0,13,0,13,3,8,0,7.0,4.0,1.0,7,10,4,6,4.0,4.0,4.0,4.0,4.0,4.0,2,4.0,0.0,4,4,4,4,False
+ivy,Public Method,org.apache.ivy.ant.IvyArtifactProperty.getValue,2.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.core.module.id.ModuleRevisionId.hashCode,6.0,12,0,10,1,7,2,8.0,2.0,0.0,6,8,1,7,3.0,3.0,3.0,1.0,0.0,0.0,1,0.0,0.2,3,3,3,1,False
+ivy,Private Method,org.apache.ivy.plugins.resolver.IvyRepResolver.getWholeArtPattern,3.0,3,0,3,1,1,0,1.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Abstract Method,org.apache.ivy.util.url.HttpClientHandler.HttpClientHelper.getHttpClientMajorVersion,1.0,1,0,1,1,0,0,1.0,0.0,0.0,1,1,1,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0,0,0,0,False
+ivy,Private Method,org.apache.ivy.plugins.version.PatternVersionMatcherTest.generateRegexpMatch2,1.0,14,1,8,2,6,5,5.0,1.0,0.0,6,7,2,5,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.63,1,1,1,1,False
+ivy,Protected Method,org.apache.ivy.ant.IvyCachePathTest.setUp,3.0,9,1,8,1,6,0,6.0,1.0,0.0,6,7,1,6,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.core.check.CheckEngine.check,9.0,88,2,74,17,58,12,27.0,178.0,2.0,43,56,20,36,16.0,16.0,17.0,1.0,7.0,0.0,6,0.0,0.16,16,16,17,1,False
+ivy,Protected Method,org.apache.ivy.core.resolve.ResolveTest.setUp,2.0,9,1,8,1,6,0,9.0,1.0,0.0,6,7,1,6,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,False
+ivy,Public Method,org.apache.ivy.core.module.descriptor.DefaultModuleDescriptor.addArtifact,16.0,30,0,23,5,17,7,9.0,8.0,1.0,12,17,6,11,5.0,5.0,5.0,1.0,1.0,0.0,2,0.0,0.3,5,5,5,1,False
 ivy,Public Method,org.apache.ivy.Ivy14.install,9.0,11,0,11,3,7,0,7.0,1.0,0.0,1,2,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,True
 ivy,Private Method,org.apache.ivy.Ivy14.newResolveOptions,25.0,11,0,11,3,6,0,12.0,2.0,0.0,2,4,1,3,2.0,2.0,2.0,1.0,0.0,0.0,1,0.0,0.0,2,2,2,1,True
 ivy,Public Constructor,org.apache.ivy.plugins.resolver.packager.PackagerCacheEntry.PackagerCacheEntry,11.0,13,0,13,3,9,0,11.0,1.0,0.0,9,10,1,9,1.0,1.0,1.0,1.0,0.0,0.0,0,0.0,0.0,1,1,1,1,True
