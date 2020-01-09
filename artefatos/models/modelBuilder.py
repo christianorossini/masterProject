@@ -3,6 +3,8 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier # Import Decision Tree Classifier
 from sklearn.model_selection import train_test_split # Import train_test_split function
 from sklearn import metrics #Import scikit-learn metrics module for accuracy calculation
+from sklearn.model_selection import KFold
+from sklearn.model_selection import cross_val_score
 
 from sklearn.tree import export_graphviz
 from sklearn.externals.six import StringIO  
@@ -21,19 +23,19 @@ pyPath = os.path.dirname(os.path.abspath(__file__))
 dfExportEffectiveness = pd.DataFrame(columns=['splitting_criterion', 'num_of_leaves', 'depth', 'metrics','TN', 'TP', 'FN', 'FP', "Precision", "Recall", "F-measure"])
 
 # treina o modelo com um número de folhas
-number_of_leaves = [4,6]
+number_of_leaves = [3,4,5,6]
 # Gini index e Information Gain ("entropy")
-splitting_critera = ['gini','entropy']
+splitting_critera = ['gini']
 
 xlsIdx = list()
-#for cSmell in ["lpl","lm","gc",'mm',"cdsbp"]:
-for cSmell in ["ii"]:
+for cSmell in ["lpl","lm","gc","ii","rb"]:
+#for cSmell in ["ii"]:
 
     # load dataset
     dfCs = pd.read_csv(os.path.dirname(os.path.abspath(__file__))+"/../datasets/oracle_dataset/{0}.csv".format(cSmell))
 
     #split dataset in features and target variable
-    if(cSmell in ["gc",'mm',"cdsbp",'ii']):                       #code smells de classe
+    if(cSmell in ["gc",'mm',"cdsbp",'ii','rb']):                       #code smells de classe
         csvSoftMetricsList = pd.read_csv(pyPath + "/../software_metrics/software_class_level_metrics.csv", delimiter=";")        
           
     else:                                               #code smells de método        
@@ -146,9 +148,14 @@ for cSmell in ["ii"]:
             accuracy = metrics.accuracy_score(y_test, y_pred)
 
             # Recall, precision, F-measure
-            recall = metrics.recall_score(y_test, y_pred)
-            precision = metrics.precision_score(y_test, y_pred)
-            fmeasure = metrics.f1_score(y_test, y_pred)
+            #recall = metrics.recall_score(y_test, y_pred)
+            # precision = metrics.precision_score(y_test, y_pred)
+            # fmeasure = metrics.f1_score(y_test, y_pred)
+
+            ## 3-FOLD CROSS VALIDATION
+            precision = cross_val_score(clf, X, y, scoring='precision', cv=3)
+            recall = cross_val_score(clf, X, y, scoring='recall', cv=3)
+            fmeasure = cross_val_score(clf, X, y, scoring='f1', cv=3)
 
             conf_mat = confusion_matrix(y_true=y_test, y_pred=y_pred)
             dfConfMat = pd.DataFrame(conf_mat, columns=["F","T"], index=["F","T"])
@@ -159,9 +166,9 @@ for cSmell in ["ii"]:
             fp = dfConfMat.loc["F","T"]
             print('TP: {}, TN: {}, FN: {}, FP: {} \n'.format(tp, tn, fn, fp))
             #print('Accuracy: {0}'.format(accuracy))
-            print("Precision: {} \nRecall: {}\nF-Measure: {}\n".format(precision, recall, fmeasure))
+            print("Precision: {} \nRecall: {}\nF-Measure: {}\n".format(precision.mean(), recall.mean(), fmeasure.mean()))
 
-            dfExportEffectiveness = dfExportEffectiveness.append({'splitting_criterion':criteria, 'num_of_leaves':clf.get_n_leaves(), 'depth': clf.get_depth(), 'metrics': metricsList, 'TN':tn, 'TP':tp, 'FN':fn, 'FP':fp, "Precision":precision, "Recall":recall, "F-measure":fmeasure}, ignore_index=True)
+            dfExportEffectiveness = dfExportEffectiveness.append({'splitting_criterion':criteria, 'num_of_leaves':clf.get_n_leaves(), 'depth': clf.get_depth(), 'metrics': metricsList, 'TN':tn, 'TP':tp, 'FN':fn, 'FP':fp, "Precision":precision.mean(), "Recall":recall.mean(), "F-measure":fmeasure.mean()}, ignore_index=True)
             
             xlsIdx.append('{0}'.format(cSmell))
 
