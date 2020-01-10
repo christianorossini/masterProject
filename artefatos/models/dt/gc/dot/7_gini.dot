@@ -1,0 +1,29 @@
+digraph Tree {
+node [color="black", fontname=helvetica, shape=box,  style="filled, rounded", fillcolor="#FFFFFF"];
+edge [fontname=helvetica];
+0 [label=<Lines with Source Code &le; 611.5>];
+1 [label=<Maximum nesting level &le; 5.5>];
+0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
+9 [label=<not smelly code>];
+1 -> 9;
+10 [label=<Coupling Between Objects &le; 11.0>];
+1 -> 10;
+11 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+10 -> 11;
+12 [label=<not smelly code>];
+10 -> 12;
+2 [label=<Average Cyclomatic Complexity &le; 19.5>];
+0 -> 2  [headlabel="False", labelangle="-45", labeldistance="2.5"];
+3 [label=<Public Methods &le; 90.0>];
+2 -> 3;
+5 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+3 -> 5;
+6 [label=<Instance Variables &le; 16.0>];
+3 -> 6;
+7 [label=<not smelly code>];
+6 -> 7;
+8 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+6 -> 8;
+4 [label=<not smelly code>];
+2 -> 4;
+}

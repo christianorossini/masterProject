@@ -1,0 +1,13 @@
+digraph Tree {
+node [color="black", fontname=helvetica, shape=box,  style="filled, rounded", fillcolor="#FFFFFF"];
+edge [fontname=helvetica];
+0 [label=<Number of physical lines &lt; 265>, fillcolor="#e68743"];
+1 [label=<not smelly code>];
+0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
+2 [label=<Depth of Inheritance Tree (DIT) &lt; 2>, fillcolor="#e68743"];
+0 -> 2  [headlabel="False", labelangle="-45", labeldistance="2.5"];
+3 [label=<not smelly code>];
+2 -> 3;
+4 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+2 -> 4;
+}

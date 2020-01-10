@@ -1,0 +1,25 @@
+digraph Tree {
+node [color="black", fontname=helvetica, shape=box,  style="filled, rounded", fillcolor="#FFFFFF"];
+edge [fontname=helvetica];
+0 [label=<Number of physical lines &le; 264.5>];
+1 [label=<Lines with Comments &le; 20.5>];
+0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
+5 [label=<not smelly code>];
+1 -> 5;
+6 [label=<Lines with Source Code &le; 12.5>];
+1 -> 6;
+7 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+6 -> 7;
+8 [label=<not smelly code>];
+6 -> 8;
+2 [label=<Depth of Inheritance Tree (DIT) &le; 1.5>];
+0 -> 2  [headlabel="False", labelangle="-45", labeldistance="2.5"];
+3 [label=<not smelly code>];
+2 -> 3;
+4 [label=<Protected Methods &le; 8.5>];
+2 -> 4;
+9 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+4 -> 9;
+10 [label=<not smelly code>];
+4 -> 10;
+}

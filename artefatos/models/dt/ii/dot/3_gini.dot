@@ -1,0 +1,13 @@
+digraph Tree {
+node [color="black", fontname=helvetica, shape=box,  style="filled, rounded", fillcolor="#FFFFFF"];
+edge [fontname=helvetica];
+0 [label=<Number of declarative <br/>Lines of Code &le; 86.5>];
+1 [label=<Public Methods &le; 6.5>];
+0 -> 1  [headlabel="True", labelangle=45, labeldistance="2.5"];
+3 [label=<not smelly code>];
+1 -> 3;
+4 [label=<not smelly code>];
+1 -> 4;
+2 [label=<<b>smelly code</b>>, fillcolor="#e68743"];
+0 -> 2  [headlabel="False", labelangle="-45", labeldistance="2.5"];
+}
