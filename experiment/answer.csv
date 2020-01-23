@@ -1,0 +1,179 @@
+102,16,3,119.14,1,102,2,"The class is big and have too much code and variables","none"
+103,16,11,169.35,1,103,1,"It does have a long parameter list, could be avoided, but most of them are used in the new segment.","Helped me to see the number of statements, inputs, etc, since it has too many lines."
+104,16,7,250.75,1,104,1,"The child class uses few methods from parent.","Helped me to identify why it was a refused bequest and leaded me to search the reason it was a bad smell"
+105,16,4,235.66,1,105,-1,"It does too much in just one method, could be avoided, spliting it in different functions, but it does what it says in method: get dependencies","helped me to identify where to search"
+106,16,14,47.85,1,106,-2,"The method just have three lines","none"
+107,16,13,146.06,1,107,-1,"Doesn't seem like it is a GOD class, it has few lines and three functions.","made me think about the cohesion between the methods implemented in this class"
+109,16,15,40.97,0,109,-2,"doesn't have a long list of parameters.",""
+110,16,8,42.01,0,110,2,"The class is really long and implements too much for just one class",""
+111,16,12,78.03,0,111,1,"It receives a lot of information and returns a function with a lot of parameters too, so, it looks like a bad smell",""
+113,16,16,115.34,0,113,-1,"It is just a class to compile snippets, it uses other classes in the process, doesn't implement them.",""
+115,16,6,68.97,0,115,2,"It is a long method, could be avoided by splitting some excerpts in functions.",""
+117,16,5,142.71,0,117,2,"The child class uses almost nothing from parent.",""
+108,17,14,123.08,0,108,-2,"The method has only 3 lines of code and performs only 3 tasks related to the same context.",""
+112,17,3,219.97,0,112,1,"The class has one clear responsibility \"scanning a directory for files/directories which match certain criteria\". However, the class is a little big (much of the lines are comments, though).",""
+114,17,4,105.1,0,114,2,"The method is complex and could be \"broken\" into at least two more methods. One for the \"we first search for the dependency in cache\" part, and another for the \"get module descriptor\" part.",""
+116,17,11,128.57,0,116,1,"The parameter list is a little big and some parameters could be encapsulated in objects. Though, 7 parameters with small names do not actually harm readability.",""
+118,17,13,53.48,0,118,-2,"The class is small and has a clear purpose.",""
+119,17,7,276.41,0,119,2,"Many methods provided by the parent class are never used by the child class.",""
+120,17,5,566.21,1,120,2,"Most of the methods from the parent class are never used by the child class.","Not much. The child class has a low DIT, but it could have redefined all inherited methods or could have not used none of methods."
+121,17,12,238.87,1,121,2,"There are 7 parameters, where a few of them are from user-defined classes, making the list harder to comprehend.","Not much. The low number of declarative statements says nothing to me about a long parameter list. From my point of view, a method with no declarative statements and few parameters is perfectly possible."
+122,17,8,417.36,1,122,1,"The class is bigger than it could be, that's for sure. However, this is a scanner for a compiler. It has to be somewhat big, due to the inevitable large amount of switches required, each one with an inevitable large amount of cases required.","Both metrics state that the class is complex, which is true."
+123,17,15,192.91,1,123,-2,"The method has no parameters at all.","Not much. That's exactly the case mentioned in one of my prior tasks."
+124,17,16,214.65,1,124,-1,"This class simply has a constructor. The constructor has a high number of parameters, though.","Not much, since I don't agree with the decision tree output."
+125,17,6,163.44,1,125,2,"Some of the work on this method could definitely be extracted to other methods.","The decision tree output was based on the large number of source lines, which seems correct for this method."
+126,18,14,61.44,1,126,-2,"Poucas linhas de código.\
+Método consizo.","A quantidade de linhas de código.\
+A quantidade de elementos que o método processa."
+127,18,3,92.27,1,127,2,"Muitos dados armazenados.\
+Bastante métodos.\
+Métodos processando abstrações distintas.","Quantidade de linhas."
+128,18,4,203.81,1,128,1,"Muitas linhas de códigos.\
+Muitos dados sendo processados em apenas um método.","Linhas de códigos."
+129,18,11,464.67,1,129,1,"Quantidade considerável de parâmetros.","Número de declarações"
+130,18,13,74.98,1,130,-2,"Poucas linhas de código.\
+Métodos tratam poucas abstrações.","Linhas de código."
+131,18,7,56.76,1,131,1,"Pouco uso dos métodos herdados.","Métodos herdados em uso."
+132,18,5,71.9,0,132,1,"Pouco uso de métodos herdados.",""
+133,18,12,103.19,0,133,-1,"A necessidade dos parâmetros.",""
+134,18,8,101.16,0,134,2,"Quantidade de linhas de códigos.\
+Grande quantidade de dados sendo processadas.\
+Muitas métodos distintos.",""
+135,18,15,74.96,0,135,-2,"Poucos parâmetros.\
+Atributos adquirido no método.",""
+136,18,16,32.73,0,136,-2,"Poucos métodos.\
+Poucas linhas de código.",""
+137,18,6,22.79,0,137,2,"Muitas linhas de código.\
+Muitos dados e abstrações sendo processadas.",""
+138,21,14,125.4,0,138,-2,"O método é muito curto para ser classificado como longo, possui apenas três linhas de código.",""
+139,21,7,729.32,0,139,2,"Apenas 2 dos 17 métodos que são herdados da classe pai são utilizados na classe filha. Apenas métodos getters e setters estão acessíveis na herança.",""
+140,21,4,264.6,0,140,2,"O método é grande e complexo.",""
+141,21,3,407.24,0,141,-1,"A classe não centraliza diferentes funcionalidades. É muito grande, porém possui muita documentação. Possui muitas instâncias de variáveis, porém parecem necessárias ao domínio da classe.",""
+142,21,11,672.42,0,142,-1,"Sete não parece um número muito grande para parâmetros de um método.",""
+143,21,13,74,0,143,-2,"A classe é bem pequena e não centraliza funcionalidades.",""
+144,21,12,981.37,1,144,-1,"Sete não parece um número grande para uma lista de parâmetros. Além do mais não sei se há a possibilidade de diminuir esse número, pois o método apenas cria uma instância da super classe.","A árvore não deu insights para a minha decisão. Uma coisa que me deixou confuso foi o nó: Declarative Statements < 3, então Smelly Code?? Parece ir contra o conceito do Long Parameter List."
+145,21,8,621.59,1,145,1,"A classe é muito grande, apensar de não aparentar implementar diferentes responsabilidades do sistema.","As métricas presentes na árvore, são interessantes de se considerar na avaliação do Code Smell. O nó: Percent Lack of Cohesion in Methods <= 31% apresenta informação útil."
+146,21,15,352.48,1,146,-2,"O método execute() não possui parâmetros.","A árvore não auxilia na decisão, dado que a análise visual do método já indica que ele não possui parâmetros."
+147,21,16,153.04,1,147,-2,"A classe é bem pequena e não centraliza diferente responsabilidades.","A árvore aumenta a confiança da decisão, pois tem um ramo onde: Lines With Source Code < 612, então Not Smelly Code."
+148,21,5,383.63,1,148,2,"Poucos elementos da classe pai são utilizados na classe filha.","A árvore não possui informação útil que auxilie na decisão tomada."
+149,21,6,183.67,1,149,2,"O método é grande e complexo.","Os nós da árvore possuem métricas relacionadas a Long Method que devem ser considerados, porém os valores presentes na árvores não são decisivos para guiar uma decisão."
+150,22,14,247.99,1,150,-2,"The code is tiny, only three lines of code, to be classified as long method. Its a false positive?","None."
+151,22,7,359.49,1,151,-2,"The class presented does not override the methods inherited.","None."
+152,22,4,194.87,1,152,1,"The size of the method is directly related to the project. Then, I can't strongly agree with that. But, for me, the code is too long.","Looking at the code was better for me than looking at the tree."
+153,22,3,239.27,1,153,1,"The class has high cohesion.","The DT help me to know that the class has a high cohesion without knowing the system."
+154,22,11,981.75,1,154,1,"The method has a long parameter list.","That methods with more than 7 parameters are smelly."
+155,22,13,50.63,1,155,-2,"For me, the class is not a smell.","None;"
+156,22,12,86.96,0,156,-1,"Not is clear that is a smelly class because idk the size of methods of the project.",""
+157,22,8,29.1,0,157,1,"I agree that the class is smelly.",""
+158,22,15,27.43,0,158,-2,"The class has a low number of parameters.",""
+160,22,16,133.06,0,160,-1,"I'm not sure about the response above because I haven't access to the class Complier.",""
+161,22,5,60.62,0,161,-2,"I can't see any overriding methods.",""
+162,22,6,83.45,0,162,1,"For me, the class characterizes as a long method, but I do not have certain.",""
+159,23,14,776.24,1,159,-2,"The eval () method has only 3 lines, so it is not a code smell. How many lines does the initScriptRunner () method has? Is this information important? If the initScriptRunner () method does what it should do, I think it's not a very important one.","In this case, nothing. Forgive me if I misunderstood the numbers of the tree."
+163,23,11,477.52,1,163,2,"In my opinion, seven arguments (six primitives and one object) is a code smell. I believe that if there is a real world abstraction for the six primitive arguments, then they should become one or two objects.","The decision tree didn't help me in this case, but I can see its usefulness."
+164,23,4,231.23,1,164,2,"146 lines without any comment? Agree strongly.","In this case, the decision tree is perfect."
+165,23,7,1239.82,1,165,-2,"There is one @Override only.","In this case, there is no direct relationship."
+166,23,13,297.61,1,166,-2,"in my view, it's a simple class.","why this source code has more than 612 lines? I did not understand."
+167,23,3,282.57,1,167,2,"This example is totally different from the previous one. In this case, I believe the class has many responsibilities.","In this case, its ok."
+168,23,8,143.38,0,168,2,"This class is very large and its methods are also very large. There is a great chance of being a god class.",""
+169,23,6,229.04,0,169,2,"I believe that lines 34 39 and 42 could join line 24. Also, 217 lines are too many lines for just one method.",""
+170,23,15,26.61,0,170,-2,"it makes no sense",""
+171,23,12,66.7,0,171,1,"I don't know if it's a code smell because the parameter list has objects and not just primitive types.",""
+172,23,5,298.46,0,172,1,"((StreamMessage)_message).readBoolean();\
+((StreamMessage)_message).readByte()\
+((StreamMessage)_message).readBytes(value);\
+(StreamMessage)_message).readChar()\
+...\
+I think this could be improved",""
+173,23,16,35.92,0,173,-1,"In my view, it's a simple class.",""
+174,24,14,177.53,0,174,-2,"The method is only 3 lines long.",""
+175,24,11,225.39,0,175,2,"There are seven parameters in this method. \
+Based on their names, it seems that they should belong to an object, than, passing every one of them as a parameter instead of passing an object containing them, seems to be a smell.",""
+176,24,4,112.89,0,176,2,"This method has 143 lines long. \
+Based on its name, is a 'get' method, but, as a 'get' method, it does a lot of work and its huge.\
+It should be divided in smaller tasks, it would make easier to read and to understand.",""
+177,24,7,414.61,0,177,1,"Do not uses a few parent methods on its toString",""
+178,24,13,37.68,0,178,-2,"Small class, only used to evaluate and check a value.",""
+179,24,3,134.45,0,179,1,"It seems a huge class with many variables and methods, but it seems that its a library class for file system purposes and all the functionalities seems to be placed right where they should be.",""
+180,24,8,396.42,1,180,2,"Almost 3k lines. No Class should have that size.","In this particular case, the decision tree did not help me. But was good to see the rules."
+181,24,6,429.67,1,181,2,"Method is 215 lines long.\
+The name of the method is 'check'. And it really does a lot of checks, but looks like its doing too much checks, those could be separeted in small tasks and use O.O features instead of too many ifs.","The comment code ratio was a interesting thing to see."
+182,24,15,842.52,1,182,-2,"The method in question has zero parameters.","The decision tree isn't about long parameter lists."
+183,24,12,527.65,1,183,2,"Seven parameters is too much parameters.\
+Some could be avoidable.","None"
+184,24,5,1458.43,1,184,1,"Just a few methods are not used","The tree helped me to think about the depth of the inheritance"
+185,24,16,595.62,1,185,-2,"Simple class with only one method","The tree is wrong."
+186,25,4,114.81,0,186,2,"The method has 146 lines, so it is too long.",""
+187,25,14,83.19,0,187,-2,"It has only few lines of code.",""
+188,25,3,76.85,0,188,2,"In fact it centralizes too much methods and responsibilities.",""
+189,25,7,205.19,0,189,2,"Only few parts of the parent class are used.",""
+190,25,11,173.91,0,190,2,"It seems that the parameter plugin could be avoidable.",""
+191,25,13,25.52,0,191,-2,"It does not seem a good class",""
+192,25,5,477.74,1,192,2,"It seems that a lot of the parent class is redefined or not used.","I was a kind of confuse if number of physical lines are related with only the lines of the parent, used in the child class."
+193,25,8,81.67,1,193,2,"Lack of cohesion among the methods.","The base values in the tree helped to quickly decide about the smell."
+194,25,6,57.28,1,194,2,"Too many lines of code in a single method.","The base values."
+195,25,16,89.5,1,195,2,"Despite of not being long, it seems there is not cohesion between the methods.","Base values, mainly about the lack of cohesion."
+196,25,12,40.64,1,196,2,"Too much parameters","The base values for declarative statements."
+197,25,15,143.85,1,197,2,"It seems the parameters come from elsewhere not explicitly pointed, and there is many comments.","The base values."
+198,26,4,234.12,1,198,2,"Based on the high number of lines in the method, it was easy to identify the Long Method smell.","Since this is a simple smell, only looking to the number of  LOC on the source code was enough to decide if it was a Long Method. The decision tree helped me in understanding the metrics used to define the Long Method."
+199,26,14,129.4,1,199,-2,"The method has only three LOC.","Since this is a simple smell, only looking to the number of  LOC on the source code was enough to decide if it was a Long Method. The decision tree helped me in understanding the metrics used to define the Long Method."
+200,26,3,193.09,1,200,2,"The class is dealing with many responsibilities and it is too long.","The node related to \"Percent Lack of Cohesion in Methods\" was not easy to understand in terms of code behavior. Based on the tree, the first node was key to define if it was a God Class."
+201,26,7,388.12,1,201,1,"Based on the high number of physical lines and DIT > 2.","An easier understanding of the problem based on the two nodes that define the smell."
+202,26,11,328.6,1,202,2,"There is a high number of parameters used on the method.","It was confusing. The first node in my interpretation was True, then by the tree, it should not be a smell code. However, when we look at the code, there is a Long Parameter List due to the high number of parameters used on the method."
+203,26,13,87.08,1,203,-2,"The class has only 68 LOC and a few methods that do not encapsulate so many logic.","Based on the first node, we can tell easily that this is not a god class."
+204,26,5,119.02,0,204,-1,"It appears that the child class is not redefining so many methods of the parent.",""
+205,26,8,51.64,0,205,2,"Yes. The class is both too long as well as has too many responsibilities that should be implemented in other classes.",""
+206,26,6,57.84,0,206,1,"Appear to be a long method. But to be sure, it would be interesting to know the average lines of code of this software system. Maybe this is a common number LOC for the methods.",""
+207,26,16,30.72,0,207,-2,"The class is only defining a few constructors.",""
+208,26,12,58.18,0,208,-1,"These parameters are needed to call the super method.",""
+209,26,15,31.02,0,209,-2,"There is no parameter being called.",""
+210,28,13,314.11,0,210,-2,"A classe faz apenas uma operação de avaliação, logo não poderia ser uma God Class.",""
+211,28,11,95.45,0,211,2,"A classe contém sete parâmetros e deve dificultar a avaliação de cada um.",""
+212,28,4,284.98,0,212,2,"O nome do método não condiz com as atividades que são realizadas, além de ser um método extenso.",""
+213,28,3,949.33,0,213,1,"Acredito que as atividades das classes envolvem a responsabilidade de busca arquivos por determinados critérios. Mas observo que existem métodos muito extensos e encadeamentos de condições, o que pode induzir a outro code smell.",""
+214,28,7,385.25,0,214,2,"A classe em questão utiliza poucos recursos da classe pai.",""
+215,28,14,91.38,0,215,-2,"O método é bastante curto e tem uma responsabilidade definida, mas acredito que o nome poderia deixar mais clara essa responsabilidade.",""
+216,28,8,1113.42,1,216,2,"A classe apresenta alta coesão entre os métodos e apresenta muitas linhas de código.","Após visualizar a árvore de revisão, percebi que cada método é utilizado pelo menos três vezes na mesma classe, misturando as responsabilidade."
+217,28,16,292.77,1,217,-2,"A classe é bastante curta e apresenta um único método.","Após análise da árvore de decisão, ficou fácil indicar que não era um code  smell."
+218,28,6,2383.73,1,218,2,"O método possui muitas verificações e responsabilidades que poderiam ser divididas em outros métodos.","Verificando a árvore de decisão, percebe-se que o método possui muitas linhas de código fonte, sendo que uma pequena parte são comentários."
+219,28,5,1844.87,1,219,2,"A herança não faz sentido, já que a classe abaixo da hierarquia utiliza apenas um atributo e apenas um método da herança. Conclui-se que realmente trata-se do bad smell referido.","A árvore de decisão ajudou a definir como o bad smell referido através da verificação de linhas de código física e a profundidade da árvore de herança."
+220,28,12,1525.97,1,220,-1,"O método possui muitos parâmetros e dificulta a leitura do código.","Verificando a árvore de decisão, existe uma inconsistência já que o destaque em laranja deveria ir até o nó Taxa de Comentário no Código."
+221,28,15,830.75,1,221,-2,"O método em questão não possui parâmetros, logo não deveria ser classificado como Long Parameter List.","árvore de decisão ajudou a confirmar que o código é ruim, analisando a quantidade de entradas e taxa de comentários no código."
+222,31,4,268.57,1,222,1,"Me parece longo, mas não muito. Me falta contexto para tomar a decisão com maior certeza.","Mais um efeito psicológico na tomada de decisão. Um pouco mais de confiança no que tinha em mente."
+223,31,7,199.14,1,223,-2,"Não me pareceu que a classe redefine muitos métodos da classe pai. Na verdade ela possui muitos métodos novos.","Nenhum"
+224,31,11,383.86,1,224,2,"Não apenas pelo tamanho de parâmetros, mas pelo que o nome de alguns, este método parece uma gambiarra, métodos deveriam ser extraídos ou consultados.  Por exemplo, está sendo passado um booleano \"delete\" e uma string de plugins.","Nenhuma. Na verdade a árvore não apresentea explicitamente \"parâmetros\" como critério de decisão."
+225,31,14,54.67,1,225,-2,"Obviamente o método não é longo","Nenhum."
+226,31,3,643.19,1,226,2,"\"Class for scanning a directory for files/directories which match certain\
+criteria.\"  No entanto, a preparação de dados critérios de verificação sugerem a oportunidade de diferentes classes.","Percent Lack of Cohesion in Methods"
+227,31,13,56,1,227,-2,"Não faz sentido considerando a definição","A árvore fez um tratamento errado"
+228,31,8,78.94,0,228,2,"O tamanho me  assustou. Não cheguei a olhar em profundidade.",""
+229,31,5,352.18,0,229,2,"Devido à definição \"2\" de Refused Bequest",""
+230,31,6,86.93,0,230,2,"O nome genérico do método (check) já sugere que não vem coisa boa... existem muitos testes com vários operadores relacionais para diferentes finalidades, poderiam ser métodos distintos.",""
+231,31,12,190.65,0,231,-1,"Parece-me que os parâmetros são pertinentes o contexto de se criar um arquivo (se for isto que deve ser feito), exceto pelo \"progress\"",""
+232,31,16,76.06,0,232,-2,"Classe pequena, poucos métodos. Parece até incompleta.",""
+233,31,15,25.13,0,233,-2,"Não vi nenhuma lista de parametros longa.",""
+234,32,4,828.5,0,234,2,"It's possible extract methods to separate responsibilities from method getDependency.",""
+235,32,7,383.39,0,235,1,"Agree slightly, the QpidActivationSpec fits on item 2 but define more data and methods, is extension of ConnectionFactoryProperties and implements ActivationSpec.",""
+236,32,11,110.61,0,236,2,"It's possible reduce number of parameters to one if create a class called BenchmarkConfiguration with necessary data.",""
+237,32,14,59.93,0,237,-2,"Does not fit any of the items.",""
+238,32,3,341.03,0,238,1,"Mayabe to create utility classes to reduce the different responsibilities of the DirectoryScanner class and reduce the complexity.",""
+239,32,13,52.32,0,239,-2,"Does not fit either item.",""
+240,32,8,323.97,1,240,2,"Mayabe to create utility classes to reduce the different responsibilities of the DirectoryScanner class and reduce the complexity.","Possibility create utility class with methods not use class instance variable (it's possible view by decision tree)."
+241,32,5,630.21,1,241,-1,"1. The class NOT redefining most of the inherited methods\
+2. Not used methods and data from parents because in this case is one extension","This metric of number of physical lines is affected by lines with \"{\" in another line"
+242,32,6,245.56,1,242,2,"The number of lines is affected by lines with \"{\". It's possible extract methods from \"check\".","The choose by shown decision tree is based only number of lines, this is bad."
+243,32,12,212.07,1,243,2,"It's possible reduce to one the number of params, creating a class with configuration data.","Why not the number of parameters?"
+244,32,16,133.16,1,244,-2,"Does not fit either item.","Did not help"
+245,32,15,124.88,1,245,-2,"In shown code not have methods with long params list.","Did not help. Why not the number of parameters?"
+246,36,4,81.5,0,246,2,"Method seems to be very long!",""
+247,36,14,39.86,0,247,-2,"Very small",""
+248,36,7,94.84,0,248,-1,"It does not seem redefining inherited methods",""
+249,36,3,78.55,0,249,1,"Seems to be very long, maybe god class, but I'm not sure",""
+250,36,11,16.59,0,250,2,"Too many parameters",""
+251,36,13,17.23,0,251,-1,"Too short to be god class",""
+252,36,12,156.82,1,252,-1,"not too many parameters","helped"
+253,36,6,35.65,1,253,2,"too long","helped to see lines"
+254,36,16,46.02,1,254,-1,"too short","I do not have experience with cohesion"
+255,36,5,78.03,1,255,1,"Depth of Inheritance","Helped to see depth of Inheritance"
+256,36,8,46.51,1,256,1,"too long","I do not have experience with cohesion"
+257,36,15,31.02,1,257,-1,"do not see may parameters","did not help too much"
