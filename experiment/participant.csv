@@ -1,7 +1,3 @@
-inviteId,codeRevision,codeSmellIdentification,degree,devExperience,javaExperience,objOrientedExperience,origin,yearsDevExperience
-inviteId,codeRevision,codeSmellIdentification,degree,devExperience,javaExperience,objOrientedExperience,origin,yearsDevExperience
-inviteId,codeRevision,codeSmellIdentification,degree,devExperience,javaExperience,objOrientedExperience,origin,yearsDevExperience
-inviteId,codeRevision,codeSmellIdentification,degree,devExperience,javaExperience,objOrientedExperience,origin,yearsDevExperience
 0903fe3e42,2,1,B,2,3,2,A,2
 664df040ea,3,2,B,3,3,3,A,5
 a0dd7a3994,2,2,B,3,3,3,A,2
@@ -15,3 +11,18 @@ a0dd7a3994,2,2,B,3,3,3,A,2
 bf322c7997,4,3,P,3,2,3,B,20
 a4fdb1f70d,3,3,B,3,3,3,A,5
 a4d316213a,0,0,M,1,2,2,A,1
+3e86e694d5,3,3,M,4,4,4,B,15
+396e223081,3,3,M,4,2,3,I,8
+9247fa543f,1,0,N,2,0,2,A,1
+5793c0e432,1,0,B,2,1,1,A,2
+daaa615ee5,2,2,N,2,1,2,A,0
+0ff9dc16b9,0,1,N,2,1,1,A,2
+60047cd9d5,1,0,B,3,1,3,A,3
+037817b100,0,0,N,2,1,2,A,0
+037667ebe6,2,2,N,2,2,2,A,2
+f040190ed3,2,1,N,2,2,2,A,1
+ee2546ee15,0,0,N,0,0,0,A,3
+1c4dbe7e05,1,0,N,2,2,1,A,1
+aadeab9473,3,2,B,3,2,2,A,1
+1773411064,2,1,B,2,0,1,A,2
+39a8d13e23,1,1,B,2,3,2,A,2

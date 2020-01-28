@@ -219,7 +219,7 @@ CREATE TABLE `ms_answer` (
   KEY `questionnaire_answer_task_id_db93dc73_fk_questionnaire_task_id` (`task_id`),
   CONSTRAINT `questionnaire_answer_questionnaire_id_13524168_fk_questionn` FOREIGN KEY (`questionnaire_id`) REFERENCES `ms_questionnaire` (`id`),
   CONSTRAINT `questionnaire_answer_task_id_db93dc73_fk_questionnaire_task_id` FOREIGN KEY (`task_id`) REFERENCES `ms_task` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=485 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=502 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -288,7 +288,7 @@ CREATE TABLE `ms_latinSquare` (
   UNIQUE KEY `row1Participant_id` (`row1Participant_id`),
   CONSTRAINT `ms_latinSquare_row1Participant_id_4a29778e_fk_ms_partic` FOREIGN KEY (`row1Participant_id`) REFERENCES `ms_participant` (`inviteId`),
   CONSTRAINT `ms_latinSquare_row2Participant_id_43f8b324_fk_ms_partic` FOREIGN KEY (`row2Participant_id`) REFERENCES `ms_participant` (`inviteId`)
-) ENGINE=InnoDB AUTO_INCREMENT=50 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -327,7 +327,7 @@ CREATE TABLE `ms_questionnaire` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `participant_id` (`participant_id`),
   CONSTRAINT `questionnaire_questi_participant_id_4dd23465_fk_questionn` FOREIGN KEY (`participant_id`) REFERENCES `ms_participant` (`inviteId`)
-) ENGINE=InnoDB AUTO_INCREMENT=103 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=108 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -365,4 +365,4 @@ CREATE TABLE `ms_task` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-01-17 16:05:43
+-- Dump completed on 2020-01-25 18:51:57
