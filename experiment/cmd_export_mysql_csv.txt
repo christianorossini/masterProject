@@ -3,3 +3,7 @@ select p.* from ms_participant p inner join ms_questionnaire q on p.inviteId=q.p
 
 # exportação das respostas
 select a.*,ai.* from ms_questionnaire q inner join ms_answer a on q.id=a.questionnaire_id inner join ms_answerTaskID ai on a.id=ai.answer_ptr_id where dtEndTasks is not null into outfile '/var/lib/mysql-files/answer.csv' fields terminated by ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n';
+
+
+# exportação dos participantes com as respostas
+select p.*, a.*, ai.* from ms_participant p inner join ms_questionnaire q on p.inviteId=q.participant_id inner join ms_answer a on q.id=a.questionnaire_id inner join ms_answerTaskID ai on a.id=ai.answer_ptr_id where dtEndTasks is not null into outfile '/var/lib/mysql-files/participant_answer.csv' fields terminated by ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n';
