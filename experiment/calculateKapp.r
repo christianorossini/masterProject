@@ -78,3 +78,19 @@ print("### p1 no DT")
 kappam.fleiss(df_p1_noDt)               # Fleiss' Kappa
 print("### p2 no DT")
 kappam.fleiss(df_p2_noDt)               # Fleiss' Kappa
+
+
+### EXPERIENCE: Development
+df_p1_dt <- read.csv(paste(path,"dev_agreement_eval_matrix_p1_dt.csv",sep=''),header = FALSE)
+df_p2_dt <- read.csv(paste(path,"dev_agreement_eval_matrix_p2_dt.csv",sep=''),header = FALSE)
+df_p1_noDt <- read.csv(paste(path,"dev_agreement_eval_matrix_p1_noDT.csv",sep=''),header = FALSE)
+df_p2_noDt <- read.csv(paste(path,"dev_agreement_eval_matrix_p2_noDT.csv",sep=''),header = FALSE)
+
+print("### p1 DT")
+kappam.fleiss(df_p1_dt)               # Fleiss' Kappa
+print("### p2 DT")
+kappam.fleiss(df_p2_dt)               # Fleiss' Kappa
+print("### p1 no DT")
+kappam.fleiss(df_p1_noDt)               # Fleiss' Kappa
+print("### p2 no DT")
+kappam.fleiss(df_p2_noDt)               # Fleiss' Kappa
